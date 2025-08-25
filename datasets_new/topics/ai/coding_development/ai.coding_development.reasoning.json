@@ -6478,5 +6478,1070 @@
         "output": "Components: (1) Static/dynamic taint tracking that marks identifiers by sensitivity and blocks flows to disallowed sinks; (2) A purpose‑aware policy compiler that auto‑generates enforcement (e.g., redact, hash, tokenize, or aggregate); (3) A DP toolkit that auto‑calibrates ε/δ to business utility SLAs and produces audit records; (4) CI/CD checks that fail when purpose, retention, or cross‑border rules are violated; (5) Dashboards that show lineage, privacy budgets, and experiment summaries. Developers receive actionable suggestions (e.g., swap raw IDs for salted tokens; use count‑distinct via DP sketch), preserving experimentation speed while embedding privacy by default.",
         "format_version": "1.1",
         "difficulty": 5
+    },
+    {
+        "id": 721,
+        "topic": "ai.coding_development",
+        "question": "How can AI suggest clearer commit messages from a diff?",
+        "think": "Summarize changed files, intents, and notable side effects; map to conventional commit verbs.",
+        "output": "AI reads the diff, detects the primary intent (fix, feat, chore), extracts impacted modules, and drafts a concise, action‑oriented message with a scope and short rationale, improving history readability.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 722,
+        "topic": "ai.coding_development",
+        "question": "What is one way AI can help enforce code style in Python projects?",
+        "think": "Learn project conventions and auto-apply formatting suggestions inline.",
+        "output": "AI flags deviations from the repository’s style (naming, imports, whitespace) and offers one‑click fixes consistent with the team’s formatter and linter configuration.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 723,
+        "topic": "ai.coding_development",
+        "question": "How might AI surface missing null checks in TypeScript code?",
+        "think": "Analyze control flow and optional types; spot dereferences without guards.",
+        "output": "AI scans union types with undefined/null and highlights dereferences lacking guards or non‑null assertions, proposing safe patterns like optional chaining or early returns.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 724,
+        "topic": "ai.coding_development",
+        "question": "How can AI assist with generating basic OpenAPI docs from code?",
+        "think": "Infer routes, params, and schemas from decorators and handlers.",
+        "output": "AI parses route handlers, extracts method/paths, parameters, and JSON shapes, then emits a minimal OpenAPI spec that developers can refine and validate in CI.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 725,
+        "topic": "ai.coding_development",
+        "question": "How does AI help spot unreachable code?",
+        "think": "Combine static analysis with coverage data to find dead branches.",
+        "output": "AI flags branches that never execute under test or production traces and recommends removal or guard adjustments to simplify the codebase.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 726,
+        "topic": "ai.coding_development",
+        "question": "How can AI propose better function names?",
+        "think": "Derive intent from call sites, parameters, and returns.",
+        "output": "AI suggests names reflecting behavior and side effects, aligning with project naming patterns to improve readability and discoverability.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+
+    {
+        "id": 727,
+        "topic": "ai.coding_development",
+        "question": "How can AI prioritize unit tests to run on a pull request?",
+        "think": "Map changed files to dependent tests via coverage history and dependency graphs; rank by failure yield.",
+        "output": "AI selects and orders tests most likely to detect regressions given the diff, reducing runtime while preserving detection rates for critical paths.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 728,
+        "topic": "ai.coding_development",
+        "question": "What role can AI play in detecting insecure HTTP usage in backend services?",
+        "think": "Search for plaintext endpoints, missing TLS configs, and hardcoded tokens.",
+        "output": "AI scans configs and code for non‑TLS URLs, weak ciphers, or token leakage, proposing HTTPS upgrades, HSTS, and secret management fixes.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 729,
+        "topic": "ai.coding_development",
+        "question": "How might AI help maintain consistent error semantics in microservices?",
+        "think": "Learn common error taxonomy; check mappings to HTTP/grpc codes.",
+        "output": "AI enforces a shared error schema, flags mismatches (e.g., 500 vs 422), and auto‑generates adapters to normalize responses across services.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 730,
+        "topic": "ai.coding_development",
+        "question": "How can AI assist in extracting shared utilities from duplicated code?",
+        "think": "Cluster semantically similar snippets and propose common signatures.",
+        "output": "AI suggests a reusable function/module with parameterized differences, drafts call‑site rewrites, and validates with generated tests.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 731,
+        "topic": "ai.coding_development",
+        "question": "What can AI do to improve log consistency across a fleet of services?",
+        "think": "Infer a canonical schema; detect deviations and missing fields.",
+        "output": "AI recommends a log envelope (trace id, user, request id) and auto‑patches instrumentation to emit uniform structured logs for better observability.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 732,
+        "topic": "ai.coding_development",
+        "question": "How does AI aid in selecting cache keys and TTLs?",
+        "think": "Analyze query patterns, mutation frequencies, and staleness tolerance.",
+        "output": "AI proposes cache keys reflecting request invariants and sets TTLs based on update cadence, minimizing misses and stale reads.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 733,
+        "topic": "ai.coding_development",
+        "question": "How can AI recommend safer concurrency patterns in Node.js?",
+        "think": "Identify blocking calls and shared mutable state; suggest queues or pools.",
+        "output": "AI flags synchronous hotspots, proposes worker pools/streams, and introduces atomic sections where necessary to prevent racey side effects.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 734,
+        "topic": "ai.coding_development",
+        "question": "How might AI help tune database connection pools?",
+        "think": "Correlate latency/throughput with pool size and workload shape.",
+        "output": "AI models saturation points and suggests pool sizes, timeouts, and backoff strategies that maximize throughput without starving services.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 735,
+        "topic": "ai.coding_development",
+        "question": "What support can AI provide for consistent feature flag hygiene?",
+        "think": "Track creation dates, usages, and rollout states; spot stale flags.",
+        "output": "AI schedules cleanups, generates PRs to remove dead code paths, and documents deprecation plans to reduce configuration debt.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 736,
+        "topic": "ai.coding_development",
+        "question": "How can AI improve API client generation quality?",
+        "think": "Validate specs, infer missing constraints, and add examples.",
+        "output": "AI fixes spec gaps, generates typed clients with retries/backoff, and includes example calls/tests to prevent drift from server behavior.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 737,
+        "topic": "ai.coding_development",
+        "question": "How does AI help triage flaky integration tests?",
+        "think": "Cluster failures by signature; correlate with environment and timing.",
+        "output": "AI attributes flakiness to nondeterminism (clocks, async waits, shared state) and proposes stabilizers like time freezing, isolation, or idempotent retries.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 738,
+        "topic": "ai.coding_development",
+        "question": "How can AI suggest safe refactors for large switch statements?",
+        "think": "Detect code smell; map cases to strategy/dispatch patterns.",
+        "output": "AI recommends polymorphism or lookup tables, drafts interfaces, and updates call sites, preserving behavior with regression tests.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+
+    {
+        "id": 739,
+        "topic": "ai.coding_development",
+        "question": "How can AI detect authorization gaps across an API surface?",
+        "think": "Cross‑reference endpoints with policy rules and usage traces to find unguarded operations.",
+        "output": "AI maps endpoints to required roles/scopes, flags missing checks or inconsistent enforcement, and proposes middleware/policy fixes with minimal intrusion.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 740,
+        "topic": "ai.coding_development",
+        "question": "What can AI do to reduce cold start latency in serverless functions?",
+        "think": "Profile initialization paths and dependency weights; simulate prewarming strategies.",
+        "output": "AI suggests bundling reductions, lazy imports, connection reuse, and predictive prewarming windows aligned to traffic patterns to cut tail latency.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 741,
+        "topic": "ai.coding_development",
+        "question": "How might AI improve reliability of schema evolutions in event streams?",
+        "think": "Compare producer/consumer schemas; generate compatibility tests.",
+        "output": "AI enforces forward/backward compatibility rules, scaffolds contract tests, and creates migration shims for consumers to prevent breaks during rollout.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 742,
+        "topic": "ai.coding_development",
+        "question": "How can AI guide optimal indexing in document databases?",
+        "think": "Analyze query shapes, filters, and sort orders; model trade‑offs.",
+        "output": "AI recommends compound and partial indexes tuned to hot paths, estimating write amplification and storage costs to balance performance and expense.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 743,
+        "topic": "ai.coding_development",
+        "question": "How does AI help enforce secret management best practices?",
+        "think": "Scan repos/build logs; detect hardcoded or over‑permissive tokens.",
+        "output": "AI finds exposed secrets, rotates credentials, inserts vault fetches, and adds commit hooks/CI checks to prevent future exposure.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 744,
+        "topic": "ai.coding_development",
+        "question": "What role can AI play in optimizing GraphQL resolvers?",
+        "think": "Identify N+1 queries and heavy selection sets from traces.",
+        "output": "AI suggests dataloader batching, field de‑duplication, and resolver caching, validating wins with before/after latency comparisons.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 745,
+        "topic": "ai.coding_development",
+        "question": "How can AI improve CI cache effectiveness for monorepos?",
+        "think": "Predict cache keys and invalidation scopes from dependency graphs.",
+        "output": "AI computes precise cache granularities, avoids over‑invalidations, and pre‑warms artifacts for likely builds, cutting pipeline times significantly.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 746,
+        "topic": "ai.coding_development",
+        "question": "How might AI detect and prevent SSRF vulnerabilities in backend code?",
+        "think": "Find dynamic outbound requests and validate URL sources/schemes.",
+        "output": "AI flags user‑controlled URLs, enforces allowlists, strips internal IP ranges, and proposes safe fetch wrappers, with tests proving blocked abuse cases.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 747,
+        "topic": "ai.coding_development",
+        "question": "How can AI assist with optimizing JVM memory settings in production services?",
+        "think": "Correlate GC logs, allocation rates, and latency SLOs.",
+        "output": "AI recommends heap sizes, GC algorithms, and pause targets, testing variants in canaries to minimize tail latency without excessive memory spend.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+
+    {
+        "id": 748,
+        "topic": "ai.coding_development",
+        "question": "Design an AI assistant that continuously hardens CI/CD pipelines against provenance tampering and artifact poisoning.",
+        "think": "Model the pipeline as a graph of steps, identities, and artifacts; verify each edge with attestations and policy. Learn normal key usage and step outputs; flag anomalies. Gate promotions on signed SBOMs and reproducible builds; quarantine unverified artifacts.",
+        "output": "The assistant enforces signed, timestamped attestations at each step, correlates identity usage with expected roles, and blocks promotions lacking verifiable provenance. It performs differential checks on artifacts, validates SBOM contents, and auto‑rolls back when signatures or checksums drift, closing supply‑chain gaps.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 749,
+        "topic": "ai.coding_development",
+        "question": "How could AI perform demand-aware autoscaling that respects cost and SLOs under bursty traffic?",
+        "think": "Forecast short‑term load, quantify SLO risk vs. cost, and choose scaling actions. Learn warm‑up penalties and cache priming effects; prefer predictive scale‑out and graceful scale‑in.",
+        "output": "AI blends time‑series forecasts with queueing models to set replica counts that meet latency/error SLOs at minimal cost, scheduling pre‑warming and coordinated cache seeding to avoid cold‑start spikes during bursts.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 750,
+        "topic": "ai.coding_development",
+        "question": "Propose an AI framework that prevents privacy regressions as analytics code evolves.",
+        "think": "Track data lineage and sensitivity labels; compare diffs of dataflows to policies. Simulate queries with DP budgets and purpose bindings, blocking changes that exceed risk thresholds.",
+        "output": "The framework performs static/dynamic taint analysis, enforces purpose‑limited access, and auto‑inserts anonymization or aggregation when code changes widen exposure. CI gates verify DP budget use and retention rules, preventing silent privacy drift.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 751,
+        "topic": "ai.coding_development",
+        "question": "How can AI detect missing validation logic in API endpoints?",
+        "think": "API endpoints often accept user input but miss essential validations. AI can scan endpoint handlers, identify input fields, and check whether validation libraries or conditions exist. If missing, it flags the endpoint as risky.",
+        "output": "AI reviews API code and highlights endpoints without validation checks, suggesting schema validation or sanitization before processing user input.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 752,
+        "topic": "ai.coding_development",
+        "question": "What is one way AI can improve CSS maintainability?",
+        "think": "CSS becomes messy with duplicates or unused styles. AI can analyze selectors, usage frequency, and DOM coverage to clean and optimize the stylesheet.",
+        "output": "AI improves maintainability by detecting unused styles, merging duplicates, and proposing cleaner CSS structures.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 753,
+        "topic": "ai.coding_development",
+        "question": "How does AI suggest safer file handling patterns?",
+        "think": "File handling can lead to leaks or exceptions if not properly managed. AI scans code for open/close usage and ensures resources are safely wrapped.",
+        "output": "AI suggests patterns like using `with` in Python or try-with-resources in Java to prevent file descriptor leaks.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 754,
+        "topic": "ai.coding_development",
+        "question": "How can AI help enforce consistent REST API naming?",
+        "think": "Teams often differ in naming conventions for REST endpoints. AI learns project rules and flags inconsistent paths or verbs.",
+        "output": "AI enforces consistency by recommending standardized endpoint structures like `/users/{id}` instead of ad hoc variations.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 755,
+        "topic": "ai.coding_development",
+        "question": "How might AI detect hardcoded credentials in code?",
+        "think": "AI models can scan strings, detect credential patterns (keys, tokens), and flag them as security risks.",
+        "output": "AI finds hardcoded credentials and recommends moving them into secure vaults or environment variables.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 756,
+        "topic": "ai.coding_development",
+        "question": "What can AI do to highlight inefficient logging?",
+        "think": "Excessive or blocking logs degrade performance. AI can analyze log density, frequency, and thread blocking behavior.",
+        "output": "AI highlights inefficient logging and suggests better log levels or asynchronous logging strategies.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+
+    {
+        "id": 757,
+        "topic": "ai.coding_development",
+        "question": "How can AI improve detection of brittle tests?",
+        "think": "Brittle tests fail often due to strict assumptions. AI can analyze failure patterns across runs and correlate with environment factors.",
+        "output": "AI detects brittle tests by spotting unstable patterns and recommends stabilizing strategies like mocks or tolerance ranges.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 758,
+        "topic": "ai.coding_development",
+        "question": "How does AI support migration to serverless architectures?",
+        "think": "Serverless migrations require analyzing workloads and resource usage. AI can detect functions suitable for serverless and estimate costs.",
+        "output": "AI recommends which workloads fit serverless models and generates deployment templates with optimized scaling settings.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 759,
+        "topic": "ai.coding_development",
+        "question": "How might AI help developers avoid SQL injection flaws?",
+        "think": "SQL injection arises from unsafe concatenation. AI can analyze query patterns and enforce parameterized queries.",
+        "output": "AI scans SQL statements, flags unsafe concatenation, and proposes parameterized queries or ORM-safe alternatives.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 760,
+        "topic": "ai.coding_development",
+        "question": "What role does AI play in generating test data for rare edge cases?",
+        "think": "Developers may overlook extreme scenarios. AI can simulate inputs beyond normal ranges to expose hidden issues.",
+        "output": "AI generates synthetic edge case inputs like extreme values or malformed data to increase robustness of testing.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 761,
+        "topic": "ai.coding_development",
+        "question": "How does AI improve monitoring dashboards?",
+        "think": "Dashboards can be cluttered or irrelevant. AI learns which metrics correlate with incidents and suggests layout improvements.",
+        "output": "AI recommends the most relevant metrics, removes noise, and structures dashboards for faster root cause detection.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 762,
+        "topic": "ai.coding_development",
+        "question": "How can AI recommend safer thread management in Java?",
+        "think": "Poor thread management causes leaks or deadlocks. AI checks patterns and suggests executor services or concurrency utilities.",
+        "output": "AI flags risky thread handling and proposes safer constructs like `ExecutorService` or `CompletableFuture`.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 763,
+        "topic": "ai.coding_development",
+        "question": "What support can AI provide in identifying hidden performance bottlenecks?",
+        "think": "Performance bottlenecks often hide in less obvious functions. AI uses profiling data to spot under-optimized hotspots.",
+        "output": "AI highlights hidden performance bottlenecks and suggests targeted optimizations for resource-heavy methods.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 764,
+        "topic": "ai.coding_development",
+        "question": "How does AI help monitor microservices health?",
+        "think": "Microservices generate distributed logs and metrics. AI correlates them to detect anomalies in service interactions.",
+        "output": "AI monitors microservices by analyzing distributed telemetry, detecting abnormal patterns, and predicting failures.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 765,
+        "topic": "ai.coding_development",
+        "question": "How might AI improve static analysis warnings?",
+        "think": "Static tools are noisy. AI ranks warnings by likelihood of true positives, learning from developer feedback.",
+        "output": "AI improves static analysis by reducing noise, highlighting the most relevant warnings, and suppressing false alarms.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 766,
+        "topic": "ai.coding_development",
+        "question": "How can AI assist with database sharding strategies?",
+        "think": "Sharding requires workload analysis. AI evaluates query distribution and proposes shard keys based on access patterns.",
+        "output": "AI analyzes workloads and recommends shard keys that balance queries evenly, improving scalability and performance.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 767,
+        "topic": "ai.coding_development",
+        "question": "What role can AI play in optimizing CI build caching?",
+        "think": "Caching reduces build time. AI predicts reusable artifacts and suggests smarter cache key strategies.",
+        "output": "AI optimizes caching by analyzing build history, predicting reusable dependencies, and generating efficient cache strategies.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 768,
+        "topic": "ai.coding_development",
+        "question": "How does AI aid in balancing feature delivery with technical debt?",
+        "think": "AI models weigh feature urgency against risk from existing debt. It predicts long-term velocity loss if debt is ignored.",
+        "output": "AI helps teams decide whether to focus on features or debt reduction by forecasting productivity trade-offs.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+
+    {
+        "id": 769,
+        "topic": "ai.coding_development",
+        "question": "How can AI guide secure API gateway configurations?",
+        "think": "API gateways enforce authentication, rate limits, and routing. AI analyzes logs and rules to find gaps and propose secure defaults.",
+        "output": "AI recommends gateway policies like stricter authentication, rate limits, or WAF rules, aligned with observed traffic patterns.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 770,
+        "topic": "ai.coding_development",
+        "question": "How does AI enhance resilience testing in distributed systems?",
+        "think": "Distributed systems fail in subtle ways. AI simulates faults and learns from chaos tests, predicting weak points.",
+        "output": "AI enhances resilience testing by automating chaos scenarios, analyzing service responses, and forecasting cascade failures.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 771,
+        "topic": "ai.coding_development",
+        "question": "What role does AI play in enforcing consistent data retention policies?",
+        "think": "Retention policies are often misapplied. AI maps schemas, audits queries, and flags where sensitive data exceeds retention limits.",
+        "output": "AI enforces retention compliance by auditing databases and automatically generating cleanup or anonymization tasks.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 772,
+        "topic": "ai.coding_development",
+        "question": "How can AI assist with preventing privilege escalation vulnerabilities?",
+        "think": "Privilege escalation happens due to excessive permissions. AI analyzes roles and access patterns to flag dangerous overlaps.",
+        "output": "AI detects misconfigured permissions and recommends least-privilege policies or stronger isolation to block escalation paths.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 773,
+        "topic": "ai.coding_development",
+        "question": "How might AI strengthen secret rotation practices?",
+        "think": "Secrets left static increase risk. AI monitors age of credentials and enforces rotation schedules dynamically.",
+        "output": "AI enforces rotation by detecting expired credentials, triggering regeneration, and validating that new keys propagate safely.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 774,
+        "topic": "ai.coding_development",
+        "question": "How does AI support secure container image usage?",
+        "think": "Containers may include vulnerable packages. AI scans images and recommends hardened bases or patches.",
+        "output": "AI supports secure usage by scanning for CVEs, replacing unsafe packages, and recommending minimal base images.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 775,
+        "topic": "ai.coding_development",
+        "question": "How can AI optimize service mesh policies?",
+        "think": "Service meshes add observability and security but can be complex. AI suggests optimal routing, retries, and mTLS configs.",
+        "output": "AI analyzes traffic and recommends service mesh policies that balance performance, fault tolerance, and security.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 776,
+        "topic": "ai.coding_development",
+        "question": "What can AI do to enforce safer dependency injection practices?",
+        "think": "Dependency injection risks arise from insecure defaults. AI audits injection configs and flags improper bindings.",
+        "output": "AI enforces safe DI by highlighting unsafe bindings, suggesting stricter scopes, and generating secure default templates.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 777,
+        "topic": "ai.coding_development",
+        "question": "How does AI improve database anomaly detection?",
+        "think": "Anomalous queries may indicate attacks or bugs. AI detects unusual access patterns compared to historical baselines.",
+        "output": "AI improves anomaly detection by monitoring query behavior, flagging deviations, and correlating them with risk indicators.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+
+    {
+        "id": 778,
+        "topic": "ai.coding_development",
+        "question": "How can AI-driven systems protect against dependency confusion attacks?",
+        "think": "Dependency confusion arises when malicious packages impersonate internal ones. AI must monitor registries, analyze naming similarities, and validate sources. It can cross-check package signatures and build provenance to prevent accidental downloads.",
+        "output": "AI protects against dependency confusion by detecting lookalike package names, validating registries, and enforcing signed, verified sources. It also recommends private mirrors and alerts on suspicious dependency pulls.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 779,
+        "topic": "ai.coding_development",
+        "question": "What AI strategies help mitigate insider threats in software development pipelines?",
+        "think": "Insider threats are subtle. AI can monitor commit histories, access patterns, and anomaly signals in code contributions. It must balance privacy with security, flagging suspicious behavior while minimizing false positives.",
+        "output": "AI mitigates insider threats by modeling normal developer behavior, detecting anomalies, and cross-referencing with policy breaches. It raises alerts on risky actions such as bypassing reviews or pushing sensitive code externally.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 780,
+        "topic": "ai.coding_development",
+        "question": "How can AI strengthen runtime security for zero-trust architectures?",
+        "think": "Zero-trust requires constant verification. AI monitors traffic patterns, verifies user/device context, and adapts policies dynamically. It correlates metrics to detect and block malicious activities in real time.",
+        "output": "AI strengthens runtime security by enforcing adaptive trust decisions, analyzing flows for anomalies, and updating policies continuously to maintain zero-trust guarantees.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 781,
+        "topic": "ai.coding_development",
+        "question": "How does AI help generate more secure password policies in code?",
+        "think": "Password handling is often misconfigured. AI can parse code that manages authentication, detect weak regex or length rules, and compare them with industry standards. It then recommends stronger validation patterns.",
+        "output": "AI improves password policies by scanning authentication code, detecting weak checks, and suggesting stronger rules such as minimum length, complexity, and rate-limiting on attempts.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 782,
+        "topic": "ai.coding_development",
+        "question": "What is one way AI can help prevent memory leaks?",
+        "think": "Memory leaks often occur when objects are not freed properly. AI can analyze code paths and detect unreleased resources.",
+        "output": "AI prevents leaks by flagging unreleased allocations and suggesting proper disposal patterns like reference clearing or scoped resource handling.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 783,
+        "topic": "ai.coding_development",
+        "question": "How can AI recommend better API response structures?",
+        "think": "API responses may be inconsistent across endpoints. AI analyzes schemas and suggests aligning with common standards.",
+        "output": "AI reviews API payloads and recommends consistent status codes, error fields, and object structures for easier client integration.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 784,
+        "topic": "ai.coding_development",
+        "question": "How does AI help identify unused imports?",
+        "think": "Imports add noise if unused. AI scans symbols referenced in code and flags unnecessary imports.",
+        "output": "AI identifies unused imports and suggests their removal, simplifying code and reducing build times.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 785,
+        "topic": "ai.coding_development",
+        "question": "How can AI highlight unsafe string concatenation for queries?",
+        "think": "Concatenation risks SQL injection. AI can detect concatenated query strings and warn developers.",
+        "output": "AI flags unsafe query concatenations and recommends parameterized statements or ORM constructs instead.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 786,
+        "topic": "ai.coding_development",
+        "question": "How does AI assist in selecting appropriate logging levels?",
+        "think": "Choosing wrong log levels leads to noisy or incomplete logs. AI can analyze severity and context to recommend adjustments.",
+        "output": "AI recommends consistent logging levels by analyzing event severity and aligning them with best practices like INFO, WARN, and ERROR.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+
+    {
+        "id": 787,
+        "topic": "ai.coding_development",
+        "question": "How can AI assist in detecting schema drift across environments?",
+        "think": "Different environments (dev, staging, prod) may drift in schemas. AI compares structure and version histories to detect mismatches.",
+        "output": "AI detects schema drift by analyzing database structures across environments and highlighting differences that may cause deployment errors.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 788,
+        "topic": "ai.coding_development",
+        "question": "How does AI support balancing parallel test execution?",
+        "think": "Parallel tests may contend for resources. AI analyzes execution times and conflicts, distributing tests across agents optimally.",
+        "output": "AI balances parallel test execution by predicting runtimes and conflicts, distributing tests to minimize bottlenecks.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 789,
+        "topic": "ai.coding_development",
+        "question": "How might AI improve commit review quality in large repos?",
+        "think": "Large commits hide critical changes. AI summarizes diffs, highlights risky edits, and recommends breaking down commits for clarity.",
+        "output": "AI improves commit reviews by generating summaries, highlighting security-relevant changes, and suggesting better commit granularity.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 790,
+        "topic": "ai.coding_development",
+        "question": "What role can AI play in selecting data partitioning strategies?",
+        "think": "Partitioning affects query performance. AI analyzes workload access patterns and recommends partitioning keys.",
+        "output": "AI recommends partitioning strategies based on workload patterns, ensuring balanced distribution and optimized queries.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 791,
+        "topic": "ai.coding_development",
+        "question": "How can AI detect code paths prone to deadlocks?",
+        "think": "Deadlocks happen when lock ordering is inconsistent. AI inspects concurrency code and predicts potential cycles.",
+        "output": "AI detects risky locking patterns and suggests reordering or alternative synchronization to prevent deadlocks.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 792,
+        "topic": "ai.coding_development",
+        "question": "How does AI assist in predicting cloud infrastructure cost spikes?",
+        "think": "Cloud costs rise due to unexpected workload patterns. AI forecasts usage and correlates with cost anomalies.",
+        "output": "AI predicts cost spikes by analyzing workload trends and suggests scaling or resource allocation adjustments.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 793,
+        "topic": "ai.coding_development",
+        "question": "How might AI help optimize event-driven architectures?",
+        "think": "Event streams may be underutilized or overloaded. AI monitors event flows and proposes optimizations.",
+        "output": "AI optimizes event-driven systems by analyzing stream throughput, suggesting partitioning, and balancing consumer groups.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 794,
+        "topic": "ai.coding_development",
+        "question": "How can AI improve monitoring alert relevance?",
+        "think": "Too many alerts overwhelm developers. AI correlates metrics to incidents, filtering noise and ranking useful alerts.",
+        "output": "AI improves monitoring by filtering redundant alerts and prioritizing those correlated with real incidents.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 795,
+        "topic": "ai.coding_development",
+        "question": "What role does AI play in enforcing dependency license compliance?",
+        "think": "License compliance is critical in enterprises. AI scans dependencies, detects incompatible licenses, and recommends replacements.",
+        "output": "AI enforces license compliance by auditing dependencies, flagging conflicts, and suggesting compliant alternatives.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 796,
+        "topic": "ai.coding_development",
+        "question": "How does AI assist with predicting regression likelihood of a commit?",
+        "think": "Commits vary in risk. AI analyzes diff size, touched modules, and past history to predict regression probability.",
+        "output": "AI predicts regression likelihood and flags risky commits, guiding reviewers to focus attention appropriately.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 797,
+        "topic": "ai.coding_development",
+        "question": "How can AI detect compliance issues in audit logs?",
+        "think": "Audit logs must follow regulations. AI scans logs for anomalies, missing fields, or noncompliant events.",
+        "output": "AI enforces compliance by validating logs, ensuring required fields exist, and flagging violations.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+
+    {
+        "id": 798,
+        "topic": "ai.coding_development",
+        "question": "How does AI optimize query routing in distributed databases?",
+        "think": "Distributed queries can be inefficient if misrouted. AI analyzes workload and latency to optimize routing decisions.",
+        "output": "AI optimizes query routing by directing traffic to replicas with the best performance, balancing load across clusters.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 799,
+        "topic": "ai.coding_development",
+        "question": "How might AI enhance the effectiveness of DAST (Dynamic Application Security Testing)?",
+        "think": "DAST tools scan running apps but can be noisy. AI filters false positives and prioritizes findings by exploitability.",
+        "output": "AI enhances DAST by ranking vulnerabilities, correlating with code context, and providing guided remediation steps.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 800,
+        "topic": "ai.coding_development",
+        "question": "What can AI do to enforce secure default configurations in IaC templates?",
+        "think": "IaC templates may expose insecure defaults. AI scans configs and enforces secure parameterization.",
+        "output": "AI enforces security by flagging insecure IaC defaults and generating safer template recommendations automatically.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 801,
+        "topic": "ai.coding_development",
+        "question": "How can AI improve performance tuning in container orchestration systems?",
+        "think": "Kubernetes and similar systems have complex tuning knobs. AI learns workload behavior and recommends tuned parameters.",
+        "output": "AI improves orchestration performance by optimizing resource requests, limits, and scheduling policies based on observed workloads.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 802,
+        "topic": "ai.coding_development",
+        "question": "How might AI prevent misconfigurations in network policies?",
+        "think": "Network policies define access. AI reviews rules, detects overly broad permissions, and proposes least-privilege adjustments.",
+        "output": "AI prevents misconfigurations by analyzing network rules, flagging dangerous policies, and recommending safer alternatives.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 803,
+        "topic": "ai.coding_development",
+        "question": "How can AI strengthen monitoring of third-party API integrations?",
+        "think": "Third-party APIs may fail unpredictably. AI detects anomalies in response patterns and latency, predicting outages.",
+        "output": "AI strengthens monitoring by analyzing third-party API health and suggesting retries, circuit breakers, or fallbacks.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 804,
+        "topic": "ai.coding_development",
+        "question": "How does AI support secure token lifecycle management?",
+        "think": "Tokens must be rotated and expired properly. AI analyzes lifecycle policies and enforces automation.",
+        "output": "AI supports secure lifecycle by enforcing expiration, rotation, and anomaly detection on token usage.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 805,
+        "topic": "ai.coding_development",
+        "question": "How can AI improve dynamic scaling decisions under unpredictable workloads?",
+        "think": "Scaling often lags behind spikes. AI forecasts demand and adapts scaling thresholds dynamically.",
+        "output": "AI improves scaling by predicting bursts and adjusting thresholds proactively, ensuring cost-efficient resource usage.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 806,
+        "topic": "ai.coding_development",
+        "question": "What role does AI play in securing inter-service communication?",
+        "think": "Inter-service calls must be authenticated and encrypted. AI detects gaps and enforces secure defaults.",
+        "output": "AI secures communication by detecting missing TLS/mTLS and enforcing authentication and authorization policies automatically.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+
+    {
+        "id": 807,
+        "topic": "ai.coding_development",
+        "question": "How can AI prevent data poisoning attacks in ML pipelines integrated into software systems?",
+        "think": "Data poisoning injects malicious samples. AI must validate dataset provenance, detect anomalies, and filter adversarial inputs.",
+        "output": "AI prevents data poisoning by checking dataset integrity, filtering anomalies, and isolating untrusted sources before training models in software pipelines.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 808,
+        "topic": "ai.coding_development",
+        "question": "What AI methods can continuously enforce zero-trust principles in cloud development workflows?",
+        "think": "Zero-trust requires dynamic authentication and context-aware access control. AI enforces continuous validation of identities and policies.",
+        "output": "AI enforces zero-trust by monitoring sessions, re-evaluating access dynamically, and blocking anomalies in developer cloud workflows.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 809,
+        "topic": "ai.coding_development",
+        "question": "How does AI provide adaptive defense against polymorphic malware in developer environments?",
+        "think": "Polymorphic malware changes signatures to evade detection. AI detects behavioral anomalies and adapts models quickly.",
+        "output": "AI provides adaptive defense by learning from malware behavior, detecting polymorphic variants, and isolating suspicious code execution in dev environments.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 810,
+        "topic": "ai.coding_development",
+        "question": "How can AI suggest safer default values for function parameters?",
+        "think": "Functions often accept parameters without sensible defaults, which can cause runtime errors. AI can analyze call patterns and common argument values to suggest safer defaults.",
+        "output": "AI reviews function calls and proposes default values aligned with common usage, preventing errors when arguments are omitted.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 811,
+        "topic": "ai.coding_development",
+        "question": "What role does AI play in highlighting inefficient API response sizes?",
+        "think": "Large payloads slow systems. AI can analyze logs and detect endpoints with excessive response sizes.",
+        "output": "AI highlights APIs with oversized responses and recommends compression, pagination, or field filtering strategies.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 812,
+        "topic": "ai.coding_development",
+        "question": "How might AI help enforce consistent naming in database schemas?",
+        "think": "Schemas often include inconsistent naming. AI can learn project conventions and suggest renames to align.",
+        "output": "AI enforces schema naming consistency by detecting anomalies and recommending renames aligned with project standards.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 813,
+        "topic": "ai.coding_development",
+        "question": "How can AI assist in spotting unused frontend components?",
+        "think": "Frontend repos may contain unused components. AI can analyze imports and usage statistics to detect them.",
+        "output": "AI flags unused components and suggests removal or consolidation, reducing bundle size and maintenance costs.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 814,
+        "topic": "ai.coding_development",
+        "question": "What can AI do to prevent redundant cron jobs?",
+        "think": "Duplicate cron jobs waste resources. AI can analyze schedules and detect overlaps.",
+        "output": "AI prevents redundancy by detecting overlapping cron jobs and suggesting consolidated schedules.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 815,
+        "topic": "ai.coding_development",
+        "question": "How does AI recommend efficient JSON parsing techniques?",
+        "think": "Parsing JSON repeatedly can be costly. AI analyzes performance profiles and suggests optimizations.",
+        "output": "AI recommends efficient parsing strategies, such as streaming parsers, schema validation, or caching deserialized objects.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+
+    {
+        "id": 816,
+        "topic": "ai.coding_development",
+        "question": "How can AI detect fragile dependencies in software supply chains?",
+        "think": "Dependencies may have low maintenance or few contributors. AI can analyze repo metadata, update cadence, and risk signals.",
+        "output": "AI flags fragile dependencies by detecting inactivity or small contributor bases, recommending alternatives or forks.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 817,
+        "topic": "ai.coding_development",
+        "question": "How does AI support scalable testing for IoT systems?",
+        "think": "IoT devices generate distributed, resource-limited test scenarios. AI generates test plans that mirror real-world usage.",
+        "output": "AI scales IoT testing by generating realistic workloads, prioritizing device constraints, and predicting failure scenarios.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 818,
+        "topic": "ai.coding_development",
+        "question": "How might AI improve feature flag rollout strategies?",
+        "think": "Rollouts can be risky if uncontrolled. AI predicts impact, identifies safe cohorts, and manages exposure levels.",
+        "output": "AI improves rollouts by selecting cohorts adaptively, monitoring impact, and adjusting flag rollout strategies dynamically.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 819,
+        "topic": "ai.coding_development",
+        "question": "What role does AI play in smarter log sampling?",
+        "think": "Logs can overwhelm systems. AI identifies valuable logs and drops redundant ones.",
+        "output": "AI enables smart sampling by retaining logs linked to anomalies while reducing redundant normal entries.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 820,
+        "topic": "ai.coding_development",
+        "question": "How can AI aid in modeling failure domains in distributed systems?",
+        "think": "Failures propagate across domains. AI analyzes topology and predicts potential cascading failures.",
+        "output": "AI models failure domains by analyzing dependencies, predicting propagation risks, and suggesting containment strategies.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 821,
+        "topic": "ai.coding_development",
+        "question": "How does AI assist in optimizing test execution orders?",
+        "think": "Test order can affect coverage speed. AI reorders tests to maximize early defect detection.",
+        "output": "AI optimizes execution by reordering tests to catch failures early, saving time and resources in CI/CD pipelines.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 822,
+        "topic": "ai.coding_development",
+        "question": "How can AI improve observability in event-driven systems?",
+        "think": "Event-driven systems are hard to trace. AI correlates event flows across services.",
+        "output": "AI improves observability by linking distributed events, surfacing causal chains, and providing clear end-to-end traces.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 823,
+        "topic": "ai.coding_development",
+        "question": "What support can AI provide for evaluating CI/CD rollback safety?",
+        "think": "Rollbacks can break dependencies. AI predicts risks based on dependency maps and past incidents.",
+        "output": "AI evaluates rollback safety by simulating dependencies, predicting breakage risks, and recommending mitigation strategies.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 824,
+        "topic": "ai.coding_development",
+        "question": "How does AI help forecast developer productivity bottlenecks?",
+        "think": "Bottlenecks like slow builds or blocked reviews impact productivity. AI analyzes workflow data to predict them.",
+        "output": "AI forecasts productivity bottlenecks by analyzing workflow history and surfacing likely delays before they occur.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 825,
+        "topic": "ai.coding_development",
+        "question": "How can AI detect improper use of cloud IAM roles?",
+        "think": "IAM roles may be over-permissive. AI detects anomalies in assignments and usage.",
+        "output": "AI detects improper IAM usage by flagging excessive permissions and recommending least-privilege adjustments.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+
+    {
+        "id": 826,
+        "topic": "ai.coding_development",
+        "question": "How can AI strengthen runtime anomaly detection in containerized environments?",
+        "think": "Containers create dynamic workloads. AI learns baselines for CPU, memory, and syscalls, flagging deviations.",
+        "output": "AI strengthens anomaly detection by modeling runtime baselines and flagging deviations in container behavior for early response.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 827,
+        "topic": "ai.coding_development",
+        "question": "What role does AI play in automated threat hunting in code repositories?",
+        "think": "Repositories may hide malicious code. AI searches commits, diffs, and metadata for anomalies.",
+        "output": "AI enables threat hunting by detecting suspicious commits, unusual code patterns, and malicious dependency injections.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 828,
+        "topic": "ai.coding_development",
+        "question": "How might AI improve compliance enforcement in data processing systems?",
+        "think": "Data pipelines must follow regulations. AI checks lineage, retention, and usage policies automatically.",
+        "output": "AI enforces compliance by auditing pipelines, ensuring retention policies are met, and flagging violations in data flows.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 829,
+        "topic": "ai.coding_development",
+        "question": "How can AI optimize load balancing strategies?",
+        "think": "Load balancing may become suboptimal under changing workloads. AI analyzes latency and adapts strategies.",
+        "output": "AI optimizes load balancing by predicting traffic changes, adjusting algorithms, and reducing hotspot risks.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 830,
+        "topic": "ai.coding_development",
+        "question": "How does AI support secure secret distribution?",
+        "think": "Secret distribution can be mishandled. AI ensures secrets are passed securely and with correct scope.",
+        "output": "AI supports secret distribution by validating encryption, access policies, and secret lifecycle during distribution.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 831,
+        "topic": "ai.coding_development",
+        "question": "What can AI do to improve graph query performance?",
+        "think": "Graph queries can become slow on complex datasets. AI analyzes query shapes and suggests optimizations.",
+        "output": "AI improves graph queries by recommending indexes, caching strategies, and optimized traversal patterns.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 832,
+        "topic": "ai.coding_development",
+        "question": "How can AI assist in preventing lateral movement attacks in enterprise systems?",
+        "think": "Lateral movement exploits weak segmentation. AI analyzes network paths and flags abnormal access sequences.",
+        "output": "AI prevents lateral movement by correlating access patterns, segmenting risks, and enforcing tighter access controls.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 833,
+        "topic": "ai.coding_development",
+        "question": "How does AI enhance resilience in edge computing architectures?",
+        "think": "Edge systems face connectivity issues. AI predicts outages and proposes failover strategies.",
+        "output": "AI enhances edge resilience by forecasting outages, enabling autonomous failover, and maintaining critical workloads locally.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 834,
+        "topic": "ai.coding_development",
+        "question": "How might AI improve runtime patching strategies for vulnerabilities?",
+        "think": "Runtime patching avoids downtime. AI detects vulnerabilities and auto-generates hot patches with minimal risk.",
+        "output": "AI improves runtime patching by detecting vulnerabilities, generating hot fixes, and validating stability with shadow testing.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+
+    {
+        "id": 835,
+        "topic": "ai.coding_development",
+        "question": "How can AI-driven monitoring detect coordinated multi-service attacks in real time?",
+        "think": "Coordinated attacks may appear benign per service but malicious across the whole system. AI must correlate events across microservices and detect cross-service anomalies. Graph-based reasoning can highlight unusual patterns spanning services.",
+        "output": "AI detects coordinated multi-service attacks by correlating telemetry across services, building cross-service graphs, and flagging suspicious chains of actions. This enables defenders to respond before widespread compromise occurs.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 836,
+        "topic": "ai.coding_development",
+        "question": "What strategies can AI use to enforce continuous GDPR compliance during rapid code changes?",
+        "think": "GDPR requires strict data handling. AI must scan code and configs for violations, enforce anonymization, and auto-generate reports. Rapid changes require incremental checks.",
+        "output": "AI enforces GDPR by scanning code diffs, detecting risky changes, enforcing anonymization or retention policies, and generating compliance reports automatically in CI/CD pipelines.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 837,
+        "topic": "ai.coding_development",
+        "question": "How might AI proactively defend against advanced persistent threats (APTs) targeting developer environments?",
+        "think": "APTs target dev pipelines for long-term access. AI must continuously monitor behavior anomalies, detect subtle persistence, and model adversarial tactics. Proactive defense includes hunting and automated responses.",
+        "output": "AI defends against APTs by modeling adversary behavior, detecting persistence in dev pipelines, and triggering automated containment actions while alerting security teams.",
+        "format_version": "1.1",
+        "difficulty": 5
     }
 ]
