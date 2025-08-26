@@ -684,15 +684,18 @@ def train_model(model, tokenizer, dataset, output_dir, canonical_assistant_ids, 
         }
         return out
 
+    LOGGING_STEPS = 10
+    INTERVAL_EVAL = 40
+
     training_args = TrainingArguments(
         output_dir=output_dir,
         per_device_train_batch_size=2,
         gradient_accumulation_steps=8,
         num_train_epochs=TRAINING_EPOCHS,
-        learning_rate=2e-5,
-        weight_decay=0.01,
-        warmup_ratio=0.3,
-        logging_steps=10,
+        learning_rate=2e-5, # fastest optimal - 2e-5, slowest optimal - 1e-5
+        weight_decay=0.01, # recommended range: 0.01 - 0.1
+        warmup_ratio=0.3, # recommended range: 0.1 - 0.3
+        logging_steps=LOGGING_STEPS,
         save_strategy="steps",
         save_steps=100,
         eval_steps=100,
@@ -701,8 +704,8 @@ def train_model(model, tokenizer, dataset, output_dir, canonical_assistant_ids, 
         report_to="none",
         remove_unused_columns=False,
         group_by_length=True,
-        lr_scheduler_type="cosine",
-        max_grad_norm=0.3,
+        lr_scheduler_type="cosine", # possible values: cosine, linear, polynomial
+        max_grad_norm=0.3, # recommended range: 0.3 - 1.0
     )
 
     trainer = SFTTrainer(
@@ -710,7 +713,15 @@ def train_model(model, tokenizer, dataset, output_dir, canonical_assistant_ids, 
         args=training_args,
         train_dataset=dataset,
         data_collator=pad_collator,
-        callbacks=[EvalCallback(tokenizer, canonical_assistant_ids, output_dir, interval=20, raw_dataset=train_dataset)],
+        callbacks=[
+            EvalCallback(
+                tokenizer,
+                canonical_assistant_ids,
+                output_dir,
+                interval=INTERVAL_EVAL,
+                raw_dataset=train_dataset
+            )
+        ],
     )
 
     if resume_from_checkpoint:
