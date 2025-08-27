@@ -44,7 +44,6 @@ from config.training_config import (
     TRAINING_NEW,
     TRAINING_EPOCHS,
     TRAINING_EXTRA_EPOCHS,
-    EVAL_QUESTIONS
 )
 
 MAX_LEN=2048
@@ -517,8 +516,6 @@ def load_model_and_prepare_for_qora(tokenizer, output_dir: Path):
     )
 
     output_dir.mkdir(parents=True, exist_ok=True)
-    # log(f"Saving base model config and tokenizer to {output_dir}")
-    # config.save_pretrained(output_dir)
 
     model.config.pad_token_id = tokenizer.pad_token_id
 
@@ -687,15 +684,18 @@ def train_model(model, tokenizer, dataset, output_dir, canonical_assistant_ids, 
         }
         return out
 
+    LOGGING_STEPS = 10
+    INTERVAL_EVAL = 40
+
     training_args = TrainingArguments(
         output_dir=output_dir,
         per_device_train_batch_size=2,
         gradient_accumulation_steps=8,
         num_train_epochs=TRAINING_EPOCHS,
-        learning_rate=2e-5,
-        weight_decay=0.01,
-        warmup_ratio=0.3,
-        logging_steps=10,
+        learning_rate=2e-5, # fastest optimal - 2e-5, slowest optimal - 1e-5
+        weight_decay=0.01, # recommended range: 0.01 - 0.1
+        warmup_ratio=0.3, # recommended range: 0.1 - 0.3
+        logging_steps=LOGGING_STEPS,
         save_strategy="steps",
         save_steps=100,
         eval_steps=100,
@@ -704,8 +704,8 @@ def train_model(model, tokenizer, dataset, output_dir, canonical_assistant_ids, 
         report_to="none",
         remove_unused_columns=False,
         group_by_length=True,
-        lr_scheduler_type="cosine",
-        max_grad_norm=0.3,
+        lr_scheduler_type="cosine", # possible values: cosine, linear, polynomial
+        max_grad_norm=0.3, # recommended range: 0.3 - 1.0
     )
 
     trainer = SFTTrainer(
@@ -713,7 +713,15 @@ def train_model(model, tokenizer, dataset, output_dir, canonical_assistant_ids, 
         args=training_args,
         train_dataset=dataset,
         data_collator=pad_collator,
-        callbacks=[EvalCallback(tokenizer, canonical_assistant_ids, output_dir, interval=20, raw_dataset=train_dataset)],
+        callbacks=[
+            EvalCallback(
+                tokenizer,
+                canonical_assistant_ids,
+                output_dir,
+                interval=INTERVAL_EVAL,
+                raw_dataset=train_dataset
+            )
+        ],
     )
 
     if resume_from_checkpoint:
@@ -748,6 +756,35 @@ def train_model(model, tokenizer, dataset, output_dir, canonical_assistant_ids, 
     else:
         trainer.train()
     model.save_pretrained(output_dir)
+
+def _detach_handlers_to(file_obj):
+    for name in ("transformers", "peft", "accelerate"):
+        lg = pylog.getLogger(name)
+        for h in list(lg.handlers):
+            if getattr(h, "stream", None) is file_obj:
+                lg.removeHandler(h)
+                try:
+                    h.flush()
+                    h.close()
+                except Exception:
+                    pass
+
+def close_logs():
+    try:
+        # restore std streams first
+        if _ORIG_STDOUT: sys.stdout = _ORIG_STDOUT
+        if _ORIG_STDERR: sys.stderr = _ORIG_STDERR
+    except Exception:
+        pass
+    try:
+        if FINAL_LOG_FH:
+            FINAL_LOG_FH.flush()
+
+            _detach_handlers_to(FINAL_LOG_FH)
+
+            FINAL_LOG_FH.close()
+    except Exception:
+        pass
 
 def init_training():
     log("Preparing output directory")
@@ -803,24 +840,6 @@ def init_training():
     _ORIG_STDOUT, _ORIG_STDERR = sys.stdout, sys.stderr
     sys.stdout = _TeeStream(_ORIG_STDOUT, lambda: FINAL_LOG_FH)
     sys.stderr = _TeeStream(_ORIG_STDERR, lambda: FINAL_LOG_FH)
-
-    # === Capture Python warnings into the sink ===
-    warnings.simplefilter("default")  # show deprecations by default
-    def _showwarning(message, category, filename, lineno, file=None, line=None):
-        s = warnings.formatwarning(message, category, filename, lineno, line)
-        try:
-            if FINAL_LOG_FH:
-                FINAL_LOG_FH.write(s)
-                FINAL_LOG_FH.flush()
-        except Exception:
-            pass
-        # also print to console (already teed)
-        try:
-            _ORIG_STDERR.write(s)
-            _ORIG_STDERR.flush()
-        except Exception:
-            pass
-    warnings.showwarning = _showwarning
 
     # === Keep Transformers logger quieter to avoid config spam ===
     pylog.basicConfig(level=pylog.WARNING)
@@ -901,14 +920,13 @@ def init_training():
 
     train_dataset = dataset
 
-    # Map dataset with our tokenize_function wrapper that uses canonical ids
-    def map_fn(ex):
-        return tokenize_function(ex, tokenizer, canonical_assistant_ids)
-
-    # Remove every original column except the model features we just produced
     remove_cols = [c for c in dataset.column_names if c not in ("input_ids","labels","attention_mask","loss_weight")]
-    dataset = dataset.map(map_fn, remove_columns=remove_cols, batched=False)
-    
+    dataset = dataset.map(
+        lambda ex: tokenize_function(ex, tokenizer, canonical_assistant_ids),
+        remove_columns=remove_cols,
+        batched=False
+    )
+
     log(f"Dataset loaded with {len(dataset)} examples.")
     log(f"Sample tokenized example: {dataset[0]}")
 
@@ -921,33 +939,7 @@ def init_training():
     log("Training model")
     train_model(model, tokenizer, dataset, output_dir, canonical_assistant_ids, train_dataset, resume_from_checkpoint=resume_checkpoint)
 
-    try:
-        # restore std streams first
-        if _ORIG_STDOUT: sys.stdout = _ORIG_STDOUT
-        if _ORIG_STDERR: sys.stderr = _ORIG_STDERR
-    except Exception:
-        pass
-    try:
-        def _detach_handlers_to(file_obj):
-            for name in ("transformers", "peft", "accelerate"):
-                lg = pylog.getLogger(name)
-                for h in list(lg.handlers):
-                    if getattr(h, "stream", None) is file_obj:
-                        lg.removeHandler(h)
-                        try:
-                            h.flush()
-                            h.close()
-                        except Exception:
-                            pass
-
-        if FINAL_LOG_FH:
-            FINAL_LOG_FH.flush()
-
-            _detach_handlers_to(FINAL_LOG_FH)
-
-            FINAL_LOG_FH.close()
-    except Exception:
-        pass
+    close_logs()
 
 def start_training():
     log("=== Starting training run ===")
