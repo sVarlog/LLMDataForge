@@ -12625,5 +12625,455 @@
         "output": "Analytical engines secure DNS by detecting open resolvers, recommending DNSSEC, and enforcing restricted access to resolvers in enterprise environments.",
         "format_version": "1.1",
         "difficulty": 5
+    },
+    {
+        "id": 1401,
+        "topic": "ai.coding_development",
+        "question": "Which methods allow predictive engines to optimize redundant logging in distributed systems?",
+        "think": "Distributed systems often produce duplicate logs across services, making monitoring noisy. Predictive engines can analyze log streams, detect duplication, and propose consolidation strategies.",
+        "output": "Predictive engines optimize logging by detecting repeated entries across services, recommending centralized correlation, and suppressing low-value duplicates.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 1402,
+        "topic": "ai.coding_development",
+        "question": "How do adaptive frameworks secure default Helm chart configurations?",
+        "think": "Helm charts may deploy workloads with permissive defaults like root users or open ports. Adaptive frameworks can scan chart values and enforce hardened configurations.",
+        "output": "Adaptive frameworks secure Helm charts by flagging root containers, enforcing resource limits, and disabling unsafe defaults in Kubernetes deployments.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 1403,
+        "topic": "ai.coding_development",
+        "question": "What approaches can reasoning assistants use to prevent deadlocks in concurrent systems?",
+        "think": "Deadlocks occur when processes wait on each other indefinitely. Reasoning assistants can analyze lock acquisition order, detect circular dependencies, and propose fixes.",
+        "output": "Reasoning assistants prevent deadlocks by detecting circular waits, recommending lock hierarchy enforcement, and suggesting use of non-blocking concurrency patterns.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 1404,
+        "topic": "ai.coding_development",
+        "question": "In what ways can intelligent platforms optimize API versioning strategies?",
+        "think": "Poor API versioning leads to breaking changes and client failures. Intelligent platforms can analyze client usage, detect drift, and recommend structured versioning schemes.",
+        "output": "Intelligent platforms optimize versioning by enforcing semantic versioning, maintaining backward compatibility, and generating migration plans for clients.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 1405,
+        "topic": "ai.coding_development",
+        "question": "Which strategies do analytical engines use to detect unbounded log growth?",
+        "think": "Unbounded logs consume storage and degrade performance. Analytical engines can monitor file sizes, detect missing rotation policies, and propose safe limits.",
+        "output": "Analytical engines detect unbounded logs by flagging missing rotation, recommending retention limits, and enforcing compression for older entries.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 1406,
+        "topic": "ai.coding_development",
+        "question": "How do predictive platforms reduce latency in service discovery mechanisms?",
+        "think": "Service discovery may cause latency due to inefficient lookups or stale caches. Predictive platforms can analyze request flows and propose faster resolution methods.",
+        "output": "Predictive platforms reduce discovery latency by recommending optimized caching, reducing TTL misconfigurations, and aligning service registries with workload needs.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 1407,
+        "topic": "ai.coding_development",
+        "question": "What techniques allow adaptive systems to secure default message broker policies?",
+        "think": "Message brokers may allow unauthenticated access or broad topic subscriptions by default. Adaptive systems can scan configs, detect unsafe settings, and enforce restrictions.",
+        "output": "Adaptive systems secure brokers by enforcing authentication, restricting topic wildcards, and mandating TLS connections between producers and consumers.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 1408,
+        "topic": "ai.coding_development",
+        "question": "Which practices enable knowledge-driven advisors to reduce redundant API gateways?",
+        "think": "Organizations may deploy multiple gateways with overlapping functionality. Knowledge-driven advisors can analyze routing rules and detect unnecessary duplication.",
+        "output": "Knowledge-driven advisors reduce redundancy by consolidating overlapping gateways, recommending unified routing policies, and deprecating unused ones.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 1409,
+        "topic": "ai.coding_development",
+        "question": "How can reasoning engines strengthen consistency in distributed caches?",
+        "think": "Distributed caches risk inconsistency when invalidation fails. Reasoning engines can analyze cache flows, detect stale reads, and propose consistency strategies.",
+        "output": "Reasoning engines strengthen consistency by recommending write-through policies, enforcing TTLs, and validating cache invalidation mechanisms.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 1410,
+        "topic": "ai.coding_development",
+        "question": "In which ways do intelligent frameworks secure data pipelines from insecure transports?",
+        "think": "Data pipelines may transfer sensitive information over plaintext connections. Intelligent frameworks can detect insecure protocols and enforce encryption.",
+        "output": "Intelligent frameworks secure data pipelines by detecting plaintext transfers, mandating TLS or SSH tunnels, and recommending end-to-end encryption.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 1411,
+        "topic": "ai.coding_development",
+        "question": "What methods do predictive engines use to detect API response bloat?",
+        "think": "APIs may return excessive data beyond what clients need. Predictive engines can analyze responses, detect unused fields, and recommend optimized schemas.",
+        "output": "Predictive engines detect response bloat by monitoring payload size, correlating with client usage, and recommending trimmed schemas or field-level filtering.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 1412,
+        "topic": "ai.coding_development",
+        "question": "How might adaptive engines optimize retry budgets in distributed workloads?",
+        "think": "Excessive retries amplify failures, while weak retries reduce resilience. Adaptive engines can analyze workload telemetry, detect retry storms, and recommend balanced budgets.",
+        "output": "Adaptive engines optimize retry budgets by enforcing exponential backoff with jitter, limiting retry counts, and aligning retry strategies with workload priorities.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 1413,
+        "topic": "ai.coding_development",
+        "question": "Which strategies do analytical advisors apply to secure cloud-native API gateways?",
+        "think": "Cloud-native gateways may expose APIs with weak defaults. Analytical advisors can scan policies, detect insecure settings, and propose hardening steps.",
+        "output": "Analytical advisors secure gateways by detecting missing authentication, enforcing rate limits, and requiring encrypted channels for all API calls.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 1414,
+        "topic": "ai.coding_development",
+        "question": "What mechanisms enable predictive frameworks to improve function warmup in serverless apps?",
+        "think": "Serverless functions may suffer latency during cold starts. Predictive frameworks can forecast demand spikes and propose proactive warmup strategies.",
+        "output": "Predictive frameworks improve warmup by forecasting usage, pre-warming functions before demand peaks, and tuning memory/timeouts for faster startup.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 1415,
+        "topic": "ai.coding_development",
+        "question": "How can reasoning assistants secure CI/CD jobs against privilege escalation?",
+        "think": "Jobs may run with excessive privileges, risking escalation. Reasoning assistants can analyze job permissions and enforce stricter defaults.",
+        "output": "Reasoning assistants secure CI/CD jobs by flagging elevated permissions, enforcing sandboxing, and recommending scoped credentials only for specific tasks.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 1416,
+        "topic": "ai.coding_development",
+        "question": "Which practices allow intelligent platforms to detect redundant monitoring probes?",
+        "think": "Monitoring setups may duplicate probes, increasing overhead. Intelligent platforms can analyze probe coverage, detect overlaps, and recommend consolidation.",
+        "output": "Intelligent platforms detect redundant probes by clustering checks with overlapping targets, consolidating coverage, and reducing monitoring noise.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 1417,
+        "topic": "ai.coding_development",
+        "question": "In what ways do adaptive frameworks improve secrets rotation in multi-cloud environments?",
+        "think": "Multi-cloud setups often leave secrets unrotated across providers. Adaptive frameworks can monitor secret ages, enforce expiration, and synchronize vaults.",
+        "output": "Adaptive frameworks improve rotation by enforcing provider-agnostic policies, automating cross-cloud key rotation, and detecting stale credentials.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 1418,
+        "topic": "ai.coding_development",
+        "question": "What approaches do knowledge-driven systems use to secure debug endpoints?",
+        "think": "Debug endpoints may expose internal state if left enabled. Knowledge-driven systems can scan deployments, detect debug endpoints, and enforce their removal in production.",
+        "output": "Knowledge-driven systems secure debug endpoints by flagging exposed routes, recommending removal or strong authentication, and monitoring for accidental exposure.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 1419,
+        "topic": "ai.coding_development",
+        "question": "Which techniques allow analytical engines to detect excessive API throttling?",
+        "think": "Overly strict throttling can harm UX. Analytical engines can analyze traffic logs, detect throttling spikes, and propose balanced rate limits.",
+        "output": "Analytical engines detect excessive throttling by correlating request failures with rate limits, recommending tiered quotas, and balancing fairness with performance.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 1420,
+        "topic": "ai.coding_development",
+        "question": "How do predictive advisors secure default DNS resolver settings in enterprises?",
+        "think": "DNS resolvers may ship with weak defaults, enabling cache poisoning. Predictive advisors can scan configurations, detect risky settings, and enforce secure defaults.",
+        "output": "Predictive advisors secure DNS resolvers by enforcing DNSSEC validation, disabling open resolvers, and mandating restricted internal-only access.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 1421,
+        "topic": "ai.coding_development",
+        "question": "Which strategies enable predictive frameworks to detect wasteful container image layering?",
+        "think": "Container images often accumulate unnecessary layers, inflating size. Predictive frameworks can analyze Dockerfiles, detect redundant instructions, and propose optimizations.",
+        "output": "Predictive frameworks detect wasteful layering by flagging duplicate RUN commands, recommending multi-stage builds, and enforcing minimal base images.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 1422,
+        "topic": "ai.coding_development",
+        "question": "How do adaptive advisors secure insecure cloud storage bucket defaults?",
+        "think": "Cloud storage often defaults to public or overly permissive configurations. Adaptive advisors can scan bucket policies, detect unsafe defaults, and enforce best practices.",
+        "output": "Adaptive advisors secure buckets by flagging public access, enforcing encryption at rest and in transit, and applying strict ACLs for sensitive data.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 1423,
+        "topic": "ai.coding_development",
+        "question": "What methods allow reasoning assistants to reduce risks of partial failures in distributed workflows?",
+        "think": "Distributed workflows often fail partially, leaving inconsistent states. Reasoning assistants can simulate failure scenarios, detect weak recovery mechanisms, and recommend improvements.",
+        "output": "Reasoning assistants reduce risks by recommending idempotent operations, implementing compensating transactions, and enforcing checkpointing for long-running workflows.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 1424,
+        "topic": "ai.coding_development",
+        "question": "In what ways can intelligent engines optimize service mesh configurations?",
+        "think": "Service meshes may be misconfigured, causing latency or security gaps. Intelligent engines can analyze mesh telemetry, detect inefficiencies, and propose optimized settings.",
+        "output": "Intelligent engines optimize service meshes by tuning retries and timeouts, enforcing mTLS, and reducing latency through optimized routing policies.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 1425,
+        "topic": "ai.coding_development",
+        "question": "Which approaches do analytical platforms use to enforce safer API authentication flows?",
+        "think": "API authentication flows may omit strong protections like MFA or token rotation. Analytical platforms can scan auth implementations, detect weak flows, and propose improvements.",
+        "output": "Analytical platforms enforce safer API auth by requiring MFA, recommending short-lived tokens, and flagging insecure storage of credentials.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 1426,
+        "topic": "ai.coding_development",
+        "question": "How might predictive engines detect inefficient parallelism in CI/CD pipelines?",
+        "think": "CI/CD pipelines may parallelize excessively, causing contention or overhead. Predictive engines can analyze runtime telemetry, detect inefficiencies, and propose balanced concurrency.",
+        "output": "Predictive engines detect inefficient parallelism by flagging bottlenecks, recommending workload grouping, and tuning concurrency to available hardware.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 1427,
+        "topic": "ai.coding_development",
+        "question": "What mechanisms enable adaptive frameworks to secure insecure gRPC default settings?",
+        "think": "gRPC services may run without encryption or strong authentication. Adaptive frameworks can analyze service configs and enforce secure defaults.",
+        "output": "Adaptive frameworks secure gRPC by requiring TLS, enforcing mutual authentication, and validating request schemas to prevent abuse.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 1428,
+        "topic": "ai.coding_development",
+        "question": "Which practices do knowledge-driven advisors use to optimize CI/CD caching?",
+        "think": "CI/CD caches may be misused, leading to redundant downloads or invalidations. Knowledge-driven advisors can analyze cache usage and propose better strategies.",
+        "output": "Knowledge-driven advisors optimize caching by recommending selective invalidation, stable cache keys, and sharing caches across builds to reduce pipeline time.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 1429,
+        "topic": "ai.coding_development",
+        "question": "How do reasoning platforms strengthen rollback consistency in database migrations?",
+        "think": "Rollback procedures risk data corruption if not consistent. Reasoning platforms can simulate rollbacks, validate schema compatibility, and enforce safe strategies.",
+        "output": "Reasoning platforms strengthen rollback by enforcing schema checks, recommending dual-write approaches, and validating consistency before reversions.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 1430,
+        "topic": "ai.coding_development",
+        "question": "In which ways can predictive tools secure container orchestrators against misconfigurations?",
+        "think": "Orchestrators may expose insecure dashboards or APIs. Predictive tools can analyze deployment configs, detect unsafe defaults, and propose secure setups.",
+        "output": "Predictive tools secure orchestrators by flagging public dashboards, enforcing RBAC, and mandating TLS for control-plane communications.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 1431,
+        "topic": "ai.coding_development",
+        "question": "Which strategies allow adaptive engines to reduce inefficient retry handling in APIs?",
+        "think": "APIs may retry without proper limits, amplifying failures. Adaptive engines can analyze retry telemetry, detect unsafe loops, and enforce backoff strategies.",
+        "output": "Adaptive engines reduce retry inefficiency by enforcing retry budgets, recommending exponential backoff with jitter, and aligning retries with SLAs.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 1432,
+        "topic": "ai.coding_development",
+        "question": "What methods can analytical engines apply to detect unused feature flags?",
+        "think": "Feature flags may linger in code without being referenced. Analytical engines can cross-check flags against commits and telemetry to find stale ones.",
+        "output": "Analytical engines detect unused flags by scanning code for inactive conditions, checking runtime metrics, and recommending safe cleanup of stale flags.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 1433,
+        "topic": "ai.coding_development",
+        "question": "How do intelligent assistants secure OAuth implementations against implicit flows?",
+        "think": "OAuth implicit flows expose tokens in URLs. Intelligent assistants can analyze auth configs, detect implicit grants, and recommend safer alternatives.",
+        "output": "Intelligent assistants secure OAuth by flagging implicit flows, recommending PKCE with authorization code flows, and enforcing strict token expiration.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 1434,
+        "topic": "ai.coding_development",
+        "question": "Which approaches enable predictive frameworks to detect inefficient query indexing?",
+        "think": "Queries without proper indexes cause latency. Predictive frameworks can analyze execution plans, detect missing indexes, and recommend optimizations.",
+        "output": "Predictive frameworks detect inefficient indexing by flagging slow queries, recommending composite indexes, and pruning redundant ones.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 1435,
+        "topic": "ai.coding_development",
+        "question": "In what ways can adaptive platforms highlight unsafe session handling?",
+        "think": "Web apps may implement weak session expiration or insecure cookie settings. Adaptive platforms can analyze session configs and recommend safer practices.",
+        "output": "Adaptive platforms highlight unsafe sessions by detecting long-lived tokens, missing HttpOnly/Secure flags, and recommending rotation with strict timeouts.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 1436,
+        "topic": "ai.coding_development",
+        "question": "How might reasoning engines improve concurrency safety in multithreaded applications?",
+        "think": "Multithreaded code risks race conditions or data corruption. Reasoning engines can analyze thread interactions, detect unsafe patterns, and propose fixes.",
+        "output": "Reasoning engines improve concurrency safety by flagging shared state misuse, recommending synchronization primitives, and proposing lock-free algorithms when appropriate.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 1437,
+        "topic": "ai.coding_development",
+        "question": "What techniques allow analytical platforms to detect insecure default Kubernetes configs?",
+        "think": "Kubernetes manifests may omit security features by default. Analytical platforms can parse manifests, detect risky defaults, and enforce best practices.",
+        "output": "Analytical platforms detect insecure configs by flagging privileged pods, missing resource limits, and recommending network policies for safer deployments.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 1438,
+        "topic": "ai.coding_development",
+        "question": "Which methods do predictive engines use to minimize excessive cold starts in serverless apps?",
+        "think": "Cold starts add latency when functions scale from zero. Predictive engines can forecast demand, pre-warm functions, and recommend memory optimizations.",
+        "output": "Predictive engines minimize cold starts by forecasting traffic, pre-warming key functions, and adjusting memory/timeouts for faster initialization.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 1439,
+        "topic": "ai.coding_development",
+        "question": "How can adaptive advisors prevent sensitive data exposure in error messages?",
+        "think": "Error messages may leak stack traces or secrets. Adaptive advisors can scan error handlers, detect unsafe disclosures, and enforce safer defaults.",
+        "output": "Adaptive advisors prevent sensitive exposure by enforcing generic error responses, logging details internally only, and redacting sensitive fields in user-facing errors.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 1440,
+        "topic": "ai.coding_development",
+        "question": "In which ways do intelligent platforms optimize retry handling in distributed queues?",
+        "think": "Distributed queues risk inefficiency if retries are too aggressive. Intelligent platforms can monitor retry patterns, detect issues, and propose safer retry strategies.",
+        "output": "Intelligent platforms optimize retries by enforcing exponential backoff, aligning retry budgets with workloads, and preventing cascading failures during outages.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 1441,
+        "topic": "ai.coding_development",
+        "question": "Which strategies enable predictive advisors to detect insecure JWT expiration policies?",
+        "think": "JWTs that live too long increase risk of token theft, while very short expirations can degrade UX. Predictive advisors can analyze token lifetimes and balance usability with security.",
+        "output": "Predictive advisors detect insecure JWT policies by flagging tokens with excessive lifetimes, recommending rotation, and aligning expiration settings with compliance standards.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 1442,
+        "topic": "ai.coding_development",
+        "question": "How do adaptive frameworks reduce redundant CI/CD build artifacts?",
+        "think": "Pipelines may generate multiple copies of the same artifact, wasting storage. Adaptive frameworks can track artifact hashes, detect duplication, and recommend consolidation.",
+        "output": "Adaptive frameworks reduce redundant artifacts by comparing build outputs, deduplicating identical ones, and enforcing artifact promotion pipelines with integrity checks.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 1443,
+        "topic": "ai.coding_development",
+        "question": "What methods allow reasoning assistants to secure unsafe database default credentials?",
+        "think": "Databases often ship with default usernames and passwords. Reasoning assistants can scan connection strings, detect weak defaults, and recommend secure alternatives.",
+        "output": "Reasoning assistants secure databases by flagging default credentials, enforcing password rotation, and recommending integration with secret managers.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 1444,
+        "topic": "ai.coding_development",
+        "question": "In what ways can intelligent engines optimize GraphQL query cost analysis?",
+        "think": "Unbounded GraphQL queries can exhaust backend resources. Intelligent engines can analyze query complexity, detect high-cost patterns, and propose limits.",
+        "output": "Intelligent engines optimize GraphQL query handling by flagging excessive nesting, recommending query cost analysis policies, and enforcing limits on expensive fields.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 1445,
+        "topic": "ai.coding_development",
+        "question": "Which approaches do analytical platforms use to detect unsafe file uploads?",
+        "think": "File upload endpoints may accept dangerous or oversized files. Analytical platforms can scan upload handlers, detect missing validation, and enforce stricter checks.",
+        "output": "Analytical platforms detect unsafe uploads by flagging missing size limits, recommending MIME type validation, and integrating malware scanning.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 1446,
+        "topic": "ai.coding_development",
+        "question": "How do predictive frameworks highlight wasteful function executions in serverless workloads?",
+        "think": "Serverless functions may run unnecessarily due to misconfigured triggers. Predictive frameworks can analyze invocation logs and detect redundant executions.",
+        "output": "Predictive frameworks highlight wasteful functions by flagging unused or redundant triggers, recommending consolidation, and pruning unnecessary invocations.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 1447,
+        "topic": "ai.coding_development",
+        "question": "What mechanisms enable adaptive advisors to enforce safer container registry defaults?",
+        "think": "Container registries may expose images publicly or lack scanning policies. Adaptive advisors can monitor registry configs and enforce security best practices.",
+        "output": "Adaptive advisors secure registries by detecting public repositories, requiring signed images, and enforcing vulnerability scans for all stored containers.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 1448,
+        "topic": "ai.coding_development",
+        "question": "Which techniques allow knowledge-driven engines to detect insecure cookie practices?",
+        "think": "Cookies may lack flags like HttpOnly or Secure, exposing them to theft. Knowledge-driven engines can parse responses and detect missing attributes.",
+        "output": "Knowledge-driven engines detect insecure cookies by flagging missing HttpOnly, Secure, or SameSite attributes and recommending safer cookie configurations.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 1449,
+        "topic": "ai.coding_development",
+        "question": "How can reasoning platforms secure inter-service authentication in microservices?",
+        "think": "Microservices may trust each other without strong authentication, leading to lateral movement risks. Reasoning platforms can analyze service calls and enforce stronger policies.",
+        "output": "Reasoning platforms secure inter-service communication by enforcing mTLS, rotating service credentials, and requiring service-to-service authentication policies.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 1450,
+        "topic": "ai.coding_development",
+        "question": "In which ways do predictive tools optimize database indexing in high-read workloads?",
+        "think": "Read-heavy workloads rely on efficient indexing. Predictive tools can analyze query performance, detect missing indexes, and recommend optimized strategies.",
+        "output": "Predictive tools optimize indexing by recommending composite indexes, pruning unused ones, and aligning indexing with query frequency in high-read workloads.",
+        "format_version": "1.1",
+        "difficulty": 4
     }
 ]
