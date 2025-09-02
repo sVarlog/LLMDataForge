@@ -1798,5 +1798,905 @@
         "output": "AI could standardize design languages across industries, making them more efficient but also risking homogenization and reduced cultural uniqueness.",
         "format_version": "1.1",
         "difficulty": 5
+    },
+    {
+        "id": 201,
+        "topic": "ai.design_creativity",
+        "question": "How can AI generate quick poster drafts for community events?",
+        "think": "Community posters need fast turnaround. AI can generate layouts instantly.",
+        "output": "AI can create draft posters with placeholders for event info, colors, and branding, giving organizers a fast starting point for refinement.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 202,
+        "topic": "ai.design_creativity",
+        "question": "What is one way AI helps design simple branded certificates?",
+        "think": "Certificates follow repetitive patterns. AI can apply brand templates automatically.",
+        "output": "AI can generate certificate layouts with pre-set branding, logos, and text placeholders, reducing manual formatting effort.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 203,
+        "topic": "ai.design_creativity",
+        "question": "How can AI support generating illustration outlines for beginners?",
+        "think": "Beginners need base sketches. AI can provide outlines quickly.",
+        "output": "AI can produce simple outlines of objects or scenes, helping beginners practice coloring and shading while learning composition.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 204,
+        "topic": "ai.design_creativity",
+        "question": "How does AI simplify creating social media highlight covers?",
+        "think": "Highlight covers are small repetitive assets. AI can generate them in bulk.",
+        "output": "AI can generate matching highlight covers in consistent color schemes and icons, ensuring brand alignment across social profiles.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 205,
+        "topic": "ai.design_creativity",
+        "question": "How does AI improve workflow efficiency in brochure design?",
+        "think": "Brochures have structured layouts. AI can automate placement.",
+        "output": "AI can auto-arrange images and text into brochure templates, quickly generating multiple design options for review.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 206,
+        "topic": "ai.design_creativity",
+        "question": "What benefit does AI bring to color grading in short video ads?",
+        "think": "Video ads require consistent color tones. AI can automate grading.",
+        "output": "AI can adjust colors across video clips to maintain brand palettes, ensuring consistency in mood and tone throughout the ad.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 207,
+        "topic": "ai.design_creativity",
+        "question": "How can AI tools support resume design personalization?",
+        "think": "Resumes often lack uniqueness. AI can tailor layouts to profiles.",
+        "output": "AI can propose resume templates styled to match industry norms while adding personalized design touches, making candidates stand out.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 208,
+        "topic": "ai.design_creativity",
+        "question": "How does AI help in rapidly generating campaign mockups?",
+        "think": "Campaign mockups must be produced quickly. AI can accelerate this.",
+        "output": "AI can generate campaign mockups by auto-applying logos, slogans, and product shots into multiple ad formats for early review.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 209,
+        "topic": "ai.design_creativity",
+        "question": "What risks come with using AI-generated visuals in sustainability campaigns?",
+        "think": "Sustainability messaging requires authenticity. AI risks appearing fake.",
+        "output": "AI-generated visuals may look too artificial, undermining trust in sustainability messaging. Human oversight ensures authenticity and accuracy.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 210,
+        "topic": "ai.design_creativity",
+        "question": "How can AI-generated ad headlines complement visual experimentation?",
+        "think": "Ad creatives must balance visuals and copy. AI can draft copy quickly.",
+        "output": "AI can generate multiple headline variations to match different ad visuals, speeding up the creative testing process.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 211,
+        "topic": "ai.design_creativity",
+        "question": "How can AI insights improve decision-making in creative workshops?",
+        "think": "Workshops generate many ideas. AI can analyze patterns quickly.",
+        "output": "AI can cluster workshop outputs, highlight recurring themes, and suggest promising creative directions for teams to pursue.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 212,
+        "topic": "ai.design_creativity",
+        "question": "What role does AI play in creating adaptive layouts for multi-device experiences?",
+        "think": "Layouts must adapt across devices. AI can auto-generate variations.",
+        "output": "AI can generate adaptive layouts optimized for mobile, tablet, and desktop, ensuring consistency without repetitive manual design.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 213,
+        "topic": "ai.design_creativity",
+        "question": "What are the limitations of AI in creating culturally sensitive visuals?",
+        "think": "Culture requires deep human knowledge. AI may misrepresent symbols.",
+        "output": "Limitations include shallow cultural understanding, overgeneralization, and risk of stereotypes. Human expertise is necessary to ensure accuracy.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 214,
+        "topic": "ai.design_creativity",
+        "question": "How does AI-powered prototyping influence client approvals?",
+        "think": "AI prototypes look polished and may sway clients early.",
+        "output": "AI prototypes can accelerate approvals by giving clients clearer visuals early, but teams must clarify they are exploratory drafts, not final designs.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 215,
+        "topic": "ai.design_creativity",
+        "question": "How can AI improve consistency in global brand campaigns?",
+        "think": "Global campaigns require uniform identity. AI can automate checks.",
+        "output": "AI can ensure brand rules like typography, logo placement, and color palettes remain consistent across localized creative assets worldwide.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 216,
+        "topic": "ai.design_creativity",
+        "question": "What are the ethical challenges of AI-generated visuals in news reporting?",
+        "think": "News requires accuracy and trust. AI visuals may mislead audiences.",
+        "output": "Ethical challenges include potential misinformation, lack of transparency, and blurring the line between real and synthetic content. Clear labeling is essential.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 217,
+        "topic": "ai.design_creativity",
+        "question": "How should AI tools be applied responsibly in charity campaign visuals?",
+        "think": "Charity campaigns deal with sensitive contexts. AI risks oversimplifying.",
+        "output": "AI should only assist in drafts or scaling, while human designers ensure visuals reflect dignity, empathy, and authentic representation of beneficiaries.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 218,
+        "topic": "ai.design_creativity",
+        "question": "What challenges exist when integrating AI into creative agency workflows?",
+        "think": "Agencies must balance efficiency with originality. AI can disrupt processes.",
+        "output": "Challenges include overreliance on AI, loss of originality, ethical concerns, and resistance from creatives. Agencies must define AI’s supportive role clearly.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 219,
+        "topic": "ai.design_creativity",
+        "question": "What long-term changes might AI bring to cultural storytelling in advertising?",
+        "think": "Storytelling relies on cultural nuance. AI may simplify it excessively.",
+        "output": "AI could standardize narratives to global templates, risking cultural flattening. However, with diverse datasets, it might also amplify underrepresented voices.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 220,
+        "topic": "ai.design_creativity",
+        "question": "How could AI reshape the economics of creative education?",
+        "think": "AI democratizes design tools, impacting how creativity is taught and valued.",
+        "output": "AI may reduce emphasis on technical execution while elevating strategy, ethics, and originality in creative education, shifting both curriculum and value perception.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 221,
+        "topic": "ai.design_creativity",
+        "question": "How can AI generate quick profile picture frames for events?",
+        "think": "Events often use themed frames. AI can create branded variations instantly.",
+        "output": "AI can generate profile picture frames with logos, colors, and motifs that match event branding, ready for attendees to use on social media.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 222,
+        "topic": "ai.design_creativity",
+        "question": "What is one way AI helps create background visuals for live streams?",
+        "think": "Live streams need engaging backdrops. AI can generate them quickly.",
+        "output": "AI can generate virtual backgrounds with branded patterns or thematic designs, giving hosts professional visuals without manual design work.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 223,
+        "topic": "ai.design_creativity",
+        "question": "How can AI tools simplify creating social media quote cards?",
+        "think": "Quote cards are repetitive assets. AI can automate layout creation.",
+        "output": "AI can generate multiple quote card layouts with consistent brand styling, saving teams from repetitive manual adjustments.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 224,
+        "topic": "ai.design_creativity",
+        "question": "How does AI support generating quick drafts for print ads?",
+        "think": "Print ads require structured layouts. AI can propose drafts fast.",
+        "output": "AI can assemble draft print ad layouts with placeholders for headlines, product shots, and CTAs, giving teams a fast baseline to refine.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 225,
+        "topic": "ai.design_creativity",
+        "question": "How does AI assist in adapting creative assets for regional markets?",
+        "think": "Regional markets require cultural adaptation. AI can draft variations.",
+        "output": "AI can generate creative variations with localized color palettes, symbols, and language, helping campaigns adapt more quickly to regional contexts.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 226,
+        "topic": "ai.design_creativity",
+        "question": "What benefit does AI provide in generating digital signage layouts?",
+        "think": "Digital signage requires frequent updates. AI can automate formatting.",
+        "output": "AI can auto-arrange images, text, and animations into layouts optimized for large screens, reducing manual production time.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 227,
+        "topic": "ai.design_creativity",
+        "question": "How can AI improve automated ad testing in creative workflows?",
+        "think": "Testing ads requires many variants. AI can generate and analyze them.",
+        "output": "AI can generate ad variations, deploy them in test groups, and analyze results to recommend the strongest creative directions.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 228,
+        "topic": "ai.design_creativity",
+        "question": "How does AI support personalization in event invitation designs?",
+        "think": "Invitations often require custom details. AI can automate personalization.",
+        "output": "AI can generate personalized invitation layouts with dynamic fields like names, event times, and locations, styled in brand colors.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 229,
+        "topic": "ai.design_creativity",
+        "question": "What risks arise when using AI to design political protest visuals?",
+        "think": "Protest visuals are sensitive. AI may oversimplify or misrepresent.",
+        "output": "Risks include producing insensitive or misleading imagery, undermining credibility. Human validation is necessary in political contexts.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 230,
+        "topic": "ai.design_creativity",
+        "question": "How can AI tools help maintain branding across sponsored content?",
+        "think": "Sponsored content needs to align with brand identity. AI can check this.",
+        "output": "AI can scan sponsored assets and ensure they match brand typography, colors, and messaging before release.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 231,
+        "topic": "ai.design_creativity",
+        "question": "How do AI-generated wireframes accelerate digital product development?",
+        "think": "Wireframes are time-consuming to draft manually. AI can automate layouts.",
+        "output": "AI can generate wireframes based on user stories or feature lists, giving teams a structured starting point for design iteration.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 232,
+        "topic": "ai.design_creativity",
+        "question": "What are the risks of over-relying on AI for branding decisions?",
+        "think": "Branding requires strategic judgment. AI may reduce originality.",
+        "output": "Over-reliance risks homogenized visuals, loss of unique brand identity, and reduced role for human creativity in shaping narratives.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 233,
+        "topic": "ai.design_creativity",
+        "question": "How does AI-generated motion graphics influence audience engagement?",
+        "think": "Motion graphics capture attention. AI can scale them.",
+        "output": "AI can quickly generate animated sequences with brand-consistent effects, boosting engagement in ads and digital content.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 234,
+        "topic": "ai.design_creativity",
+        "question": "What workflow ensures AI-generated educational infographics are accurate?",
+        "think": "Education requires factual accuracy. AI outputs must be validated.",
+        "output": "The workflow involves AI generating infographic drafts while humans verify data, ensuring educational visuals are correct and trustworthy.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 235,
+        "topic": "ai.design_creativity",
+        "question": "How can AI enhance creative workflows in design competitions?",
+        "think": "Competitions require many ideas quickly. AI can accelerate ideation.",
+        "output": "AI can generate a wide variety of design drafts, helping competitors explore more directions before narrowing to final submissions.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 236,
+        "topic": "ai.design_creativity",
+        "question": "What risks come with AI-generated brand mascots in cultural contexts?",
+        "think": "Cultural sensitivity is critical. AI might create stereotypes.",
+        "output": "AI may unintentionally design mascots that are offensive or stereotypical. Human cultural checks are essential before adoption.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 237,
+        "topic": "ai.design_creativity",
+        "question": "How should AI be integrated into sensitive political advertising?",
+        "think": "Political ads can mislead or polarize. AI increases risks.",
+        "output": "AI should be restricted to neutral design tasks like formatting, while humans manage tone, accuracy, and ethics to prevent misuse.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 238,
+        "topic": "ai.design_creativity",
+        "question": "What challenges arise in balancing AI-driven efficiency with human originality?",
+        "think": "AI accelerates work but risks homogenization.",
+        "output": "The challenge is maintaining unique creative voices while leveraging AI for speed. Teams must assign AI to support tasks, not full ideation.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 239,
+        "topic": "ai.design_creativity",
+        "question": "What long-term effects might AI have on visual diversity in advertising?",
+        "think": "AI may amplify certain aesthetics. Diversity could suffer.",
+        "output": "If datasets are narrow, ads may converge on similar looks, reducing diversity. Curating inclusive datasets ensures broader creative outcomes.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 240,
+        "topic": "ai.design_creativity",
+        "question": "How could AI reshape competition between freelancers and agencies in creative work?",
+        "think": "AI lowers barriers to entry, shifting competition.",
+        "output": "Freelancers may compete more directly with agencies by using AI to scale production, while agencies leverage AI to offer broader services. The balance will shift with adoption rates.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 241,
+        "topic": "ai.design_creativity",
+        "question": "How can AI generate simple header banners for online shops?",
+        "think": "Online shops need frequent seasonal banners. AI can automate them.",
+        "output": "AI can generate seasonal or promotional header banners with brand logos and colors applied automatically, reducing manual work.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 242,
+        "topic": "ai.design_creativity",
+        "question": "What is one way AI helps create social media stickers for campaigns?",
+        "think": "Stickers are repetitive creative tasks. AI can scale them quickly.",
+        "output": "AI can produce sets of themed stickers that align with brand identity, giving campaigns more interactive assets for users.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 243,
+        "topic": "ai.design_creativity",
+        "question": "How can AI tools support quick badge design for events?",
+        "think": "Badges require consistent formatting. AI can automate layouts.",
+        "output": "AI can generate event badges with participant names, logos, and design elements automatically applied to maintain consistency.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 244,
+        "topic": "ai.design_creativity",
+        "question": "How does AI simplify creating digital wallpapers for promotions?",
+        "think": "Wallpapers need stylistic variety. AI can generate multiple drafts.",
+        "output": "AI can generate digital wallpapers in branded colors and motifs, offering different style variations for promotional campaigns.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 245,
+        "topic": "ai.design_creativity",
+        "question": "How does AI improve adaptive layouts in responsive design?",
+        "think": "Responsive layouts must scale across devices. AI can test and adapt.",
+        "output": "AI can generate adaptive layouts for mobile, tablet, and desktop automatically, ensuring usability without repeated manual adjustments.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 246,
+        "topic": "ai.design_creativity",
+        "question": "What benefit does AI bring to generating poster variations?",
+        "think": "Posters often need multiple visual styles. AI can scale them.",
+        "output": "AI can generate multiple poster variations with different themes, colors, or layouts, helping teams test creative directions faster.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 247,
+        "topic": "ai.design_creativity",
+        "question": "How can AI tools assist in retouching old photographs?",
+        "think": "Old photos often need restoration. AI can enhance quality.",
+        "output": "AI can remove noise, restore colors, and repair damaged areas in old photos, making them usable in modern creative projects.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 248,
+        "topic": "ai.design_creativity",
+        "question": "How does AI support generating personalized thank-you cards?",
+        "think": "Thank-you cards are repetitive but must feel personal. AI can automate them.",
+        "output": "AI can generate thank-you card layouts with unique fonts, names, and themes for each recipient while staying aligned with brand visuals.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 249,
+        "topic": "ai.design_creativity",
+        "question": "What risks come with AI-generated visuals for children’s products?",
+        "think": "Children’s products require safety and sensitivity. AI may misrepresent.",
+        "output": "Risks include producing visuals with inappropriate symbols, unsafe stereotypes, or confusing content. Human review ensures safety.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 250,
+        "topic": "ai.design_creativity",
+        "question": "How can AI ensure visual consistency across multi-channel campaigns?",
+        "think": "Consistency is hard across many formats. AI can check rules automatically.",
+        "output": "AI can scan creative assets across channels and enforce consistency in colors, typography, and logo placement.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 251,
+        "topic": "ai.design_creativity",
+        "question": "How can AI-generated design suggestions influence brainstorming outcomes?",
+        "think": "Brainstorming benefits from variety. AI can provide more options.",
+        "output": "AI can generate diverse visual drafts quickly, inspiring teams to expand ideas and explore directions they might not have considered manually.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 252,
+        "topic": "ai.design_creativity",
+        "question": "What role does AI play in improving ecommerce banner efficiency?",
+        "think": "Ecommerce banners must attract clicks. AI can optimize layouts.",
+        "output": "AI can generate banner designs with optimized CTA placement, color contrasts, and image balance, increasing the chance of conversions.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 253,
+        "topic": "ai.design_creativity",
+        "question": "How does AI help evaluate cultural relevance in ad campaigns?",
+        "think": "Cultural alignment determines campaign success. AI can analyze references.",
+        "output": "AI can detect cultural motifs in visuals and compare them against local norms, flagging potentially irrelevant or insensitive elements.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 254,
+        "topic": "ai.design_creativity",
+        "question": "What are the limitations of AI in creating symbolic visuals?",
+        "think": "Symbols often carry layered meaning. AI may misinterpret context.",
+        "output": "Limitations include shallow interpretations of cultural or historical symbols, risking oversimplification or incorrect use in campaigns.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 255,
+        "topic": "ai.design_creativity",
+        "question": "How can AI-generated videos support rapid campaign testing?",
+        "think": "Campaign testing needs many variations. AI can produce them quickly.",
+        "output": "AI can generate multiple video ad drafts from the same script with different tones or visuals, enabling faster testing cycles.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 256,
+        "topic": "ai.design_creativity",
+        "question": "How does AI-driven data analysis shape creative asset selection?",
+        "think": "Creative decisions benefit from data insights. AI can detect patterns.",
+        "output": "AI can analyze user engagement metrics to recommend which creative assets to reuse, adapt, or retire, making campaigns more efficient.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 257,
+        "topic": "ai.design_creativity",
+        "question": "How should AI be applied responsibly in sensitive charity campaigns?",
+        "think": "Charity visuals must respect dignity. AI risks insensitivity.",
+        "output": "AI should only support technical tasks, while humans ensure visuals reflect empathy, cultural respect, and ethical storytelling.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 258,
+        "topic": "ai.design_creativity",
+        "question": "What challenges arise in scaling AI design tools for multinational teams?",
+        "think": "Multinational teams face cultural and technical differences. AI must adapt.",
+        "output": "Challenges include managing different cultural expectations, varying regulations, and ensuring AI systems respect local design norms.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 259,
+        "topic": "ai.design_creativity",
+        "question": "What long-term risks could AI pose to the uniqueness of artistic styles?",
+        "think": "AI often blends existing styles, potentially diluting originality.",
+        "output": "AI may homogenize artistic output, making unique styles harder to sustain. Protecting originality will require human-led innovation and curation.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 260,
+        "topic": "ai.design_creativity",
+        "question": "How could AI adoption change intellectual property disputes in design?",
+        "think": "Ownership of AI outputs is legally unclear. Disputes will increase.",
+        "output": "AI adoption may lead to new disputes over authorship and ownership, forcing updates to copyright law and shifting industry practices.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 261,
+        "topic": "ai.design_creativity",
+        "question": "How can AI generate quick thumbnail images for blog posts?",
+        "think": "Blog thumbnails are repetitive but essential. AI can create fast visuals.",
+        "output": "AI can produce thumbnails with branded colors, simple graphics, or relevant stock-inspired visuals, saving content teams design time.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 262,
+        "topic": "ai.design_creativity",
+        "question": "What is one way AI helps design product labels for small businesses?",
+        "think": "Small businesses need simple, branded labels. AI can draft templates.",
+        "output": "AI can generate label templates with logos, colors, and fonts automatically applied, reducing the cost of custom design work.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 263,
+        "topic": "ai.design_creativity",
+        "question": "How can AI tools support rapid menu design for restaurants?",
+        "think": "Menus must be updated often. AI can generate layouts quickly.",
+        "output": "AI can produce menu drafts with structured categories, pricing, and images, giving restaurants ready-to-use designs faster.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 264,
+        "topic": "ai.design_creativity",
+        "question": "How does AI simplify creating presentation templates?",
+        "think": "Presentation templates must follow brand rules. AI can enforce them.",
+        "output": "AI can generate branded presentation templates with consistent layouts, typography, and color palettes, reducing manual setup time.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 265,
+        "topic": "ai.design_creativity",
+        "question": "How does AI improve workflow for creating YouTube thumbnails?",
+        "think": "Thumbnails require quick variations. AI can generate and optimize them.",
+        "output": "AI can generate multiple thumbnail variations, test engagement predictions, and recommend the best option for clicks and visibility.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 266,
+        "topic": "ai.design_creativity",
+        "question": "What benefit does AI provide in adjusting font readability in digital ads?",
+        "think": "Readability varies across devices. AI can optimize typography.",
+        "output": "AI can automatically adjust font size, spacing, and contrast for better readability across different ad placements and devices.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 267,
+        "topic": "ai.design_creativity",
+        "question": "How can AI tools assist with generating quick poster slogans?",
+        "think": "Slogans must align with visuals. AI can propose text drafts.",
+        "output": "AI can suggest short, catchy slogans aligned with poster visuals, giving teams creative copy options to refine further.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 268,
+        "topic": "ai.design_creativity",
+        "question": "How does AI help automate banner ad localization?",
+        "think": "Localization requires translation and layout adjustments. AI can handle both.",
+        "output": "AI can translate text, adjust fonts, and adapt layouts to fit different languages, ensuring banner ads are consistent across regions.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 269,
+        "topic": "ai.design_creativity",
+        "question": "What risks come with using AI to design visuals for financial services?",
+        "think": "Financial services require trust. AI risks over-stylizing content.",
+        "output": "AI visuals may appear too playful or misleading, undermining trust. Human oversight ensures visuals remain professional and accurate.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 270,
+        "topic": "ai.design_creativity",
+        "question": "How can AI maintain style consistency across influencer campaign visuals?",
+        "think": "Influencer content varies widely. AI can enforce brand rules.",
+        "output": "AI can standardize colors, logos, and typography across influencer visuals, ensuring alignment with broader brand campaigns.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 271,
+        "topic": "ai.design_creativity",
+        "question": "How do AI-generated prototypes accelerate app design validation?",
+        "think": "Prototypes help validate flows early. AI can generate them quickly.",
+        "output": "AI can produce interactive prototypes from wireframes, letting teams gather early user feedback on flows and layouts before coding begins.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 272,
+        "topic": "ai.design_creativity",
+        "question": "What are the risks of AI generating imagery for news outlets?",
+        "think": "News must prioritize truth. AI risks producing misleading visuals.",
+        "output": "AI-generated images may blur lines between fact and fiction. Clear labeling and editorial oversight are required to avoid misinformation.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 273,
+        "topic": "ai.design_creativity",
+        "question": "How can AI tools support sustainability-focused packaging design?",
+        "think": "Sustainable packaging requires material efficiency. AI can simulate designs.",
+        "output": "AI can generate packaging prototypes optimized for minimal material use, helping teams balance sustainability with brand aesthetics.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 274,
+        "topic": "ai.design_creativity",
+        "question": "How does AI-powered analysis guide creative direction in campaigns?",
+        "think": "Campaigns produce data. AI can highlight patterns.",
+        "output": "AI can analyze engagement data to suggest which visual elements drive conversions, guiding future creative directions with evidence-based insights.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 275,
+        "topic": "ai.design_creativity",
+        "question": "What are the downsides of AI-generated logos for startups?",
+        "think": "Logos must be unique and strategic. AI may generate generic options.",
+        "output": "AI logos may lack originality, risk trademark conflicts, or fail to capture long-term brand strategy, making them unsuitable as final choices.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 276,
+        "topic": "ai.design_creativity",
+        "question": "How can AI enhance efficiency in global marketing campaigns?",
+        "think": "Global campaigns require many localized assets. AI can generate them.",
+        "output": "AI can generate localized creative assets at scale, adapting copy, visuals, and tone for different regions while maintaining brand identity.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 277,
+        "topic": "ai.design_creativity",
+        "question": "How should AI be used responsibly in educational campaign visuals?",
+        "think": "Education campaigns need accuracy. AI must not misinform.",
+        "output": "AI should only support layout and style, while educators verify accuracy and ensure visuals align with trusted learning objectives.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 278,
+        "topic": "ai.design_creativity",
+        "question": "What challenges do companies face when applying AI in branding strategies?",
+        "think": "AI may push generic visuals. Companies risk losing identity.",
+        "output": "Challenges include homogenized aesthetics, lack of originality, and potential overreliance on AI outputs without strategic oversight.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 279,
+        "topic": "ai.design_creativity",
+        "question": "What long-term risks could AI pose to the authenticity of visual storytelling?",
+        "think": "AI may overproduce synthetic stories, diluting authenticity.",
+        "output": "AI risks making visual storytelling feel manufactured or disconnected from real human experiences, undermining trust in campaigns.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 280,
+        "topic": "ai.design_creativity",
+        "question": "How might AI adoption shift creative competition between developed and emerging markets?",
+        "think": "AI democratizes design tools globally, impacting competition.",
+        "output": "Developed markets may gain efficiency at scale, but emerging markets can use AI to compete with lower entry barriers, reshaping global creative competition.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 281,
+        "topic": "ai.design_creativity",
+        "question": "How can AI tools generate simple poster drafts for school events?",
+        "think": "School events need quick poster designs. AI can automate layouts.",
+        "output": "AI can generate poster templates with placeholders for event details, school logos, and themed illustrations, reducing prep time for organizers.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 282,
+        "topic": "ai.design_creativity",
+        "question": "What is one way AI helps design business cards for freelancers?",
+        "think": "Freelancers need personalized cards. AI can auto-generate drafts.",
+        "output": "AI can create business card templates with names, contact details, and personalized style suggestions, giving freelancers polished options quickly.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 283,
+        "topic": "ai.design_creativity",
+        "question": "How can AI support quick calendar design for marketing campaigns?",
+        "think": "Marketing calendars are repetitive. AI can format them efficiently.",
+        "output": "AI can generate calendar layouts with campaign timelines, branded visuals, and placeholders for promotions, ready for review and customization.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 284,
+        "topic": "ai.design_creativity",
+        "question": "How does AI simplify generating banner ads for e-commerce sales?",
+        "think": "E-commerce requires frequent sale banners. AI can generate drafts fast.",
+        "output": "AI can auto-generate sale banners with product images, discount labels, and branded layouts in multiple sizes instantly.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 285,
+        "topic": "ai.design_creativity",
+        "question": "How can AI assist in personalizing event posters for local communities?",
+        "think": "Community events need localized content. AI can generate variations.",
+        "output": "AI can adapt poster designs with local languages, community logos, and event-specific motifs, producing customized versions at scale.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 286,
+        "topic": "ai.design_creativity",
+        "question": "What benefit does AI provide in managing design asset archives?",
+        "think": "Design archives grow quickly. AI can auto-tag and organize them.",
+        "output": "AI can automatically tag, categorize, and cluster design assets by theme, making retrieval and reuse faster for creative teams.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 287,
+        "topic": "ai.design_creativity",
+        "question": "How does AI help automate seasonal updates in marketing visuals?",
+        "think": "Campaigns often need holiday themes. AI can generate them quickly.",
+        "output": "AI can generate seasonal versions of visuals with holiday motifs, color palettes, and decorations, saving teams repetitive design effort.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 288,
+        "topic": "ai.design_creativity",
+        "question": "How can AI tools improve layout alignment in presentations?",
+        "think": "Presentations must maintain alignment for professionalism. AI can fix inconsistencies.",
+        "output": "AI can detect misaligned text or image blocks in presentations and auto-adjust spacing, ensuring clean, professional designs.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 289,
+        "topic": "ai.design_creativity",
+        "question": "What risks arise when AI is used to design political campaign logos?",
+        "think": "Political branding is sensitive. AI may generate generic or divisive designs.",
+        "output": "Risks include logos that lack originality, fail to connect with voters, or unintentionally convey negative symbolism. Human validation is crucial.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 290,
+        "topic": "ai.design_creativity",
+        "question": "How does AI support creating visuals for educational presentations?",
+        "think": "Educational slides require clear visuals. AI can generate supportive graphics.",
+        "output": "AI can produce simple diagrams, charts, and illustrations aligned with teaching goals, improving clarity and engagement in educational content.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 291,
+        "topic": "ai.design_creativity",
+        "question": "How can AI prototypes speed up client review cycles?",
+        "think": "Client reviews need tangible visuals. AI can generate drafts quickly.",
+        "output": "AI can produce polished draft prototypes, allowing clients to provide earlier feedback and shortening revision cycles in projects.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 292,
+        "topic": "ai.design_creativity",
+        "question": "What are the downsides of AI creating visuals for luxury brands?",
+        "think": "Luxury branding requires exclusivity. AI risks homogenization.",
+        "output": "AI may generate visuals that look generic or mass-produced, undermining the exclusivity and prestige associated with luxury branding.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 293,
+        "topic": "ai.design_creativity",
+        "question": "How does AI-driven analysis affect creative testing strategies?",
+        "think": "Testing strategies often rely on manual evaluation. AI can analyze data faster.",
+        "output": "AI can analyze engagement results from multiple creative tests, identifying patterns and suggesting which directions are worth scaling.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 294,
+        "topic": "ai.design_creativity",
+        "question": "How can AI-generated product visuals influence user trust?",
+        "think": "Visuals affect perceptions of authenticity. AI may risk credibility.",
+        "output": "AI visuals may look too artificial, causing skepticism, but when used transparently they can increase engagement without harming trust.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 295,
+        "topic": "ai.design_creativity",
+        "question": "What role does AI play in supporting agile creative workflows?",
+        "think": "Agile teams need fast iteration. AI can accelerate cycles.",
+        "output": "AI can generate quick creative drafts during sprints, supporting agile workflows by letting teams test and refine more frequently.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 296,
+        "topic": "ai.design_creativity",
+        "question": "How does AI improve cross-platform branding in social media campaigns?",
+        "think": "Cross-platform campaigns need consistent visuals. AI can enforce them.",
+        "output": "AI can adapt assets for each platform while maintaining logos, fonts, and tone, ensuring a unified look across Instagram, TikTok, and LinkedIn.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 297,
+        "topic": "ai.design_creativity",
+        "question": "How should AI be applied responsibly in political protest art?",
+        "think": "Protest art carries strong symbolism. AI risks trivializing messages.",
+        "output": "AI should only support draft creation, with activists ensuring final visuals reflect authentic messaging and avoid misrepresentation.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 298,
+        "topic": "ai.design_creativity",
+        "question": "What challenges come with AI-generated imagery in sensitive historical contexts?",
+        "think": "Historical visuals require accuracy and respect. AI may distort them.",
+        "output": "Challenges include producing inaccurate depictions, oversimplifications, or disrespectful interpretations. Human experts must review outputs carefully.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 299,
+        "topic": "ai.design_creativity",
+        "question": "What long-term risks might AI pose to originality in visual media?",
+        "think": "AI tends to remix existing patterns, reducing uniqueness.",
+        "output": "AI may cause homogenized aesthetics in visual media, making unique creative voices more valuable but harder to sustain long-term.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 300,
+        "topic": "ai.design_creativity",
+        "question": "How could AI reshape the global value of human creativity in design?",
+        "think": "AI scales production, but human creativity drives originality and meaning.",
+        "output": "AI may shift value from execution to strategy, culture, and storytelling, making human creativity more prized in distinguishing brands and messages.",
+        "format_version": "1.1",
+        "difficulty": 5
     }
 ]
