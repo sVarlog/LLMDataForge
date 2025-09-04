@@ -28,7 +28,7 @@ from config.config import MODEL_NAME
 
 from helpers.persist_chat_template import persist_chat_template
 from src.helpers.build_messages import build_messages
-from src.helpers.loggers import log, debug
+from src.helpers.loggers import log, debug, close_logs
 from config.training_config import (
     SYSTEM_PROMPT,
     DATA_PATH,
@@ -44,9 +44,8 @@ from config.training_config import (
     TRAINING_NEW,
     TRAINING_EPOCHS,
     TRAINING_EXTRA_EPOCHS,
+    MAX_RESPONSE_LEN
 )
-
-MAX_LEN=2048
 
 # --- Difficulty weighting (training + eval) ---
 DIFFICULTY_TO_LOSS_WEIGHT = {1: 0.90, 2: 1.00, 3: 1.15, 4: 1.35, 5: 1.60}
@@ -277,7 +276,7 @@ def tokenize_function(ex, tokenizer, canonical_assistant_ids):
         tokenize=True,
         add_generation_prompt=False,
         return_tensors=None,
-        max_length=MAX_LEN,
+        max_length=MAX_RESPONSE_LEN,
         truncation=True,
     )
 
@@ -387,7 +386,7 @@ def format_and_tokenize(messages, tokenizer, return_tensors=False, add_generatio
         tokenized = tokenizer(formatted_text, return_tensors="pt", add_special_tokens=False)
     else:
         tokenized = tokenizer(
-            formatted_text, padding="longest", truncation=True, max_length=MAX_LEN, return_tensors=None, add_special_tokens=False
+            formatted_text, padding="longest", truncation=True, max_length=MAX_RESPONSE_LEN, return_tensors=None, add_special_tokens=False
         )
 
     return formatted_text, tokenized
@@ -756,35 +755,6 @@ def train_model(model, tokenizer, dataset, output_dir, canonical_assistant_ids, 
     else:
         trainer.train()
     model.save_pretrained(output_dir)
-
-def _detach_handlers_to(file_obj):
-    for name in ("transformers", "peft", "accelerate"):
-        lg = pylog.getLogger(name)
-        for h in list(lg.handlers):
-            if getattr(h, "stream", None) is file_obj:
-                lg.removeHandler(h)
-                try:
-                    h.flush()
-                    h.close()
-                except Exception:
-                    pass
-
-def close_logs():
-    try:
-        # restore std streams first
-        if _ORIG_STDOUT: sys.stdout = _ORIG_STDOUT
-        if _ORIG_STDERR: sys.stderr = _ORIG_STDERR
-    except Exception:
-        pass
-    try:
-        if FINAL_LOG_FH:
-            FINAL_LOG_FH.flush()
-
-            _detach_handlers_to(FINAL_LOG_FH)
-
-            FINAL_LOG_FH.close()
-    except Exception:
-        pass
 
 def init_training():
     log("Preparing output directory")

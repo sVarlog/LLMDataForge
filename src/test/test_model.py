@@ -259,18 +259,33 @@ def _eval_gguf(gguf_path: Path, mode: str):
 
 def run_test_training(mode: str = "auto"):
     """Latest training-N / checkpoint-M (adapter)"""
+
+    log("Starting test training evaluation...")
+
     run_dir = _latest_training_run(Path(OUTPUT_BASE_DIR))
     ckpt_dir = _latest_checkpoint(run_dir)
     adapter_dir, tok_dir = _resolve_adapter_paths(ckpt_dir)
     _eval_hf_adapter(adapter_dir, tok_dir, mode)
 
+    log("Evaluation completed.")
+
 def run_test_merging(mode: str = "auto"):
     """Latest merging-N (merged HF)"""
+
+    log("Starting test merging evaluation...")
+
     merged_dir = _latest_merging_dir(MERGED_BASE)
     _eval_hf_merged(merged_dir, mode)
 
+    log("Evaluation completed.")
+
 def run_test_gguf(mode: str = "auto"):
     """Latest merging-N/gguf-output/*.gguf"""
+
+    log("Starting test GGUF evaluation...")
+
     merged_dir = _latest_merging_dir(MERGED_BASE)
     gguf = _latest_gguf_file(merged_dir)
     _eval_gguf(gguf, mode)
+
+    log("Evaluation completed.")

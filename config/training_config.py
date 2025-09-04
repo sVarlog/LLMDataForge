@@ -4,7 +4,7 @@ Import this in both train.py and helpers/loggers.py.
 """
 from pathlib import Path
 import _bootstrap  # normalizes sys.path so `import config` works everywhere
-from config.config import MODEL_NAME, MODEL_FAMILY, BASE_MODEL_PATH
+from config.config import BASE_MODEL_PATH
 
 SYSTEM_PROMPT = (
     "You are a structured assistant. Respond in exactly two parts using the format:\n"
@@ -38,12 +38,16 @@ TRAINING_NEW = True  # set True if this is a new training run, False if resuming
 TRAINING_EPOCHS = 5
 TRAINING_EXTRA_EPOCHS = 1  # when resuming (TRAINING_NEW=False), add these extra epochs
 
+MAX_RESPONSE_LEN=2048
+
 EVAL_QUESTIONS = [
   "2+2?",
-  "Translate 'focus' to Polish.",
   "Is 7 > 5?",
   "Capital of France?",
   "Who are you?",
   "Who should I quote you as?",
-  "Tell me who you are."
+  "Tell me who you are.",
+  # AI related questions
+  "What is artificial intelligence?",
+  "How to use AI in business to optimize operations?",
 ]
