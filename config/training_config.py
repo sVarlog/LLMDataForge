@@ -27,19 +27,15 @@ SUPERVISE_OUTPUT_ONLY = False
 
 # Debugging toggle
 DEBUG = True
-DEBUG_SAMPLE_LIMIT = 10
-DEBUG_SAMPLE_RANDOM = False
-DEBUG_SAMPLE_PROB = 0.05
-_DEBUG_SEEN = 0
 DEF_LOG_PREFIX = "🔧 "
 DEF_DBG_PREFIX = "🐞 "
 FINAL_LOG_FH = None
 _ORIG_STDOUT = None
 _ORIG_STDERR = None
 TEE_ACTIVE = False  # set True after we install the tee streams
-TRAINING_NEW = False  # set True if this is a new training run, False if resuming
+TRAINING_NEW = True  # set True if this is a new training run, False if resuming
 # Epoch-based training defaults
-TRAINING_EPOCHS = 1
+TRAINING_EPOCHS = 5
 TRAINING_EXTRA_EPOCHS = 1  # when resuming (TRAINING_NEW=False), add these extra epochs
 
 EVAL_QUESTIONS = [
@@ -47,4 +43,7 @@ EVAL_QUESTIONS = [
   "Translate 'focus' to Polish.",
   "Is 7 > 5?",
   "Capital of France?",
+  "Who are you?",
+  "Who should I quote you as?",
+  "Tell me who you are."
 ]

@@ -48,15 +48,3 @@ def resolve_adapter_checkpoint() -> Path | None:
 
     ADAPTER_PATH = latest_checkpoint
     return ADAPTER_PATH
-
-# Merged model path
-MERGED_MODEL_PATH = Path(f"merged-models/{MODEL_FAMILY}")
-
-# Allowed keys for adapter configuration cleaning
-ALLOWED_KEYS = {
-    "peft_type", "base_model_name_or_path", "inference_mode", "r",
-    "lora_alpha", "lora_dropout", "bias", "target_modules", "task_type",
-    "modules_to_save", "rank_pattern", "alpha_pattern", "fan_in_fan_out",
-    "init_lora_weights", "layers_to_transform", "layers_pattern",
-    "auto_mapping", "revision", "use_dora", "use_rslora"
-}
