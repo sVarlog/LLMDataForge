@@ -4048,5 +4048,950 @@
         "output": "AI could intensify global design competition by enabling more creators to enter the market, making originality and human authenticity the key differentiators.",
         "format_version": "1.1",
         "difficulty": 5
+    },
+    {
+        "id": 451,
+        "topic": "ai.design_creativity",
+        "question": "How can AI generate quick digital badges for online courses?",
+        "think": "Badges are repetitive designs. AI can automate layouts quickly.",
+        "output": "AI can generate badge templates with course names, icons, and colors, giving educators ready-to-use designs for certifications.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 452,
+        "topic": "ai.design_creativity",
+        "question": "What is one way AI helps create album cover drafts?",
+        "think": "Album covers need stylistic variety. AI can produce variations.",
+        "output": "AI can generate album cover drafts in multiple artistic styles, giving musicians quick concepts to refine into final designs.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 453,
+        "topic": "ai.design_creativity",
+        "question": "How can AI assist in ensuring brand compliance in video intros?",
+        "think": "Video intros must follow brand identity. AI can enforce it.",
+        "output": "AI can analyze video intros for logo placement, typography, and color accuracy, ensuring every output follows brand guidelines.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 454,
+        "topic": "ai.design_creativity",
+        "question": "How does AI improve rapid testing of banner ad performance?",
+        "think": "Banner ads need multiple variants. AI can speed up testing.",
+        "output": "AI can generate banner variations, run engagement simulations, and identify which layouts are most effective before launch.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 455,
+        "topic": "ai.design_creativity",
+        "question": "What benefit does AI bring to creating consistent product packaging?",
+        "think": "Packaging must remain uniform across products. AI can enforce this.",
+        "output": "AI can check packaging visuals for alignment with brand rules and generate consistent templates across product lines.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 456,
+        "topic": "ai.design_creativity",
+        "question": "How can AI-generated design suggestions guide creative workshops?",
+        "think": "Workshops need fast ideation. AI can propose drafts quickly.",
+        "output": "AI can generate alternative visual concepts during workshops, helping teams expand idea generation and refine promising directions.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 457,
+        "topic": "ai.design_creativity",
+        "question": "What are the risks of AI-generated visuals in journalism?",
+        "think": "Journalism must remain factual. AI may create misleading content.",
+        "output": "Risks include blurring truth and fiction, eroding trust in news. Transparent labeling and editorial review are required.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 458,
+        "topic": "ai.design_creativity",
+        "question": "How does AI enhance collaboration in design hackathons?",
+        "think": "Hackathons need fast outputs. AI can generate visuals instantly.",
+        "output": "AI can provide draft designs and prototypes on demand, helping teams experiment and present polished results under time pressure.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 459,
+        "topic": "ai.design_creativity",
+        "question": "What challenges arise when AI tools shape cultural festival branding?",
+        "think": "Cultural festivals require authenticity. AI may generalize motifs.",
+        "output": "Challenges include superficial or inaccurate cultural symbols, risking misrepresentation. Human expertise must validate AI outputs.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 460,
+        "topic": "ai.design_creativity",
+        "question": "How might AI adoption transform long-term consumer expectations of design?",
+        "think": "AI accelerates production, changing what audiences expect.",
+        "output": "Consumers may expect rapid personalization and constant novelty, pushing brands to balance speed with originality and authenticity.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 461,
+        "topic": "ai.design_creativity",
+        "question": "How can AI generate quick poster templates for sports events?",
+        "think": "Sports posters repeat formats. AI can automate layouts quickly.",
+        "output": "AI can generate sports posters with placeholders for teams, dates, and sponsors, styled consistently with brand identity.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 462,
+        "topic": "ai.design_creativity",
+        "question": "What is one way AI supports draft banner designs for conferences?",
+        "think": "Conference banners need speed and scale. AI can generate fast outputs.",
+        "output": "AI can create banner templates with logos, speaker names, and schedules, ensuring consistent formatting across multiple banners.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 463,
+        "topic": "ai.design_creativity",
+        "question": "How can AI simplify creating quick cover images for newsletters?",
+        "think": "Newsletter covers often change. AI can automate new drafts.",
+        "output": "AI can generate branded cover images with updated dates, themes, or seasonal motifs, reducing repetitive manual work.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 464,
+        "topic": "ai.design_creativity",
+        "question": "How does AI assist in producing social media stickers for campaigns?",
+        "think": "Stickers require stylistic variations. AI can scale them quickly.",
+        "output": "AI can generate campaign sticker sets with consistent themes, icons, and brand colors, supporting interactive social engagement.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 465,
+        "topic": "ai.design_creativity",
+        "question": "How can AI improve quality control in digital ad production?",
+        "think": "Ads must meet standards. AI can check compliance automatically.",
+        "output": "AI can flag low-contrast text, off-brand colors, or misaligned logos in ad creatives, ensuring outputs meet quality guidelines.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 466,
+        "topic": "ai.design_creativity",
+        "question": "What benefit does AI bring to localizing visuals for international campaigns?",
+        "think": "International campaigns need cultural adaptation. AI can help draft assets.",
+        "output": "AI can auto-translate text, adjust layouts for language length, and propose culturally relevant imagery for each target market.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 467,
+        "topic": "ai.design_creativity",
+        "question": "How does AI help personalize product recommendation visuals?",
+        "think": "Personalization drives engagement. AI can generate variations fast.",
+        "output": "AI can create product visuals tailored to user preferences, showing colors, contexts, or bundles aligned with individual shopping data.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 468,
+        "topic": "ai.design_creativity",
+        "question": "How can AI support quick production of ad banners for flash sales?",
+        "think": "Flash sales need speed. AI can auto-generate new banners.",
+        "output": "AI can generate branded ad banners with countdown timers, discount codes, and sale themes, ensuring rapid campaign deployment.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 469,
+        "topic": "ai.design_creativity",
+        "question": "What risks arise when AI creates visuals for financial products?",
+        "think": "Finance requires credibility. AI risks stylizing excessively.",
+        "output": "Risks include visuals that appear misleading, cartoonish, or unprofessional, undermining trust. Human oversight ensures credibility.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 470,
+        "topic": "ai.design_creativity",
+        "question": "How does AI assist in checking accessibility compliance in campaign visuals?",
+        "think": "Accessibility rules are detailed. AI can scan assets automatically.",
+        "output": "AI can detect insufficient contrast, small fonts, or missing alt text in visuals, supporting compliance with accessibility standards.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 471,
+        "topic": "ai.design_creativity",
+        "question": "How do AI prototypes speed up investor pitch design?",
+        "think": "Pitches need polished visuals early. AI can generate drafts.",
+        "output": "AI can generate visual pitch drafts, allowing founders to test storylines and secure feedback faster before finalizing presentations.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 472,
+        "topic": "ai.design_creativity",
+        "question": "What are the risks of AI-generated visuals for nonprofit awareness campaigns?",
+        "think": "Nonprofits rely on authenticity. AI may produce generic assets.",
+        "output": "Risks include visuals that lack emotional depth or appear insincere, reducing impact. Human oversight ensures authenticity.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 473,
+        "topic": "ai.design_creativity",
+        "question": "How does AI improve cross-team workflows in creative agencies?",
+        "think": "Agencies handle many assets. AI can streamline collaboration.",
+        "output": "AI can centralize asset tagging, generate previews, and ensure brand compliance, making collaboration across teams more efficient.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 474,
+        "topic": "ai.design_creativity",
+        "question": "How can AI support sustainability-focused visual campaigns?",
+        "think": "Sustainability visuals need eco-friendly tone. AI can draft ideas.",
+        "output": "AI can generate visuals with natural motifs, recycled textures, and eco-themed palettes, supporting campaigns aligned with sustainability values.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 475,
+        "topic": "ai.design_creativity",
+        "question": "How does AI-generated analysis influence brand refresh strategies?",
+        "think": "Brand refreshes depend on market data. AI can provide insights.",
+        "output": "AI can analyze design trends, competitor visuals, and audience preferences, informing decisions on when and how to refresh branding.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 476,
+        "topic": "ai.design_creativity",
+        "question": "What workflow ensures AI-generated campaign visuals avoid misinformation?",
+        "think": "Misinformation risks arise in fast campaigns. AI outputs must be checked.",
+        "output": "Workflows must combine AI drafts with human fact-checking of data, statistics, and imagery to ensure accuracy before release.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 477,
+        "topic": "ai.design_creativity",
+        "question": "How should AI be applied responsibly in advocacy campaigns?",
+        "think": "Advocacy requires authenticity. AI risks oversimplifying messaging.",
+        "output": "AI should support layout and scaling tasks only, while humans safeguard dignity, empathy, and authenticity in advocacy messaging.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 478,
+        "topic": "ai.design_creativity",
+        "question": "What challenges arise when AI automates junior-level design tasks?",
+        "think": "AI takes over entry-level work, shifting training dynamics.",
+        "output": "Challenges include fewer opportunities for juniors to practice basics, requiring agencies to rethink training and mentorship structures.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 479,
+        "topic": "ai.design_creativity",
+        "question": "What long-term risks could AI pose to originality in advertising?",
+        "think": "AI may homogenize advertising aesthetics over time.",
+        "output": "AI risks pushing ads toward formulaic designs, reducing originality and making human-led creativity a key differentiator in the long term.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 480,
+        "topic": "ai.design_creativity",
+        "question": "How could AI adoption reshape creative leadership roles globally?",
+        "think": "AI handles execution. Leadership shifts to strategy and ethics.",
+        "output": "Creative leaders may focus more on guiding vision, ensuring ethical AI use, and cultivating originality, as execution becomes increasingly automated.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 481,
+        "topic": "ai.design_creativity",
+        "question": "How can AI generate quick draft posters for music concerts?",
+        "think": "Concert posters follow repetitive layouts. AI can automate them.",
+        "output": "AI can generate poster drafts with placeholders for artist names, venues, and dates, styled consistently with event branding.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 482,
+        "topic": "ai.design_creativity",
+        "question": "What is one way AI helps design branded gift cards?",
+        "think": "Gift cards need uniform branding. AI can enforce design rules.",
+        "output": "AI can generate gift card templates with consistent logos, fonts, and colors, giving retailers ready-to-print designs at scale.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 483,
+        "topic": "ai.design_creativity",
+        "question": "How can AI simplify creating layouts for digital invitations?",
+        "think": "Digital invitations require repetitive formatting. AI can automate them.",
+        "output": "AI can generate digital invitation layouts with dynamic fields for names, times, and venues, ensuring quick personalization.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 484,
+        "topic": "ai.design_creativity",
+        "question": "How does AI support creating themed visuals for seasonal campaigns?",
+        "think": "Seasonal campaigns need fast design updates. AI can automate them.",
+        "output": "AI can generate themed visuals with seasonal colors, icons, and motifs, ensuring campaigns stay timely without heavy manual work.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 485,
+        "topic": "ai.design_creativity",
+        "question": "How can AI improve testing of different ad formats?",
+        "think": "Ad formats must be tested for performance. AI can speed analysis.",
+        "output": "AI can generate multiple ad format variations and run engagement simulations, identifying the most effective formats for campaigns.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 486,
+        "topic": "ai.design_creativity",
+        "question": "What benefit does AI bring to automating design workflows for startups?",
+        "think": "Startups have limited design resources. AI can accelerate production.",
+        "output": "AI can generate marketing assets, product visuals, and branding drafts at low cost, giving startups professional designs quickly.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 487,
+        "topic": "ai.design_creativity",
+        "question": "How does AI assist in generating visuals for employee onboarding?",
+        "think": "Onboarding requires consistent visuals. AI can automate them.",
+        "output": "AI can create onboarding slide templates, infographics, and branded handouts, ensuring materials remain consistent across teams.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 488,
+        "topic": "ai.design_creativity",
+        "question": "How can AI help with personalized thank-you visuals in ecommerce?",
+        "think": "Ecommerce benefits from personalized visuals. AI can scale them.",
+        "output": "AI can auto-generate thank-you banners or emails with customer names, recent purchases, and loyalty messages, styled on-brand.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 489,
+        "topic": "ai.design_creativity",
+        "question": "What risks arise when AI creates visuals for children’s educational apps?",
+        "think": "Children’s apps require safety and clarity. AI might misrepresent.",
+        "output": "Risks include confusing imagery, unsafe stereotypes, or inappropriate symbolism. Human validation ensures suitability for young audiences.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 490,
+        "topic": "ai.design_creativity",
+        "question": "How does AI maintain brand identity across multiple digital channels?",
+        "think": "Multi-channel campaigns risk inconsistency. AI can enforce rules.",
+        "output": "AI can check and adapt creative assets to ensure consistent use of logos, colors, and typography across websites, apps, and ads.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 491,
+        "topic": "ai.design_creativity",
+        "question": "How do AI prototypes change the speed of marketing campaign approvals?",
+        "think": "Prototypes provide early visuals. AI can accelerate feedback loops.",
+        "output": "AI prototypes give stakeholders early previews, reducing iteration cycles and accelerating overall campaign approval processes.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 492,
+        "topic": "ai.design_creativity",
+        "question": "What are the downsides of AI-generated visuals in sustainability branding?",
+        "think": "Sustainability relies on authenticity. AI may look artificial.",
+        "output": "AI visuals may feel too polished, undermining sustainability messaging. Human designers ensure authenticity and trustworthiness in green branding.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 493,
+        "topic": "ai.design_creativity",
+        "question": "How can AI-powered analytics shape creative direction?",
+        "think": "Analytics highlight user preferences. AI can recommend trends.",
+        "output": "AI can analyze performance data to suggest which design elements resonate most with audiences, guiding future creative decisions.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 494,
+        "topic": "ai.design_creativity",
+        "question": "How does AI-generated personalization affect ad effectiveness?",
+        "think": "Personalized ads perform better. AI can scale personalization.",
+        "output": "AI can tailor ad visuals and copy to user demographics or behaviors, increasing relevance and improving overall campaign results.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 495,
+        "topic": "ai.design_creativity",
+        "question": "How can AI enhance productivity in hybrid creative teams?",
+        "think": "Hybrid teams face coordination issues. AI can streamline workflows.",
+        "output": "AI can centralize asset generation, enforce brand guidelines, and provide quick variations, making hybrid teams more efficient.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 496,
+        "topic": "ai.design_creativity",
+        "question": "What workflow ensures AI-generated visuals respect cultural sensitivity?",
+        "think": "Cultural missteps risk reputational harm. AI outputs must be reviewed.",
+        "output": "Workflows should combine AI drafts with cultural expert review, ensuring outputs avoid stereotypes or offensive elements.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 497,
+        "topic": "ai.design_creativity",
+        "question": "How should AI be applied responsibly in disaster relief campaign visuals?",
+        "think": "Disaster relief requires empathy. AI might trivialize suffering.",
+        "output": "AI should only assist in layouts or scaling, while humans ensure messaging conveys empathy, accuracy, and dignity for affected communities.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 498,
+        "topic": "ai.design_creativity",
+        "question": "What challenges arise when AI replaces traditional creative workflows?",
+        "think": "Traditional workflows balance craft and iteration. AI disrupts this.",
+        "output": "Challenges include reduced emphasis on craftsmanship, workforce resistance, and homogenized outputs if AI dominates creative processes.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 499,
+        "topic": "ai.design_creativity",
+        "question": "What long-term risks could AI create for originality in fine art?",
+        "think": "AI tends to remix existing styles, reducing uniqueness.",
+        "output": "Over time, AI may dilute originality by producing derivative works, making human innovation more valuable but harder to distinguish.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 500,
+        "topic": "ai.design_creativity",
+        "question": "How could AI adoption shift creative education in developing countries?",
+        "think": "AI democratizes design access globally, impacting education systems.",
+        "output": "AI could provide affordable design tools in developing countries, shifting focus from execution to creativity, ethics, and strategy in education.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 501,
+        "topic": "ai.design_creativity",
+        "question": "How can AI generate quick certificate templates for workshops?",
+        "think": "Certificates have repetitive elements. AI can automate them.",
+        "output": "AI can generate certificate templates with placeholders for names, dates, and logos, styled to match workshop branding.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 502,
+        "topic": "ai.design_creativity",
+        "question": "What is one way AI helps design branded profile picture frames?",
+        "think": "Profile frames are simple assets. AI can generate them quickly.",
+        "output": "AI can create branded frames with consistent colors, logos, and patterns for users to apply on social media profiles.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 503,
+        "topic": "ai.design_creativity",
+        "question": "How can AI simplify creating quick poster layouts for school fairs?",
+        "think": "School fairs need timely visuals. AI can auto-generate layouts.",
+        "output": "AI can create poster drafts with placeholders for event info, sponsors, and images, giving organizers fast editable templates.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 504,
+        "topic": "ai.design_creativity",
+        "question": "How does AI assist in making digital coupon designs?",
+        "think": "Coupons are repetitive but branded. AI can enforce consistency.",
+        "output": "AI can generate digital coupon layouts with brand logos, discount codes, and expiration dates formatted consistently.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 505,
+        "topic": "ai.design_creativity",
+        "question": "How can AI improve consistency in email signature banners?",
+        "think": "Email banners often vary. AI can enforce brand rules.",
+        "output": "AI can generate signature banner templates with correct fonts, logos, and colors, ensuring all staff emails follow brand identity.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 506,
+        "topic": "ai.design_creativity",
+        "question": "What benefit does AI bring to testing creative variations in e-commerce?",
+        "think": "E-commerce relies on testing visuals. AI can generate them fast.",
+        "output": "AI can generate product ad variations with different colors, CTAs, or layouts, helping teams identify high-performing creatives.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 507,
+        "topic": "ai.design_creativity",
+        "question": "How does AI assist in generating story templates for Instagram?",
+        "think": "Instagram stories need frequent templates. AI can scale them.",
+        "output": "AI can create branded story templates with fonts, overlays, and placeholders for text, reducing repetitive manual work.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 508,
+        "topic": "ai.design_creativity",
+        "question": "How can AI tools support real-time banner updates in online stores?",
+        "think": "Stores update banners often. AI can refresh them quickly.",
+        "output": "AI can auto-update online store banners with new promotions, prices, and visuals, ensuring designs remain current without manual edits.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 509,
+        "topic": "ai.design_creativity",
+        "question": "What risks arise when AI generates visuals for health supplements?",
+        "think": "Health marketing must be accurate. AI risks exaggerating claims.",
+        "output": "AI visuals might depict unrealistic effects or misleading imagery. Human oversight is required to maintain compliance and trust.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 510,
+        "topic": "ai.design_creativity",
+        "question": "How does AI help adapt poster layouts to different languages?",
+        "think": "Different languages vary in text length. AI can adjust layouts.",
+        "output": "AI can resize text boxes, adjust spacing, and re-balance visuals to accommodate translations while maintaining readability.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 511,
+        "topic": "ai.design_creativity",
+        "question": "How can AI prototypes accelerate product concept validation?",
+        "think": "Concepts need fast testing. AI can provide early visuals.",
+        "output": "AI can generate product mockups or interactive prototypes, letting stakeholders validate ideas before heavy investment in development.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 512,
+        "topic": "ai.design_creativity",
+        "question": "What are the risks of AI creating visuals for humanitarian NGOs?",
+        "think": "NGOs require empathy and dignity. AI may trivialize messaging.",
+        "output": "AI visuals may appear too polished or generic, weakening empathy in NGO campaigns. Human oversight ensures dignity and authenticity.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 513,
+        "topic": "ai.design_creativity",
+        "question": "How does AI-powered testing influence ad design choices?",
+        "think": "Testing many designs is slow. AI can predict outcomes.",
+        "output": "AI can simulate A/B testing with predictive analytics, suggesting which designs are most likely to succeed before full rollout.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 514,
+        "topic": "ai.design_creativity",
+        "question": "How can AI tools support rapid content creation for hackathons?",
+        "think": "Hackathons need fast outputs. AI can provide quick visuals.",
+        "output": "AI can generate draft logos, slides, and prototypes in minutes, allowing hackathon teams to focus more on ideas than production.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 515,
+        "topic": "ai.design_creativity",
+        "question": "How does AI-driven analysis help refresh aging brand identities?",
+        "think": "Refreshing brands requires insights. AI can analyze trends.",
+        "output": "AI can scan competitor visuals, design trends, and audience preferences, recommending updates that keep a brand modern and relevant.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 516,
+        "topic": "ai.design_creativity",
+        "question": "What workflow ensures AI-generated ad creatives are transparent?",
+        "think": "Transparency avoids user deception. AI outputs must be labeled.",
+        "output": "The workflow should include disclosure labels on AI-generated ads and human review to ensure clarity and user trust.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 517,
+        "topic": "ai.design_creativity",
+        "question": "How should AI be applied responsibly in health awareness visuals?",
+        "think": "Health campaigns require accuracy. AI risks misinformation.",
+        "output": "AI should generate supportive layouts, but humans must verify accuracy, tone, and compliance before publishing awareness visuals.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 518,
+        "topic": "ai.design_creativity",
+        "question": "What challenges arise when AI automates repetitive agency tasks?",
+        "think": "Agencies use juniors for repetitive tasks. AI changes workflows.",
+        "output": "Challenges include reduced training opportunities for junior staff and potential resistance from creatives worried about role erosion.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 519,
+        "topic": "ai.design_creativity",
+        "question": "What long-term risks could AI pose to artistic authenticity?",
+        "think": "AI may overproduce synthetic art. Authenticity might lose value.",
+        "output": "Over time, AI could make authentic human-made art more rare, leading to higher value for originality but erosion of cultural authenticity overall.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 520,
+        "topic": "ai.design_creativity",
+        "question": "How could AI reshape global creative competition among small businesses?",
+        "think": "AI lowers barriers to design. This shifts competition dynamics.",
+        "output": "Small businesses may compete with larger firms by using AI to create high-quality visuals quickly, reshaping global creative competition.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 521,
+        "topic": "ai.design_creativity",
+        "question": "How can AI generate quick poster templates for charity marathons?",
+        "think": "Marathon posters repeat layouts. AI can create drafts fast.",
+        "output": "AI can generate posters with placeholders for routes, sponsors, and dates, providing organizers with editable templates instantly.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 522,
+        "topic": "ai.design_creativity",
+        "question": "What is one way AI supports creating invitation templates for webinars?",
+        "think": "Webinars need recurring invites. AI can automate templates.",
+        "output": "AI can generate branded webinar invitation templates with fields for speaker names, times, and access links, ready for customization.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 523,
+        "topic": "ai.design_creativity",
+        "question": "How can AI simplify designing quick product labels for small shops?",
+        "think": "Small shops often need affordable labels. AI can help generate drafts.",
+        "output": "AI can create product label drafts with logos, names, and pricing placeholders, making branding more accessible to small businesses.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 524,
+        "topic": "ai.design_creativity",
+        "question": "How does AI support creating quick layouts for digital thank-you notes?",
+        "think": "Thank-you notes are simple but frequent. AI can automate them.",
+        "output": "AI can generate thank-you note layouts in brand fonts and colors, with dynamic fields for names and personalized messages.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 525,
+        "topic": "ai.design_creativity",
+        "question": "How can AI improve multilingual campaign adaptation?",
+        "think": "Different languages vary in length. AI can auto-adjust layouts.",
+        "output": "AI can automatically resize text, adjust typography, and rebalance visuals, ensuring readability across multiple languages.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 526,
+        "topic": "ai.design_creativity",
+        "question": "What benefit does AI bring to creating consistent brand kits?",
+        "think": "Brand kits define visual rules. AI can generate them quickly.",
+        "output": "AI can generate brand kits with color palettes, logos, and typography presets, ensuring consistency across all creative outputs.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 527,
+        "topic": "ai.design_creativity",
+        "question": "How does AI assist in rapid prototyping of ecommerce banners?",
+        "think": "Ecommerce needs quick ad turnarounds. AI can auto-generate drafts.",
+        "output": "AI can produce ecommerce banner variations with updated product images, prices, and CTAs, reducing manual workload for designers.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 528,
+        "topic": "ai.design_creativity",
+        "question": "How can AI tools support event branding for global audiences?",
+        "think": "Global events require cultural adaptation. AI can assist.",
+        "output": "AI can generate culturally adapted variations of visuals, adjusting colors, symbols, and text for different regions while staying on-brand.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 529,
+        "topic": "ai.design_creativity",
+        "question": "What risks arise when AI creates visuals for pharmaceutical marketing?",
+        "think": "Pharmaceutical marketing requires accuracy. AI may misrepresent.",
+        "output": "Risks include misleading product depictions, exaggerated benefits, or insensitive imagery. Human oversight ensures compliance and trust.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 530,
+        "topic": "ai.design_creativity",
+        "question": "How does AI help streamline design testing in ad campaigns?",
+        "think": "Testing ads manually is slow. AI can predict outcomes quickly.",
+        "output": "AI can generate ad variants, simulate engagement outcomes, and recommend high-performing designs before campaigns launch.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 531,
+        "topic": "ai.design_creativity",
+        "question": "How do AI prototypes affect alignment in cross-functional teams?",
+        "think": "Teams align faster with visuals. AI prototypes provide them early.",
+        "output": "AI-generated prototypes help teams visualize ideas quickly, aligning marketing, design, and product groups earlier in workflows.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 532,
+        "topic": "ai.design_creativity",
+        "question": "What are the downsides of AI-generated visuals in eco-campaigns?",
+        "think": "Eco-campaigns rely on authenticity. AI may weaken trust.",
+        "output": "AI visuals may appear too artificial or generic, reducing credibility in eco-focused campaigns. Human oversight is needed for authenticity.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 533,
+        "topic": "ai.design_creativity",
+        "question": "How does AI-generated feedback influence brand refresh strategies?",
+        "think": "AI can analyze engagement and trends. This guides refresh choices.",
+        "output": "AI can analyze campaign data, competitor visuals, and audience reactions, helping brands decide when and how to refresh designs.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 534,
+        "topic": "ai.design_creativity",
+        "question": "How can AI support design iteration in hackathons?",
+        "think": "Hackathons move fast. AI can generate variations instantly.",
+        "output": "AI can provide multiple design drafts in real time, helping teams explore broader creative directions during hackathon sessions.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 535,
+        "topic": "ai.design_creativity",
+        "question": "How does AI enhance collaboration between copywriters and designers?",
+        "think": "Copy and visuals must align. AI can bridge the workflow.",
+        "output": "AI can generate paired text and design drafts, letting copywriters and designers refine outputs collaboratively with less iteration.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 536,
+        "topic": "ai.design_creativity",
+        "question": "What workflow ensures AI-generated visuals remain inclusive?",
+        "think": "AI risks bias in visuals. A workflow must address it.",
+        "output": "The workflow should include bias-detection AI scans plus human review to ensure diverse and inclusive representation in visuals.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 537,
+        "topic": "ai.design_creativity",
+        "question": "How should AI be applied responsibly in humanitarian aid campaigns?",
+        "think": "Aid campaigns involve dignity and empathy. AI risks trivialization.",
+        "output": "AI should only support layouts or scaling tasks, while humans safeguard empathy, authenticity, and dignity in humanitarian messaging.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 538,
+        "topic": "ai.design_creativity",
+        "question": "What challenges arise when AI tools are adopted in higher education design programs?",
+        "think": "AI may change what design students focus on.",
+        "output": "Challenges include reduced emphasis on manual skills, risk of plagiarism, and overreliance on tools instead of fostering originality.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 539,
+        "topic": "ai.design_creativity",
+        "question": "What long-term risks could AI create for diversity in cultural design?",
+        "think": "AI may standardize aesthetics, reducing cultural variation.",
+        "output": "AI risks homogenizing cultural design expressions, making niche or traditional styles less visible in global markets.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 540,
+        "topic": "ai.design_creativity",
+        "question": "How could AI reshape creative industry hierarchies worldwide?",
+        "think": "AI automates execution, shifting value toward strategy.",
+        "output": "AI could flatten creative hierarchies by reducing demand for production roles while elevating strategic and ethical leadership globally.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 541,
+        "topic": "ai.design_creativity",
+        "question": "How can AI generate quick layouts for classroom posters?",
+        "think": "Classroom posters are simple but frequent. AI can draft them fast.",
+        "output": "AI can create classroom poster templates with placeholders for subject content, images, and teacher notes, reducing manual effort.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 542,
+        "topic": "ai.design_creativity",
+        "question": "What is one way AI helps create event highlight templates?",
+        "think": "Event highlights are repetitive social assets. AI can scale them.",
+        "output": "AI can generate branded highlight templates for events with fields for titles, dates, and hashtags, ensuring consistent layouts.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 543,
+        "topic": "ai.design_creativity",
+        "question": "How can AI assist in ensuring typography consistency across campaigns?",
+        "think": "Typography often varies between creatives. AI can enforce standards.",
+        "output": "AI can analyze and auto-correct typography choices across campaign assets, ensuring alignment with brand guidelines.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 544,
+        "topic": "ai.design_creativity",
+        "question": "What benefit does AI bring to generating ad creatives for local shops?",
+        "think": "Local shops often lack design staff. AI can produce fast drafts.",
+        "output": "AI can generate promotional creatives with shop names, offers, and branding, giving small businesses professional-looking assets quickly.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 545,
+        "topic": "ai.design_creativity",
+        "question": "How does AI help streamline quality assurance in campaign visuals?",
+        "think": "Campaign visuals must be error-free. AI can auto-check them.",
+        "output": "AI can scan for design issues like low contrast, misaligned elements, or missing logos, ensuring assets meet quality standards.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 546,
+        "topic": "ai.design_creativity",
+        "question": "How can AI-generated mockups support creative brainstorming?",
+        "think": "Mockups provide visual ideas. AI can generate them instantly.",
+        "output": "AI can generate mockups of products, ads, or packaging during brainstorming sessions, sparking discussion and expanding creative options.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 547,
+        "topic": "ai.design_creativity",
+        "question": "What are the risks of using AI visuals in legal service campaigns?",
+        "think": "Legal services rely on professionalism. AI may misrepresent tone.",
+        "output": "AI visuals may look too informal or generic, reducing credibility. Human review ensures trustworthiness in legal campaigns.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 548,
+        "topic": "ai.design_creativity",
+        "question": "How does AI-powered testing influence creative decision-making?",
+        "think": "Testing requires analyzing engagement. AI can speed insights.",
+        "output": "AI can analyze test results from ad creatives and recommend which designs to scale, making decision-making more evidence-based.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 549,
+        "topic": "ai.design_creativity",
+        "question": "What challenges arise when AI designs visuals for crisis response?",
+        "think": "Crisis visuals must be sensitive. AI risks being tone-deaf.",
+        "output": "Challenges include generating insensitive or misleading visuals. Human oversight is critical for ethical crisis response campaigns.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 550,
+        "topic": "ai.design_creativity",
+        "question": "How could AI adoption reshape long-term cultural expression in design?",
+        "think": "AI tends to standardize aesthetics globally. Culture may be diluted.",
+        "output": "AI could reduce the visibility of local traditions, making unique cultural expression rarer but more valued in the long run.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 551,
+        "topic": "ai.design_creativity",
+        "question": "Architect an AI-driven “global rebrand factory” that can generate, localize, and quality-assure brand assets for 25 markets in parallel without sacrificing accessibility (WCAG 2.2 AA), cultural nuance, or IP safety. What system design, governance, datasets, and evaluation loops would you implement so that (a) designers retain creative control, (b) localization teams can inject cultural knowledge, and (c) legal/compliance can block risky outputs in real time?",
+        "think": "Start by clarifying the objectives and hard constraints: scale (25 markets), accessibility (WCAG 2.2 AA), cultural nuance, and IP safety. Success requires a modular pipeline with human-in-the-loop gates rather than a monolithic generator. Decompose into services: (1) brief ingestion, (2) concept exploration, (3) asset generation, (4) localization & accessibility adaptation, (5) compliance & IP scanning, (6) evaluation & sign-off, and (7) telemetry/learning loop. Each service must expose controls so designers can steer direction and localization teams can override defaults.\nFor models, use a multi-model approach: a text model for creative briefs and copy variants, an image model for visual ideation, and a layout engine for templating. Add controllability: style tokens, ControlNet/conditioning, and design-system constraints (brand color tokens, typographic scales, spacing rules). To preserve brand identity, embed a machine-readable brand system (JSON: palette with acceptable contrast pairs, type ramp with minimum sizes, logo placement constraints). Implement a constraint solver that rejects generations violating brand or WCAG thresholds.\nFor data, curate three corpora: (A) first-party brand assets with lineage metadata and approvals, (B) market-local reference libraries vetted by cultural experts (e.g., motifs, symbolism, taboo lists), and (C) a rights-cleared training reference set with explicit licenses. Tag all entries with structured metadata: culture, register, emotional tone, age-appropriateness, and risk notes. Maintain an immutable provenance ledger per output: prompt, seeds, models, asset sources, reviewers, approvals.\nGovernance: define RACI. Designers own creative direction; localization leads own cultural sign-off; legal owns IP and claims; accessibility specialists own WCAG review. Establish red-team playbooks (bias, stereotyping, political missteps) and escalation paths. Build a real-time policy engine where legal/compliance can toggle blocklists (for imagery, symbols, phrases) per market.\nEvaluation: create automated checks before human review: (1) brand compliance score via perceptual similarity to reference styleboards; (2) WCAG color contrast checks, text legibility metrics, motion/flash thresholds; (3) cultural risk heuristics (symbol classifiers + market taboo lexicons); (4) IP safety via perceptual hashing and similarity search against known protected marks/style sets; (5) hallucination/claim detector for copy. Only assets passing thresholds move to human gates.\nHuman-in-the-loop: designers receive a controllable panel (sliders: novelty vs fidelity, cultural warmth, formality). Localization teams can swap motifs from their vetted libraries. Legal sees side-by-side similarity diffs, license provenance, and can hard-block variants. Close the loop with telemetry: track reasons for rejections, user edits, and post-campaign performance; feed back into prompt templates, risk thresholds, and market-specific guardrails.",
+        "output": "System design\n1) Orchestrator: A workflow engine (DAG) coordinates services: Brief → Ideate → Generate → Adapt → Validate → Approve → Publish. Each node emits provenance events.\n2) Brand Brain: A machine-readable design system (JSON) that exposes tokens (palette, type ramp, spacing, iconography), logo rules, and forbidden treatments; served by an API any generator must consult.\n3) Generation tier: \n   • Copy model: produces headlines/body across registers (formal, playful) with market language packs.\n   • Visual model: image/illustration generator conditioned on brand tokens and styleboards; supports ControlNet for composition locks.\n   • Layout engine: template-aware compositor that enforces safe zones, logo locking, minimum font sizes.\n4) Adaptation tier: \n   • Localization adapter swaps motifs and adjusts type for script expansion (Arabic, German) while rebalancing layouts.\n   • Accessibility adapter runs WCAG checks, remaps color pairs, enforces minimum contrast and motion limits.\n5) Risk & compliance tier: \n   • IP scanner: perceptual hashes + vector search vs. trademark/style registries; returns a similarity score and nearest neighbors.\n   • Cultural risk analyzer: symbol/entity detectors + taboo lexicons per market; flags red/amber items with explanations.\n   • Policy engine: market-scoped block/allow lists managed by Legal; real-time toggleable.\n6) Human gates: designer review → localization sign-off → legal/compliance approval; each gate records rationale and edits.\n\nGovernance & roles (RACI)\n• Creative Direction (R/A): defines styleboards, approves novel directions.\n• Localization Leads (R/A): maintain regional libraries, approve cultural fit.\n• Accessibility Specialist (R): owns WCAG policy, final accessibility sign-off.\n• Legal/Compliance (A): manages IP policy engine, approves high-risk assets.\n• MLOps (C): model updates, drift monitoring, dataset curation.\n\nDatasets & metadata\n• Brand Core (approved assets, logo lockups, type specimens) with licenses and regions.\n• Market Libraries (vetted motifs, color symbolism notes, taboo examples) tagged by culture, domain, risk notes.\n• Rights-cleared Reference (training/conditioning) with explicit license JSON and expiry.\n\nAutomated evaluation (default thresholds)\n• Brand compliance score ≥ 0.82 cosine similarity to reference embeddings.\n• WCAG 2.2 AA: contrast ≥ 4.5:1 body, 3:1 large text; motion flashes < 3/sec.\n• IP similarity: max perceptual hash distance ≤ 10 AND nearest-neighbor brand not within protected class; else route to Legal.\n• Cultural risk: no ‘red’ flags; ‘amber’ requires Localization approval.\n• Claim sanity: factual/regulated terms gated to Legal.\n\nDesigner controls\n• Sliders: Novelty (0–1), Formality, Cultural warmth; toggles for illustration vs photo; prompt scaffolds with locked brand tokens.\n\nTelemetry & learning loop\n• Capture rejection reasons; perform weekly threshold tuning; retrain prompt templates per market; maintain post-campaign analytics (engagement, complaints) to adjust cultural risk lexicons.\n\nRunbook\n• Incident: IP complaint → freeze related variants, issue recall if needed, run nearest-neighbor audit, update blocklist, postmortem in 48h.\n• Bias report: escalate to cultural council; add counter-examples; refresh taboo lexicon. \n\nOutcome\nYou ship brand-true, accessible, rights-safe assets at scale while preserving human authorship: designers guide concepts, localization ensures cultural resonance, and Legal can halt risky outputs in real time. The provenance ledger and measurable gates make approvals defensible and auditable.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 552,
+        "topic": "ai.design_creativity",
+        "question": "Design a methodology to prevent ‘style collapse’ (homogenization) in an AI-assisted creative pipeline that produces 10k+ assets/year across paid social, CRM, and on-site. The goal is to maximize business KPIs (CTR/CVR) without converging on one look. Specify quantifiable originality metrics, exploration–exploitation strategy, human review points, and how you would prove causality between diversity of style and business uplift.",
+        "think": "Frame the problem as balancing exploitation (high-performing styles) with exploration (new looks) under brand and accessibility constraints. Need measurable style representation and an online learning strategy. Represent style as embeddings: compute a ‘style fingerprint’ for each asset using a multimodal model (e.g., CLIP-like) combining color histograms, composition descriptors, typography encodings, and motif tags. Maintain a style bank (centroids) by channel/market. Define diversity metrics at batch and portfolio levels: coverage (how much of style space we occupy), dispersion (variance), and novelty (distance from historical clusters). Also define similarity caps within campaigns to avoid duplicates.\nFor KPIs, track CTR/CVR by segment, but to prove causality between style diversity and uplift, use stratified randomized experiments: assign exploration quotas per cohort/time slot, hold product, audience, and placement constant, vary only style. Use Thompson sampling or contextual bandits with a diversity regularizer: reward = business metric + λ*diversity_gain – penalties for brand/accessibility violations. Diversity_gain can be the increase in minimal distance to existing cluster centroids or improvement in portfolio coverage.\nPrevent collapse: (1) enforce a diversity budget at the planning level (e.g., 20–30% impressions reserved for exploratory styles); (2) set similarity ceilings (no more than N assets within a cosine ≤ 0.9 to any centroid per week); (3) rotate exploration across channels and segments; (4) age-off stale centroids to avoid anchoring to past trends. Human review gates: quarterly ‘style council’ to retire overused motifs; creative directors set ‘forbidden similarity’ zones; localization can veto exploration that risks cultural misfit.\nCausality: besides randomized tests, deploy difference-in-differences across markets that adopt the framework at staggered times; instrument the pipeline to log decisions (policy, λ values, arm chosen, embeddings). Run causal forests to estimate heterogeneous treatment effects (how diversity impacts subsegments). Guard against confounders with propensity scoring and pre-trend checks.\nOperationally, dashboards show mixture weights (explore vs exploit), style coverage heatmaps over time, KPI lift by distance bins, and alert when collapse is detected (e.g., Herfindahl–Hirschman Index over style centroids breaches threshold).",
+        "output": "Style representation & metrics\n• Style fingerprint s ∈ ℝ^d: concatenate (i) visual embedding (multimodal model), (ii) normalized color histogram, (iii) layout/composition features (rule-of-thirds proximity, text:visual ratio), (iv) typography encoding (font family buckets, weight), (v) motif tags (iconography, setting). L2-normalize.\n• Portfolio coverage C_t: fraction of style space voxels touched this period. Operationally, cluster historical s via HDBSCAN; coverage is proportion of clusters hit in period t.\n• Dispersion D_t: average pairwise distance among top-N spend assets; target band e.g., 0.42–0.58 to avoid both collapse and chaos.\n• Novelty N(a): min distance from s_a to any historical centroid in last 90 days; require median N(a) for explore assets ≥ 0.35.\n• Concentration HHI_style: sum of squared share of impressions by style cluster; alert if HHI_style > 0.22 for two consecutive weeks.\n\nPolicy: contextual bandit with diversity regularizer\nReward(a) = w1*CTR(a) + w2*CVR(a) + λ*ΔCoverage(a) – γ*Violations(a)\n• ΔCoverage(a): increase in coverage or distance to nearest centroid (cap at 1.0).\n• Violations(a): brand/wcag penalties (hard negatives zero the reward and trigger retraining).\n• Context: channel, audience, seasonality, market; arms: style clusters or generators.\n• Scheduling: initial λ=0.2; adaptive—raise λ when HHI_style climbs; lower when dispersion drops below floor.\n• Mix: impressions split 70/30 exploit/explore by default; per high-uncertainty cohorts 60/40 for two weeks.\n\nControls to avoid homogenization\n• Similarity ceiling: within any 7-day window and channel, ≤ 15% of impressions to assets whose cosine sim ≥ 0.9 to any single centroid.\n• Rotation: mandate exploration rotation across channels/segments; do not allow same cluster to dominate more than 3 consecutive flights.\n• Motif fatigue guard: motif-level frequency caps; retire motifs that exceed 95th percentile frequency with no KPI lift for 3 weeks.\n• Human council (monthly): review top clusters, retire or remix overused styles, seed new style prompts, approve ‘forbidden similarity’ masks for sensitive markets.\n\nCausality strategy\n• Stratified RCTs: within each product x audience x placement cell, randomize explore proportion; analyze ITT and per-protocol effects on CTR/CVR.\n• Staggered rollout DiD: markets adopt policy at different weeks; estimate average treatment effect on HHI_style and KPIs; validate parallel trends pre-adoption.\n• Instrumentation: log (s, cluster id, policy parameters, λ, chosen arm, predicted vs actual KPIs). Use causal forests to detect segments where diversity most lifts KPIs.\n\nProving value & ops\n• Dashboards: style heatmap over time; HHI_style; coverage trend; KPI vs novelty deciles; regret curves from bandit. Alerts when HHI_style > threshold or dispersion < floor.\n• Runbook: if collapse alert triggers, auto-increase λ by +0.1, expand explore mix to 40% for 7 days, inject 3 new seeded style clusters, convene emergency council.\nResult: sustained KPI optimization without converging on a single aesthetic, with auditable mechanisms linking style diversity to performance uplift.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 553,
+        "topic": "ai.design_creativity",
+        "question": "Engineer an AI co-creation pipeline for regulated healthcare marketing (medical devices + Rx awareness) that can generate, adapt, and validate campaign visuals and copy across 15 markets. You must satisfy: (a) brand consistency, (b) WCAG 2.2 AA accessibility, (c) market-specific regulatory constraints (e.g., EU MDR device claims; US fair balance), (d) cultural nuance, and (e) provenance/auditability (C2PA/asset lineage). Specify the end-to-end architecture, datasets, guardrails, human gates, measurement plan, and a playbook for incident response when a risky output slips through.",
+        "think": "Decompose problem into controllable stages with measurable gates: intake → ideation → generation → adaptation → automated validation → human review → publish → telemetry. Core tension: speed and personalization versus strict compliance. Strategy: encode brand and regulatory constraints as machine-readable policies consulted by all generators; force generators to operate inside design-system constraints rather than post-hoc linting only. Use multi-model ensemble: LLM for claims/copy variants with a regulated lexicon; diffusion model for imagery conditioned by brand tokens; layout engine templating safe zones and minimum font sizes. For datasets, partition into (1) Brand Core (approved assets, design tokens, logo lockups, fair-balance exemplars), (2) Regulated Phrasebook per market (allowed/forbidden terms, Black Box warnings, claims substantiation map), (3) Cultural Library (vetted motifs, colors, taboo lists), and (4) Rights-cleared reference imagery with licenses. Each asset carries provenance metadata (prompt, seed, source, policy versions, reviewers). Guardrails: (i) semantic policy engine that compiles MDR/advertising rules into checkers (negation detection, superlative flags, risk/benefit density); (ii) WCAG analyzers (contrast, text size, motion thresholds; alt-text generator + validation); (iii) IP scanner via perceptual hashing and nearest-neighbor search; (iv) cultural risk classifiers + lexicons. Human gates: designer approval (creative fit), medical/legal/regulatory (MLR) review (claims, fair balance), localization sign-off (cultural fit), accessibility specialist sign-off (AA). Measurement: pre-publish automated scores (brand compliance, accessibility, policy risk) and post-publish KPIs (CTR/CVR) plus complaint/flag rates. Learning loop uses rejection reasons to update prompt templates and blocklists. Incident response: freeze variant family, retract creatives, root-cause (policy gap vs model drift vs reviewer oversight), patch policy or data, and issue audit report. Prove effectiveness through staggered market rollout with DiD on compliance defects and time-to-publish.",
+        "output": "Architecture\n1) Orchestrator (DAG): Intake → Ideate → Generate → Adapt (locale + AA) → Validate (policy/IP/AA) → Human gates (Designer → MLR → Localization → Accessibility) → Publish → Telemetry. Each node emits signed C2PA assertions (policy version, reviewers, sources).\n2) Brand Brain: JSON design system (palette with contrast pairs, type ramp, spacing, logo rules, safe zones). All renderers must resolve tokens here.\n3) Generation tier: (a) Copy LLM fine-tuned on approved style; constrained decoding with regulated phrasebook; (b) Visual model (diffusion) conditioned by brand tokens + ControlNet composition locks; (c) Layout engine templates with minimum font sizes, forced logo placement, and fair-balance slots.\n4) Adaptation tier: locale pack (script expansion rules, culturally vetted motifs), accessibility pack (contrast remapping, motion damping, alt-text generation + review).\n5) Validation tier: (i) Policy linter (superlative/claim detectors; risk-benefit ratio; mandatory disclaimers present); (ii) WCAG analyzer (contrast ≥4.5:1 body, ≥3:1 large text; flash <3/s; focus order); (iii) IP scanner (pHash distance + vector search against trademark/style registries); (iv) Cultural risk (symbol/classifier matches + taboo lexicon).\n6) Governance: RACI — Creative (R/A), MLR (A), Localization (A), Accessibility (R), Legal/IP (A), MLOps (C). Monthly red-team drills; policy change control with versioning.\n7) Measurement plan: Leading indicators — automated risk score ≤0.2, brand compliance ≥0.85 cosine similarity, AA pass rate ≥98%. Lagging — defect rate per 1k assets, takedown requests, time-to-publish, CTR/CVR by market. Run staggered DiD to show ↓defects and ↓cycle time.\n8) Incident playbook: Detect → Contain (pull assets) → Diagnose (policy gap/model drift/user override) → Remediate (blocklist/policy update or data retrain) → Report (C2PA ledger + postmortem) → Prevent (tests + guardrail thresholds). Result: scalable creatives that stay brand-true, accessible, compliant, and auditable across 15 markets.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 554,
+        "topic": "ai.design_creativity",
+        "question": "Design a ‘style firewall’ that prevents copyrighted or living-artist mimicry while still enabling brand-approved style transfer in a generative design system. You must cover: data governance, on-the-fly similarity checks, license enforcement, creator opt-out, and an appeals process for borderline cases. Include offline/online evaluation, failure modes, and how to avoid crushing legitimate innovation.",
+        "think": "Goal: allow controlled style transfer consistent with brand guides while blocking mimicry of protected artists. Threats: (1) training on copyrighted works; (2) prompts requesting named artists; (3) unintentional stylistic proximity; (4) adversarial prompt obfuscation. Approach: design layered controls across data, prompting, generation, and review. Data governance: curate a rights-cleared corpus with license metadata and explicit negative lists (artist names, collections, time windows). Maintain creator registry supporting opt-out (global) and opt-in (licensed packs). Derive style embeddings for both allowed packs and protected artists using a multimodal encoder (visual features + composition + texture statistics). At inference, analyze prompts to block named-artist requests and fuzzy obfuscations (edit distance/semantic aliases). During generation, run real-time style similarity scoring: compare candidate outputs against protected artist centroids and their neighborhoods; if within threshold, either nudge away (loss-based penalty/conditioning) or hard-block. Allow brand-approved style tokens (e.g., “Brand_Serif_Minimal”) with certified embedding ranges. Human process: appeals board of art directors + legal + external artist representative to evaluate borderline proximity with context (purpose, transformation, market). Provide transparency to creators: publish registry, thresholds, and an appeal path.\nEvaluation: offline — construct benchmark with licensed, public-domain, and protected styles; test false positive/negative rates; ablation for thresholds. Online — monitor rate of blocks, appeal overturns, and downstream complaint/takedown frequency. Failure modes: over-blocking reduces innovation; under-blocking risks infringement; adversarial prompts; model drift changing style spaces. Mitigations: adaptive thresholds, periodic centroid refresh, adversarial red-team prompts, and a ‘safe style space’ library. Preserve innovation by offering exploration zones (distance-weighted novelty guidance) and commissioning licensed style packs.",
+        "output": "System components\n1) Style Registry: (a) Protected Artists (opt-out + scraped public knowledge hashed to canonical IDs); (b) Licensed Packs (embedding ranges + license terms); (c) Public Domain Sets. All entries store provenance and renewal dates.\n2) Prompt Guard: NER + fuzzy matcher blocks named-artist and alias prompts; pattern library for evasion (e.g., “in the vibe of X”). Provides safe rewrites toward Brand/PD tokens.\n3) Generator Hooks: Style-aware conditioning. During diffusion, apply penalty if cosine(s_output, centroid_protected) > τ, or reject above τ_max; encourage movement toward brand/PD centroids.\n4) Similarity Service: Multimodal encoder produces embeddings; k-NN over protected artist neighborhoods; returns proximity score + exemplars for reviewer context.\n5) License Enforcer: Checks if prompt references a Licensed Pack; validates seat/title/market; injects watermark + C2PA terms.\n6) Human Review & Appeals: Borderline queue with side-by-side neighbors; 5-day SLA; decisions recorded; thresholds updated if overturn rate >15%.\n7) Transparency API: Creator lookup of registry status; opt-out portal; publish quarterly metrics (blocks, appeals, complaints).\nEvaluation & thresholds\n• Offline: ROC for protected-style detection; target FNR <3%, FPR <8%. Drift tests quarterly; adversarial suite.\n• Online: KPIs — complaint rate per 10k assets (<0.5), appeal overturns (<10%), exploration novelty index (median distance to nearest centroid increases ≥10% QoQ).\nFailure modes & fixes\n• Over-blocking: open ‘explore zones’ with novelty guidance; commission licensed packs. • Under-blocking: tighten τ, expand registry, add human pre-clear for high-risk briefs. • Evasion: update pattern library via red-team. Outcome: a firewall that respects artists while preserving space for original brand-aligned creativity.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 555,
+        "topic": "ai.design_creativity",
+        "question": "Propose a multi-objective optimization framework that personalizes creative at inference (image + headline + layout) while guaranteeing (1) accessibility, (2) brand consistency, and (3) style diversity to avoid homogenization. Detail the algorithm (policy + constraints), serving architecture, online experimentation, and the proof plan that diversity causally lifts business KPIs without harming accessibility.",
+        "think": "We must balance personalization for performance with three hard constraints: WCAG AA, brand rules, and portfolio diversity. Model the problem as constrained contextual bandits or constrained RL with safety shields. Context = user/device/channel/locale; actions = creative bundles (image, headline, layout) from a generator constrained by brand tokens and accessibility pre-checks; reward = CTR/CVR; constraints = accessibility pass, brand compliance, and diversity term ensuring style dispersion. Algorithm: use a Lagrangian or primal-dual approach—maximize expected reward plus λ_div * diversity_gain subject to hard constraints enforced by a safety layer. Diversity metric computed using style embeddings (CLIP-like + typography + composition). Serving: feature store feeds context; policy server selects bundle; safety layer executes preflight: contrast, text size, motion, logo placement; only feasible arms allowed. Bands of exploration governed by Thompson sampling with diversity regularizer; similarity ceilings per cluster/time window to prevent collapse. Online experimentation via interleaved testing: hold product/audience constant, randomize policy parameters (λ_div, explore %) across cohorts; collect accessibility pass rates, brand scores, and KPIs. Proof of causality: stratified RCTs + staggered rollout DiD; instrument all decisions; use causal forests for heterogeneity. Failure modes: constraint infeasibility (few arms pass), drift in embeddings, gaming of diversity metric. Mitigations: dynamic candidate generation, centroid refresh, human ‘style council’ to retire overused motifs. Provide dashboards: HHI_style, coverage, accessibility pass %, regret curves, and policy audit logs.",
+        "output": "Algorithm\n• Candidate generation: conditioned generator proposes K bundles per request under brand tokens + layout templates. \n• Safety shield: filter bundles failing WCAG or brand rules. If none remain, trigger repair (color remap, font upsize) else fall back to default template.\n• Policy: contextual Thompson sampling with objective R(a)=w1*CTR+w2*CVR+λ_div*ΔCoverage(a). Feasibility enforced by shield; similarity ceiling caps impressions per style cluster per window. Adaptive λ_div↑ when HHI_style rises; ↓ when dispersion < floor.\n• Diversity metrics: style fingerprint = visual embedding ⊕ color histogram ⊕ layout/typography features. Portfolio coverage = clusters hit; dispersion = mean pairwise distance; novelty = min distance to historical centroids.\nServing architecture\n• Feature store (real-time context) → Policy server → Safety shield → Renderer (applies design tokens) → Telemetry (KPIs + accessibility + brand scores). C2PA provenance stamped per impression.\nExperimentation & proof\n• Stratified RCTs within product×audience×placement cells: vary λ_div and explore %. Primary endpoints: CTR/CVR; non-inferiority for accessibility (AA pass ≥98%) and brand compliance (≥0.85). \n• Staggered DiD across markets; validate pre-trends. Instrumentation logs (policy, λ_div, chosen bundle, embeddings, shield decisions). Causal forests to detect segments where diversity lifts KPIs.\nRisk management\n• Infeasible sets: widen candidate K; auto-repair; escalate to human templates. • Embedding drift: quarterly recalibration; red-team test set. • Metric gaming: hide metric from generator; evaluate on holdout fingerprints. Outcome: personalized creatives that remain accessible, brand-true, and measurably diverse while delivering KPI gains.",
+        "format_version": "1.1",
+        "difficulty": 6
     }
 ]

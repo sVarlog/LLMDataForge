@@ -1,4 +1,16 @@
 {
+    "identity": {
+        "assistant_persona": {
+            "description": "Datasets that define the assistant’s self-identity, persona, and style. Used to enforce consistent responses to 'who are you' or related queries.",
+            "example_questions": [
+                "Who are you?",
+                "What is your role?",
+                "Tell me about yourself."
+            ],
+            "content_type": ["reasoning"],
+            "tags": ["persona", "identity", "self-description", "consistency"]
+        }
+    },
     "ai": {
         "business_applications": {
             "description": "AI applied to business operations, decision-making, automation, and ROI.",

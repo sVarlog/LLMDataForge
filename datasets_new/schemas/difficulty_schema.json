@@ -59,6 +59,30 @@
                 "domain_complexity": "Very high; requires niche expertise and integration of cross-domain knowledge.",
                 "ambiguity": "High; multiple plausible paths and strong justification needed."
             }
+        },
+        "6": {
+            "description": "Ultra-complex, research-grade problem solving with explicit methodology, assumptions, and counter-arguments.",
+            "criteria": {
+                "reasoning_depth": "8–12 steps; multi-constraint synthesis with explicit trade-offs, counterfactuals, and risk analysis.",
+                "token_length": {
+                    "think": "350–450 tokens",
+                    "output": "350–450 tokens"
+                },
+                "domain_complexity": "Ultra-high; cross-domain integration (e.g., AI + law + design ops + measurement), formal structure recommended.",
+                "ambiguity": "Very high; multiple viable frameworks; must justify chosen approach and acknowledge limitations."
+            }
+        },
+        "7": {
+            "description": "Frontier/strategy level reasoning intended to set policy or architecture; requires proofs-of-soundness, evaluation design, and governance impacts.",
+            "criteria": {
+                "reasoning_depth": "12+ steps; includes decomposition, alternative designs, evaluation plan, failure modes, and mitigation strategy.",
+                "token_length": {
+                    "think": "450–600 tokens",
+                    "output": "450–600 tokens"
+                },
+                "domain_complexity": "Frontier; spans technical, organizational, legal/ethical, and measurement domains with explicit assumptions and caveats.",
+                "ambiguity": "Extreme; ill-posed or open-ended problems; must define scope, defend trade-offs, and present decision criteria."
+            }
         }
     },
     "notes": {

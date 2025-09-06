@@ -143,8 +143,8 @@ datasets_new/
     -   **`think`**: the reasoning or step-by-step thought process.
     -   **`output`**: the final answer, concise and user-facing.
 
--   Difficulty levels (1–5) now handle the gradient from **very simple reasoning** to **deep, multi-step expert reasoning**.
--   This makes a separate QA category unnecessary; instead, **difficulty 1–2 covers short/light reasoning**, and **3–5 covers complex reasoning**.
+-   Difficulty levels (1–6) now handle the gradient from **very simple reasoning** to **deep, multi-step expert reasoning**.
+-   This makes a separate QA category unnecessary; instead, **difficulty 1–2 covers short/light reasoning**, and **3–6 covers complex reasoning**.
 
 ---
 
