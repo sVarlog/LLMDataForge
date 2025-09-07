@@ -5398,5 +5398,230 @@
         "output": "System:\n1) Architecture: • Generative engines (text, visuals, VR/AR) + cultural datasets. • Provenance watermarking. \n2) Data: • Licensed folklore, oral histories, community motifs, corpora. • Metadata: sensitivity tags, licenses. \n3) Safeguards: • Sacred motif blocklists. • Fact validation for history. • Accessibility enforcement (WCAG XR). \n4) Governance: • Councils of communities, NGOs, ethicists. • Veto rights + appeals. \n5) Evaluation: • Inclusivity audits. • Cultural approval ≥85%. • Accessibility compliance. • Trust surveys. \n6) Risk mgmt: • Red-team tests. • Community veto/appeals. • Transparency dashboards. \n7) Funding: • Revenue-sharing with communities. • Independent audits. \nOutcome: immersive cross-cultural media created responsibly, blending AI scale with authentic voices.",
         "format_version": "1.1",
         "difficulty": 7
+    },
+    {
+        "id": 601,
+        "topic": "ai.design_creativity",
+        "question": "Design an AI-assisted workflow for creating accessible election debate visuals (captions, infographics, highlight reels) that remain neutral, multilingual, and culturally inclusive. How should datasets, constraints, and oversight be structured?",
+        "think": "Election debates are sensitive: visuals must clarify, not bias. AI can generate captions, infographics, and highlight reels, but risks inserting bias or errors. Datasets: official transcripts, multilingual lexicons, accessibility guidelines, iconography vetted for neutrality. Constraints: enforce factual consistency with transcripts, WCAG AA compliance, readability thresholds, neutrality detectors. Oversight: election commissions, fact-checking NGOs, cultural councils. Provenance: logs of prompts, datasets, validators. Evaluation: accuracy rate, neutrality audits, accessibility pass %, trust surveys. Risk: adversarial editing or subtle framing bias. Mitigation: transparency dashboards, red-team bias tests, fallback safe templates.",
+        "output": "Workflow:\n1) Data: transcripts, multilingual lexicons, accessibility standards. \n2) Generation: AI drafts captions, infographics, reels. \n3) Validators: fact-check, neutrality, WCAG AA. \n4) Oversight: commissions + NGOs + cultural reps. \n5) Governance: provenance logs, dashboards. \n6) Evaluation: audits, pass rates, trust surveys. \nOutcome: election debate visuals that are accurate, neutral, and inclusive.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 602,
+        "topic": "ai.design_creativity",
+        "question": "Propose an AI framework for designing educational comics about global health topics (nutrition, hygiene, vaccines) that are accurate, stigma-free, and culturally adaptable. What data, constraints, and governance should be applied?",
+        "think": "Health comics simplify science for diverse audiences, but risk stereotypes or misinformation. AI can generate storylines and visuals conditioned on health guidelines and cultural motifs. Data: WHO/UNICEF guidelines, multilingual corpora, vetted cultural imagery. Constraints: fact validation, taboo/stigma filters, readability ≤7th grade, WCAG accessibility. Oversight: health experts, educators, cultural reps. Governance: NGOs manage dataset updates; provenance metadata ensures accountability. Evaluation: comprehension surveys, stigma incident tracking, accessibility audits. Risk: trivialization of serious issues. Mitigation: mandatory human expert review, red-team audits, transparency dashboards.",
+        "output": "Framework:\n1) Data: WHO/UNICEF docs, multilingual corpora, imagery libraries. \n2) Generation: AI drafts stories, panels, captions. \n3) Constraints: fact-check, stigma ban, readability ≤7, WCAG AA. \n4) Oversight: experts + educators + cultural reps. \n5) Governance: NGO dataset mgmt; provenance logs. \n6) Evaluation: comprehension surveys, stigma audits, accessibility checks. \nOutcome: educational comics that are engaging, accurate, and culturally safe.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 603,
+        "topic": "ai.design_creativity",
+        "question": "Develop an AI-enabled platform for urban wayfinding systems (maps, kiosks, apps) that adapts to diverse user needs (tourists, residents, people with disabilities). How should datasets, constraints, and evaluation be organized?",
+        "think": "Wayfinding must combine clarity, accessibility, and cultural neutrality. AI can propose signage/maps/apps but risks confusion or exclusion. Data: city GIS maps, accessibility audits, multilingual corpora, cultural motif/taboo lists. Constraints: enforce universal symbols (ISO), WCAG AA, readability, cultural neutrality. Workflow: AI generates variants → validators test accessibility, cultural appropriateness → human review by urban planners + accessibility experts. Governance: city councils, cultural reps. Provenance: full version control and reviewer logs. Evaluation: user journey tests, accessibility audits, rider surveys. Risk: inconsistent signage across contexts. Mitigation: enforce design tokens, fallback to ISO safe icons.",
+        "output": "Platform:\n1) Data: GIS maps, accessibility audits, corpora, motifs. \n2) Generation: AI drafts maps/kiosks/apps. \n3) Validators: WCAG AA, ISO icons, cultural neutrality. \n4) Review: planners + accessibility experts + cultural reps. \n5) Governance: councils + provenance logs. \n6) Evaluation: user tests, audits, surveys. \nOutcome: wayfinding systems that are clear, accessible, and culturally adaptive.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 604,
+        "topic": "ai.design_creativity",
+        "question": "Construct an AI workflow for designing multilingual civic education campaigns (e.g., voting rights, civic duties) that remain accurate, inclusive, and stigma-free. What inputs, guardrails, and governance are required?",
+        "think": "Civic education campaigns are politically sensitive; AI misuse could distort messages. Workflow: input = official civic texts → AI drafts posters/videos → validators: fact-check vs legal sources, neutrality detectors, WCAG AA accessibility, stigma filters. Data: official civic education documents, multilingual corpora, cultural iconography. Oversight: government + NGO + cultural councils. Provenance: logs of prompts, datasets, validators. Evaluation: comprehension surveys, neutrality audits, accessibility pass %, citizen trust metrics. Risk: politicization or bias drift. Mitigation: transparency dashboards, independent audits, appeals systems.",
+        "output": "Workflow:\n1) Data: civic docs, multilingual corpora, iconography. \n2) Generation: AI drafts campaign visuals. \n3) Validators: fact-check, neutrality, WCAG AA, stigma filters. \n4) Oversight: govt + NGOs + cultural reps. \n5) Governance: provenance logs, dashboards, appeals. \n6) Evaluation: comprehension, neutrality, accessibility, trust. \nOutcome: civic education campaigns that are accurate, inclusive, and trusted.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 605,
+        "topic": "ai.design_creativity",
+        "question": "Propose a system where AI helps museums design interactive children’s guides (apps, AR trails, comics) that balance fun, learning, accessibility, and cultural respect. What workflow, constraints, and safeguards should be applied?",
+        "think": "Children’s guides must be engaging yet factual and culturally sensitive. AI can generate content (stories, visuals, AR) but risks trivialization or bias. Workflow: museum curators provide scripts → AI drafts interactive guides → validators check factual accuracy, readability ≤6th grade, WCAG accessibility, taboo/cultural filters. Data: museum archives, child pedagogy corpora, cultural motifs (licensed). Oversight: curators, educators, cultural reps. Governance: museum councils with provenance logs. Evaluation: learning outcome surveys, parent/educator trust ratings, accessibility audits. Risk: oversimplification or stereotyping. Mitigation: curator veto, red-team audits, transparent review dashboards.",
+        "output": "System:\n1) Data: archives, pedagogy corpora, motifs. \n2) Generation: AI drafts apps, AR trails, comics. \n3) Validators: fact-check, readability ≤6, WCAG AA, cultural filters. \n4) Oversight: curators + educators + cultural reps. \n5) Governance: councils + provenance logs. \n6) Evaluation: learning surveys, trust ratings, accessibility audits. \nOutcome: interactive guides that are fun, factual, and culturally respectful.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 606,
+        "topic": "ai.design_creativity",
+        "question": "Design an AI-assisted system for generating accessible environmental awareness campaigns (posters, videos, social media) that combine scientific accuracy with cultural resonance. How should datasets, constraints, and governance be defined?",
+        "think": "Environmental campaigns risk being either too technical or culturally tone-deaf. AI can accelerate visuals and messages, but guardrails are needed. Data: vetted climate/science datasets, multilingual corpora, cultural motifs with community approval. Constraints: factual alignment with scientific sources, WCAG AA accessibility, taboo/cultural filters, readability ≤8th grade. Oversight: scientists validate facts, cultural councils review motifs, accessibility experts check compliance. Governance: NGO-led with transparent provenance logs. Evaluation: comprehension surveys, inclusivity audits, trust metrics. Risks: oversimplification or greenwashing. Mitigation: human review panels, red-team audits, transparency dashboards.",
+        "output": "System:\n1) Data: science datasets, multilingual corpora, cultural motifs. \n2) Generation: AI drafts posters, videos, social posts. \n3) Constraints: fact-check, WCAG AA, taboo filters, readability ≤8th grade. \n4) Oversight: scientists, cultural councils, accessibility experts. \n5) Governance: NGO-led councils with provenance logs. \n6) Evaluation: comprehension, inclusivity, trust metrics. \nOutcome: accurate, accessible, culturally resonant climate campaigns at scale.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 607,
+        "topic": "ai.design_creativity",
+        "question": "Propose an AI workflow for designing inclusive university recruitment materials (brochures, videos, web) that highlight diversity without stereotyping. What datasets, validation processes, and governance should be included?",
+        "think": "University recruitment campaigns must showcase inclusivity without falling into tokenism. AI can scale visuals, but bias checks are critical. Data: official university branding, student demographics, multilingual corpora, cultural imagery databases. Constraints: enforce brand tokens, inclusivity quotas, taboo/representation filters, WCAG AA. Workflow: AI drafts brochures/videos/web content → validators check brand alignment, inclusivity, accessibility → human review by admissions boards + diversity councils. Governance: universities publish provenance dashboards and inclusivity audits. Evaluation: applicant diversity, trust surveys, inclusivity index. Risk: tokenism or exclusion. Mitigation: cultural advisory panels, stereotype detection models, transparent audits.",
+        "output": "Workflow:\n1) Data: branding, demographics, corpora, imagery DBs. \n2) Generation: AI drafts brochures, videos, web pages. \n3) Validators: brand compliance, inclusivity, WCAG AA. \n4) Review: admissions + diversity councils. \n5) Governance: dashboards, inclusivity audits. \n6) Evaluation: applicant diversity, trust surveys, inclusivity index. \nOutcome: recruitment campaigns that are authentic, inclusive, and accessible.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 608,
+        "topic": "ai.design_creativity",
+        "question": "Construct a pipeline where AI generates accessible product manuals in multiple formats (text, video, AR) for global consumer electronics. How do you ensure clarity, safety, and cultural appropriateness?",
+        "think": "Product manuals must be accurate, clear, and compliant with safety regulations. AI can draft them in multiple formats but risks errors. Data: technical specs, regulatory guidelines, multilingual corpora, cultural iconography. Constraints: fact-check vs specs, readability ≤8th grade, WCAG AA, taboo/representation filters. Workflow: AI generates text, video scripts, AR overlays → validators check accuracy, compliance, accessibility → human review by engineers, legal teams, cultural reps. Governance: manufacturers maintain provenance logs, regulators audit. Evaluation: comprehension tests, safety incident reports, accessibility pass %. Risk: mistranslation or misleading visuals. Mitigation: red-team reviews, fallback to official spec-based templates.",
+        "output": "Pipeline:\n1) Data: specs, regulations, multilingual corpora, iconography. \n2) Generation: AI drafts manuals (text, video, AR). \n3) Validators: fact-check, readability, WCAG AA, taboo filters. \n4) Review: engineers, legal teams, cultural reps. \n5) Governance: provenance logs, regulator audits. \n6) Evaluation: comprehension tests, incident tracking, accessibility %. \nOutcome: product manuals that are safe, accessible, and culturally adapted globally.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 609,
+        "topic": "ai.design_creativity",
+        "question": "Develop an AI system for designing multilingual refugee support materials (guides, signage, apps) that prioritize clarity, dignity, and cultural sensitivity. What data, workflows, and safeguards are necessary?",
+        "think": "Refugee support materials must provide essential information clearly and respectfully. AI can generate guides, signage, and apps but risks stigmatization. Data: UNHCR/NGO guidelines, multilingual corpora, vetted icon libraries, taboo filters. Constraints: enforce factual correctness, readability ≤7th grade, WCAG AA, stigma-free language. Workflow: AI drafts outputs → validators check facts, accessibility, inclusivity → review by NGOs, refugees, cultural councils. Governance: NGOs manage provenance logs, independent audits ensure compliance. Evaluation: refugee comprehension tests, dignity surveys, accessibility audits. Risk: stereotyping or misinformation. Mitigation: community veto, red-team reviews, transparent dashboards.",
+        "output": "System:\n1) Data: UNHCR/NGO docs, corpora, icon libraries. \n2) Generation: AI drafts guides, signage, apps. \n3) Validators: fact-check, stigma filters, WCAG AA, readability ≤7. \n4) Review: NGOs, refugee reps, cultural councils. \n5) Governance: NGOs + audits; provenance logs. \n6) Evaluation: comprehension, dignity surveys, accessibility audits. \nOutcome: refugee support materials that are clear, dignified, and culturally sensitive.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 610,
+        "topic": "ai.design_creativity",
+        "question": "Propose an AI-assisted pipeline for creating global science outreach campaigns (space, biology, physics) that are engaging, accurate, and culturally inclusive. How should inputs, constraints, and validation be organized?",
+        "think": "Science outreach must inspire while staying accurate and inclusive. AI can generate engaging visuals, but must avoid bias or misinformation. Data: open science resources, NASA/ESA/WHO corpora, multilingual educational datasets, cultural motifs. Constraints: fact validation, accessibility compliance, readability ≤8th grade, inclusivity filters. Workflow: AI drafts posters, AR/VR experiences, videos → validators check facts, accessibility, inclusivity → review by scientists, educators, cultural reps. Governance: science agencies + NGOs manage provenance logs. Evaluation: comprehension surveys, inclusivity audits, engagement metrics. Risk: trivialization or cultural exclusion. Mitigation: human expert veto, red-team audits, transparency dashboards.",
+        "output": "Pipeline:\n1) Data: open science docs, NASA/ESA/WHO datasets, corpora, motifs. \n2) Generation: AI drafts posters, videos, AR/VR experiences. \n3) Validators: fact-check, WCAG AA, inclusivity filters, readability ≤8. \n4) Review: scientists, educators, cultural reps. \n5) Governance: science agencies + NGOs; provenance logs. \n6) Evaluation: comprehension, inclusivity, engagement metrics. \nOutcome: outreach campaigns that are inspiring, accurate, and globally inclusive.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 611,
+        "topic": "ai.design_creativity",
+        "question": "Design an AI-assisted pipeline for creating accessible cultural festival campaigns (posters, videos, AR guides) that respect traditions while avoiding stereotypes. How should data, workflows, and oversight be structured?",
+        "think": "Cultural festivals are sensitive; visuals must celebrate without trivializing. AI can scale campaign materials but risks cultural appropriation. Data: licensed imagery from communities, multilingual corpora, festival histories, taboo lists. Workflow: AI drafts posters/videos/AR guides → automated validators check WCAG AA, readability ≤8, taboo filters → human review by cultural councils and festival organizers. Governance: councils with veto rights, provenance logs for accountability. Evaluation: cultural approval surveys, inclusivity audits, accessibility pass rates. Risk: stereotyping or commercialization. Mitigation: community veto, transparent dashboards, periodic audits.",
+        "output": "Pipeline:\n1) Data: licensed imagery, corpora, festival histories, taboo lists. \n2) Generation: AI drafts campaign assets. \n3) Validators: WCAG AA, readability ≤8, taboo filters. \n4) Review: cultural councils + organizers. \n5) Governance: veto rights, provenance logs. \n6) Evaluation: surveys, inclusivity audits, accessibility pass %. \nOutcome: festival campaigns that are celebratory, inclusive, and respectful.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 612,
+        "topic": "ai.design_creativity",
+        "question": "Propose a system where AI co-designs humanitarian logistics infographics (supply chains, relief distribution) that remain accurate, accessible, and stigma-free. What datasets, constraints, and governance are required?",
+        "think": "Humanitarian logistics require clarity and neutrality. AI can accelerate infographics but risks confusion or stigmatization. Data: UN/NGO logistics guides, multilingual corpora, icon libraries, accessibility guidelines. Constraints: enforce factual correctness, WCAG AA compliance, readability ≤7, taboo/stigma filters. Workflow: AI drafts infographics → validators check accuracy, accessibility, inclusivity → human review by NGOs and logistics experts. Governance: humanitarian councils oversee with provenance logs. Evaluation: comprehension tests, trust surveys, accessibility audits. Risk: misuse for propaganda. Mitigation: transparency dashboards, NGO oversight, red-team audits.",
+        "output": "System:\n1) Data: NGO guides, corpora, icon libraries, accessibility docs. \n2) Generation: AI drafts logistics visuals. \n3) Constraints: fact-check, WCAG AA, readability ≤7, stigma filters. \n4) Review: NGOs + logistics experts. \n5) Governance: councils, provenance logs. \n6) Evaluation: comprehension tests, surveys, audits. \nOutcome: logistics infographics that are accurate, accessible, and trusted.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 613,
+        "topic": "ai.design_creativity",
+        "question": "Construct an AI workflow for creating inclusive tourism guides (maps, apps, AR tours) that highlight cultural authenticity without exploitation. What data, constraints, and governance are necessary?",
+        "think": "Tourism guides often oversimplify or commodify cultures. AI can help scale guides but must avoid exploitation. Data: licensed local stories, maps, cultural motifs, taboo lists, accessibility standards. Constraints: WCAG AA, fact-check against verified sources, cultural veto filters, readability ≤8. Workflow: AI drafts maps/apps/AR tours → validators check accuracy, accessibility, inclusivity → review by local councils + tourism boards. Governance: councils with veto rights; provenance logs published. Evaluation: tourist surveys, inclusivity audits, cultural approval ratings. Risk: cultural appropriation. Mitigation: royalties for local communities, transparent dashboards, NGO oversight.",
+        "output": "Workflow:\n1) Data: stories, maps, motifs, taboo lists, accessibility docs. \n2) Generation: AI drafts guides. \n3) Validators: fact-check, WCAG AA, inclusivity checks. \n4) Review: councils + tourism boards. \n5) Governance: veto rights, provenance logs. \n6) Evaluation: surveys, audits, approval ratings. \nOutcome: tourism guides that are authentic, accessible, and respectful.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 614,
+        "topic": "ai.design_creativity",
+        "question": "Develop an AI-enabled system for public library campaigns (reading programs, digital literacy) that ensures inclusivity, accessibility, and cultural diversity. How should workflows, datasets, and safeguards be defined?",
+        "think": "Libraries serve diverse communities; campaigns must reflect inclusivity. AI can draft posters, programs, digital media but risks bias or exclusion. Data: reading promotion materials, multilingual corpora, cultural imagery, accessibility standards. Constraints: inclusivity quotas, WCAG AA, readability ≤7, taboo filters. Workflow: AI generates drafts → validators check accessibility, inclusivity, neutrality → human review by librarians + cultural reps. Governance: library councils, provenance logs for transparency. Evaluation: participation rates, inclusivity audits, accessibility scores. Risk: stereotypes or exclusion. Mitigation: cultural veto, red-team audits, community feedback loops.",
+        "output": "System:\n1) Data: reading promotion corpora, imagery, accessibility docs. \n2) Generation: AI drafts posters/programs. \n3) Validators: inclusivity checks, WCAG AA, readability ≤7. \n4) Review: librarians + cultural reps. \n5) Governance: library councils, provenance logs. \n6) Evaluation: participation, inclusivity audits, accessibility. \nOutcome: public library campaigns that are inclusive, accessible, and diverse.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 615,
+        "topic": "ai.design_creativity",
+        "question": "Propose a pipeline where AI assists in creating multilingual agricultural extension materials (guides, apps, posters) that are accurate, culturally relevant, and accessible to farmers. What datasets, validation, and oversight are necessary?",
+        "think": "Farmers need practical, accurate advice; AI can scale materials but risks errors or irrelevance. Data: agricultural extension manuals, climate/crop datasets, multilingual corpora, cultural motif libraries. Constraints: fact-check vs manuals, readability ≤7, WCAG AA, taboo filters. Workflow: AI drafts guides/apps/posters → validators check factual accuracy, accessibility, inclusivity → human review by agricultural experts + cultural reps. Governance: agricultural boards, NGOs, provenance logs. Evaluation: adoption rates, comprehension tests, inclusivity surveys. Risk: misinformation causing crop losses. Mitigation: whitelisted datasets, red-team audits, transparent dashboards.",
+        "output": "Pipeline:\n1) Data: extension manuals, crop datasets, corpora, motifs. \n2) Generation: AI drafts guides/apps/posters. \n3) Validators: fact-check, WCAG AA, readability ≤7, taboo filters. \n4) Review: experts + cultural reps. \n5) Governance: boards + NGOs, provenance logs. \n6) Evaluation: adoption, comprehension, inclusivity surveys. \nOutcome: agricultural materials that are accurate, relevant, and accessible globally.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 616,
+        "topic": "ai.design_creativity",
+        "question": "Design a planetary-scale AI-assisted platform for citizen assemblies where diverse communities co-create visual policy proposals (infographics, simulations, AR town halls). The system must ensure inclusivity, neutrality, accessibility, and resistance to manipulation. How should datasets, workflows, governance, and evaluation be structured?",
+        "think": "Citizen assemblies increasingly demand creative ways to deliberate policy. AI could scale the visualization of complex ideas (climate budgets, healthcare reforms), but risks bias, exclusion, or manipulation. Architecture: participatory interface → AI-assisted generator (infographics, AR sims) → safety/neutrality layer → human moderator approval. Datasets: government statistics, neutral open data, community-submitted priorities. Metadata: provenance tags (sources, assumptions). Safeguards: bias detectors, neutrality checkers, WCAG AA compliance, cultural taboo lists. Governance: multi-tier councils (citizen reps, NGOs, academics) with veto rights, independent audits. Provenance: immutable logs for transparency. Evaluation: neutrality audits, accessibility compliance, citizen trust surveys, participation diversity index. Risk: adversarial actors injecting biased prompts. Mitigation: verified identity layer, red-team stress tests, appeal systems. Long-term: periodic audits, rotating governance, transparent publication of results. Outcome: AI amplifies citizen voices while maintaining trust, neutrality, and inclusivity in democratic processes.",
+        "output": "Platform:\n1) Architecture: • Citizen interface → AI generators → safety/neutrality filters → moderator gate. • Immutable provenance logs. \n2) Data: • Open government data, community submissions. • Metadata: provenance + assumptions. \n3) Safeguards: • Neutrality/bias detectors. • WCAG AA compliance. • Taboo filters. \n4) Governance: • Councils of citizens, NGOs, academics. • Veto rights + independent audits. \n5) Evaluation: • Neutrality index, accessibility pass ≥95%, trust surveys, diversity index. \n6) Risk mgmt: • Verified IDs. • Red-team adversarial tests. • Appeals. \n7) Long-term: • Periodic audits, rotating governance, transparent reporting. \nOutcome: participatory AI platform that enables inclusive, neutral, accessible citizen assemblies.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 617,
+        "topic": "ai.design_creativity",
+        "question": "Propose an AI-enabled global art biennale system where artists, curators, and AI collaborate to produce immersive cross-cultural exhibitions (VR, AR, installations). The framework must balance artistic freedom, authenticity, accessibility, and safeguards against cultural appropriation. How would architecture, datasets, governance, and evaluation be designed?",
+        "think": "Art biennales are showcases of cultural exchange, but AI risks homogenization or appropriation. System architecture: global hub with AI tools for immersive generation + regional nodes for cultural adaptation. Datasets: licensed art archives, cultural motifs with community consent, multilingual corpora. Metadata: license, provenance, sensitivity tags. Safeguards: cultural veto lists, provenance enforcement, WCAG XR accessibility checks. Governance: biennale council (artists, curators, cultural custodians, ethicists) with veto rights; external audits. Provenance: watermarking of all assets. Evaluation: cultural approval surveys, inclusivity indices, accessibility compliance, artist satisfaction. Risk: appropriation, bias, or over-standardization. Mitigation: local curator veto, royalties to communities, transparent dashboards. Long-term: update datasets with consent, rotate governance, sustain through grants and community royalties.",
+        "output": "Framework:\n1) Architecture: • Global AI hub + regional cultural nodes. • Provenance enforced via watermarking. \n2) Data: • Licensed art archives, motifs, corpora. • Metadata with license/sensitivity tags. \n3) Safeguards: • Cultural veto lists, XR accessibility, provenance checks. \n4) Governance: • Biennale council of artists, curators, custodians, ethicists. • Veto + audits. \n5) Evaluation: • Approval surveys, inclusivity index, accessibility pass, artist satisfaction. \n6) Risk mgmt: • Appropriation prevented by veto + royalties. • Over-standardization mitigated by regional nodes. \nOutcome: AI-augmented biennale system celebrating authentic cross-cultural art responsibly.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 618,
+        "topic": "ai.design_creativity",
+        "question": "Design an AI-driven global public health visualization platform for pandemics that creates multilingual, multi-format assets (dashboards, posters, AR briefings). The system must balance factual accuracy, accessibility, neutrality, and cultural sensitivity while resisting misinformation. How should the system be architected and governed?",
+        "think": "Public health communication is life-critical. AI can scale pandemic visuals but risks misinformation or cultural insensitivity. Architecture: ingestion layer (WHO/CDC datasets, local health stats) → fact validation → AI generators (dashboards, posters, AR). Safeguards: factual cross-checkers, bias detectors, WCAG AA compliance, taboo/cultural filters. Human review: medical boards, cultural councils, accessibility experts. Governance: WHO-led council + NGOs + local reps. Provenance: C2PA metadata on every asset. Evaluation: factual accuracy ≥98%, accessibility pass, trust surveys, misinformation incident tracking. Risk: adversarial actors injecting false data, political capture. Mitigation: whitelisted data, red-team adversarial tests, transparency dashboards. Long-term: continuous dataset updates, rotating governance, public audits. Outcome: trusted, factual, accessible health visuals at planetary scale.",
+        "output": "Platform:\n1) Architecture: • Ingestion layer (WHO, CDC, local data) → fact validation → AI generators. • Provenance enforced with C2PA. \n2) Safeguards: • Fact-check vs official data. • Bias detectors. • WCAG AA compliance. • Taboo/cultural filters. \n3) Review: • Medical boards + cultural councils + accessibility experts. \n4) Governance: • WHO-led council + NGOs + local reps. • Independent audits. \n5) Evaluation: • Accuracy ≥98%, accessibility pass ≥95%, trust surveys, misinformation tracking. \n6) Risk mgmt: • Whitelisted data only. • Red-team adversarial stress tests. • Transparency dashboards. \nOutcome: global AI system that generates factual, accessible, culturally sensitive pandemic communication at scale.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 619,
+        "topic": "ai.design_creativity",
+        "question": "Propose a planetary AI-assisted framework for designing multilingual climate migration support systems (housing guides, legal infographics, AR navigation tools). The system must balance factual accuracy, cultural dignity, accessibility, and long-term adaptability while preventing misuse for political propaganda. How should architecture, datasets, governance, and safeguards be defined?",
+        "think": "Climate migration is a humanitarian challenge with political sensitivity. AI could scale support systems, but risks exploitation or misinformation. Architecture: federated platform with global core (UN, NGOs) + regional nodes for cultural adaptation. Datasets: UNHCR/NGO guidelines, legal texts, multilingual corpora, cultural motif libraries. Metadata: license terms, cultural sensitivity tags, provenance logs. Safeguards: fact-check vs legal/official sources, stigma filters, WCAG AA compliance, taboo motif exclusions. Governance: multi-stakeholder councils (UN, NGOs, refugee reps, cultural custodians), veto rights for communities, independent audits. Transparency: C2PA-style provenance on every asset. Evaluation: factual accuracy, accessibility compliance, cultural dignity surveys, refugee trust metrics. Risk mgmt: misuse for propaganda or exclusion. Mitigation: whitelisted datasets, red-team audits, public dashboards, appeals channels. Long-term: periodic updates aligned with legal changes and cultural shifts; continuous feedback loops. Outcome: AI assists with dignity, accuracy, and inclusivity in climate migration support.",
+        "output": "Framework:\n1) Architecture: • Federated platform with global + regional nodes. • C2PA provenance enforced. \n2) Data: • UNHCR/NGO docs, legal texts, multilingual corpora, cultural motifs. • Metadata: license + sensitivity tags. \n3) Safeguards: • Fact-check vs official data. • Stigma/language filters. • WCAG AA compliance. • Taboo exclusions. \n4) Governance: • Councils (UN, NGOs, refugee reps, custodians). • Veto + audits. \n5) Transparency: • Provenance metadata + dashboards. • Appeals process. \n6) Evaluation: • Accuracy ≥98%, accessibility pass ≥95%, dignity/trust surveys. \n7) Risk mgmt: • Misuse → dashboards + sanctions. • Propaganda defense → red-team audits. \nOutcome: scalable, ethical AI system supporting climate migrants with dignity and trust.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 620,
+        "topic": "ai.design_creativity",
+        "question": "Design a global AI-driven platform for collaborative scientific visualization (genomics, astrophysics, climate). The system must generate immersive, accurate, and culturally inclusive visualizations for both experts and the public. How should architecture, datasets, governance, and evaluation be organized?",
+        "think": "Scientific visualization requires precision but also accessibility. AI can democratize access, but risks distortion, bias, or oversimplification. Architecture: ingestion layer (peer-reviewed datasets, observatory data, genomic databases) → fact validation engines → visualization generators (VR, AR, interactive dashboards). Datasets: curated, licensed scientific datasets; multilingual corpora for labels/explanations; cultural iconography vetted for inclusivity. Metadata: provenance, license, review status. Safeguards: scientific fact-checking, WCAG XR accessibility, taboo/cultural filters, stereotype detection. Governance: international council (scientists, educators, ethicists, cultural reps) with veto rights and periodic audits. Transparency: provenance logs and open-source validation tools. Evaluation: factual accuracy, inclusivity index, accessibility compliance, comprehension surveys (experts + public). Risk mgmt: adversarial misuse (fake science visuals), political capture, data drift. Mitigation: red-team tests, open peer review, transparency dashboards. Long-term: continuous dataset refresh, rotating governance, community-driven improvements. Outcome: AI enables immersive, trustworthy, inclusive science communication at scale.",
+        "output": "Platform:\n1) Architecture: • Ingestion (peer-reviewed data) → validation engines → visualization generators. • Provenance logs + validation tools. \n2) Data: • Curated datasets (genomics, climate, astrophysics). • Multilingual corpora. • Cultural iconography vetted. \n3) Safeguards: • Fact validation. • WCAG XR accessibility. • Cultural filters. • Bias detectors. \n4) Governance: • Global council (scientists, educators, ethicists, cultural reps). • Veto + audits. • Rotating leadership. \n5) Evaluation: • Accuracy ≥98%. • Inclusivity index. • Accessibility pass ≥95%. • Surveys for experts + public. \n6) Risk mgmt: • Fake science defense → red-teams + peer review. • Drift → dataset refresh. • Political misuse → transparent dashboards. \nOutcome: planetary AI visualization platform making science immersive, accurate, and inclusive for all.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 621,
+        "topic": "ai.design_creativity",
+        "question": "Develop an AI-assisted workflow for creating accessible multilingual disaster preparedness guides (posters, apps, videos) that remain culturally sensitive and factually accurate. How should datasets, constraints, and validation be arranged?",
+        "think": "Preparedness guides must be clear, accessible, and sensitive. AI can generate multilingual, multimedia outputs, but risks mistranslation or insensitivity. Data: official disaster manuals, multilingual corpora, vetted icon libraries, taboo filters. Constraints: fact-check vs manuals, readability ≤7, WCAG AA compliance, stigma/language filters. Workflow: AI drafts guides → automated validators (fact-check, accessibility, taboo filters) → human review by emergency agencies, cultural councils, accessibility experts. Governance: NGO-led, provenance logs stored. Evaluation: comprehension surveys, accessibility audits, cultural approval. Risk: misuse for misinformation. Mitigation: whitelisted datasets, external audits, transparency dashboards.",
+        "output": "Workflow:\n1) Data: disaster manuals, corpora, icon libraries, taboo lists. \n2) Generation: AI drafts guides in text, video, app formats. \n3) Validators: fact-check vs manuals, readability ≤7, WCAG AA, taboo filters. \n4) Review: agencies, cultural councils, accessibility experts. \n5) Governance: NGOs with provenance logs. \n6) Evaluation: comprehension, accessibility audits, approval ratings. \nOutcome: disaster guides that are accurate, accessible, and culturally appropriate.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 622,
+        "topic": "ai.design_creativity",
+        "question": "Propose a pipeline where AI generates inclusive STEM outreach campaigns (videos, comics, AR apps) for girls and underrepresented groups. What data, constraints, and governance ensure fairness and effectiveness?",
+        "think": "STEM outreach must inspire inclusivity without stereotypes. AI can scale but risks tokenism. Data: open educational resources, diverse STEM role models, multilingual corpora, vetted icon libraries. Constraints: enforce inclusivity quotas, readability ≤7, WCAG AA compliance, stereotype/stigma filters. Workflow: AI drafts campaigns → validators check inclusivity, accessibility, accuracy → human review by educators, diversity councils. Governance: NGOs and schools co-manage; provenance logs ensure accountability. Evaluation: inclusivity index, trust surveys, STEM participation rates. Risk: stereotypes or cultural exclusion. Mitigation: diversity audits, advisory boards, red-team audits.",
+        "output": "Pipeline:\n1) Data: STEM OERs, diverse role model sets, multilingual corpora. \n2) Generation: AI drafts comics, videos, AR apps. \n3) Validators: inclusivity quotas, WCAG AA, readability ≤7, stereotype filters. \n4) Review: educators + diversity councils. \n5) Governance: NGOs/schools; provenance logs. \n6) Evaluation: inclusivity index, surveys, participation metrics. \nOutcome: campaigns that inspire underrepresented groups in STEM fairly and effectively.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 623,
+        "topic": "ai.design_creativity",
+        "question": "Construct an AI workflow for designing multilingual financial aid information systems (apps, brochures, helplines) that remain accurate, stigma-free, and accessible. What datasets, guardrails, and governance are required?",
+        "think": "Financial aid systems must provide clarity and dignity. AI can generate multilingual resources but risks stigma or inaccuracy. Data: government aid guidelines, multilingual corpora, vetted iconography, taboo lists. Constraints: fact-check vs official docs, WCAG AA, readability ≤8, stigma filters. Workflow: AI drafts outputs → validators check accuracy, accessibility, inclusivity → human review by financial experts, NGOs, cultural councils. Governance: state + NGO oversight; provenance logs. Evaluation: adoption rates, trust surveys, accessibility audits. Risk: misinfo or exploitation. Mitigation: transparency dashboards, independent audits, appeals systems.",
+        "output": "Workflow:\n1) Data: government docs, multilingual corpora, icons, taboo lists. \n2) Generation: AI drafts apps, brochures, helpline scripts. \n3) Validators: fact-check vs official docs, WCAG AA, readability ≤8, stigma filters. \n4) Review: experts + NGOs + cultural reps. \n5) Governance: govt + NGO oversight, provenance logs. \n6) Evaluation: adoption, surveys, audits. \nOutcome: financial aid systems that are accurate, dignified, and inclusive.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 624,
+        "topic": "ai.design_creativity",
+        "question": "Design an AI-assisted platform for co-creating multilingual eldercare guides (apps, posters, videos) that remain accessible, culturally sensitive, and factually correct. How should the workflow and oversight be arranged?",
+        "think": "Eldercare guides need empathy, clarity, and accuracy. AI can generate content quickly but risks stereotypes or misinformation. Data: healthcare manuals, eldercare best practices, multilingual corpora, cultural imagery. Constraints: readability ≤6, WCAG AA, taboo/stigma filters, fact-check vs guidelines. Workflow: AI drafts outputs → validators check accuracy, accessibility, inclusivity → review by healthcare professionals, cultural councils, accessibility experts. Governance: NGOs and eldercare councils oversee; provenance metadata enforced. Evaluation: comprehension tests, accessibility audits, satisfaction surveys. Risk: cultural offense or unsafe guidance. Mitigation: curator veto, external audits, transparent dashboards.",
+        "output": "Platform:\n1) Data: healthcare docs, eldercare manuals, corpora, imagery. \n2) Generation: AI drafts apps, posters, videos. \n3) Validators: readability ≤6, WCAG AA, taboo filters, fact-check. \n4) Review: professionals + cultural councils + accessibility experts. \n5) Governance: NGOs/eldercare councils; provenance logs. \n6) Evaluation: comprehension, accessibility, satisfaction. \nOutcome: eldercare guides that are accurate, accessible, and culturally sensitive.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 625,
+        "topic": "ai.design_creativity",
+        "question": "Propose a system where AI generates multilingual workplace safety training materials (manuals, VR, infographics) that remain accurate, accessible, and culturally appropriate. What data, safeguards, and governance ensure reliability?",
+        "think": "Workplace safety is critical; AI misuse could endanger lives. AI can create manuals, VR, and infographics but must adhere strictly to regulations. Data: OSHA/ILO safety guidelines, multilingual corpora, industry-specific datasets, cultural iconography. Constraints: fact-check vs official guidelines, WCAG AA, readability ≤8, taboo/safety filters. Workflow: AI drafts outputs → validators check compliance, accuracy, accessibility → human review by safety experts, cultural reps, accessibility panels. Governance: industry boards + unions manage oversight with provenance logs. Evaluation: comprehension tests, incident reduction metrics, accessibility audits. Risk: misaligned safety advice. Mitigation: red-team stress tests, independent audits, fallback to official templates.",
+        "output": "System:\n1) Data: OSHA/ILO docs, multilingual corpora, industry datasets. \n2) Generation: AI drafts manuals, VR, infographics. \n3) Validators: fact-check, WCAG AA, readability ≤8, taboo filters. \n4) Review: safety experts + unions + cultural reps. \n5) Governance: boards/unions; provenance logs. \n6) Evaluation: comprehension, incident reduction, accessibility audits. \nOutcome: workplace safety materials that are accurate, accessible, and culturally appropriate.",
+        "format_version": "1.1",
+        "difficulty": 6
     }
 ]
