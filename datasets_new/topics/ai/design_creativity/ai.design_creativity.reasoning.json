@@ -8080,5 +8080,455 @@
         "output": "Commons:\n1) Data: UNEP reports, marine datasets, corpora, motifs. \n2) AI generates films, AR exhibits, dashboards. \n3) Validators: fact-check, inclusivity, accessibility, neutrality filters. \n4) Governance: ocean councils with veto rights + audits. \n5) Transparency: provenance dashboards + peer review. \n6) Evaluation: accuracy, inclusivity, accessibility, adoption. \nOutcome: ocean conservation campaigns that are scientific, inclusive, and protected against greenwashing.",
         "format_version": "1.1",
         "difficulty": 7
+    },
+    {
+        "id": 901,
+        "topic": "ai.design_creativity",
+        "question": "What is the main purpose of wireframes in design?",
+        "think": "Wireframes provide a basic layout structure without visual details. They help teams focus on usability and functionality first.",
+        "output": "Wireframes act as blueprints for layouts, showing structure and functionality without design distractions.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 902,
+        "topic": "ai.design_creativity",
+        "question": "Why is whitespace important in visual design?",
+        "think": "Whitespace prevents clutter, improves readability, and highlights important content.",
+        "output": "Whitespace adds balance, improves readability, and guides focus to key elements.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 903,
+        "topic": "ai.design_creativity",
+        "question": "What is the function of icons in mobile apps?",
+        "think": "Icons are compact visual cues. They reduce text use and speed up recognition of actions.",
+        "output": "Icons provide quick recognition and improve navigation efficiency in mobile apps.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 904,
+        "topic": "ai.design_creativity",
+        "question": "How does responsive design benefit users?",
+        "think": "Responsive design adapts layouts to screen sizes, ensuring usability across devices.",
+        "output": "Responsive design ensures consistent, accessible experiences on any device.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 905,
+        "topic": "ai.design_creativity",
+        "question": "Why is typography hierarchy critical for web design?",
+        "think": "Hierarchy organizes text by size and weight, making scanning easier for users.",
+        "output": "Typography hierarchy improves readability by showing clear levels of importance.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 906,
+        "topic": "ai.design_creativity",
+        "question": "What is the role of prototyping in the design process?",
+        "think": "Prototypes test interactivity and usability before development. They reduce risks.",
+        "output": "Prototyping validates usability and flow, helping refine designs before launch.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 907,
+        "topic": "ai.design_creativity",
+        "question": "How do personas guide design decisions?",
+        "think": "Personas represent user archetypes. They help align features to real user needs.",
+        "output": "Personas ensure design decisions focus on authentic user goals and behaviors.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 908,
+        "topic": "ai.design_creativity",
+        "question": "How can journey maps support service design?",
+        "think": "Journey maps show the user’s steps and emotions across touchpoints, revealing pain points.",
+        "output": "Journey maps highlight experiences across touchpoints, guiding improvements in service design.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 909,
+        "topic": "ai.design_creativity",
+        "question": "Why is accessibility compliance important in web products?",
+        "think": "Accessibility ensures people with disabilities can use products. It also meets legal standards.",
+        "output": "Accessibility compliance makes products usable by all users and avoids legal risks.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 910,
+        "topic": "ai.design_creativity",
+        "question": "How does storytelling enhance brand identity?",
+        "think": "Stories connect emotionally with audiences, reinforcing brand values.",
+        "output": "Storytelling strengthens brand identity by building emotional connections with users.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 911,
+        "topic": "ai.design_creativity",
+        "question": "What ethical issues can arise in AI-generated advertising content?",
+        "think": "AI may reinforce stereotypes or create manipulative messaging if unchecked.",
+        "output": "Ethical issues include bias, stereotyping, and manipulative content in AI-generated ads.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 912,
+        "topic": "ai.design_creativity",
+        "question": "How do design systems improve collaboration?",
+        "think": "Design systems provide reusable components and guidelines, reducing duplication and aligning teams.",
+        "output": "Design systems create consistency and streamline collaboration with reusable patterns.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 913,
+        "topic": "ai.design_creativity",
+        "question": "Why is cultural sensitivity crucial in global app design?",
+        "think": "Colors, symbols, and gestures vary across cultures. Sensitivity avoids miscommunication and offense.",
+        "output": "Cultural sensitivity ensures global apps resonate correctly and avoid offense.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 914,
+        "topic": "ai.design_creativity",
+        "question": "What risks exist in speculative design for AI futures?",
+        "think": "Speculative design may exaggerate risks or overlook inclusivity, skewing perceptions.",
+        "output": "Risks include exaggeration, bias, and neglecting inclusivity in speculative AI futures.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 915,
+        "topic": "ai.design_creativity",
+        "question": "How does universal design support digital government services?",
+        "think": "Universal design makes services usable across abilities. This increases trust and inclusivity.",
+        "output": "Universal design ensures government services are accessible and fair for all citizens.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 916,
+        "topic": "ai.design_creativity",
+        "question": "How can gamification improve workplace safety training?",
+        "think": "Gamification adds motivation and engagement. It helps employees retain safety practices.",
+        "output": "Gamification increases engagement and retention, making safety training more effective.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 917,
+        "topic": "ai.design_creativity",
+        "question": "Explain how ethics reviews improve AI-assisted educational media.",
+        "think": "Ethics reviews evaluate inclusivity, fairness, and dignity. They catch harmful outputs early.",
+        "output": "Ethics reviews reduce risks by ensuring AI-generated education content is fair and respectful.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 918,
+        "topic": "ai.design_creativity",
+        "question": "Propose a workflow for AI-assisted multilingual eldercare education materials that remain accessible and respectful.",
+        "think": "Eldercare needs dignity and clarity. AI drafts → validators check readability ≤7, accessibility, stigma filters → review by NGOs.",
+        "output": "Workflow: eldercare docs input → AI drafts → validators enforce accessibility and dignity → NGO/health expert review.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 919,
+        "topic": "ai.design_creativity",
+        "question": "How can AI tools generate stigma-free anti-bullying campaigns for schools?",
+        "think": "Anti-bullying content must avoid shaming. AI drafts → validators enforce inclusivity and accessibility → educator review.",
+        "output": "AI generates anti-bullying content validated for inclusivity, readability, and accessibility by educators.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 920,
+        "topic": "ai.design_creativity",
+        "question": "Propose a pipeline for AI-generated multilingual digital safety awareness posters for teenagers.",
+        "think": "Teen safety requires clarity and relevance. AI drafts posters → validators check readability ≤7, accessibility, inclusivity → review by NGOs.",
+        "output": "Pipeline: safety docs input → AI drafts posters → validators enforce clarity and inclusivity → NGO approval.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 921,
+        "topic": "ai.design_creativity",
+        "question": "How can AI-assisted participatory design support rural education projects?",
+        "think": "AI generates adaptive visuals and materials, but local communities validate cultural relevance and inclusivity.",
+        "output": "AI participatory design enhances rural education by co-creating inclusive, culturally relevant materials.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 922,
+        "topic": "ai.design_creativity",
+        "question": "Construct a workflow for AI-assisted multilingual voter participation guides that ensure neutrality and accessibility.",
+        "think": "Voting is politically sensitive. AI drafts → validators enforce neutrality, accessibility, inclusivity → NGO/election board review.",
+        "output": "Workflow: election docs input → AI drafts → validators check neutrality and inclusivity → board/NGO approval.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 923,
+        "topic": "ai.design_creativity",
+        "question": "How should NGOs apply AI tools to create multilingual climate adaptation education comics?",
+        "think": "Climate topics are complex. AI drafts comics → validators check accuracy, inclusivity, readability ≤7 → educator review.",
+        "output": "AI assists NGOs by generating climate comics validated for accuracy, inclusivity, and accessibility.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 924,
+        "topic": "ai.design_creativity",
+        "question": "Propose a system for AI-enabled workplace diversity posters that remain inclusive and accessible.",
+        "think": "Diversity campaigns need clarity and fairness. AI drafts posters → validators check inclusivity and WCAG compliance → HR/NGO review.",
+        "output": "System: HR docs input → AI drafts posters → validators enforce inclusivity/accessibility → HR/NGO approval.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 925,
+        "topic": "ai.design_creativity",
+        "question": "How can AI-generated speculative scenarios inform ethical debates about future smart cities?",
+        "think": "Speculative AI scenarios allow exploration of ethical dilemmas and trade-offs in urban futures.",
+        "output": "AI-generated scenarios spark debate about ethics and risks in designing future smart cities.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 926,
+        "topic": "ai.design_creativity",
+        "question": "What is the purpose of grids in visual design?",
+        "think": "Grids create structure and alignment across elements. They reduce clutter and guide the eye.",
+        "output": "Grids provide order and consistency, making layouts easier to read and navigate.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 927,
+        "topic": "ai.design_creativity",
+        "question": "Why is contrast important in data visualization?",
+        "think": "Contrast highlights differences and ensures charts are readable, even for users with vision impairments.",
+        "output": "Contrast in data visualization improves clarity and accessibility, highlighting important patterns.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 928,
+        "topic": "ai.design_creativity",
+        "question": "What is the role of consistency in brand design?",
+        "think": "Consistency reinforces recognition. Using the same typography, colors, and tone builds trust.",
+        "output": "Consistency ensures brand identity is recognizable and trustworthy across platforms.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 929,
+        "topic": "ai.design_creativity",
+        "question": "How do responsive images improve user experience?",
+        "think": "Responsive images adjust resolution and size based on device, improving performance and readability.",
+        "output": "Responsive images optimize clarity and loading times, enhancing user experience.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 930,
+        "topic": "ai.design_creativity",
+        "question": "Why should forms include inline validation?",
+        "think": "Inline validation provides immediate feedback, reducing errors and frustration.",
+        "output": "Inline validation helps users correct mistakes instantly, improving completion rates.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 931,
+        "topic": "ai.design_creativity",
+        "question": "What is the purpose of mood boards in design?",
+        "think": "Mood boards collect inspiration—images, colors, and textures—that define design direction.",
+        "output": "Mood boards align teams on aesthetics and tone before deeper design begins.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 932,
+        "topic": "ai.design_creativity",
+        "question": "How do breadcrumbs improve navigation in apps and websites?",
+        "think": "Breadcrumbs show users where they are in a hierarchy, reducing disorientation.",
+        "output": "Breadcrumbs clarify structure and help users navigate back easily within a site.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 933,
+        "topic": "ai.design_creativity",
+        "question": "Why is microcopy important in digital products?",
+        "think": "Microcopy like labels and error messages clarify actions and tone, reducing friction.",
+        "output": "Microcopy guides users with clarity and empathy, improving engagement and trust.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 934,
+        "topic": "ai.design_creativity",
+        "question": "How do empathy maps help design teams?",
+        "think": "Empathy maps capture user feelings and behaviors, aligning teams on needs and motivations.",
+        "output": "Empathy maps make user perspectives tangible, guiding better design decisions.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 935,
+        "topic": "ai.design_creativity",
+        "question": "Why is accessibility testing critical for product launches?",
+        "think": "Automated tools miss barriers real users face. Testing ensures inclusivity and compliance.",
+        "output": "Accessibility testing ensures real-world usability for people with disabilities and avoids legal risk.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 936,
+        "topic": "ai.design_creativity",
+        "question": "What is the role of typography hierarchy in readability?",
+        "think": "Different font sizes, weights, and styles create emphasis. This guides reading flow.",
+        "output": "Typography hierarchy structures content visually, helping users process text efficiently.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 937,
+        "topic": "ai.design_creativity",
+        "question": "How can inclusive design principles expand product adoption?",
+        "think": "Inclusive design ensures diverse audiences can use a product, broadening its reach.",
+        "output": "Inclusive design reduces barriers and increases adoption by serving more diverse users.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 938,
+        "topic": "ai.design_creativity",
+        "question": "Why is cross-cultural research critical in global campaigns?",
+        "think": "Cultural symbols and values differ worldwide. Research avoids missteps and improves resonance.",
+        "output": "Cross-cultural research ensures global campaigns respect diversity and connect authentically.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 939,
+        "topic": "ai.design_creativity",
+        "question": "What risks arise from AI-generated educational content for children?",
+        "think": "AI could introduce bias, factual errors, or inappropriate language if unchecked.",
+        "output": "Risks include bias, inaccuracies, and harmful framing, requiring human validation.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 940,
+        "topic": "ai.design_creativity",
+        "question": "How does speculative design reveal hidden risks in AI technologies?",
+        "think": "Speculative scenarios model future use, highlighting unintended consequences and ethical issues.",
+        "output": "Speculative design uncovers ethical and social risks by prototyping possible AI futures.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 941,
+        "topic": "ai.design_creativity",
+        "question": "Why is transparency essential in AI-driven design tools?",
+        "think": "Opaque AI systems risk bias and mistrust. Transparency builds accountability and user confidence.",
+        "output": "Transparency in AI tools ensures accountability, fairness, and builds trust in outputs.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 942,
+        "topic": "ai.design_creativity",
+        "question": "Explain how gamification supports long-term engagement in apps.",
+        "think": "Gamification uses points, rewards, and challenges to motivate continued use.",
+        "output": "Gamification drives sustained engagement by motivating users through rewards and progress tracking.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 943,
+        "topic": "ai.design_creativity",
+        "question": "Propose a workflow for AI-assisted civic education comics that remain neutral and accessible.",
+        "think": "Civic education is politically sensitive. AI drafts comics → validators check neutrality, readability, inclusivity → NGO/school approval.",
+        "output": "Workflow: civic docs input → AI drafts comics → validators enforce neutrality and inclusivity → educator/NGO review.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 944,
+        "topic": "ai.design_creativity",
+        "question": "How can AI generate multilingual anti-smoking campaigns for teens that avoid stigma?",
+        "think": "Teen-focused health campaigns must engage without shaming. AI drafts → validators enforce clarity, inclusivity, accessibility → NGO review.",
+        "output": "AI generates teen campaigns vetted for dignity, readability, and inclusivity by health experts.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 945,
+        "topic": "ai.design_creativity",
+        "question": "Propose a system where AI creates multilingual nutrition comics for schools.",
+        "think": "Nutrition must be factual and fun. AI drafts comics → validators enforce clarity, accessibility, inclusivity → educator/NGO approval.",
+        "output": "System: nutrition docs input → AI drafts comics → validators check accessibility and inclusivity → educator approval.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 946,
+        "topic": "ai.design_creativity",
+        "question": "How can AI design tools help NGOs create stigma-free refugee orientation materials?",
+        "think": "Refugee resources must be factual and dignified. AI drafts → validators enforce clarity, accessibility, and inclusivity → NGO/community review.",
+        "output": "AI helps NGOs by drafting multilingual guides vetted for dignity, clarity, and inclusivity.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 947,
+        "topic": "ai.design_creativity",
+        "question": "Construct a pipeline where AI assists in designing financial literacy workshops for underserved groups.",
+        "think": "Financial literacy content must be simple and inclusive. AI drafts → validators enforce clarity, inclusivity, accessibility → NGO approval.",
+        "output": "Pipeline: finance docs input → AI drafts workshops → validators check accessibility/inclusivity → NGO/community approval.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 948,
+        "topic": "ai.design_creativity",
+        "question": "How can AI help governments design multilingual tax literacy campaigns?",
+        "think": "Taxes are complex and politically sensitive. AI drafts → validators enforce neutrality, clarity, inclusivity → board review.",
+        "output": "AI supports governments by creating accessible, neutral tax campaigns validated by authorities.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 949,
+        "topic": "ai.design_creativity",
+        "question": "Propose an AI-enabled system for designing multilingual workplace harassment prevention training modules.",
+        "think": "Harassment training must be sensitive and inclusive. AI drafts → validators enforce dignity, clarity, and accessibility → HR/NGO review.",
+        "output": "System: HR docs input → AI drafts modules → validators enforce inclusivity and accessibility → HR/NGO approval.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 950,
+        "topic": "ai.design_creativity",
+        "question": "How can AI-assisted participatory design improve resilience in urban planning projects?",
+        "think": "AI generates adaptive design scenarios, but local communities validate inclusivity and accessibility.",
+        "output": "AI participatory design strengthens resilience by co-creating inclusive, adaptive urban solutions.",
+        "format_version": "1.1",
+        "difficulty": 5
     }
 ]
