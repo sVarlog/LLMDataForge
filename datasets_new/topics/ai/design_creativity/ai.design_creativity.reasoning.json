@@ -8530,5 +8530,455 @@
         "output": "AI participatory design strengthens resilience by co-creating inclusive, adaptive urban solutions.",
         "format_version": "1.1",
         "difficulty": 5
+    },
+    {
+        "id": 951,
+        "topic": "ai.design_creativity",
+        "question": "What is the function of alignment in digital layouts?",
+        "think": "Alignment organizes elements along invisible lines, reducing visual clutter and making designs easier to read.",
+        "output": "Alignment creates order, balance, and improves readability in digital layouts.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 952,
+        "topic": "ai.design_creativity",
+        "question": "Why are call-to-action buttons important in web design?",
+        "think": "CTAs guide users toward goals like sign-ups or purchases. Their clarity influences conversion rates.",
+        "output": "Call-to-action buttons drive user actions and improve conversion by providing clear next steps.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 953,
+        "topic": "ai.design_creativity",
+        "question": "What is the purpose of placeholder text in forms?",
+        "think": "Placeholder text hints what information is expected in a field, improving clarity.",
+        "output": "Placeholder text guides users by showing the type of input required in form fields.",
+        "format_version": "1.1",
+        "difficulty": 1
+    },
+    {
+        "id": 954,
+        "topic": "ai.design_creativity",
+        "question": "How does responsive navigation improve mobile usability?",
+        "think": "Responsive navigation adapts menus to smaller screens, ensuring features remain accessible.",
+        "output": "Responsive navigation ensures menus are easy to use across all devices, especially on mobile.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 955,
+        "topic": "ai.design_creativity",
+        "question": "Why is user feedback important in product design?",
+        "think": "Feedback reveals usability issues and validates assumptions, improving final design quality.",
+        "output": "User feedback helps refine products by exposing problems and validating design decisions.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 956,
+        "topic": "ai.design_creativity",
+        "question": "What are breadcrumbs in navigation design?",
+        "think": "Breadcrumbs show the path users take within a hierarchy, reducing disorientation.",
+        "output": "Breadcrumbs clarify location in a structure and help users navigate back easily.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 957,
+        "topic": "ai.design_creativity",
+        "question": "Why should designers consider cognitive load in interface design?",
+        "think": "Excessive complexity overwhelms users. Reducing cognitive load improves decision-making.",
+        "output": "Minimizing cognitive load simplifies interfaces and enhances usability.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 958,
+        "topic": "ai.design_creativity",
+        "question": "How can microcopy improve digital forms?",
+        "think": "Microcopy clarifies actions and reduces user uncertainty, preventing errors.",
+        "output": "Effective microcopy guides users with clarity and tone, improving form completion.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 959,
+        "topic": "ai.design_creativity",
+        "question": "What ethical risks arise from AI-generated advertising?",
+        "think": "AI may create biased or manipulative content if datasets are unbalanced.",
+        "output": "AI-generated advertising risks bias, stereotypes, and manipulative messaging.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 960,
+        "topic": "ai.design_creativity",
+        "question": "Why are personas combined with journey maps useful in UX design?",
+        "think": "Personas describe users, journey maps show experiences. Together, they give a holistic view.",
+        "output": "Personas plus journey maps reveal who users are and how they interact, guiding design priorities.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 961,
+        "topic": "ai.design_creativity",
+        "question": "How does cross-cultural testing prevent design failures?",
+        "think": "Cultural meanings differ across regions. Testing avoids offensive or misunderstood content.",
+        "output": "Cross-cultural testing ensures designs resonate globally and avoid cultural missteps.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 962,
+        "topic": "ai.design_creativity",
+        "question": "How does speculative design address future risks in AI systems?",
+        "think": "Speculative design explores what-if futures, surfacing ethical and social risks early.",
+        "output": "Speculative design exposes risks by creating artifacts of possible AI futures.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 963,
+        "topic": "ai.design_creativity",
+        "question": "What is the role of ethics audits in AI-driven creative tools?",
+        "think": "Ethics audits review bias, inclusivity, and fairness in AI outputs before deployment.",
+        "output": "Ethics audits reduce risks by ensuring AI creative tools remain fair and inclusive.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 964,
+        "topic": "ai.design_creativity",
+        "question": "How does universal design improve public service apps?",
+        "think": "Universal design ensures usability for all abilities, expanding reach and trust.",
+        "output": "Universal design makes public service apps accessible and fair for diverse users.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 965,
+        "topic": "ai.design_creativity",
+        "question": "Why should accessibility testing involve real users with disabilities?",
+        "think": "Automated tools miss context-specific challenges. Real users reveal true barriers.",
+        "output": "Involving users with disabilities ensures accessibility tests reflect lived experiences.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 966,
+        "topic": "ai.design_creativity",
+        "question": "Propose a workflow for AI-assisted financial literacy posters for underserved communities.",
+        "think": "Financial literacy needs clarity and dignity. AI drafts → validators enforce readability, inclusivity, accessibility → NGO review.",
+        "output": "Workflow: docs input → AI drafts posters → validators check inclusivity/accessibility → NGO approval.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 967,
+        "topic": "ai.design_creativity",
+        "question": "How can AI help schools generate multilingual digital safety training guides for students?",
+        "think": "AI can draft guides quickly but must avoid bias. Validators enforce inclusivity, accessibility, and clarity.",
+        "output": "AI drafts multilingual safety guides vetted for accuracy, inclusivity, and accessibility by educators.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 968,
+        "topic": "ai.design_creativity",
+        "question": "Propose a system for AI-generated anti-corruption awareness campaigns that remain neutral and accessible.",
+        "think": "Anti-corruption is politically sensitive. AI drafts → validators enforce neutrality and clarity → NGO/board approval.",
+        "output": "System: docs input → AI drafts campaigns → validators enforce neutrality/accessibility → board/NGO approval.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 969,
+        "topic": "ai.design_creativity",
+        "question": "How can AI-assisted participatory design improve disaster relief education?",
+        "think": "AI can generate materials faster, but communities must validate clarity and cultural relevance.",
+        "output": "AI participatory design improves disaster education by co-creating inclusive, localized content.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 970,
+        "topic": "ai.design_creativity",
+        "question": "Construct a workflow for AI-enabled workplace diversity training modules.",
+        "think": "Diversity training requires fairness and inclusivity. AI drafts modules → validators enforce accessibility and dignity → HR/NGO approval.",
+        "output": "Workflow: HR docs input → AI drafts modules → validators check inclusivity/accessibility → NGO/HR approval.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 971,
+        "topic": "ai.design_creativity",
+        "question": "Propose a pipeline for AI-assisted multilingual road safety campaigns for schools.",
+        "think": "Road safety campaigns need clear visuals. AI drafts posters/apps → validators enforce readability, inclusivity, accessibility → school approval.",
+        "output": "Pipeline: safety docs input → AI drafts → validators enforce clarity and accessibility → school review.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 972,
+        "topic": "ai.design_creativity",
+        "question": "How can AI be applied to create inclusive nutrition campaigns in multiple languages?",
+        "think": "Nutrition education requires clarity and inclusivity. AI drafts → validators enforce readability ≤7, accessibility, stigma filters → educator/NGO review.",
+        "output": "AI generates multilingual nutrition campaigns vetted for clarity, inclusivity, and accessibility by experts.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 973,
+        "topic": "ai.design_creativity",
+        "question": "Propose a system for AI-generated civic education VR modules that remain neutral and inclusive.",
+        "think": "Civic education can be politicized. AI drafts VR modules → validators enforce neutrality, accessibility, inclusivity → council/NGO approval.",
+        "output": "System: civic docs input → AI drafts VR content → validators check neutrality/accessibility → council/NGO approval.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 974,
+        "topic": "ai.design_creativity",
+        "question": "How can AI-assisted workflows improve refugee orientation campaigns in digital platforms?",
+        "think": "Orientation materials must be accurate and stigma-free. AI drafts → validators enforce clarity, inclusivity, accessibility → review by NGOs.",
+        "output": "AI assists by generating orientation campaigns vetted for clarity, inclusivity, and accessibility by NGOs and councils.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 975,
+        "topic": "ai.design_creativity",
+        "question": "Construct a workflow for AI-enabled public health awareness comics that are stigma-free and accessible.",
+        "think": "Public health campaigns risk stigmatization. AI drafts → validators enforce accuracy, dignity, accessibility → health council approval.",
+        "output": "Workflow: health docs input → AI drafts comics → validators enforce dignity and accessibility → NGO/health council approval.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 976,
+        "topic": "ai.design_creativity",
+        "question": "Propose an AI-assisted workflow for designing multilingual earthquake preparedness campaigns (apps, posters, AR demos) that ensure accuracy, inclusivity, and accessibility. How should datasets, safeguards, and governance be structured?",
+        "think": "Earthquake preparedness requires factual accuracy and cultural sensitivity. AI can scale campaigns but errors can cost lives. Data: seismic safety guidelines, government emergency docs, multilingual corpora, motif archives. Constraints: fact-check vs official docs, readability ≤7, WCAG AA, taboo filters. Workflow: AI drafts → validators enforce accuracy, accessibility, inclusivity → review by disaster agencies, NGOs, councils. Governance: multi-stakeholder boards oversee provenance logs and audits. Evaluation: comprehension tests, accessibility audits, adoption rates. Risks: outdated data, misrepresentation. Mitigation: continuous updates, red-team reviews, independent audits.",
+        "output": "Workflow:\n1) Data: seismic docs, corpora, motifs. \n2) AI drafts multilingual campaigns. \n3) Validators: fact-check vs official docs, inclusivity, accessibility. \n4) Review: NGOs + agencies + councils. \n5) Governance: boards oversee provenance logs and audits. \n6) Evaluation: comprehension, accessibility, adoption. \nOutcome: earthquake preparedness campaigns that are accurate, inclusive, and accessible globally.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 977,
+        "topic": "ai.design_creativity",
+        "question": "Construct a pipeline for AI-enabled multilingual food security education (apps, comics, VR) that ensures factual accuracy, inclusivity, and accessibility. What safeguards and governance should be in place?",
+        "think": "Food security touches sensitive economic and cultural issues. AI can create adaptive education content, but oversight is required. Data: UNFAO guides, agricultural datasets, multilingual corpora, cultural motif archives. Constraints: fact validation vs official docs, stigma filters, readability ≤7, WCAG AA. Workflow: AI drafts → validators check inclusivity, accuracy, accessibility → review by NGOs, agricultural experts, cultural councils. Governance: stakeholder boards manage provenance logs, audits. Evaluation: trust surveys, adoption metrics, inclusivity scores. Risks: political misuse or oversimplification. Mitigation: external audits, red-team reviews, rotating leadership.",
+        "output": "Pipeline:\n1) Data: UNFAO docs, agricultural datasets, corpora. \n2) AI drafts apps, comics, VR. \n3) Validators: fact-check, inclusivity, accessibility. \n4) Review: NGOs + agricultural experts + councils. \n5) Governance: boards manage audits and provenance logs. \n6) Evaluation: adoption, trust surveys, inclusivity. \nOutcome: food security education that is accurate, inclusive, and accessible globally.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 978,
+        "topic": "ai.design_creativity",
+        "question": "Design an AI-assisted system for creating multilingual elder financial abuse prevention campaigns (guides, apps, AR) that remain accurate, stigma-free, and accessible. How should datasets, safeguards, and governance be arranged?",
+        "think": "Elder financial abuse prevention requires dignity and accuracy. AI can scale outputs, but stigma or errors harm trust. Data: financial literacy guides, elder rights docs, multilingual corpora, cultural archives. Constraints: readability ≤7, WCAG AA compliance, stigma filters, fact validation. Workflow: AI drafts → validators enforce accuracy, accessibility, inclusivity → review by NGOs, elder councils, financial authorities. Governance: councils manage provenance logs, external audits. Evaluation: trust surveys, adoption metrics, inclusivity audits. Risks: sensationalism, bias. Mitigation: taboo filters, red-team reviews, community veto rights.",
+        "output": "System:\n1) Data: financial literacy + elder rights docs, corpora. \n2) AI drafts guides, apps, AR modules. \n3) Validators: stigma filters, readability ≤7, accessibility, accuracy. \n4) Review: NGOs + elder councils + authorities. \n5) Governance: councils with veto + audits. \n6) Evaluation: trust surveys, inclusivity, adoption. \nOutcome: elder financial abuse prevention campaigns that are accurate, stigma-free, and accessible globally.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 979,
+        "topic": "ai.design_creativity",
+        "question": "Propose a workflow for AI-enabled flood risk education campaigns (apps, VR training, posters) that balance scientific accuracy, inclusivity, and accessibility. What governance and safeguards are required?",
+        "think": "Flood risk campaigns must be accurate and culturally sensitive. AI can create interactive content but errors risk harm. Data: meteorological reports, hydrology guides, multilingual corpora, motif archives. Constraints: fact validation, readability ≤7, WCAG AA compliance, taboo filters. Workflow: AI drafts → validators enforce factual accuracy, inclusivity, accessibility → review by NGOs, disaster agencies, local councils. Governance: boards oversee provenance logs and external audits. Evaluation: comprehension tests, adoption metrics, accessibility audits. Risks: outdated or biased data. Mitigation: regular dataset refresh, red-team reviews, rotating governance.",
+        "output": "Workflow:\n1) Data: hydrology guides, meteorological reports, corpora. \n2) AI drafts apps, posters, VR content. \n3) Validators: fact validation, inclusivity, accessibility. \n4) Review: NGOs + agencies + councils. \n5) Governance: boards manage audits and provenance logs. \n6) Evaluation: comprehension, accessibility, adoption. \nOutcome: flood risk campaigns that are factual, inclusive, and globally accessible.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 980,
+        "topic": "ai.design_creativity",
+        "question": "Construct a pipeline where AI co-creates multilingual digital literacy education for women in underserved regions (apps, comics, VR). The system must ensure inclusivity, accessibility, and dignity. How should datasets, safeguards, and governance be designed?",
+        "think": "Women in underserved areas face literacy, cultural, and accessibility barriers. AI can scale resources, but outputs must remain dignified. Data: UNESCO literacy guides, community corpora, cultural motif archives. Constraints: readability ≤7, inclusivity filters, WCAG AA compliance, taboo checks. Workflow: AI drafts → validators enforce clarity, inclusivity, accessibility → review by NGOs, women’s councils, educators. Governance: councils manage provenance logs and independent audits. Evaluation: adoption metrics, inclusivity audits, trust surveys. Risks: cultural insensitivity, bias drift. Mitigation: taboo filters, external audits, rotating leadership.",
+        "output": "Pipeline:\n1) Data: UNESCO guides, community corpora, motif archives. \n2) AI drafts apps, comics, VR. \n3) Validators: inclusivity filters, readability ≤7, accessibility. \n4) Review: NGOs + women’s councils + educators. \n5) Governance: councils manage provenance logs + audits. \n6) Evaluation: inclusivity audits, trust surveys, adoption metrics. \nOutcome: digital literacy education for women that is inclusive, dignified, and accessible globally.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 981,
+        "topic": "ai.design_creativity",
+        "question": "Propose an AI-enabled workflow for creating multilingual wildfire preparedness campaigns (apps, AR training, posters) that ensure accuracy, inclusivity, and accessibility. What datasets, safeguards, and governance should be included?",
+        "think": "Wildfire campaigns must be factually correct and culturally adaptive. AI can scale content, but errors may endanger lives. Data: wildfire safety guidelines, meteorological reports, multilingual corpora, motif archives. Constraints: fact validation, readability ≤7, WCAG AA compliance, stigma filters. Workflow: AI drafts → validators enforce accuracy, inclusivity, accessibility → review by NGOs, fire departments, councils. Governance: multi-stakeholder boards manage provenance logs and audits. Evaluation: comprehension surveys, inclusivity audits, adoption metrics. Risks: outdated data, misrepresentation. Mitigation: dataset updates, independent audits, community veto rights.",
+        "output": "Workflow:\n1) Data: wildfire safety docs, meteorological reports, corpora. \n2) AI drafts apps, AR modules, posters. \n3) Validators: fact-check, inclusivity, accessibility, stigma filters. \n4) Review: NGOs + fire departments + councils. \n5) Governance: boards manage audits + provenance logs. \n6) Evaluation: comprehension, inclusivity, adoption. \nOutcome: wildfire preparedness campaigns that are accurate, inclusive, and globally accessible.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 982,
+        "topic": "ai.design_creativity",
+        "question": "Construct a pipeline for AI-assisted multilingual cybersecurity awareness campaigns (apps, comics, VR) that ensure factual accuracy, inclusivity, and accessibility. How should safeguards and governance be structured?",
+        "think": "Cybersecurity education requires clarity and neutrality. AI can produce engaging content, but must avoid bias. Data: cybersecurity guidelines, CERT docs, multilingual corpora. Constraints: fact validation, stigma filters, readability ≤7, WCAG AA. Workflow: AI drafts → validators enforce inclusivity, accuracy, accessibility → review by NGOs, cybersecurity experts, councils. Governance: boards manage audits and provenance logs. Evaluation: comprehension surveys, adoption metrics, inclusivity audits. Risks: oversimplification, fear-based messaging. Mitigation: taboo filters, red-team audits, rotating governance.",
+        "output": "Pipeline:\n1) Data: CERT guidelines, cybersecurity docs, corpora. \n2) AI drafts apps, comics, VR. \n3) Validators: fact-check, inclusivity, accessibility, stigma filters. \n4) Review: NGOs + experts + councils. \n5) Governance: boards manage audits + provenance logs. \n6) Evaluation: comprehension, inclusivity, adoption. \nOutcome: cybersecurity awareness campaigns that are factual, inclusive, and accessible globally.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 983,
+        "topic": "ai.design_creativity",
+        "question": "Design an AI-assisted system for multilingual maternal health education campaigns (apps, posters, VR training) that ensure accuracy, inclusivity, and dignity. How should datasets, safeguards, and governance be defined?",
+        "think": "Maternal health campaigns must be factual and respectful. AI can scale outputs but must avoid harmful stereotypes. Data: WHO maternal health docs, multilingual corpora, cultural archives. Constraints: readability ≤7, stigma filters, WCAG AA, fact validation. Workflow: AI drafts → validators enforce inclusivity, accuracy, accessibility → review by NGOs, health experts, cultural councils. Governance: boards manage provenance logs, external audits, rotating leadership. Evaluation: trust surveys, adoption metrics, inclusivity audits. Risks: cultural insensitivity or misrepresentation. Mitigation: taboo filters, red-team reviews, advisory councils.",
+        "output": "System:\n1) Data: WHO docs, corpora, cultural archives. \n2) AI drafts apps, posters, VR. \n3) Validators: stigma filters, readability ≤7, WCAG AA, fact validation. \n4) Review: NGOs + health experts + councils. \n5) Governance: boards manage audits + provenance logs. \n6) Evaluation: adoption, trust surveys, inclusivity. \nOutcome: maternal health education that is accurate, inclusive, and dignified.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 984,
+        "topic": "ai.design_creativity",
+        "question": "Propose a pipeline for AI-enabled water conservation education (apps, AR experiences, infographics) that remain factual, inclusive, and accessible. What governance and safeguards are required?",
+        "think": "Water conservation campaigns must balance science with cultural contexts. AI can generate engaging outputs, but oversight is vital. Data: UN water reports, environmental datasets, multilingual corpora, motif libraries. Constraints: fact validation, readability ≤7, WCAG AA, inclusivity filters. Workflow: AI drafts → validators enforce clarity, inclusivity, accessibility → review by NGOs, environmental experts, community councils. Governance: boards oversee audits, provenance logs, and transparency dashboards. Evaluation: adoption rates, inclusivity audits, accessibility scores. Risks: greenwashing or oversimplification. Mitigation: external audits, red-team reviews, rotating leadership.",
+        "output": "Pipeline:\n1) Data: UN water reports, environmental datasets, corpora. \n2) AI drafts apps, AR, infographics. \n3) Validators: fact validation, inclusivity, accessibility. \n4) Review: NGOs + experts + councils. \n5) Governance: boards oversee audits and transparency dashboards. \n6) Evaluation: adoption, inclusivity, accessibility. \nOutcome: water conservation campaigns that are factual, inclusive, and accessible globally.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 985,
+        "topic": "ai.design_creativity",
+        "question": "Construct an AI-enabled system for multilingual workplace mental health training campaigns (guides, videos, AR modules) that ensure accessibility, inclusivity, and dignity. How should datasets, safeguards, and governance be structured?",
+        "think": "Workplace mental health requires dignity and clarity. AI can generate scalable resources, but stigma or errors undermine trust. Data: workplace mental health guides, psychology resources, multilingual corpora. Constraints: stigma filters, readability ≤7, WCAG AA compliance, fact validation. Workflow: AI drafts → validators enforce inclusivity, accessibility, accuracy → review by HR experts, psychologists, NGOs. Governance: councils oversee provenance logs, audits, rotating leadership. Evaluation: trust surveys, inclusivity scores, adoption metrics. Risks: stigma, cultural misfit. Mitigation: taboo filters, external audits, employee feedback loops.",
+        "output": "System:\n1) Data: workplace mental health guides, corpora. \n2) AI drafts guides, videos, AR. \n3) Validators: stigma filters, accessibility checks, fact validation. \n4) Review: HR experts + psychologists + NGOs. \n5) Governance: councils manage provenance logs and audits. \n6) Evaluation: adoption, trust surveys, inclusivity. \nOutcome: mental health training that is accessible, inclusive, and respectful worldwide.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 986,
+        "topic": "ai.design_creativity",
+        "question": "Propose a workflow where AI assists in creating multilingual child nutrition education campaigns (apps, comics, AR materials) that remain factual, stigma-free, and accessible. How should safeguards and governance be designed?",
+        "think": "Child nutrition campaigns must be engaging and accurate, but avoid stigmatizing groups. AI can generate educational content at scale, but needs strong validation. Data: WHO child nutrition guides, school curricula, multilingual corpora, cultural motif archives. Constraints: readability ≤6, WCAG AA compliance, stigma filters, fact validation. Workflow: AI drafts → validators enforce accuracy, accessibility, inclusivity → review by educators, NGOs, and health councils. Governance: multi-stakeholder boards manage provenance logs and audits. Evaluation: comprehension surveys, inclusivity audits, adoption metrics. Risks: cultural misfit or oversimplification. Mitigation: taboo filters, external audits, rotating governance.",
+        "output": "Workflow:\n1) Data: WHO docs, school curricula, corpora. \n2) AI drafts apps, comics, AR content. \n3) Validators: fact-check, stigma filters, accessibility, inclusivity. \n4) Review: educators + NGOs + health councils. \n5) Governance: boards manage audits and provenance logs. \n6) Evaluation: comprehension, inclusivity, adoption. \nOutcome: child nutrition campaigns that are factual, accessible, and stigma-free worldwide.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 987,
+        "topic": "ai.design_creativity",
+        "question": "Design an AI-assisted system for multilingual disaster evacuation guides (apps, posters, VR training) that ensure accuracy, inclusivity, and accessibility. What datasets, safeguards, and governance should be established?",
+        "think": "Evacuation guides are critical during disasters. AI can generate adaptive outputs, but errors pose risks. Data: emergency management docs, government safety regulations, multilingual corpora, cultural archives. Constraints: fact validation vs official docs, readability ≤7, WCAG AA compliance, taboo filters. Workflow: AI drafts → validators enforce factual accuracy, inclusivity, accessibility → review by agencies, NGOs, councils. Governance: oversight boards manage provenance logs, audits. Evaluation: adoption rates, comprehension tests, accessibility audits. Risks: outdated data, political misuse. Mitigation: regular dataset refresh, red-team reviews, rotating leadership.",
+        "output": "System:\n1) Data: emergency docs, safety regs, corpora. \n2) AI drafts apps, posters, VR guides. \n3) Validators: fact validation, accessibility, inclusivity, taboo filters. \n4) Review: agencies + NGOs + councils. \n5) Governance: boards oversee audits and provenance logs. \n6) Evaluation: comprehension, adoption, accessibility. \nOutcome: disaster evacuation guides that are factual, inclusive, and globally accessible.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 988,
+        "topic": "ai.design_creativity",
+        "question": "Propose a pipeline for AI-enabled financial fraud prevention campaigns (apps, infographics, AR content) that are accurate, inclusive, and accessible. How should safeguards and governance be structured?",
+        "think": "Fraud prevention campaigns must be accurate and stigma-free. AI can create scalable materials, but oversight is crucial. Data: financial authority docs, multilingual corpora, educational guides. Constraints: fact validation vs official docs, readability ≤7, WCAG AA, stigma filters. Workflow: AI drafts → validators enforce accuracy, inclusivity, accessibility → review by NGOs, financial regulators, educators. Governance: boards manage audits and provenance logs. Evaluation: adoption metrics, inclusivity audits, accessibility scores. Risks: oversimplification or bias. Mitigation: taboo filters, independent audits, rotating governance.",
+        "output": "Pipeline:\n1) Data: financial authority docs, corpora, educational guides. \n2) AI drafts apps, infographics, AR content. \n3) Validators: fact validation, stigma filters, accessibility, inclusivity. \n4) Review: NGOs + regulators + educators. \n5) Governance: boards manage audits and provenance logs. \n6) Evaluation: adoption, inclusivity, accessibility. \nOutcome: financial fraud prevention campaigns that are factual, inclusive, and globally accessible.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 989,
+        "topic": "ai.design_creativity",
+        "question": "Construct an AI-assisted workflow for multilingual climate change adaptation education (apps, comics, VR modules) that ensure scientific accuracy, inclusivity, and accessibility. What governance and safeguards are needed?",
+        "think": "Climate change adaptation requires both scientific rigor and cultural sensitivity. AI can create scalable campaigns, but risks greenwashing. Data: IPCC reports, local adaptation case studies, multilingual corpora, motif archives. Constraints: fact validation vs peer-reviewed data, readability ≤7, WCAG AA, inclusivity filters. Workflow: AI drafts → validators enforce accuracy, inclusivity, accessibility → review by scientists, NGOs, councils. Governance: boards manage provenance logs, transparency dashboards, and audits. Evaluation: inclusivity scores, adoption metrics, accessibility audits. Risks: politicization or misrepresentation. Mitigation: red-team reviews, community veto rights, independent audits.",
+        "output": "Workflow:\n1) Data: IPCC reports, case studies, corpora. \n2) AI drafts apps, comics, VR modules. \n3) Validators: fact validation, inclusivity, accessibility. \n4) Review: scientists + NGOs + councils. \n5) Governance: boards manage audits and transparency dashboards. \n6) Evaluation: inclusivity, adoption, accessibility. \nOutcome: climate change adaptation education that is factual, inclusive, and accessible worldwide.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 990,
+        "topic": "ai.design_creativity",
+        "question": "Develop a system where AI co-creates multilingual workplace equality training (guides, videos, AR modules) that remain accessible, inclusive, and respectful. How should datasets, safeguards, and governance be defined?",
+        "think": "Workplace equality training must uphold dignity and inclusivity. AI can generate scalable content but risks introducing bias. Data: HR equality guidelines, diversity best practices, multilingual corpora. Constraints: stigma filters, readability ≤7, WCAG AA, fact validation. Workflow: AI drafts → validators enforce inclusivity, accessibility, accuracy → review by HR, NGOs, and equality councils. Governance: boards manage audits, provenance logs, and community feedback. Evaluation: inclusivity audits, adoption metrics, trust surveys. Risks: tokenism, cultural misfit. Mitigation: taboo filters, external audits, rotating leadership.",
+        "output": "System:\n1) Data: HR equality docs, diversity practices, corpora. \n2) AI drafts guides, videos, AR modules. \n3) Validators: stigma filters, readability ≤7, WCAG AA, fact validation. \n4) Review: HR + NGOs + equality councils. \n5) Governance: boards manage audits and community feedback. \n6) Evaluation: adoption, inclusivity, trust surveys. \nOutcome: workplace equality training that is accessible, inclusive, and globally respectful.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 991,
+        "topic": "ai.design_creativity",
+        "question": "Propose a workflow where AI co-creates multilingual infectious disease awareness campaigns (apps, posters, VR demos) that are accurate, stigma-free, and accessible. How should datasets, safeguards, and governance be structured?",
+        "think": "Infectious disease campaigns must balance accuracy and dignity. AI can scale awareness but risks misinformation or stigma. Data: WHO/CDC docs, health ministry guidelines, multilingual corpora. Constraints: fact-check vs official sources, stigma filters, readability ≤7, WCAG AA compliance. Workflow: AI drafts → validators enforce clarity, inclusivity, accessibility → review by NGOs, health agencies, councils. Governance: boards manage provenance logs, independent audits, transparency dashboards. Evaluation: comprehension surveys, inclusivity audits, adoption metrics. Risks: political misuse, cultural insensitivity. Mitigation: taboo filters, rotating leadership, red-team reviews.",
+        "output": "Workflow:\n1) Data: WHO/CDC docs, corpora, guidelines. \n2) AI drafts apps, posters, VR demos. \n3) Validators: fact-check, stigma filters, accessibility, inclusivity. \n4) Review: NGOs + agencies + councils. \n5) Governance: boards oversee audits and transparency dashboards. \n6) Evaluation: comprehension, inclusivity, adoption. \nOutcome: infectious disease campaigns that are accurate, stigma-free, and globally accessible.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 992,
+        "topic": "ai.design_creativity",
+        "question": "Construct an AI-assisted pipeline for multilingual sustainable farming education (apps, comics, AR training) that remain factual, inclusive, and accessible. What safeguards and governance are needed?",
+        "think": "Sustainable farming content must be science-based and locally relevant. AI can scale outputs, but missteps risk exclusion or misinformation. Data: FAO docs, agricultural case studies, multilingual corpora, motif archives. Constraints: fact validation, stigma filters, readability ≤7, WCAG AA. Workflow: AI drafts → validators enforce accuracy, inclusivity, accessibility → review by NGOs, farmers’ councils, scientists. Governance: boards manage provenance logs, independent audits, rotating leadership. Evaluation: adoption rates, inclusivity audits, accessibility metrics. Risks: bias, oversimplification. Mitigation: community veto rights, external audits, red-team reviews.",
+        "output": "Pipeline:\n1) Data: FAO docs, case studies, corpora. \n2) AI drafts apps, comics, AR modules. \n3) Validators: fact-check, stigma filters, accessibility. \n4) Review: NGOs + councils + scientists. \n5) Governance: boards manage audits and provenance logs. \n6) Evaluation: adoption, inclusivity, accessibility. \nOutcome: farming education campaigns that are factual, inclusive, and accessible globally.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 993,
+        "topic": "ai.design_creativity",
+        "question": "Design an AI-enabled system for multilingual digital privacy education campaigns (apps, infographics, VR lessons) that are factual, inclusive, and accessible. How should datasets, safeguards, and governance be arranged?",
+        "think": "Digital privacy is a complex, politically sensitive issue. AI can scale campaigns but risks oversimplification or bias. Data: GDPR/UN digital rights docs, cybersecurity reports, multilingual corpora. Constraints: neutrality filters, fact validation, readability ≤7, WCAG AA, stigma filters. Workflow: AI drafts → validators enforce inclusivity, accuracy, accessibility → review by NGOs, digital rights councils, educators. Governance: boards oversee audits, provenance logs, transparency dashboards. Evaluation: adoption metrics, inclusivity audits, accessibility tests. Risks: politicization, manipulation. Mitigation: external audits, rotating governance, red-team reviews.",
+        "output": "System:\n1) Data: GDPR/UN docs, corpora, cybersecurity reports. \n2) AI drafts apps, infographics, VR lessons. \n3) Validators: fact-check, inclusivity, accessibility, neutrality filters. \n4) Review: NGOs + rights councils + educators. \n5) Governance: boards oversee audits and provenance logs. \n6) Evaluation: adoption, inclusivity, accessibility. \nOutcome: digital privacy campaigns that are factual, inclusive, and globally accessible.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 994,
+        "topic": "ai.design_creativity",
+        "question": "Propose a pipeline where AI helps create multilingual anti-human trafficking awareness campaigns (apps, comics, VR experiences) that remain accurate, dignified, and accessible. How should safeguards and governance be implemented?",
+        "think": "Anti-trafficking campaigns must avoid sensationalism while remaining impactful. AI can scale outreach, but risks harmful framing. Data: UN/NGO docs, survivor testimonies (with consent), multilingual corpora. Constraints: stigma filters, fact validation vs official docs, readability ≤7, WCAG AA compliance. Workflow: AI drafts → validators enforce dignity, accuracy, accessibility → review by NGOs, survivor councils, law enforcement. Governance: boards manage audits, transparency dashboards, provenance logs. Evaluation: adoption metrics, inclusivity audits, trust surveys. Risks: retraumatization, bias. Mitigation: survivor-led review, taboo filters, independent audits.",
+        "output": "Pipeline:\n1) Data: UN/NGO docs, survivor testimonies, corpora. \n2) AI drafts apps, comics, VR content. \n3) Validators: stigma filters, accuracy checks, accessibility. \n4) Review: NGOs + survivor councils + law enforcement. \n5) Governance: boards oversee audits and transparency dashboards. \n6) Evaluation: adoption, inclusivity, trust surveys. \nOutcome: anti-trafficking campaigns that are dignified, accurate, and accessible worldwide.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 995,
+        "topic": "ai.design_creativity",
+        "question": "Construct a system for AI-assisted multilingual ocean pollution awareness education (apps, AR demos, comics) that are factual, inclusive, and accessible. What governance and safeguards should be applied?",
+        "think": "Ocean pollution awareness requires scientific accuracy and cultural adaptation. AI can generate educational content, but risks greenwashing or oversimplification. Data: UNEP reports, marine science docs, multilingual corpora, cultural motif archives. Constraints: fact validation, neutrality filters, readability ≤7, WCAG AA compliance, stigma filters. Workflow: AI drafts → validators enforce accuracy, inclusivity, accessibility → review by NGOs, scientists, community councils. Governance: boards manage audits, transparency dashboards, provenance logs. Evaluation: comprehension surveys, adoption metrics, inclusivity audits. Risks: corporate misuse, bias drift. Mitigation: red-team reviews, external audits, community veto rights.",
+        "output": "System:\n1) Data: UNEP reports, marine science docs, corpora. \n2) AI drafts apps, AR demos, comics. \n3) Validators: fact-check, inclusivity, accessibility, neutrality. \n4) Review: NGOs + scientists + councils. \n5) Governance: boards manage audits and provenance logs. \n6) Evaluation: comprehension, adoption, inclusivity. \nOutcome: ocean pollution education that is factual, inclusive, and accessible globally.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 996,
+        "topic": "ai.design_creativity",
+        "question": "Propose a planetary AI platform where educators, scientists, and NGOs co-create multilingual climate migration education media (films, VR, apps). The system must ensure accuracy, inclusivity, accessibility, and dignity, while resisting politicization. How should datasets, safeguards, and governance be structured?",
+        "think": "Climate migration is a sensitive issue involving humanitarian, legal, and cultural factors. AI can scale narratives but risks stigmatization or political misuse. Architecture: ingestion (UNHCR docs, migration stats, oral histories, cultural archives) → AI generators (films, VR, apps) → validators (fact validation, stigma filters, accessibility audits, inclusivity checks) → review councils. Datasets: migration data, multilingual corpora, motif libraries. Metadata: provenance, licensing, sensitivity. Safeguards: taboo/stigma filters, WCAG AA/XR compliance, neutrality detectors. Governance: migration councils (refugee reps, NGOs, educators, cultural custodians) with veto rights, rotating leadership, independent audits. Transparency: provenance dashboards, public appeals. Evaluation: factual accuracy ≥98%, inclusivity and accessibility ≥95%, adoption metrics. Risks: propaganda misuse or stereotyping. Mitigation: red-team reviews, external audits, community veto rights.",
+        "output": "Platform:\n1) Data: UNHCR docs, stats, oral histories, corpora. \n2) AI generates films, VR, apps. \n3) Validators: fact validation, stigma filters, inclusivity, accessibility. \n4) Review: NGOs + councils + educators. \n5) Governance: councils with veto + audits. \n6) Transparency: provenance dashboards + appeals. \n7) Evaluation: accuracy, inclusivity, accessibility, adoption. \nOutcome: climate migration education that is accurate, dignified, and resistant to politicization.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 997,
+        "topic": "ai.design_creativity",
+        "question": "Design a planetary-scale AI commons where cultural custodians, linguists, and educators co-create multilingual endangered language preservation archives (VR storytelling, AR exhibits, interactive games). The system must guarantee authenticity, inclusivity, accessibility, and protection against appropriation. How should datasets, governance, and safeguards be arranged?",
+        "think": "Endangered languages risk extinction and misappropriation. AI can preserve and scale, but authenticity is vital. Architecture: federated custodial nodes → AI generators (VR, AR, games) → validators (authenticity checks, inclusivity audits, accessibility filters, taboo detectors) → review boards. Datasets: licensed oral histories, linguistic corpora, folklore archives. Metadata: provenance, license, sensitivity. Safeguards: community veto rights, royalties, WCAG AA/XR compliance. Governance: councils (custodians, linguists, NGOs, educators) with veto authority, rotating leadership, audits. Transparency: provenance dashboards, royalties distribution. Evaluation: authenticity audits, inclusivity indices, accessibility ≥95%, community trust surveys. Risks: homogenization, commercial misuse. Mitigation: royalties, red-team audits, peer review.",
+        "output": "Commons:\n1) Data: oral histories, linguistic corpora, folklore archives. \n2) AI generates VR, AR, games. \n3) Validators: authenticity, inclusivity, accessibility, taboo filters. \n4) Governance: custodial councils with veto rights + audits. \n5) Transparency: provenance dashboards + royalties. \n6) Evaluation: authenticity, inclusivity, accessibility, trust. \nOutcome: endangered language archives preserved authentically, inclusively, and safeguarded from appropriation.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 998,
+        "topic": "ai.design_creativity",
+        "question": "Propose a planetary AI-assisted system where journalists, NGOs, and citizens co-create multilingual crisis reporting media (VR reconstructions, dashboards, comics) that remain factual, neutral, and censorship-resistant. How should architecture, datasets, and safeguards be defined?",
+        "think": "Crisis reporting is vulnerable to misinformation and censorship. AI can scale immersive media but must enforce neutrality. Architecture: ingestion (open data, NGO reports, citizen testimonies, cultural archives) → AI generators (VR, dashboards, comics) → validators (fact validation, neutrality audits, accessibility filters) → editorial councils. Datasets: crisis datasets, multilingual corpora, oral testimonies (with consent). Metadata: provenance, license, sensitivity. Safeguards: fact validation, neutrality detectors, WCAG AA/XR compliance, decentralized hosting. Governance: journalism councils (NGOs, reporters, citizens) with veto rights, rotating leadership, audits. Transparency: provenance dashboards, public peer review. Evaluation: factual accuracy ≥98%, inclusivity indices, accessibility ≥95%, trust metrics. Risks: manipulation, political capture. Mitigation: decentralized infrastructure, red-team reviews, rotating audits.",
+        "output": "System:\n1) Data: NGO reports, testimonies, corpora, crisis datasets. \n2) AI generates VR reconstructions, dashboards, comics. \n3) Validators: fact validation, neutrality, accessibility. \n4) Governance: journalism councils with veto rights + audits. \n5) Transparency: provenance dashboards + peer review. \n6) Evaluation: accuracy, inclusivity, accessibility, trust. \nOutcome: crisis reporting that is factual, neutral, and censorship-resistant.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 999,
+        "topic": "ai.design_creativity",
+        "question": "Propose a planetary AI commons where educators, environmental scientists, and artists co-create multilingual biodiversity storytelling (AR exhibitions, films, interactive games). The system must ensure factual accuracy, inclusivity, accessibility, and safeguards against greenwashing. How should datasets, safeguards, and governance be defined?",
+        "think": "Biodiversity storytelling can inspire action but is vulnerable to misrepresentation. AI can create powerful narratives at scale but must remain factual and inclusive. Architecture: ingestion (IUCN datasets, ecological reports, cultural archives) → AI generators (AR, films, games) → validators (fact-check, inclusivity audits, accessibility filters, neutrality detectors) → review councils. Datasets: biodiversity data, multilingual corpora, folklore motifs. Metadata: provenance, license, sensitivity. Safeguards: taboo motif filters, WCAG AA/XR compliance, bias detectors. Governance: biodiversity councils (scientists, NGOs, educators, communities) with veto rights, independent audits, rotating leadership. Transparency: provenance dashboards, peer review. Evaluation: factual accuracy ≥98%, inclusivity indices, accessibility ≥95%, adoption rates. Risks: greenwashing, corporate misuse. Mitigation: external audits, red-team reviews, community veto.",
+        "output": "Commons:\n1) Data: IUCN reports, corpora, folklore motifs. \n2) AI generates AR, films, games. \n3) Validators: fact-check, inclusivity, accessibility, neutrality. \n4) Governance: biodiversity councils with veto rights + audits. \n5) Transparency: provenance dashboards + peer review. \n6) Evaluation: accuracy, inclusivity, accessibility, adoption. \nOutcome: biodiversity storytelling that is factual, inclusive, and resistant to greenwashing.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 1000,
+        "topic": "ai.design_creativity",
+        "question": "Design a planetary-scale AI-assisted commons where NGOs, cultural custodians, and educators co-create multilingual human rights education (VR experiences, apps, comics). The system must ensure neutrality, inclusivity, accessibility, and resilience against political misuse. How should architecture, datasets, and governance be structured?",
+        "think": "Human rights education is politically sensitive but globally essential. AI can scale resources, but risks biased framing. Architecture: ingestion (UN human rights charters, NGO docs, oral histories) → AI generators (VR, apps, comics) → validators (fact validation, neutrality filters, accessibility audits, inclusivity checks) → review councils. Datasets: UN reports, multilingual corpora, cultural archives. Metadata: provenance, license, sensitivity. Safeguards: neutrality detectors, stigma filters, WCAG AA/XR compliance. Governance: councils (NGOs, educators, custodians) with veto rights, rotating leadership, audits. Transparency: provenance dashboards, open peer review. Evaluation: factual accuracy ≥98%, inclusivity indices, accessibility ≥95%, adoption metrics. Risks: propaganda misuse, exclusion. Mitigation: independent audits, red-team reviews, community veto rights.",
+        "output": "Commons:\n1) Data: UN docs, NGO reports, oral histories, corpora. \n2) AI generates VR, apps, comics. \n3) Validators: neutrality, inclusivity, accessibility, fact validation. \n4) Governance: councils with veto + audits. \n5) Transparency: provenance dashboards + peer review. \n6) Evaluation: accuracy, inclusivity, accessibility, adoption. \nOutcome: human rights education that is neutral, inclusive, and safeguarded against political misuse.",
+        "format_version": "1.1",
+        "difficulty": 7
     }
 ]
