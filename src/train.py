@@ -691,7 +691,7 @@ def train_model(model, tokenizer, dataset, output_dir, canonical_assistant_ids, 
         per_device_train_batch_size=2,
         gradient_accumulation_steps=8,
         num_train_epochs=TRAINING_EPOCHS,
-        learning_rate=2e-5, # fastest optimal - 2e-5, slowest optimal - 1e-5
+        learning_rate=1e-5, # fastest optimal - 2e-5, slowest optimal - 1e-5
         weight_decay=0.01, # recommended range: 0.01 - 0.1
         warmup_ratio=0.3, # recommended range: 0.1 - 0.3
         logging_steps=LOGGING_STEPS,
