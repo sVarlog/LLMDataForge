@@ -1,1 +1,884 @@
-[]
+[
+    {
+        "id": 1,
+        "topic": "ai.education",
+        "question": "How can AI-powered tutoring systems adapt feedback styles to different student learning preferences?",
+        "think": "Students vary in how they respond to feedback: some prefer detailed explanations, others short corrective hints. AI can classify learning preferences through behavioral signals such as time spent per question, error repetition, and engagement with hints. By clustering these patterns, the system can decide whether to provide step-by-step breakdowns or high-level nudges. Reinforcement learning can refine strategies by monitoring which style improves retention and reduces frustration.",
+        "output": "AI tutors can monitor learner behaviors to infer preferences and adapt feedback accordingly—for example, offering detailed reasoning for analytical learners or concise prompts for pragmatic learners. Over time, reinforcement learning allows the system to personalize interactions, improving comprehension and motivation.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 2,
+        "topic": "ai.education",
+        "question": "What role can AI play in detecting early signs of student disengagement in online learning platforms?",
+        "think": "Disengagement manifests in reduced logins, slower responses, skipped activities, or declining performance. AI can track clickstream data, time-on-task, and natural language in forum posts. Predictive models can identify patterns like longer inactivity gaps or sentiment decline in written reflections. By correlating these signals with historical data, AI systems can flag at-risk students before dropout occurs, allowing timely interventions from instructors.",
+        "output": "AI can analyze student activity logs, performance metrics, and textual input to detect disengagement. For example, sudden drops in participation or negative sentiment in reflections can trigger alerts, enabling educators to provide timely support and prevent dropout.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 3,
+        "topic": "ai.education",
+        "question": "How can AI be used to create fair and secure automated assessments that reduce cheating risks?",
+        "think": "AI in assessments must balance fairness and security. It can randomize question banks, personalize tests by adapting item difficulty, and apply anomaly detection to spot suspicious answer patterns. Computer vision can monitor eye movements or device usage, while NLP can analyze written responses for originality. The challenge lies in ensuring these methods do not disadvantage students with disabilities or different cultural backgrounds.",
+        "output": "AI can generate adaptive tests that vary in difficulty and sequence per student, making answer sharing harder. It can also monitor response patterns or proctoring data to detect anomalies, while ensuring fairness by accommodating accessibility needs. Together, these measures create more secure and equitable assessments.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 4,
+        "topic": "ai.education",
+        "question": "How can natural language processing models assist teachers in grading open-ended student essays?",
+        "think": "Essay grading is time-consuming and subjective. NLP models can evaluate grammar, coherence, argument strength, and alignment with rubric criteria. By training on large datasets of teacher-scored essays, AI can learn scoring patterns. However, biases may emerge if training data reflects subjective grading habits. A hybrid approach works best: AI generates draft scores and feedback, while teachers validate and adjust, improving efficiency without sacrificing fairness.",
+        "output": "NLP-based grading assistants can provide preliminary scores and targeted feedback on structure, grammar, and reasoning quality. Teachers remain final arbiters, but AI accelerates grading, ensures consistent application of rubrics, and highlights areas needing manual review.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 5,
+        "topic": "ai.education",
+        "question": "What ethical challenges arise from using AI-driven recommendation engines for personalized learning pathways?",
+        "think": "Recommendation systems may steer students toward content that reinforces existing strengths while neglecting weak areas, risking a filter bubble effect. They may also inadvertently embed bias if trained on narrow datasets. Balancing personalization with curriculum standards requires transparency in how recommendations are generated. Clear opt-out options and periodic human review mitigate risks of over-reliance on algorithmic decisions.",
+        "output": "Ethical risks include reinforcing biases, narrowing exposure to diverse subjects, and reducing human oversight. To address this, AI recommendations must be transparent, aligned with educational goals, and regularly audited to ensure fairness and inclusivity.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 6,
+        "topic": "ai.education",
+        "question": "How could AI simulations transform vocational education in fields like healthcare or engineering?",
+        "think": "Vocational training relies on practical, hands-on practice. AI-powered simulations can create realistic virtual environments where students perform procedures, receive instant feedback, and repeat scenarios safely. Reinforcement learning can model patient or system responses, making interactions dynamic rather than static. Challenges include ensuring realism, affordability, and alignment with accreditation requirements.",
+        "output": "AI-driven simulations allow students in vocational programs to practice complex tasks—such as surgeries or machinery repair—in realistic, risk-free environments. This improves skill mastery, reduces training costs, and increases accessibility while maintaining educational standards.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 7,
+        "topic": "ai.education",
+        "question": "Design an AI framework that balances adaptive learning personalization with curriculum standardization in K-12 education.",
+        "think": "K-12 education requires balancing personalization with mandated curriculum outcomes. Step 1: AI collects student performance data. Step 2: It personalizes pace, difficulty, and presentation styles to meet each learner's needs. Step 3: AI ensures that despite personalization, coverage of core standards is enforced by mapping adaptive paths to required outcomes. Step 4: Introduce periodic benchmark assessments to align individual pathways with standards. Step 5: Teachers receive analytics dashboards to oversee both progress and compliance.",
+        "output": "An effective framework combines adaptive personalization with curriculum mapping. AI tailors pace and style to each student while enforcing mandatory standards through outcome alignment and benchmark checks. Teacher dashboards ensure transparency and oversight, maintaining both flexibility and accountability.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 8,
+        "topic": "ai.education",
+        "question": "How can AI support differentiated instruction in a mixed-ability classroom?",
+        "think": "Differentiated instruction requires tailoring content and activities to diverse student levels. AI can analyze performance data to group students dynamically, recommend resources at appropriate difficulty, and provide real-time scaffolding. Challenges include preventing stigmatization and ensuring teachers remain in control.",
+        "output": "AI tools can cluster students by ability and adapt content delivery so each learner receives suitable challenges, while teachers orchestrate activities. This helps manage mixed-ability classrooms effectively without overwhelming instructors.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 9,
+        "topic": "ai.education",
+        "question": "What are the risks of over-relying on AI-generated study materials for university students?",
+        "think": "AI-generated summaries and flashcards save time but may omit nuance or propagate errors. Students may bypass critical reading, reducing deep learning. Over-reliance risks creating surface-level knowledge without critical engagement.",
+        "output": "AI-generated study aids should be seen as supplements, not replacements. Risks include oversimplification, missed context, and reduced critical thinking. Students should verify AI outputs against original sources and use them to reinforce, not replace, active learning.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 10,
+        "topic": "ai.education",
+        "question": "How can AI-powered platforms improve accessibility for students with disabilities?",
+        "think": "Accessibility challenges include visual, auditory, and cognitive impairments. AI can transcribe lectures, generate captions, convert text to speech, and adapt interfaces. Personalization engines can adjust pacing or reading levels. Bias risks must be addressed to ensure fair accommodations.",
+        "output": "AI can enhance accessibility by generating real-time captions, offering screen reader–friendly summaries, and adapting interfaces for diverse needs. This reduces barriers and enables students with disabilities to engage fully with digital learning environments.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 11,
+        "topic": "ai.education",
+        "question": "How can AI help educators identify misconceptions in STEM learning?",
+        "think": "Misconceptions in STEM are persistent and often hidden. AI can analyze incorrect answers to identify common error patterns (e.g., confusing force with energy). NLP techniques can classify student explanations to flag conceptual gaps. Teachers can then target interventions precisely.",
+        "output": "AI can detect patterns in wrong answers and student explanations, highlighting likely misconceptions in real time. This allows teachers to deliver corrective lessons focused on the exact conceptual misunderstandings.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 12,
+        "topic": "ai.education",
+        "question": "What are the benefits and drawbacks of AI chatbots acting as 24/7 student support assistants?",
+        "think": "Chatbots provide immediate answers to FAQs and learning guidance, reducing instructor load. Benefits include scalability, availability, and personalization. Drawbacks include limited empathy, risk of misinformation, and student over-reliance on automated help instead of problem-solving.",
+        "output": "AI chatbots extend access to academic support around the clock, answering questions and guiding study. However, they must be carefully designed to provide accurate information and should complement, not replace, human advising.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 13,
+        "topic": "ai.education",
+        "question": "How can AI-driven learning analytics inform curriculum redesign at scale?",
+        "think": "Learning analytics can highlight topics where students consistently underperform, signaling curriculum gaps. AI can cluster engagement data, compare cohorts, and simulate interventions. Curriculum teams can then update course sequencing, difficulty, or delivery methods.",
+        "output": "AI enables educators to identify weak points in curricula by analyzing large-scale performance and engagement data. These insights guide redesign efforts, ensuring content better matches learner needs and improves outcomes.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 14,
+        "topic": "ai.education",
+        "question": "In what ways could AI reshape lifelong learning and workforce reskilling?",
+        "think": "Reskilling requires personalized pathways aligned with job market demands. AI can map skills gaps, recommend micro-credentials, and simulate job-related scenarios. By continuously updating pathways with labor market data, AI ensures relevance. Risks include excluding learners without digital literacy.",
+        "output": "AI reshapes lifelong learning by providing adaptive reskilling pathways, recommending targeted training modules, and aligning them with emerging labor market needs. This enables faster, more relevant workforce transitions.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 15,
+        "topic": "ai.education",
+        "question": "How can AI balance cultural diversity when generating educational content?",
+        "think": "AI content models may reflect biases from training data, privileging certain cultural perspectives. In education, this can distort history, literature, or ethics learning. AI must integrate diverse sources, support localization, and allow human educators to review for inclusivity.",
+        "output": "AI can promote inclusivity by sourcing diverse datasets, supporting multi-language generation, and allowing human oversight for cultural sensitivity. This ensures generated materials respect diversity rather than reinforce biases.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 16,
+        "topic": "ai.education",
+        "question": "What are the risks and opportunities of AI grading in high-stakes national exams?",
+        "think": "AI grading offers speed and consistency but raises fairness and accountability issues. Risks include systemic bias, adversarial test responses, and lack of transparency. Opportunities include reducing human bias and enabling faster results. The solution may lie in hybrid systems with strong oversight.",
+        "output": "AI in high-stakes exams can improve consistency and efficiency but risks bias and opacity. Best practice is hybrid grading—AI provides initial scoring with audits and appeals handled by human experts to maintain trust.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 17,
+        "topic": "ai.education",
+        "question": "How could AI-driven adaptive testing align with student well-being and mental health concerns?",
+        "think": "Adaptive testing adjusts difficulty in real time, which can reduce frustration if implemented carefully. But poorly designed adaptation may increase stress. AI should monitor not only performance but also indicators of anxiety (e.g., time delays, unusual response changes). Transparent communication and flexible pacing can mitigate stress.",
+        "output": "AI can design adaptive tests that reduce frustration by adjusting difficulty, while also monitoring signals of stress to avoid overburdening students. Clear communication and pacing controls ensure tests support both achievement and well-being.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 18,
+        "topic": "ai.education",
+        "question": "How can AI support formative assessment practices without increasing teacher workload?",
+        "think": "Formative assessment requires continuous feedback but is time-intensive for teachers. AI can analyze student responses to quizzes, projects, or discussions and automatically generate formative feedback. NLP can highlight misconceptions, while pattern analysis identifies strengths. Teachers then review AI-generated insights rather than manually grading each task.",
+        "output": "AI can automate much of formative assessment by providing real-time feedback, spotting misconceptions, and summarizing student progress. This allows teachers to focus on deeper instructional support rather than repetitive marking.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 19,
+        "topic": "ai.education",
+        "question": "What safeguards should be built into AI tools to prevent bias in personalized learning recommendations?",
+        "think": "Bias arises when training data favors certain groups, leading to unequal recommendations. Safeguards include dataset diversification, fairness-aware algorithms, and bias audits. Transparency dashboards can show teachers how recommendations were generated. Regular external audits ensure alignment with equity goals.",
+        "output": "AI personalization must include safeguards like fairness testing, bias monitoring, and transparent dashboards. Educators should be able to audit recommendations and adjust for equity, ensuring all learners are supported fairly.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 20,
+        "topic": "ai.education",
+        "question": "How can AI be used to encourage collaborative learning among students?",
+        "think": "Most AI tools focus on individual personalization. To foster collaboration, AI can form student groups based on complementary skills, recommend peer review tasks, and monitor group dynamics. Sentiment and participation analysis can highlight imbalances so teachers can intervene.",
+        "output": "AI can encourage collaboration by intelligently grouping students, prompting peer-to-peer support, and tracking group engagement. This shifts AI from individual focus to enhancing collective learning outcomes.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 21,
+        "topic": "ai.education",
+        "question": "How should AI-enabled plagiarism detection balance academic integrity with student trust?",
+        "think": "Strict plagiarism detection can feel punitive. AI tools should not just detect copied text but also highlight unintentional paraphrasing or citation errors. Offering students the ability to run pre-checks builds trust. Transparency about algorithms and appeal processes prevents over-surveillance.",
+        "output": "AI plagiarism tools should focus on education as well as enforcement. Allowing self-checks, ensuring transparency, and providing clear appeal processes helps uphold integrity while maintaining student trust.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 22,
+        "topic": "ai.education",
+        "question": "How can AI-powered dashboards assist teachers in large classrooms?",
+        "think": "Teachers with large classes struggle to track individual progress. AI dashboards can consolidate performance metrics, highlight struggling students, and recommend interventions. Visual analytics make it easy to scan class-wide trends while enabling drill-down into individual cases.",
+        "output": "AI dashboards can process class data at scale, surfacing struggling students, engagement gaps, and progress trends. This allows teachers to deliver targeted support even in large classrooms.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 23,
+        "topic": "ai.education",
+        "question": "What challenges arise when implementing AI in low-resource educational settings globally?",
+        "think": "Low-resource settings face infrastructure gaps: limited internet, outdated devices, and low digital literacy. AI systems trained on wealthy contexts may not generalize well. Lightweight, offline-capable models and localized datasets are needed. Partnerships with governments and NGOs can ensure equitable deployment.",
+        "output": "Challenges include lack of connectivity, device constraints, and cultural mismatches. AI adoption in such settings requires offline functionality, localized content, and institutional partnerships to ensure accessibility and fairness.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 24,
+        "topic": "ai.education",
+        "question": "How can reinforcement learning improve adaptive practice systems for mathematics?",
+        "think": "Math practice requires sequencing problems to optimize mastery. Reinforcement learning can treat problem selection as a policy, rewarding improved accuracy and reduced frustration. Over time, it balances challenge with success rates, personalizing pacing per student.",
+        "output": "Reinforcement learning allows adaptive practice platforms to fine-tune problem difficulty dynamically, keeping students engaged and steadily improving mastery without overwhelming them.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 25,
+        "topic": "ai.education",
+        "question": "What strategies can ensure transparency in AI grading systems?",
+        "think": "AI grading risks being seen as opaque. Transparency strategies include explainable AI methods, student-facing rationales for scores, and teacher override options. Audit logs allow external review. Training data diversity ensures broader fairness.",
+        "output": "To ensure transparency, AI grading systems should provide rationales for scores, allow teacher overrides, and maintain audit logs. This combination builds trust while preserving efficiency.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 26,
+        "topic": "ai.education",
+        "question": "How can AI support inquiry-based learning approaches?",
+        "think": "Inquiry-based learning encourages students to ask questions and explore. AI can suggest resources aligned with their queries, guide research with scaffolding, and help validate information credibility. Conversational agents can model Socratic questioning to deepen inquiry.",
+        "output": "AI supports inquiry-based learning by guiding student research, suggesting resources, and modeling questioning strategies. This encourages curiosity-driven learning while keeping exploration aligned with educational goals.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 27,
+        "topic": "ai.education",
+        "question": "What potential does AI hold for real-time translation in multilingual classrooms?",
+        "think": "Multilingual classrooms face communication barriers. AI translation can enable real-time understanding between teachers and students. Accuracy varies, especially with technical terms or low-resource languages. Biases or mistranslations may distort learning. Human oversight remains necessary.",
+        "output": "AI translation tools can break language barriers in multilingual classrooms, enabling inclusive participation. However, accuracy and fairness require oversight, especially in technical or culturally sensitive contexts.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 28,
+        "topic": "ai.education",
+        "question": "How can AI support continuous professional development for teachers?",
+        "think": "Teachers need ongoing training but often lack time and personalized resources. AI can analyze classroom data to suggest targeted learning modules, recommend peer communities, or generate tailored micro-courses. Predictive analytics may also anticipate skill gaps aligned with curriculum reforms.",
+        "output": "AI can personalize professional development by recommending short, focused training modules based on a teacher’s classroom performance and subject needs, helping educators grow continuously without overwhelming schedules.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 29,
+        "topic": "ai.education",
+        "question": "What are the trade-offs between personalization and standardization in AI-driven education?",
+        "think": "Personalization tailors pace and content to individuals, boosting engagement. Standardization ensures fairness and curriculum coverage. Too much personalization may lead to fragmented outcomes; too much standardization risks disengagement. AI must balance by mapping adaptive paths to shared standards, monitored by educators.",
+        "output": "AI should adapt lessons to student needs while ensuring all required learning standards are met. The trade-off lies in balancing flexibility with accountability, achieved through hybrid frameworks and oversight.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 30,
+        "topic": "ai.education",
+        "question": "How can AI be applied to personalize feedback in large-scale online courses (MOOCs)?",
+        "think": "MOOCs face scale issues—thousands of learners need feedback. AI can analyze quiz responses, forum posts, and writing samples to deliver individualized comments. Clustering similar learners enables efficient feedback while NLP ensures tone and specificity.",
+        "output": "AI enables scalable personalization in MOOCs by clustering learners with similar needs and generating feedback tailored to each student’s progress, improving engagement despite massive class sizes.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 31,
+        "topic": "ai.education",
+        "question": "What ethical considerations arise from collecting student biometric data for AI-enhanced learning?",
+        "think": "Biometric data (eye-tracking, heart rate, facial expressions) may help AI detect attention or stress. However, privacy risks, consent, and potential misuse are significant. Regulations must govern data storage, sharing, and scope. Alternative proxies may reduce invasiveness.",
+        "output": "Collecting biometric data raises privacy and consent issues. AI systems should use such data only with clear opt-in, strict security, and transparent limits, ensuring student well-being isn’t compromised by surveillance.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 32,
+        "topic": "ai.education",
+        "question": "How can AI-based gamification strategies improve student motivation?",
+        "think": "Gamification applies rewards, progress tracking, and challenges to learning. AI can dynamically adjust difficulty, personalize rewards, and detect when motivation drops. However, excessive gamification may distract from learning objectives if not balanced.",
+        "output": "AI-driven gamification tailors challenges and rewards to student progress, boosting motivation while maintaining focus on learning goals. This helps sustain engagement without relying on one-size-fits-all mechanics.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 33,
+        "topic": "ai.education",
+        "question": "How could AI reshape the role of libraries and digital resource centers in universities?",
+        "think": "Libraries are shifting toward digital repositories. AI can provide semantic search, recommend resources based on research needs, and assist in citation management. Chatbots can answer research queries. Risks include over-reliance on algorithmic filtering and diminished human librarian roles.",
+        "output": "AI can transform libraries into smart research hubs, offering semantic search, personalized recommendations, and digital assistants. This enhances access to knowledge while requiring safeguards to maintain academic neutrality.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 34,
+        "topic": "ai.education",
+        "question": "What are the potential applications of AI in early childhood education?",
+        "think": "Young learners benefit from interactive and adaptive play. AI can personalize storybooks, adapt games to cognitive levels, and provide speech recognition for language development. Safety and screen-time concerns must be addressed by involving parents and educators.",
+        "output": "AI can enrich early education through adaptive games, personalized stories, and speech-based feedback for language learning. However, applications must prioritize child safety, balanced screen time, and parental oversight.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 35,
+        "topic": "ai.education",
+        "question": "How can AI help universities detect and address skill gaps in graduates entering the job market?",
+        "think": "Employers often report mismatches between graduate skills and job needs. AI can analyze labor market trends, compare them with graduate competencies, and flag gaps. Predictive analytics allows universities to adjust curricula or offer micro-credentials addressing emerging demands.",
+        "output": "AI bridges academia and industry by analyzing workforce data and identifying gaps in graduate skills. Universities can then adapt curricula to align with market demands, improving employability.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 36,
+        "topic": "ai.education",
+        "question": "What challenges exist in applying AI to peer assessment in collaborative learning?",
+        "think": "Peer assessment can be biased or inconsistent. AI can analyze peer grading patterns, detect anomalies, and adjust weightings for fairness. However, it must avoid undermining peer autonomy while still supporting reliability.",
+        "output": "AI can strengthen peer assessment by detecting bias and balancing inconsistent scores, improving reliability while preserving the collaborative value of peer evaluation.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 37,
+        "topic": "ai.education",
+        "question": "How could AI-powered augmented reality (AR) applications transform classroom learning experiences?",
+        "think": "AR provides immersive, hands-on experiences. AI can enhance AR by personalizing overlays, adjusting difficulty, and providing contextual explanations. For example, AI-driven AR in biology could adapt 3D models to a student’s comprehension level. Barriers include cost and accessibility.",
+        "output": "AI-enhanced AR makes classrooms more interactive by adapting overlays and content to student comprehension, allowing immersive learning in fields like science and history. Accessibility and cost remain key challenges.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 38,
+        "topic": "ai.education",
+        "question": "How can AI-powered virtual labs enhance science education in secondary schools?",
+        "think": "Science experiments often require expensive equipment, limiting access in many schools. AI-powered virtual labs simulate experiments, guiding students through procedures and predicting outcomes. AI can adapt simulations to student knowledge levels and highlight errors. Limitations include realism and reduced tactile experience.",
+        "output": "AI-driven virtual labs give students affordable, interactive access to scientific experimentation. They adapt to different knowledge levels and provide safe, repeatable practice, though they cannot fully replace physical lab experience.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 39,
+        "topic": "ai.education",
+        "question": "What role can AI play in promoting equity in access to advanced coursework?",
+        "think": "Advanced courses are often unavailable in underserved schools. AI can provide adaptive online modules, virtual tutors, and predictive analytics to identify students capable of advanced study. Equity risks remain if infrastructure gaps are not addressed.",
+        "output": "AI can democratize access to advanced coursework by offering adaptive modules and remote tutoring, but equity requires ensuring technological infrastructure and avoiding digital divides.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 40,
+        "topic": "ai.education",
+        "question": "How can AI tools support reflective learning practices?",
+        "think": "Reflection deepens understanding but students often avoid it. AI can prompt reflective questions, analyze journal entries, and suggest themes for improvement. NLP models can identify patterns in reflections and highlight growth areas.",
+        "output": "AI supports reflective learning by prompting deeper self-analysis, analyzing journals for recurring themes, and suggesting improvement strategies, encouraging metacognitive growth.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 41,
+        "topic": "ai.education",
+        "question": "What are the ethical concerns of replacing human tutors with AI in remedial education?",
+        "think": "AI tutors offer scalability and cost savings but may lack empathy, cultural nuance, and adaptability in non-standard situations. Ethical issues include student dependency, reduced social interaction, and potential job displacement of human tutors.",
+        "output": "Replacing human tutors with AI in remedial education risks undermining empathy, social skills, and equity. AI should augment rather than replace human support to maintain ethical balance.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 42,
+        "topic": "ai.education",
+        "question": "How can AI enhance formative feedback in project-based learning?",
+        "think": "Project-based learning emphasizes creativity and teamwork. AI can analyze intermediate artifacts (draft reports, prototypes) and provide constructive feedback on clarity, originality, or alignment with goals. It can also monitor group progress and flag bottlenecks.",
+        "output": "AI enhances project-based learning by analyzing drafts and group work, giving real-time feedback on progress, clarity, and creativity, while supporting teachers in guiding collaborative projects.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 43,
+        "topic": "ai.education",
+        "question": "How could AI mitigate challenges faced by rural schools with limited teaching staff?",
+        "think": "Rural schools often lack subject specialists. AI tutors can fill gaps by delivering subject-specific lessons and offering adaptive practice. Predictive analytics can identify students needing extra help. However, infrastructure and teacher training are prerequisites.",
+        "output": "AI can expand subject access in rural schools by providing virtual tutoring, adaptive lessons, and early intervention tools. Success depends on sufficient connectivity and training for local educators.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 44,
+        "topic": "ai.education",
+        "question": "How can AI-driven analytics help universities design lifelong learning pathways?",
+        "think": "Universities increasingly support alumni career development. AI can track job market shifts, map alumni skill gaps, and recommend tailored continuing education. Integrating this into alumni services strengthens university–industry ties.",
+        "output": "AI allows universities to extend support beyond graduation, recommending lifelong learning modules aligned with alumni career needs and evolving job markets.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 45,
+        "topic": "ai.education",
+        "question": "What are the limitations of AI in assessing creativity in student work?",
+        "think": "Creativity involves originality and personal expression, which are difficult to quantify. AI can analyze novelty and stylistic patterns but may undervalue unconventional ideas. Over-reliance risks discouraging innovation and rewarding formulaic work.",
+        "output": "AI can assist in evaluating creativity by analyzing patterns of originality, but its judgments remain limited. Human educators must remain central to fairly assessing student creativity.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 46,
+        "topic": "ai.education",
+        "question": "How can AI foster cross-disciplinary learning opportunities?",
+        "think": "Students benefit from integrating knowledge across domains. AI can suggest links between subjects (e.g., applying math in music), recommend interdisciplinary projects, and surface resources bridging fields. This requires robust knowledge graph models.",
+        "output": "AI fosters cross-disciplinary learning by identifying connections across subjects and recommending integrated projects, helping students apply knowledge more broadly.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 47,
+        "topic": "ai.education",
+        "question": "What strategies can ensure transparency and trust in AI-driven adaptive learning systems?",
+        "think": "Adaptive systems personalize learning paths, but students and parents may distrust opaque algorithms. Strategies include explainable AI techniques, clear reporting of decision logic, and teacher dashboards for oversight. Regular audits can build accountability.",
+        "output": "Transparency in adaptive learning requires explainable algorithms, teacher oversight, and clear communication with students and parents. Trust grows when users understand and can question AI decisions.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 48,
+        "topic": "ai.education",
+        "question": "Design an AI governance framework for integrating adaptive learning systems into national K-12 curricula.",
+        "think": "Step 1: Identify the policy goals — ensuring equity, maintaining national standards, and supporting personalization. Step 2: Define governance principles: transparency, accountability, inclusivity, and data privacy. Step 3: Establish roles: government bodies regulate alignment with standards; independent audit agencies ensure fairness; schools manage deployment and teacher training. Step 4: Implement evaluation metrics — learning outcomes, bias audits, accessibility, and cost-benefit analyses. Step 5: Develop escalation and remediation processes when AI tools are found to deviate from policy (e.g., bias, low performance). Step 6: Incorporate teacher and parent input into oversight councils, ensuring human agency in system updates. Step 7: Balance centralization and local autonomy by mandating core compliance while allowing localized curriculum adaptation. Step 8: Define funding mechanisms to avoid inequality between wealthy and under-resourced schools. Step 9: Require ongoing monitoring through longitudinal studies. Step 10: Establish international interoperability guidelines, enabling exchange of best practices. This multi-layered approach ensures adaptive systems support national educational goals while preventing systemic risks.",
+        "output": "An effective AI governance framework for K-12 adaptive learning should include clear national policies, transparent auditing, and defined accountability mechanisms. Central regulators set standards, while schools and teachers ensure contextualized deployment. Independent audits verify bias, privacy, and learning impact. Teacher and parent councils provide oversight to maintain human agency. Longitudinal evaluation and international interoperability ensure sustained fairness, alignment with evolving needs, and resilience against misuse.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 49,
+        "topic": "ai.education",
+        "question": "How can AI-enabled lifelong learning systems adapt to rapidly changing labor markets while ensuring inclusivity?",
+        "think": "Step 1: Recognize volatility in labor markets, driven by automation and global shifts. Step 2: Define core system goals — adaptability, inclusivity, scalability, and fairness. Step 3: Build a skills ontology updated in real time with labor market data (job postings, economic trends). Step 4: Use AI to map individual learner profiles (skills, experience, preferences) to evolving career pathways. Step 5: Ensure inclusivity by integrating accessibility features, multi-language support, and culturally contextualized recommendations. Step 6: Incorporate modular micro-credentials verified via blockchain for portability across institutions and borders. Step 7: Balance personalization with standardization to ensure learners meet baseline competencies while pursuing specialized tracks. Step 8: Mitigate risks of exclusion by subsidizing access in low-resource settings. Step 9: Implement governance mechanisms, including regular audits of recommendation fairness and curriculum alignment with societal needs. Step 10: Build partnerships with employers to co-design pathways, ensuring AI recommendations remain aligned with real opportunities. This holistic system enables dynamic adaptation while avoiding systemic inequities.",
+        "output": "AI-enabled lifelong learning must integrate dynamic skills ontologies, personalized pathways, and modular micro-credentials to remain relevant to changing markets. Inclusivity requires multi-language support, subsidies for low-resource learners, and fairness audits. Employer partnerships and blockchain-based credentialing enhance trust and transferability. Such a system balances adaptation to labor volatility with equitable access, ensuring broad participation in lifelong education.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 50,
+        "topic": "ai.education",
+        "question": "What evaluation design should be used to measure the long-term impact of AI-driven adaptive testing on student well-being and performance?",
+        "think": "Step 1: Define outcome metrics: academic performance, retention, stress levels, and equity in progression. Step 2: Choose a longitudinal mixed-methods design — combining quantitative tracking (grades, dropout rates, engagement analytics) with qualitative measures (student interviews, teacher surveys). Step 3: Establish control groups using traditional assessments for comparison. Step 4: Apply causal inference methods (difference-in-differences, propensity score matching) to isolate AI system effects. Step 5: Collect physiological and behavioral stress indicators where ethically feasible (e.g., self-reports, time-to-answer analytics). Step 6: Monitor subgroup effects (by gender, socioeconomic status, region) to detect inequities. Step 7: Implement iterative evaluations every 2–3 years to capture evolving effects as systems mature. Step 8: Include third-party auditors to verify methodology. Step 9: Incorporate failure-mode analysis, exploring unintended consequences such as over-adaptation or test-induced anxiety. Step 10: Translate findings into policy recommendations and technical refinements. This creates a rigorous, ethically grounded evaluation pipeline.",
+        "output": "The long-term impact of AI-driven adaptive testing should be evaluated via a longitudinal, mixed-methods framework. Quantitative academic and behavioral data are paired with qualitative insights, while causal inference ensures attribution. Equity monitoring and failure-mode analysis address hidden risks. Independent audits and iterative reviews maintain rigor. This approach provides robust evidence to guide both educational policy and system design.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 51,
+        "topic": "ai.education",
+        "question": "How can AI frameworks balance personalized learning with national equity goals in multi-ethnic, multilingual societies?",
+        "think": "Step 1: Acknowledge societal diversity — differences in language, culture, and socioeconomic access. Step 2: Build AI frameworks with multilingual NLP models and culturally localized datasets. Step 3: Enforce baseline curriculum standards to prevent fragmentation while still adapting pace and modality. Step 4: Integrate fairness-aware algorithms to mitigate biases against underrepresented groups. Step 5: Provide transparency dashboards enabling educators to oversee personalization decisions. Step 6: Implement accessibility policies such as offline-capable systems for remote communities. Step 7: Create community advisory boards to reflect cultural needs. Step 8: Embed auditing mechanisms to ensure recommendations are equitable across regions. Step 9: Ensure system funding does not exacerbate inequality by supporting under-resourced schools. Step 10: Continuously monitor long-term effects to avoid systemic stratification. This framework prioritizes inclusivity while sustaining personalization.",
+        "output": "Balancing personalization with equity in diverse societies requires culturally aware datasets, multilingual NLP, fairness audits, and teacher oversight. National standards ensure cohesion, while community councils guide cultural relevance. Offline functionality and equitable funding expand access. This balance sustains personalization without undermining national equity goals.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 52,
+        "topic": "ai.education",
+        "question": "Propose a resilience strategy for AI-enabled education systems to withstand disruptions such as pandemics or geopolitical crises.",
+        "think": "Step 1: Define resilience objectives — continuity of learning, data security, equitable access, and adaptability. Step 2: Architect hybrid infrastructure with both cloud and local offline capabilities. Step 3: Train AI systems to degrade gracefully — offering reduced but essential functionality when connectivity fails. Step 4: Build redundancy into content delivery (e.g., SMS, radio, low-bandwidth apps). Step 5: Implement strong cybersecurity and data protection to withstand targeted attacks during crises. Step 6: Establish modular curriculum blocks that can be flexibly recombined based on available resources. Step 7: Ensure multilingual, mobile-first accessibility for displaced or remote learners. Step 8: Create governance protocols for rapid AI reconfiguration under emergency conditions, with human educators retaining override control. Step 9: Conduct scenario simulations (pandemics, conflicts, natural disasters) to test resilience. Step 10: Partner internationally to share resources and expertise during crises. This creates a layered resilience strategy.",
+        "output": "AI-enabled education resilience requires hybrid infrastructure, offline-first design, modular curricula, and robust cybersecurity. Graceful degradation ensures learning continuity when connectivity is disrupted. Emergency governance protocols and international collaboration strengthen adaptability. Together, these measures protect educational access during pandemics, conflicts, or systemic crises.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 53,
+        "topic": "ai.education",
+        "question": "How should governments evaluate the cost–benefit trade-offs of large-scale AI adoption in public education systems?",
+        "think": "Step 1: Identify costs — infrastructure upgrades, licensing fees, training, and maintenance. Step 2: Identify benefits — improved learning outcomes, reduced teacher workload, increased equity of access. Step 3: Define evaluation criteria: academic performance, return on investment, social inclusion, and resilience. Step 4: Apply multi-criteria decision analysis to weigh financial metrics against equity and long-term innovation. Step 5: Use pilot programs to generate real-world cost-effectiveness data. Step 6: Compare AI deployment to alternative investments (e.g., teacher recruitment). Step 7: Factor in hidden costs like cybersecurity, bias mitigation, and legal compliance. Step 8: Conduct sensitivity analysis under different adoption scenarios (urban vs rural, wealthy vs under-resourced regions). Step 9: Ensure transparency by publishing evaluation reports. Step 10: Adjust strategy iteratively as new data emerges. This creates a balanced, evidence-based approach.",
+        "output": "Governments should evaluate AI adoption through cost–benefit frameworks combining financial analysis with social impact metrics. Pilot programs, sensitivity testing, and transparent reporting ensure realistic trade-offs are considered. Comparing AI adoption against alternative investments helps confirm whether it creates net public value.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 54,
+        "topic": "ai.education",
+        "question": "What safeguards are needed to prevent systemic risks from AI monopolies in global education platforms?",
+        "think": "Step 1: Recognize risks — concentration of power, cultural homogenization, and dependency on few providers. Step 2: Define safeguards: interoperability standards, open APIs, and local content integration. Step 3: Implement antitrust measures to prevent dominance. Step 4: Encourage open-source alternatives supported by governments and NGOs. Step 5: Require algorithmic transparency for cross-border platforms. Step 6: Enforce data localization and sovereignty policies to avoid exploitation. Step 7: Establish international governance bodies to regulate cross-border education AI. Step 8: Build resilience by supporting regional platforms. Step 9: Ensure equitable pricing to avoid excluding low-income regions. Step 10: Monitor systemic risks via independent audits. This layered approach reduces monopoly risks.",
+        "output": "Safeguards against AI monopolies in education include antitrust enforcement, interoperability standards, and open-source support. International governance and local content integration ensure diversity. Data sovereignty and equitable pricing prevent global dependency, keeping education systems resilient and culturally relevant.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 55,
+        "topic": "ai.education",
+        "question": "How can AI-driven global learning platforms balance localization with standardized quality benchmarks?",
+        "think": "Step 1: Define global benchmarks (literacy, numeracy, digital skills). Step 2: Build localized content pipelines using NLP and culturally diverse datasets. Step 3: Employ federated learning to integrate local data without centralizing sensitive information. Step 4: Provide teacher dashboards to customize AI recommendations while maintaining benchmark alignment. Step 5: Apply explainable AI to clarify how recommendations map to standards. Step 6: Establish regional review councils to validate localized outputs. Step 7: Audit for disparities between regions. Step 8: Integrate multilingual support with emphasis on low-resource languages. Step 9: Adjust governance to allow national input on curricula while adhering to international standards. Step 10: Monitor long-term performance to ensure neither localization nor standardization dominates. This creates balance.",
+        "output": "Balancing localization with global benchmarks requires multilingual AI, federated learning, and teacher oversight. Regional councils ensure cultural relevance, while standardized benchmarks guarantee quality. This hybrid model enables both equity and global comparability.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 56,
+        "topic": "ai.education",
+        "question": "What frameworks can ensure AI in education supports not just efficiency but also democratic values?",
+        "think": "Step 1: Define democratic values: inclusivity, participation, transparency, and fairness. Step 2: Ensure algorithmic transparency and public audit rights. Step 3: Incorporate participatory design, involving teachers, parents, and students in system development. Step 4: Mandate accountability structures where AI recommendations remain advisory and teachers retain authority. Step 5: Include diverse datasets to prevent marginalization. Step 6: Provide opt-out provisions to maintain autonomy. Step 7: Apply governance frameworks similar to democratic oversight in other public systems (e.g., healthcare). Step 8: Conduct regular equity audits. Step 9: Enshrine rights of appeal for AI-generated decisions. Step 10: Foster civic education on AI literacy so citizens understand system implications. This ensures AI supports democratic goals rather than undermining them.",
+        "output": "Frameworks should mandate transparency, participatory design, and human oversight to align AI in education with democratic values. Equity audits, opt-outs, and appeal rights reinforce fairness and autonomy. Civic education on AI literacy empowers citizens, ensuring technology enhances democracy.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 57,
+        "topic": "ai.education",
+        "question": "How should cross-border data governance be structured for international AI education programs?",
+        "think": "Step 1: Identify stakeholders — governments, NGOs, tech providers, and learners. Step 2: Define principles: privacy, sovereignty, portability, and accountability. Step 3: Establish cross-border agreements that set minimum privacy and security standards. Step 4: Use federated learning to keep sensitive student data localized while sharing model updates globally. Step 5: Mandate data portability so learners retain access when moving countries. Step 6: Create supranational regulatory frameworks (similar to GDPR) for educational data. Step 7: Ensure consent mechanisms are standardized and child-friendly. Step 8: Build redress systems for cross-border disputes. Step 9: Audit systems regularly to confirm compliance. Step 10: Adapt frameworks as technology evolves, balancing innovation with rights. This creates robust governance.",
+        "output": "Cross-border governance for AI education requires treaties that standardize privacy, sovereignty, and portability. Federated learning reduces risks, while supranational frameworks set global rules. Consent, redress mechanisms, and regular audits ensure protection while enabling international cooperation.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 58,
+        "topic": "ai.education",
+        "question": "How can policymakers design accountability mechanisms for AI tutors that operate across public and private schools?",
+        "think": "Step 1: Define scope — AI tutors may be deployed in both public and private institutions, with different oversight structures. Step 2: Establish baseline accountability: every AI tutor must meet national curriculum standards and respect data privacy. Step 3: Create audit trails logging AI recommendations and interactions, ensuring teachers and regulators can review. Step 4: Require independent certification before deployment, verifying compliance with safety and fairness metrics. Step 5: Apply sanctions or revocation processes for non-compliance. Step 6: Introduce feedback channels from teachers, students, and parents to identify issues. Step 7: Ensure accountability does not disproportionately burden under-resourced schools — funding support may be needed. Step 8: Enable cross-sector coordination so that accountability applies consistently across private and public deployments. Step 9: Build transparency dashboards where results of audits are public. Step 10: Establish international interoperability standards for accountability where cross-border systems are used. This creates a multi-tiered structure.",
+        "output": "Policymakers should require certification, audit logs, and transparent reporting for AI tutors in both public and private schools. Independent audits, consistent sanctions, and stakeholder feedback ensure accountability. To avoid inequities, support must be provided to under-resourced schools. Cross-sector and international standards maintain fairness across deployments.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 59,
+        "topic": "ai.education",
+        "question": "What resilience strategies can universities adopt to prevent over-dependence on commercial AI platforms for teaching?",
+        "think": "Step 1: Identify risks — vendor lock-in, rising costs, and loss of academic independence. Step 2: Build hybrid infrastructures combining commercial platforms with open-source alternatives. Step 3: Develop internal AI capacities (in-house teams, data centers) for critical functions. Step 4: Create consortia among universities to pool resources and develop shared AI solutions. Step 5: Adopt interoperability standards so universities can migrate between providers. Step 6: Negotiate procurement agreements with exit clauses to reduce lock-in. Step 7: Encourage faculty training to ensure they can use multiple tools and adapt. Step 8: Include resilience audits in accreditation processes. Step 9: Invest in research partnerships to foster innovation outside commercial monopolies. Step 10: Create contingency plans for rapid migration if a provider fails or shifts policies. This reduces systemic dependence.",
+        "output": "Universities should combine commercial AI tools with open-source systems, adopt interoperability standards, and form consortia to reduce vendor lock-in. Internal capacity building, resilience audits, and contingency planning safeguard academic independence while ensuring continuity.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 60,
+        "topic": "ai.education",
+        "question": "How can AI in education be regulated to prevent widening inequalities between urban and rural learners?",
+        "think": "Step 1: Recognize that AI systems require infrastructure, connectivity, and teacher training, which are weaker in rural areas. Step 2: Require all deployments to meet accessibility standards (offline-capable, low-bandwidth). Step 3: Provide targeted subsidies or public funding for rural infrastructure. Step 4: Ensure fairness metrics in AI systems explicitly track rural vs urban performance gaps. Step 5: Involve rural communities in design and feedback loops. Step 6: Create tiered rollout plans prioritizing under-resourced areas. Step 7: Establish regulatory frameworks that penalize providers if deployments systematically disadvantage rural learners. Step 8: Monitor outcomes longitudinally to detect disparities. Step 9: Support teacher training programs that integrate AI equitably across contexts. Step 10: Align policy incentives so vendors prioritize equity. This ensures AI reduces, not widens, inequalities.",
+        "output": "To prevent inequalities, AI education systems must be regulated to include offline capability, subsidized rural infrastructure, fairness audits, and teacher training. Continuous monitoring and community input keep rural and urban learners on equal footing.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 61,
+        "topic": "ai.education",
+        "question": "What role should international organizations play in setting ethical standards for AI education systems?",
+        "think": "Step 1: Identify the need — AI systems cross borders, yet national regulations vary widely. Step 2: International organizations (UNESCO, OECD, World Bank) can convene stakeholders to define baseline ethical principles: fairness, privacy, cultural sensitivity. Step 3: Develop voluntary guidelines that member states can adopt. Step 4: Support creation of international audit protocols for cross-border platforms. Step 5: Provide technical assistance to low-income countries for compliance. Step 6: Establish global benchmarks for learning outcomes and equity in AI deployments. Step 7: Promote data-sharing agreements that respect sovereignty. Step 8: Create dispute resolution mechanisms for conflicts between nations on AI use in education. Step 9: Fund research into best practices globally. Step 10: Publish transparency reports highlighting compliance and violations. This ensures consistency and fairness worldwide.",
+        "output": "International bodies should set baseline ethical principles, develop audit protocols, and fund research to guide AI in education. They can provide technical assistance, global benchmarks, and dispute resolution mechanisms, ensuring fairness and coherence across borders.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 62,
+        "topic": "ai.education",
+        "question": "How can AI-driven adaptive curricula be aligned with long-term societal goals such as sustainability and civic responsibility?",
+        "think": "Step 1: Define societal goals: sustainability, civic engagement, digital literacy, and lifelong learning. Step 2: Map curricular content to these outcomes and embed them as benchmarks for AI systems. Step 3: Train AI to recommend not just efficiency-based pathways but also those emphasizing ethical and social competencies. Step 4: Involve policymakers, educators, and communities in co-designing AI objectives. Step 5: Establish monitoring systems that evaluate alignment with sustainability and civic goals. Step 6: Use fairness-aware algorithms to ensure marginalized groups are included. Step 7: Build teacher oversight dashboards highlighting how personalization relates to broader goals. Step 8: Audit regularly for alignment with national and global sustainability frameworks (e.g., SDGs). Step 9: Introduce adaptive modules that connect disciplinary content to real-world civic and environmental challenges. Step 10: Report outcomes transparently to society. This ensures education supports collective progress.",
+        "output": "AI-driven curricula should embed sustainability and civic goals alongside academic performance. Transparent monitoring, fairness-aware algorithms, and teacher oversight ensure pathways serve long-term societal objectives, not just efficiency. Regular audits and SDG alignment reinforce accountability.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 63,
+        "topic": "ai.education",
+        "question": "What national-level evaluation framework should be established to govern AI integration across K-12 education, ensuring equity, transparency, and long-term resilience?",
+        "think": "Step 1: Define overarching objectives — ensure that AI integration improves learning outcomes, supports equity, and builds resilience without undermining teacher agency. Step 2: Establish guiding principles: fairness, explainability, inclusivity, accountability, and sustainability. Step 3: Create a multi-layered evaluation architecture. At the micro-level, track individual learner performance, stress indicators, and progression. At the meso-level, assess school- and district-level outcomes including teacher workload and resource allocation. At the macro-level, evaluate national equity, cross-region consistency, and compliance with curriculum standards. Step 4: Build longitudinal data pipelines capturing both academic and well-being outcomes over years, not just short-term metrics. Step 5: Require multi-modal data audits (academic, biometric, engagement) with strict privacy protections and opt-in consent. Step 6: Develop independent audit bodies that regularly publish public reports, ensuring transparency. Step 7: Use federated evaluation models so sensitive student data never leaves local jurisdictions, but insights are aggregated nationally. Step 8: Embed adaptability — evaluation frameworks must evolve alongside technological updates, ensuring outdated metrics don’t misalign incentives. Step 9: Include scenario-based stress testing — e.g., simulate connectivity breakdowns or algorithmic drift — to evaluate resilience. Step 10: Mandate stakeholder participation in review boards (teachers, parents, students, policymakers). Step 11: Establish appeal mechanisms for schools or communities that feel AI systems harm their learners. Step 12: Incorporate comparative analysis across nations to benchmark outcomes globally. Step 13: Tie funding and procurement to evaluation compliance, ensuring adherence. This layered framework ensures national alignment without sacrificing flexibility and local context.",
+        "output": "A national evaluation framework for AI in K-12 should combine micro-level student analytics, meso-level school performance monitoring, and macro-level national equity metrics. Independent audits, federated data sharing, scenario stress tests, and stakeholder councils guarantee transparency and resilience. Longitudinal tracking and global benchmarking keep systems adaptive. Funding should be linked to compliance, ensuring that AI serves equity and transparency goals sustainably.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 64,
+        "topic": "ai.education",
+        "question": "How should international coalitions design governance structures for AI-driven global education platforms to balance innovation, sovereignty, and cultural diversity?",
+        "think": "Step 1: Identify the governance challenge — education platforms are global in reach but culturally specific in impact. Step 2: Define coalition goals: safeguard cultural diversity, maintain sovereignty, enable interoperability, and foster innovation. Step 3: Establish a multi-tier governance model: international councils set baseline ethical and technical standards, regional bodies adapt them to local contexts, and national governments implement. Step 4: Create interoperable technical standards (APIs, metadata, learning outcome schemas) to ensure cross-border compatibility. Step 5: Build cultural oversight committees with representation from diverse regions, ensuring algorithmic recommendations do not erase minority perspectives. Step 6: Establish dispute resolution mechanisms for conflicts between cultural practices and global standards. Step 7: Mandate transparency reporting — platforms must disclose data practices, bias audits, and curriculum mapping strategies. Step 8: Introduce sovereignty safeguards — e.g., federated learning to retain national control over student data while contributing to global models. Step 9: Provide shared innovation sandboxes where countries can pilot AI systems collaboratively without risking systemic harm. Step 10: Ensure funding mechanisms prioritize low-resource nations, preventing digital colonialism. Step 11: Build accountability structures: international audits every 2–3 years, penalties for non-compliance, and global knowledge-sharing networks. Step 12: Include adaptive clauses that allow governance structures to evolve as new risks emerge (e.g., generative content misuse). Step 13: Promote AI literacy at all governance levels so policymakers understand technical and ethical implications. This layered, adaptive coalition structure balances innovation with sovereignty and cultural protection.",
+        "output": "International coalitions should design governance for AI in education through a tiered model: global councils define standards, regional bodies contextualize them, and national governments implement. Federated data models preserve sovereignty, cultural councils protect diversity, and innovation sandboxes foster experimentation. Funding prioritization and adaptive clauses ensure equity and resilience. Transparency reports, audits, and dispute mechanisms anchor accountability while enabling shared progress.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 65,
+        "topic": "ai.education",
+        "question": "What strategic blueprint can universities adopt to integrate AI into curricula, research, and administration while avoiding systemic risks of over-automation?",
+        "think": "Step 1: Define strategic goals — enhance learning, improve research efficiency, and streamline administration without undermining human judgment. Step 2: Divide blueprint into three domains: academic, research, and administrative. Step 3: In academics, integrate AI into curricula as both a subject (AI literacy) and a tool (adaptive learning). Step 4: Require faculty training to balance AI tool use with critical pedagogy. Step 5: In research, use AI for data analysis, literature reviews, and simulations, but enforce policies ensuring reproducibility and bias audits. Step 6: Establish ethics committees to review AI-driven research proposals. Step 7: In administration, deploy AI for admissions, financial aid optimization, and student support, but mandate human-in-the-loop review for all high-stakes decisions. Step 8: Define governance structures — AI oversight boards at university level to review deployments regularly. Step 9: Require system interoperability so universities are not locked into specific vendors. Step 10: Adopt resilience strategies: maintain backup manual processes, diversify AI providers, and stress test systems against failure scenarios. Step 11: Embed AI literacy into general education, ensuring graduates are both users and critics of AI. Step 12: Build continuous evaluation pipelines — measuring academic outcomes, research productivity, and student well-being. Step 13: Foster cross-institutional partnerships to share best practices and mitigate risks collectively. Step 14: Ensure transparency — annual public reports on AI use and impact. This comprehensive blueprint ensures integration is strategic, ethical, and resilient.",
+        "output": "Universities should adopt a strategic AI blueprint spanning academics, research, and administration. Curricula must embed AI literacy and adaptive tools, research should apply AI with reproducibility safeguards, and administration must maintain human oversight. Oversight boards, resilience strategies, interoperability, and transparency reporting mitigate systemic risks. This holistic approach ensures AI enhances, rather than over-automates, higher education.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 66,
+        "topic": "ai.education",
+        "question": "Design an operating doctrine for a teacher–AI copilot in K–12 that maximizes learning outcomes while protecting teacher agency, student privacy, and equity.",
+        "think": "A workable doctrine must reconcile three tensions: personalization vs standards, automation vs human judgment, and data utility vs privacy. Start by clarifying the locus of authority: the AI proposes, the teacher decides. That implies a decision-rights matrix where the copilot can suggest pacing, resources, and micro-assessments, but cannot unilaterally grade high-stakes work, diagnose learning disorders, or trigger discipline. Next, define measurable outcomes that balance achievement (mastery growth, retention), well-being (stress proxies, help-seeking), and equity (gap-narrowing across demographics). Without explicit metrics, optimization drifts toward convenience. On privacy, lean on data minimization and purpose limitation: collect only what improves instruction, maintain short retention windows for raw interaction logs, and push toward on-device inference when feasible. Differential privacy or secure aggregation can protect class-level analytics; sensitive signals (biometrics) require explicit opt-in with accessible alternatives. To prevent bias amplification, the doctrine needs fairness evaluation at three layers: content (representation), recommendation (who gets which challenge), and outcomes (performance by subgroup). Teachers need visibility and override tools, so the UI must foreground why-suggestions with compact rationales and confidence, plus counterfactual options (e.g., “if you pick the alternative, expect 8–10% lower cognitive load”). For pedagogy integrity, encode a conservative fail-safe: when model uncertainty spikes or data is sparse, revert to curriculum-aligned defaults rather than speculative adaptation. Implementation should follow a capability maturity curve: begin with assistive analytics and formative feedback before expanding into adaptive sequencing; require validation pilots with A/B designs and preregistered metrics. Procurement clauses must mandate exportable logs, interoperable data schemas, and vendor-neutral evaluation APIs to avoid lock-in. Professional development is part of the system: teachers need just-in-time microlearning embedded in the copilot, plus simulated practice to build trust. Equity requires resourcing: offline-capable modes, multilingual support, and accessibility-first design; budget lines must fund devices/connectivity where needed. Finally, governance: a school-level oversight committee reviews monthly fairness and safety dashboards; a district board audits quarterly; and an annual public report discloses performance, incidents, and model updates. This yields an actionable, accountable doctrine rather than principles on paper.",
+        "output": "Operating Doctrine: Teacher–AI Copilot for K–12\n\n1) Purpose and Scope\nThe copilot augments teacher capacity for planning, formative assessment, and differentiated instruction. It does not replace professional judgment, conduct high-stakes grading, determine placement, or recommend discipline.\n\n2) Decision Rights and Boundaries\n• Copilot MAY: propose lesson pacing, generate practice items aligned to standards, surface misconceptions, recommend small-group formations, draft feedback, and summarize class trends.\n• Copilot MUST NOT: finalize high-stakes grades, issue behavioral labels, make special-education determinations, or collect biometric signals without explicit opt-in and non-biometric alternatives.\n• Teacher retains final say; every suggestion is explainable with a concise rationale and confidence band.\n\n3) Safety, Privacy, and Data Governance\n• Data minimization: collect only instructionally necessary signals; default retention ≤90 days for raw logs.\n• On-device or school-edge inference where feasible; encrypted transit/storage; role-based access.\n• Privacy by design: purpose limitation, consent management for sensitive data, student/parent data access portals.\n• Fairness guardrails: pre-release bias testing, continuous subgroup monitoring, corrective reweighting where gaps widen.\n\n4) Pedagogical Quality and Equity\n• Standards alignment: every recommendation maps to explicit objectives and rubrics.\n• Conservative fallback: when uncertainty is high, revert to grade-level canonical pathways.\n• Accessibility: multilingual UX, screen-reader compliance, offline-first modes; resource budgets to close device/connectivity gaps.\n\n5) Evaluation and Transparency\n• Preregistered metrics across achievement, well-being, and equity; report quarterly to staff and annually to the public.\n• Teacher-facing dashboards show why-suggestions and alternatives; one-click feedback loops inform model updates.\n• Incident response: triage within 48 hours, remediation within 14 days, public postmortems for material issues.\n\n6) Interoperability and Procurement\n• Open schemas (IMS/Caliper/xAPI), exportable event logs, evaluation API for third-party audits, clear exit clauses.\n• No dark patterns: opt-outs honored without penalty; settings portable across classrooms.\n\n7) Implementation Roadmap\n• Phase 1 (Assist): insights + formative feedback; professional learning embedded.\n• Phase 2 (Adapt): limited sequencing with teacher gating; intensified fairness checks.\n• Phase 3 (Optimize): multi-class orchestration with safeguards, periodic external audits.\n\nThis doctrine operationalizes human-in-the-loop learning, measurable equity, and privacy by default—so the copilot amplifies great teaching rather than automating it.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 67,
+        "topic": "ai.education",
+        "question": "Build a 2025–2040 scenario planning and early-warning system for AI in education that guides national strategy without overfitting to today’s assumptions.",
+        "think": "Begin by separating slow, structural forces (demographics, public finance constraints, compute efficiency curves, climate disruptions) from volatile uncertainties (regulatory harmonization, public trust in AI, vendor consolidation, breakthrough modalities like multimodal AR). Use two orthogonal critical uncertainties to frame scenarios: (A) governance model—open, interoperable ecosystems vs walled garden platforms; and (B) societal trust—high-trust adoption with strong safeguards vs low-trust backlash and constraint. This yields four futures: Open/High-Trust (Civic Commons), Open/Low-Trust (Patchwork Skepticism), Walled/High-Trust (Guided Utility), Walled/Low-Trust (Fractured Lock-in). For each, identify strategic opportunities, risks, and policy choices. Civic Commons promises plural innovation and equity but demands sustained public investment and coordination capacity. Patchwork Skepticism risks inequities and duplication; resilience depends on local ingenuity and low-cost offline tech. Guided Utility can scale improvements quickly but creates dependency and bargaining risk; safeguards must be hardwired. Fractured Lock-in combines low trust with concentration—expect underinvestment, litigation, and stalled outcomes; policy must prioritize exit options and minimum service guarantees. Next, define signposts (observable indicators) and triggers (action thresholds). Examples: proportion of spend under open standards, number of vendors controlling >50% of classrooms, baseline public trust scores, frequency of AI incidents per 10k learners, prevalence of offline-capable deployments, and share of teacher time reclaimed. Build a rolling horizon dashboard: quarterly updates for fast-moving indicators (incidents, outages), annual for structural ones (achievement gaps), and biennial deep-dives (equity and workforce effects). Couple the dashboard to no-regrets moves that pay off across futures: teacher AI literacy, interoperability mandates, offline/edge capabilities, fairness audit pipelines, and diversified procurement with exit clauses. Add option bets tailored to specific futures (e.g., public compute for the Commons, regulatory sandboxes for Guided Utility). Establish kill criteria for programs that fail to meet equity or safety thresholds after defined windows. Governance: a small cross-ministry cell runs the system, with public reporting, stakeholder panels, and an independent methods audit to avoid politicization. Finally, resist straight-line extrapolation: enforce periodic ‘assumption busts’ where the team must falsify today’s priors using outlier data and global comparisons.",
+        "output": "Scenario System (2025–2040)\n\nFramework\n• Critical uncertainties: (1) Ecosystem structure—Open Interoperability ↔ Walled Gardens; (2) Societal trust—High ↔ Low.\n• Four scenarios:\n  1) Civic Commons (Open, High-Trust): public standards, shared reference models, strong audits. Policy lever: invest in common infrastructure (data trusts, evaluation suites) and regional capacity building. Risk: coordination fatigue.\n  2) Patchwork Skepticism (Open, Low-Trust): local experimentation, uneven quality, frequent moratoria. Policy lever: minimum safety baselines and rapid-response evaluation teams. Risk: widening inequity.\n  3) Guided Utility (Walled, High-Trust): turnkey platforms, quick gains. Policy lever: contractually embed interoperability, price controls, and exit/escrow. Risk: vendor dependency and agenda capture.\n  4) Fractured Lock-in (Walled, Low-Trust): litigation, stalled rollouts, rising costs. Policy lever: emergency ‘basic AI services’ guarantees, antitrust action, public alternatives.\n\nSignposts and Triggers\n• Market concentration (HHI index, top-2 vendor share), open-standard adoption rates, incident density per 10k learners, offline-capable coverage %, teacher time reallocation, public trust index, fairness gap trends. \n• Triggers tie to policy playbooks: e.g., if HHI > 0.25 and incident density rises two quarters, activate diversification procurement and mandate audit API access.\n\nNo-Regrets Portfolio\n• Teacher AI literacy and coaching; interoperability mandates; offline/edge delivery; continuous fairness and safety evaluations; procurement with exit clauses and escrowed model checkpoints; student privacy tooling (consent dashboards, minimization by default).\n\nOption Bets\n• Civic Commons: public compute credits, open reference curricula, federated learning hubs.\n• Guided Utility: regulatory sandboxes, outcome-based contracts with clawbacks.\n• Patchwork: micro-grants for rural/offline deployments and shared open toolkits.\n• Fractured: antitrust cases, national fallback platforms, crisis connectivity funds.\n\nGovernance and Cadence\n• A cross-ministry Strategy Cell publishes a quarterly indicator report, an annual public review, and biennial deep-dive on equity and workforce. Independent methods auditors verify metrics. Stakeholder panels (teachers, parents, students) can recommend playbook activation when triggers hit.\n\nExit and Kill Criteria\n• Programs sunset if they fail pre-registered equity and safety thresholds over 6–8 quarters.\n\nThis system keeps strategy adaptive, protects against lock-in, and focuses investment on moves that win across futures while preserving the option to pivot when the world surprises us.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 68,
+        "topic": "ai.education",
+        "question": "Propose a national educational data trust that enables innovation and research while protecting student rights; include institutional design, consent flows, and technical architecture.",
+        "think": "The trust must be more than a repository; it is a fiduciary institution with legal duties to students. Choose a statutory charitable trust with an independent board (educators, parents, students, privacy experts, researchers) and strict conflict-of-interest rules; government funds the baseline, but operations remain independent. The mandate: maximize public benefit from educational data while minimizing risk. Scope the assets: de-identified learning events, assessment outcomes, curriculum maps, school context, and vetted research cohorts; exclude raw biometrics by default. Consent must be layered: (1) default instructional use under legitimate educational interest with minimization; (2) explicit, revocable opt-in for research sharing; (3) per-study just-in-time consent for sensitive categories, with clear lay summaries. Provide a student/family portal to inspect what data exists, revoke permissions, and obtain audit trails of access. Technically, prefer a federated architecture over central hoovering: local data custodians (LEAs, schools) keep identifiable data; the trust orchestrates secure computations via federated analytics and publishes differentially private aggregates. For researcher workflows, create three tiers: (A) synthetic datasets for exploration; (B) secure data enclaves with privacy budgets and code-to-data execution; (C) federated queries where code ships to nodes and only vetted statistics return. Enforce reproducibility with containerized analyses, signed manifests, and public pre-analysis plans. Security: hardware-backed attestation for enclaves, short-lived credentials, fine-grained access policies, continuous red-team testing. Equity safeguards: allocate compute grants to under-resourced researchers and require impact assessments to consider minority subgroups; ban exclusivity clauses so no vendor monopolizes access. Transparency: quarterly public reports, an incident register, and a citizen advisory forum. Sustainability: baseline public funding plus modest cost recovery for enclave runtime; prohibit data sales. Interoperability: adopt open schemas and a mandatory evaluation API vendors must implement to interface with the trust. With this design, innovation scales while rights stay central.",
+        "output": "Blueprint: National Educational Data Trust\n\nInstitutional Design\n• Legal form: statutory charitable trust with fiduciary duty to students and the public. Independent board (educators, parents, students, privacy counsel, researchers) with strict conflict-of-interest and rotating terms. Government endowment for baseline operations; operational independence protected by statute.\n• Mandate: enable evidence-based innovation and research without commoditizing student data.\n\nConsent and Rights\n• Layered permissions: instructional use under minimization; explicit, revocable opt-in for research; just-in-time consent for sensitive categories.\n• Rights portal: families can view records, download provenance logs, grant/revoke study consents, and file grievances. Clear SLAs for responses and redress.\n\nTechnical Architecture\n• Federated-by-default: identifiable data remains with local custodians; the trust coordinates secure analytics.\n• Research access tiers:\n  – Tier A: high-utility synthetic corpora for rapid prototyping.\n  – Tier B: secure enclaves with code-to-data execution, differential privacy budgets, and output vetting.\n  – Tier C: federated queries across nodes; only vetted aggregates exit.\n• Reproducibility: containerized analyses, signed manifests, pre-analysis plans, and public artifacts when ethical.\n• Security: attested compute, granular policy enforcement, short-lived credentials, immutable audit logs, periodic red-teaming.\n\nFairness and Transparency\n• Equity guardrails: subgroup impact reporting for published findings; compute grants for under-resourced institutions; bans on exclusive access deals.\n• Public accountability: quarterly transparency reports, incident ledger, and open hearings of a citizen advisory forum.\n\nInteroperability and Vendor Rules\n• Open schemas and a mandatory evaluation API for edtech vendors to supply outcomes under standard privacy constraints; exportable logs to avoid lock-in.\n\nSustainability\n• Mixed funding: public baseline plus modest cost recovery for enclave runtime; no data brokering or resale.\n\nRollout Roadmap\n• Phase 1: governance and legal charter; pilot enclaves with two regions.\n• Phase 2: federated analytics nationwide; launch rights portal; onboard vendors via evaluation API.\n• Phase 3: expand to longitudinal studies and inter-country collaborations via compatible trusts.\n\nThis trust centers student rights while unlocking rigorous, privacy-preserving research—shifting the edtech ecosystem from opaque data silos to transparent, accountable public benefit.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 69,
+        "topic": "ai.education",
+        "question": "How can AI recommend study schedules that adapt to student energy levels throughout the day?",
+        "think": "Energy and focus fluctuate by circadian rhythm. AI can track when a student performs best on tasks, using metrics like response speed and error rates. It then predicts high- and low-energy windows and allocates demanding tasks (problem-solving, memorization) to peak times while leaving lighter review for off-peak. This personalization requires continuous adjustment and safeguards against over-scheduling.",
+        "output": "AI can optimize study schedules by monitoring performance data to identify peak energy times, assigning complex learning then, and reserving lighter review tasks for lower-energy periods. This maximizes efficiency while reducing fatigue.",
+        "format_version": "1.1",
+        "difficulty": 2
+    },
+    {
+        "id": 70,
+        "topic": "ai.education",
+        "question": "What are the potential drawbacks of AI-based grading in humanities subjects like literature or philosophy?",
+        "think": "In humanities, evaluation depends heavily on interpretation, nuance, and originality. AI models may struggle with subtle arguments or creative expression. Risks include penalizing unconventional but valid reasoning, reinforcing dataset biases, or privileging formulaic essays. Furthermore, explainability of scoring becomes critical to ensure trust. Human oversight is indispensable to preserve fairness.",
+        "output": "AI grading in humanities risks undervaluing creativity, misinterpreting nuance, and reinforcing biases. It can be useful for consistency and feedback, but final grading should remain with human educators to preserve fairness and interpretive richness.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 71,
+        "topic": "ai.education",
+        "question": "How could AI reshape early detection of learning disabilities in primary education?",
+        "think": "Early intervention improves outcomes, but detection is difficult for busy teachers. AI can analyze handwriting, reading fluency, and speech patterns to flag developmental issues. Combined with classroom engagement tracking, it can identify risk signals earlier than traditional assessments. The challenge is preventing false positives, ensuring cultural/linguistic fairness, and protecting student privacy. Human review is necessary before intervention.",
+        "output": "AI can support early detection of learning disabilities by analyzing multiple signals like speech, handwriting, and classroom engagement. When carefully validated and reviewed by specialists, this helps schools provide timely support while avoiding misdiagnosis.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 72,
+        "topic": "ai.education",
+        "question": "What mechanisms ensure AI-driven adaptive tests don’t disadvantage neurodiverse students?",
+        "think": "Adaptive tests rely on response speed and accuracy, but neurodiverse learners may process information differently. Mechanisms include allowing adjustable pacing, providing multimodal question formats (visual, text, audio), and excluding irrelevant metrics like response latency for certain groups. Transparency in adaptation rules and ongoing fairness audits are essential. Involving neurodiverse advocacy groups ensures inclusivity.",
+        "output": "AI-driven adaptive testing can be made inclusive by supporting flexible pacing, multimodal question formats, and fairness audits. Excluding biased metrics and involving neurodiverse advocacy groups ensures the system adapts equitably for all learners.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 73,
+        "topic": "ai.education",
+        "question": "How might AI reshape teacher professional learning communities (PLCs)?",
+        "think": "PLCs are collaborative spaces for teachers to share insights and strategies. AI can aggregate classroom data into dashboards, identify patterns of student need across classes, and suggest evidence-based interventions. It could also recommend peer mentors with complementary expertise. The risk is depersonalization or over-reliance on dashboards instead of professional dialogue.",
+        "output": "AI can enhance teacher PLCs by surfacing cross-classroom patterns, recommending interventions, and connecting educators with relevant peers. This strengthens collaboration while keeping teachers central to decision-making.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 74,
+        "topic": "ai.education",
+        "question": "How can AI support crisis education, such as during natural disasters or school closures?",
+        "think": "Crisis education requires continuity despite infrastructure challenges. AI can enable offline-first apps, auto-generate modular lessons that fit shorter time slots, and recommend mental health resources. It can also match volunteers or remote teachers to students via AI-driven platforms. Barriers include connectivity gaps and safeguarding sensitive student data in unstable conditions.",
+        "output": "AI supports crisis education by generating offline-friendly lessons, personalizing content for disrupted schedules, and connecting learners with remote educators. Success depends on secure data handling and equitable access to devices.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 75,
+        "topic": "ai.education",
+        "question": "What safeguards should national governments mandate to ensure fairness when private edtech AI systems dominate classrooms?",
+        "think": "When private vendors supply core AI learning tools, risks include opaque algorithms, inequitable pricing, and exclusion of marginalized learners. Governments should require algorithmic transparency reports, bias audits, and equitable licensing models. They must enforce data sovereignty laws to protect student rights, establish complaint mechanisms, and set minimum accessibility standards. Without regulation, market dominance may erode public values.",
+        "output": "Governments should mandate fairness audits, transparent algorithms, accessible pricing models, and data protection standards for private AI edtech systems. Public oversight ensures commercial dominance doesn’t undermine educational equity or student rights.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 76,
+        "topic": "ai.education",
+        "question": "How can national education systems integrate AI tutors without reinforcing existing socioeconomic inequalities?",
+        "think": "AI tutors promise scalability but risk amplifying divides. Wealthier schools might afford premium AI with more data, while under-resourced ones rely on limited versions. To mitigate, design equity-first integration: governments subsidize infrastructure for disadvantaged regions; mandate accessibility standards (multilingual, offline-ready, disability support); and enforce vendor compliance with fairness benchmarks. Public–private partnerships could provide base-level AI free at point of use, with strict regulation against feature tiering that tracks socioeconomic status. Monitoring is critical: set national equity dashboards tracking learning gains by income, region, and demographic group. If gaps widen, adjust deployment strategies. Teacher capacity must also be supported; otherwise AI may reduce inequities at the student level but increase strain on under-supported staff. Resilience planning is essential—rural schools must have fallback offline content if connectivity collapses. Finally, create citizen oversight panels to ensure accountability and public trust, preventing elite capture of AI educational resources.",
+        "output": "Integrating AI tutors equitably requires equity-first design: subsidies for under-resourced schools, universal accessibility standards, and vendor fairness benchmarks. Governments should guarantee a base-level AI free at point of use, enforce public dashboards monitoring equity outcomes, and provide teacher training. Citizen oversight and resilient offline capabilities safeguard against widening socioeconomic divides.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 77,
+        "topic": "ai.education",
+        "question": "What methodological safeguards are needed to evaluate AI-driven adaptive curricula over a 10-year horizon?",
+        "think": "Short-term pilots capture immediate learning effects, but adaptive curricula may alter pedagogy and equity patterns long term. Safeguards: (1) longitudinal mixed-method studies with control cohorts to track both academic outcomes and psychosocial effects; (2) preregistered metrics capturing retention, equity, and well-being, not just test scores; (3) periodic recalibration of instruments as technology evolves; (4) independent evaluation boards separate from vendors; (5) transparent public reporting of results; (6) robust consent and privacy protocols over long timeframes; (7) adaptive sampling to capture underrepresented groups consistently; (8) scenario-based stress testing to anticipate technological drift or failure modes; (9) iterative feedback loops with teachers and students to validate findings; (10) alignment with international benchmarks to ensure comparability. Without safeguards, longitudinal evaluations risk bias, vendor capture, and misleading conclusions.",
+        "output": "Evaluating adaptive curricula over a decade requires longitudinal mixed-method studies, independent governance, and preregistered multi-dimensional metrics (achievement, equity, well-being). Regular recalibration, transparent reporting, and strict privacy protections preserve validity. Scenario stress tests and adaptive sampling ensure resilience, while teacher/student input grounds findings in lived classroom realities.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 78,
+        "topic": "ai.education",
+        "question": "How can AI systems balance personalization with civic education goals such as shared democratic values?",
+        "think": "Personalization risks fragmenting curricula, where each student experiences different content and civic education loses cohesion. To balance, civic competencies (democracy, critical media literacy, civic responsibility) must be encoded as non-negotiable outcomes within adaptive pathways. AI should deliver varied methods but converge on common competencies. Transparency mechanisms must clarify how civic goals are embedded, preventing hidden bias. Teacher dashboards should show alignment with civic benchmarks, allowing educators to intervene if personalization diverges. Safeguards include regular audits for ideological skew, diverse dataset sourcing, and inclusive content advisory panels. Risk: personalization could reinforce echo chambers; countermeasure: algorithms should deliberately expose learners to diverse perspectives within controlled pedagogical boundaries. Policy: governments may require certification that AI platforms meet civic education standards before procurement.",
+        "output": "AI education platforms should embed civic competencies as required outcomes, regardless of personalization. Teachers need dashboards showing civic alignment, while audits and diverse advisory panels safeguard against ideological skew. Algorithms must avoid echo chambers by deliberately exposing students to plural perspectives. Certification mechanisms ensure civic education goals remain intact.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 79,
+        "topic": "ai.education",
+        "question": "What resilience frameworks should be designed for AI-driven education systems facing cyberattacks or systemic outages?",
+        "think": "AI education systems will become critical infrastructure, making them prime cyber targets. Resilience requires multi-layered defenses: (1) zero-trust security architecture across platforms; (2) redundancy with offline-first capabilities, enabling schools to function when networks collapse; (3) segmented infrastructure so local breaches don’t cascade nationwide; (4) continuous monitoring and automated anomaly detection; (5) mandatory penetration testing and red-team drills; (6) secure failover to simplified curriculum modules during downtime; (7) national cyber incident response protocols specific to education; (8) data immutability guarantees with cryptographic verification; (9) public transparency reports after incidents to maintain trust; (10) international cooperation to share intelligence about threats. Without such frameworks, a single attack could paralyze entire education systems.",
+        "output": "Resilient AI education requires zero-trust security, offline-first backups, and segmented infrastructure. Continuous monitoring, red-team testing, and secure failover curricula mitigate disruption. National cyber protocols and international threat-sharing networks further protect systems, ensuring that schools remain functional during attacks or outages.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 80,
+        "topic": "ai.education",
+        "question": "How can ethical oversight of AI in education be institutionalized without stifling innovation?",
+        "think": "Ethical oversight risks slowing experimentation, but absence risks harm. A balanced model: establish independent ethics councils at national and regional levels, comprising educators, ethicists, parents, and students. Councils publish binding guidelines but allow local pilot exemptions under strict transparency and evaluation requirements. Oversight focuses on principle-based guardrails (privacy, fairness, inclusivity) while leaving room for innovation within safe zones. Introduce graduated approval: low-risk pilots (e.g., adaptive reading apps) require light-touch review, while high-stakes pilots (AI grading national exams) face rigorous scrutiny. Require vendors to submit ethical impact assessments with mitigation plans. Innovation sandboxes, overseen by ethics boards, let schools trial new approaches while safeguarding learners. Councils should also publish annual audits and incident reviews, maintaining accountability without stifling creativity.",
+        "output": "Ethical oversight can be institutionalized through independent councils, tiered approval processes, and innovation sandboxes. Principle-based guardrails preserve privacy and fairness, while sandboxing and pilot exemptions enable experimentation. Vendors provide ethical impact assessments, and councils publish annual audits, balancing accountability with innovation freedom.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 81,
+        "topic": "ai.education",
+        "question": "What governance architecture should UNESCO and member states adopt to coordinate global AI standards in education while respecting national sovereignty?",
+        "think": "The governance challenge lies in balancing global coherence with national autonomy. Begin by identifying key stakeholders: UNESCO as convenor, member states, edtech vendors, teacher unions, and civil society. Next, define global non-negotiables: data privacy baselines, transparency in algorithms, and fairness audits. Instead of a centralized enforcement model, adopt a federated structure: UNESCO sets principles, regional hubs contextualize them, and national authorities implement. To prevent fragmentation, establish interoperability protocols (data schemas, audit APIs). A multistakeholder Global AI in Education Council could issue annual reports and certify compliance tiers. Dispute resolution requires arbitration mechanisms, similar to WTO processes, where national grievances can be mediated. To prevent regulatory capture, rotating membership and conflict-of-interest disclosures are critical. Funding should come from assessed contributions plus vendor levies to avoid donor bias. Evaluation requires periodic peer reviews—cross-country teams auditing each other’s deployments. Sovereignty is respected through opt-in protocols: states align voluntarily but gain access to shared infrastructure, training, and certification benefits. The architecture must be adaptive, with sunset clauses and revision cycles every 3–5 years to integrate new risks like generative misinformation. Ultimately, legitimacy comes from transparency, inclusive participation, and reciprocity: member states comply because they see both global benefit and national returns.",
+        "output": "A balanced governance architecture is a federated model: UNESCO sets baseline principles, regional hubs contextualize them, and national authorities retain implementation sovereignty. Global standards cover privacy, transparency, and fairness, enforced through interoperability protocols and annual certification tiers. Peer reviews, rotating council membership, and arbitration processes maintain legitimacy. Funding via shared contributions and vendor levies prevents capture. Adaptive cycles ensure resilience against emerging risks, while reciprocity ensures states align voluntarily because benefits outweigh costs.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 82,
+        "topic": "ai.education",
+        "question": "How should nations design evaluation blueprints for AI-enabled education reforms that balance innovation, accountability, and resilience over 20 years?",
+        "think": "Education reforms often fail because they lack rigorous evaluation over time. For AI-enabled reforms, the blueprint must combine methodological rigor with adaptability. Start with a layered evaluation system: (1) micro-level dashboards tracking student outcomes and well-being; (2) meso-level institutional reviews capturing teacher workload, resource allocation, and cultural fit; (3) macro-level policy metrics like equity gaps, employability, and civic competencies. Accountability requires preregistered indicators and independent oversight bodies insulated from political cycles. Innovation must be safeguarded through pilot zones with lighter-touch evaluation, feeding into national scaling decisions. Resilience demands scenario stress-testing—simulate cyberattacks, connectivity collapses, and vendor exits to test continuity. Every five years, run deep audits comparing AI reform outcomes with non-AI control cohorts. Include longitudinal tracking of cohorts to detect subtle effects on critical thinking, creativity, or civic trust. Build a repository of lessons learned accessible to policymakers globally. Blueprint governance should rotate evaluators across institutions to reduce bias and ensure cross-pollination. To ensure adaptability, evaluation methods themselves must be reviewed and updated every cycle. This creates a self-correcting system that holds reforms accountable while encouraging innovation.",
+        "output": "A 20-year evaluation blueprint should integrate micro-level learner dashboards, meso-level institutional reviews, and macro-level policy metrics. Independent oversight bodies, preregistered indicators, and periodic audits ensure accountability. Innovation is protected via pilot zones, while resilience is tested through scenario simulations. Longitudinal cohort tracking and rotating evaluators sustain rigor. Every five years, both outcomes and evaluation methods are audited, creating a self-correcting cycle that balances innovation, accountability, and resilience.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 83,
+        "topic": "ai.education",
+        "question": "What strategic framework should universities adopt to integrate AI across teaching, research, and administration without eroding academic freedom?",
+        "think": "Universities face pressure to adopt AI but risk compromising core values. The framework should rest on three pillars: governance, pedagogy, and ethics. Governance: establish AI oversight boards including faculty, students, and independent experts, with authority over procurement and deployment. Require transparency contracts from vendors, enforce interoperability, and include exit clauses to avoid dependency. Pedagogy: AI literacy becomes a universal requirement, but tools must supplement, not dictate, academic inquiry. Faculty autonomy in course design must be preserved; AI platforms should be opt-in and configurable rather than imposed. Research: AI should accelerate data analysis and collaboration, but with safeguards like reproducibility requirements, bias audits, and human validation in high-stakes domains. Administration: AI may optimize admissions, finance, and HR, but high-stakes decisions (e.g., admissions rejections) must always include human oversight. To protect academic freedom, mandate algorithmic explainability and embed faculty veto rights. Evaluation: universities should publish annual transparency reports, undergo external audits, and run deliberative forums where academic communities shape AI policy. Funding must align with institutional missions, not vendor incentives. In sum, the strategic framework must integrate AI pragmatically but ensure faculty control, explainability, and democratic governance.",
+        "output": "Universities should adopt a strategic framework built on governance, pedagogy, and ethics. Oversight boards with faculty and student representation control procurement and deployment. AI literacy is universal, but academic freedom is preserved by making platforms opt-in and faculty configurable. Research use requires reproducibility and bias audits, while administrative AI retains human-in-the-loop for high-stakes decisions. Annual transparency reports, audits, and deliberative forums maintain accountability. This ensures AI enhances education without eroding academic freedom.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 84,
+        "topic": "ai.education",
+        "question": "How should nations structure public–private partnerships (PPPs) for AI in education to maximize innovation without ceding control of core educational values?",
+        "think": "Public–private partnerships can accelerate innovation, but they risk vendor lock-in and erosion of public accountability. First, clarify boundaries: the state defines educational objectives, while private partners provide tools and expertise. Second, embed safeguards into PPP contracts: open data standards, algorithmic transparency, and mandatory audit APIs. Third, ensure ownership of student data remains with public authorities, not vendors. Fourth, adopt tiered risk frameworks: low-risk applications (e.g., scheduling) can have lighter oversight, but high-stakes systems (grading, placement) require joint governance boards. Fifth, establish joint innovation labs where pilots are co-designed with teachers, students, and researchers, not dictated by vendors. Sixth, create sunset clauses and exit strategies to prevent perpetual dependence. Seventh, mandate equity provisions: pricing models must include subsidies for low-income schools. Eighth, require transparency reports from vendors and public disclosure of partnership terms. Ninth, institute dispute resolution mechanisms overseen by neutral arbiters. Tenth, introduce rotating stakeholder councils to prevent capture. Eleventh, enforce performance-based payments tied to outcomes beyond efficiency, such as equity improvements or teacher workload reduction. Finally, review PPPs every 3–5 years to recalibrate contracts against evolving national priorities and societal values.",
+        "output": "Nations should design PPPs where governments retain control over educational values and outcomes, while vendors contribute technology under strict safeguards. Contracts must include open standards, transparency obligations, student data ownership by the public, equity pricing provisions, and exit strategies. Joint innovation labs, rotating oversight councils, and performance-based contracts prevent capture. Periodic reviews ensure partnerships serve long-term educational goals rather than short-term vendor interests.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 85,
+        "topic": "ai.education",
+        "question": "What international treaty model could govern AI use in cross-border online education platforms to protect student rights and ensure fair competition?",
+        "think": "Cross-border platforms operate beyond national jurisdiction, creating regulatory gaps. A treaty model must balance sovereignty, rights protection, and market fairness. First, anchor it in human rights frameworks, ensuring privacy, accessibility, and freedom from discrimination. Second, establish baseline standards: mandatory algorithmic audits, data minimization, and fairness metrics. Third, adopt a federated enforcement approach: platforms comply with national regulators but undergo periodic international peer review. Fourth, embed portability rights: students must retain access to their data and credentials across borders. Fifth, create interoperability mandates for credential recognition, preventing vendor monopolies. Sixth, enforce transparency obligations—platforms publish bias, incident, and equity reports. Seventh, adopt sanctions for non-compliance, including fines or loss of international accreditation. Eighth, create an independent international arbitration body for disputes. Ninth, ensure funding models support low-income states so treaty compliance isn’t exclusionary. Tenth, enable adaptive governance: review every five years to integrate new risks (deepfakes, surveillance misuse). Eleventh, mandate civil society and educator participation in treaty governance. Twelfth, balance competition by banning predatory pricing or exclusivity deals that distort access. This model blends rights protection with fair market regulation.",
+        "output": "An effective treaty for AI in cross-border education should codify student rights, mandate audits and transparency, and require interoperability of credentials. Enforcement combines national regulators with international peer reviews and arbitration mechanisms. Sanctions, equity funding for low-income states, and periodic revisions keep the treaty fair and adaptive. Civil society participation and bans on predatory vendor practices ensure both rights protection and competitive balance.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 86,
+        "topic": "ai.education",
+        "question": "How can governments design resilience strategies for AI education systems to withstand geopolitical shocks such as sanctions or global compute shortages?",
+        "think": "AI in education increasingly depends on global compute, cloud providers, and cross-border data flows. Geopolitical shocks like sanctions or semiconductor shortages could cripple deployments. First, map dependencies: identify critical infrastructure, compute reliance, and supply-chain chokepoints. Second, diversify infrastructure: mandate multi-cloud, hybrid, and on-prem options with clear failover plans. Third, invest in sovereign compute and regional data centers. Fourth, develop open-source AI ecosystems to reduce dependence on proprietary vendors. Fifth, create redundancy in datasets through localized corpus development. Sixth, prepare offline-capable AI tools to ensure continuity during connectivity loss. Seventh, establish public procurement strategies that avoid single-vendor lock-in. Eighth, mandate resilience testing: simulate sanctions, outages, or export bans. Ninth, negotiate international agreements for priority access to critical compute for education. Tenth, incentivize domestic innovation ecosystems to build fallback capabilities. Eleventh, enforce national curricula alignment regardless of disruptions—ensuring AI always maps to public educational goals. Twelfth, publish resilience dashboards to maintain public trust. Thirteenth, include cross-border collaboration funds to help low-resource states. Fourteenth, codify emergency governance protocols that activate when disruptions occur. These combined measures transform vulnerability into resilience.",
+        "output": "Governments can build resilience into AI education by diversifying infrastructure, investing in sovereign compute, supporting open-source ecosystems, and mandating multi-cloud failovers. Offline-capable AI, localized datasets, and regular stress-testing prepare systems for shocks. Procurement strategies, international agreements for compute access, and emergency governance protocols ensure education continuity during geopolitical crises, protecting long-term sovereignty and trust.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 87,
+        "topic": "ai.education",
+        "question": "What safeguards should be in place to ensure AI-driven teacher evaluations do not undermine professional autonomy?",
+        "think": "Teacher evaluations are politically sensitive. AI could analyze classroom video, student outcomes, and engagement metrics, but risks oversimplifying teaching quality. Safeguards include: requiring teacher consent for data use, ensuring AI outputs are advisory rather than determinative, and mandating human review panels. Transparency is essential: teachers must see how AI scores are generated and have opportunities to contest errors. Metrics should emphasize growth and support rather than punishment. Bias audits must ensure fair treatment across subjects and demographics. Finally, training programs should accompany AI rollout, positioning tools as developmental aids rather than disciplinary weapons.",
+        "output": "AI-driven teacher evaluations should remain advisory, transparent, and contestable. Human review panels, teacher consent, growth-focused metrics, and bias audits safeguard professional autonomy and prevent misuse as punitive tools.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 88,
+        "topic": "ai.education",
+        "question": "How can AI help bridge the gap between standardized assessments and competency-based education models?",
+        "think": "Standardized testing captures uniform benchmarks but often misses holistic competencies. Competency-based models emphasize mastery over time, personalization, and flexible pacing. AI can link the two by mapping assessment data onto competency frameworks, providing individualized progress dashboards, and generating micro-assessments aligned with competencies. AI-driven analytics can simulate performance in authentic tasks, offering richer evaluation while still aligning with standardized benchmarks. The challenge is governance: ensuring that AI recommendations do not dilute rigor, and that interoperability between traditional and competency-based systems is maintained.",
+        "output": "AI bridges the gap by mapping standardized test results to competency frameworks, generating micro-assessments, and creating progress dashboards. It enables personalized mastery tracking while maintaining alignment with national benchmarks.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 89,
+        "topic": "ai.education",
+        "question": "What are the long-term risks of over-reliance on AI tutors in primary education, and how can they be mitigated?",
+        "think": "AI tutors provide scalable individualized support, but risks include reducing teacher–student interaction, narrowing social development, and creating dependency on automated help. Over time, children might struggle with self-regulation if AI provides constant scaffolding. Mitigation strategies: ensure AI is supplemental, not primary; mandate minimum levels of human interaction per day; design tutors that encourage collaborative group work; and incorporate resilience training so students gradually take more responsibility. Monitoring systems should track not just cognitive progress but socio-emotional outcomes, flagging if AI reliance begins undermining holistic growth.",
+        "output": "Over-reliance on AI tutors risks reducing social interaction and student self-regulation. Mitigation includes limiting AI to supplemental roles, mandating daily human interaction, embedding collaborative activities, and monitoring socio-emotional outcomes alongside academics.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 90,
+        "topic": "ai.education",
+        "question": "How can universities ensure AI-enabled admissions systems are transparent and resistant to bias?",
+        "think": "Admissions involve high stakes and systemic inequality risks. AI could analyze test scores, essays, and extracurriculars, but opaque algorithms risk bias amplification. Safeguards: mandate explainable AI that discloses weightings and rationale; require independent fairness audits across gender, socioeconomic status, and ethnicity; and provide appeals mechanisms for rejected candidates. Hybrid models should keep final decisions human, with AI as a triage tool. Transparency dashboards can publish aggregate acceptance metrics to the public, building trust. Vendor contracts should include clear accountability clauses and allow external auditing.",
+        "output": "AI-enabled admissions must use explainable models, fairness audits, and appeal rights. Human oversight ensures accountability, while transparency dashboards and external audits protect against systemic bias.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 91,
+        "topic": "ai.education",
+        "question": "What frameworks can help measure the impact of AI-enhanced personalized learning on equity across different student groups?",
+        "think": "Equity impact assessment requires disaggregating outcomes by socioeconomic status, gender, ethnicity, disability, and geography. Frameworks should combine quantitative measures (test scores, retention rates, graduation rates) with qualitative insights (student surveys, teacher interviews). Longitudinal tracking is crucial to capture sustained impacts. AI can generate equity dashboards, but governance must ensure that marginalized groups are not underrepresented in datasets. To mitigate risks, independent review boards should oversee methodology, and results should inform resource reallocation policies. International comparability can be achieved by aligning metrics with global equity indicators such as UNESCO’s SDG 4 benchmarks.",
+        "output": "Equity frameworks should combine disaggregated quantitative outcomes with qualitative insights, tracked longitudinally. AI-generated dashboards, independent oversight, and alignment with global benchmarks ensure personalized learning enhances equity rather than deepening divides.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 92,
+        "topic": "ai.education",
+        "question": "How can AI chatbots support student mental health in schools without replacing counselors?",
+        "think": "AI chatbots can offer immediate, low-stakes interactions for stress management, FAQs, or connecting students to resources. However, they must avoid diagnosing or providing complex therapy. Guardrails include escalation protocols (flagging high-risk cases to counselors), transparency that the bot is not a human, and strict data privacy. With these safeguards, chatbots can extend support without displacing human professionals.",
+        "output": "AI chatbots can provide low-level mental health support and resource referrals while escalating serious cases to human counselors. Clear boundaries, transparency, and privacy safeguards ensure they complement rather than replace human care.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 93,
+        "topic": "ai.education",
+        "question": "What risks emerge when AI predicts student career paths too early in their education?",
+        "think": "AI can analyze grades and interests to suggest career paths, but predicting too early risks pigeonholing students and reinforcing stereotypes. It may bias opportunities toward existing strengths rather than fostering exploration. To mitigate, career guidance AI must frame suggestions as exploratory, update dynamically as students grow, and highlight diverse pathways rather than narrowing options.",
+        "output": "Early AI predictions can create rigid expectations and reinforce stereotypes. Systems should present career suggestions as flexible, regularly updated, and broad enough to encourage exploration rather than limit opportunities.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 94,
+        "topic": "ai.education",
+        "question": "How could AI improve accessibility for students with visual impairments in mainstream classrooms?",
+        "think": "AI can convert text and images into speech, generate tactile graphics using 3D printing guidance, and personalize screen readers. Computer vision can describe real-time classroom visuals. Challenges include latency, accuracy, and ensuring inclusive design. Teachers must be trained to integrate AI tools effectively into lesson delivery.",
+        "output": "AI improves accessibility by generating speech from text and visuals, producing tactile resources, and describing classroom scenes in real time. Effective integration requires accuracy safeguards and teacher training.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 95,
+        "topic": "ai.education",
+        "question": "How can schools evaluate whether AI-based plagiarism detection tools are ethical and effective?",
+        "think": "Evaluation must consider false positives, bias against non-native speakers, and over-surveillance risks. Effectiveness requires benchmarking against diverse datasets, including creative writing and multilingual essays. Ethical review boards should assess proportionality—does the tool promote integrity without eroding trust? Transparency in algorithms and appeal mechanisms for students are critical.",
+        "output": "Schools should evaluate plagiarism detection tools based on fairness, accuracy across diverse writing, transparency of algorithms, and the presence of student appeal processes. Ethics reviews ensure the tools foster trust rather than surveillance.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 96,
+        "topic": "ai.education",
+        "question": "What safeguards can prevent AI-driven adaptive homework systems from widening inequities between students with and without home internet access?",
+        "think": "Adaptive homework assumes consistent access to connectivity. Without safeguards, students without internet fall behind. Solutions: offline-first design, sync-once connectivity, and paper-based equivalents generated by AI. Schools must track homework completion equity and intervene if gaps widen. Subsidized devices and hotspots may also be needed.",
+        "output": "Safeguards include offline-first design, printable AI-generated alternatives, and monitoring equity gaps. Providing subsidized devices and hotspots ensures adaptive homework does not disadvantage students without home internet.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 97,
+        "topic": "ai.education",
+        "question": "How might AI-driven simulations change the way medical schools teach anatomy and surgery?",
+        "think": "AI can generate adaptive 3D simulations tailored to learner progress, allowing safe exploration of anatomy and surgical practice. Systems can track precision, provide real-time feedback, and personalize difficulty. Risks include overconfidence in virtual practice without adequate physical skill transfer. Safeguards: blended curricula, validation studies on transfer, and supervision from clinical educators.",
+        "output": "AI-driven simulations let medical students explore anatomy and practice surgery safely, with adaptive feedback. Integration must be blended with physical training and validated for real-world transfer to ensure competency.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 98,
+        "topic": "ai.education",
+        "question": "What policy frameworks ensure transparency when AI platforms collect large-scale student learning data?",
+        "think": "Transparency requires more than generic privacy notices. Policies should mandate plain-language disclosure of what data is collected, for what purposes, and how long it is retained. Independent audits verify compliance. Students and parents need dashboards to view, download, or delete data. Public reporting of aggregate use builds trust. Frameworks should also forbid secondary use of data for advertising or profiling.",
+        "output": "Effective frameworks mandate plain-language disclosures, independent audits, family access dashboards, and public aggregate reporting. Data must never be repurposed for advertising, ensuring AI platforms remain transparent and trustworthy.",
+        "format_version": "1.1",
+        "difficulty": 6
+    }
+]
