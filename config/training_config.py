@@ -35,7 +35,7 @@ _ORIG_STDERR = None
 TEE_ACTIVE = False  # set True after we install the tee streams
 TRAINING_NEW = True  # set True if this is a new training run, False if resuming
 # Epoch-based training defaults
-TRAINING_EPOCHS = 5
+TRAINING_EPOCHS = 1
 TRAINING_EXTRA_EPOCHS = 1  # when resuming (TRAINING_NEW=False), add these extra epochs
 
 MAX_RESPONSE_LEN=2048

@@ -4,7 +4,7 @@ import os
 # Base model name
 MODEL_FAMILY = "deepseek-ai"
 # MODEL_NAME = "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B"
-# MODEL_NAME = "DeepSeek-R1-Distill-Qwen-7B"
+# MODEL_NAME = "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B"
 MODEL_NAME = "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"
 
 if "/" in MODEL_NAME:

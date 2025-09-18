@@ -1,6 +1,28 @@
-/output/*
-*.ckpt
-*.safetensors
-*.pt
-*.bin
-*.gguf
+# Python/venv
+env/
+.venv/
+__pycache__/
+*.pyc
+
+# Git & IDE
+.git/
+.gitignore
+.vscode/
+.idea/
+
+# Outputs, checkpoints, and large artifacts
+output/
+merged-models/
+datasets/**/*.gguf
+datasets/**/*.safetensors
+**/*.pt
+**/*.bin
+**/*.ckpt
+**/*.gguf
+**/*.npz
+**/*.npy
+**/*.parquet
+
+# Caches
+.cache/
+**/.cache/

@@ -65,8 +65,8 @@
             "criteria": {
                 "reasoning_depth": "8–12 steps; multi-constraint synthesis with explicit trade-offs, counterfactuals, and risk analysis.",
                 "token_length": {
-                    "think": "350–450 tokens",
-                    "output": "350–450 tokens"
+                    "think": "400–600 tokens",
+                    "output": "400–600 tokens"
                 },
                 "domain_complexity": "Ultra-high; cross-domain integration (e.g., AI + law + design ops + measurement), formal structure recommended.",
                 "ambiguity": "Very high; multiple viable frameworks; must justify chosen approach and acknowledge limitations."
@@ -77,8 +77,8 @@
             "criteria": {
                 "reasoning_depth": "12+ steps; includes decomposition, alternative designs, evaluation plan, failure modes, and mitigation strategy.",
                 "token_length": {
-                    "think": "450–600 tokens",
-                    "output": "450–600 tokens"
+                    "think": "550–800 tokens",
+                    "output": "550–800 tokens"
                 },
                 "domain_complexity": "Frontier; spans technical, organizational, legal/ethical, and measurement domains with explicit assumptions and caveats.",
                 "ambiguity": "Extreme; ill-posed or open-ended problems; must define scope, defend trade-offs, and present decision criteria."
