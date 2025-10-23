@@ -1123,5 +1123,140 @@
         "output": "AI dashboards should deliver prioritized, customizable insights with drill-down options. Effectiveness must be measured by time saved and instructional improvement, ensuring reduced cognitive load for teachers.",
         "format_version": "1.1",
         "difficulty": 6
+    },
+    {
+        "id": 126,
+        "topic": "ai.education",
+        "question": "How can AI help teachers identify when students are passively consuming content rather than actively learning?",
+        "think": "Passive consumption often looks like completion without understanding. AI can analyze patterns such as rapid task completion, minimal interaction, and lack of meaningful attempts in open-ended tasks. Combining sentiment detection, engagement metrics, and error patterns allows AI to signal low cognitive engagement. Teachers must validate these insights to avoid false assumptions.",
+        "output": "AI can flag passive learning by analyzing interaction depth, task pacing, and error patterns. Teachers then review insights to intervene with active learning strategies.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 127,
+        "topic": "ai.education",
+        "question": "What are the risks of relying on AI-generated reading comprehension questions in primary education?",
+        "think": "AI question generation can scale practice, but poorly calibrated questions may be too difficult, too literal, or misaligned with child development standards. Bias in datasets may also shape question framing. Quality assurance is needed: teacher review, difficulty calibration, and alignment checks with curriculum standards.",
+        "output": "Risks include misaligned difficulty, biased framing, and developmental mismatches. Teacher review and alignment checks ensure AI-generated questions support learning rather than confuse students.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 128,
+        "topic": "ai.education",
+        "question": "How can AI support students with ADHD in maintaining focus during digital lessons?",
+        "think": "AI can detect disengagement through inactivity, gaze deviation, or interaction gaps. Tools can suggest micro-breaks, chunk content, or switch modalities (audio vs visual). To avoid over-surveillance risks, signals must be privacy-friendly and processed locally when possible. Students should be able to customize prompts to avoid feeling micromanaged.",
+        "output": "AI supports ADHD learners through adaptive pacing, modality switching, and micro-break prompts, provided privacy and autonomy safeguards are in place.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 129,
+        "topic": "ai.education",
+        "question": "How should schools evaluate whether AI-based attendance monitoring systems are fair and reliable?",
+        "think": "Automated attendance can misidentify students due to lighting, skin tone bias, or camera angle issues. Evaluation involves accuracy benchmarking across diverse demographics, field testing in multiple environments, and human verification protocols. Schools also need clear appeal channels and strict limits on data retention.",
+        "output": "Schools must benchmark accuracy across demographics, test in real contexts, and maintain human verification and appeal channels. Strong privacy controls ensure fair and reliable usage.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 130,
+        "topic": "ai.education",
+        "question": "How can AI improve the pacing of university-level mathematics courses?",
+        "think": "Math pacing varies widely across learners. AI can evaluate problem-solving speed, error types, and conceptual gaps. It can recommend acceleration for advanced learners or reinforcement for others. Safeguards include locking certain foundational modules to avoid skipping core skills and ensuring instructors retain final control over pacing adjustments.",
+        "output": "AI personalizes pacing by analyzing error patterns and mastery, while instructors maintain oversight to ensure essential concepts aren’t skipped.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 131,
+        "topic": "ai.education",
+        "question": "What safeguards ensure AI does not unintentionally marginalize minority languages in multilingual education systems?",
+        "think": "Large models often underperform on low-resource languages. Safeguards include requiring equal model evaluation across all supported languages, building local language datasets, integrating community review groups, and avoiding design choices that default to dominant languages. Continuous monitoring ensures minority languages receive equal-quality support.",
+        "output": "Safeguards include dataset investment in minority languages, evaluation parity checks, community review processes, and UI designs that avoid defaulting to dominant languages.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 132,
+        "topic": "ai.education",
+        "question": "How can AI help students build metacognitive skills such as self-reflection and strategic planning?",
+        "think": "AI can prompt reflective questions, analyze learning logs for patterns, and suggest personalized goal-setting templates. It must avoid being overly directive; the role is to guide students toward self-analysis rather than prescribing decisions. Tracking reflection progress longitudinally reveals growth areas.",
+        "output": "AI fosters metacognition by prompting reflection, analyzing patterns, and providing structured goal-setting supports without dictating decisions.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 133,
+        "topic": "ai.education",
+        "question": "What risks arise when AI auto-generates individualized education plans (IEPs) for special education?",
+        "think": "IEPs require personalized judgment and deep contextual understanding. AI-generated IEPs risk oversimplification, misinterpreting complex needs, or producing legally non-compliant recommendations. Safeguards: human review panels, strict compliance checks, student-family interviews, and continuous updates as new data arrives. AI should assist with drafting, not decision-making.",
+        "output": "AI can draft IEP suggestions but must never automate decisions. Human review, compliance checks, and student-family input ensure accuracy and legal integrity.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 134,
+        "topic": "ai.education",
+        "question": "How could AI transform school libraries into dynamic digital learning hubs?",
+        "think": "AI can curate personalized reading pathways, generate knowledge maps connecting topics, and recommend multimedia blends (ebooks, videos, simulations). Libraries can shift from static collections to adaptive learning environments. Risks: over-algorithmization of reading choices and filter bubbles. Librarians ensure diversity and serendipity.",
+        "output": "AI enables libraries to become adaptive learning hubs with personalized reading paths and topic maps, while librarians safeguard diversity and avoid filter bubbles.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 135,
+        "topic": "ai.education",
+        "question": "How should schools evaluate the long-term effects of AI tutors on critical thinking development?",
+        "think": "AI tutors risk over-scaffolding, reducing productive struggle. Long-term evaluation needs mixed methods: longitudinal assessment of critical thinking tasks, observation of problem-solving behaviors, surveys of cognitive autonomy, and comparisons to non-AI cohorts. Fairness checks ensure effects aren’t uneven across demographics.",
+        "output": "Evaluate long-term effects with longitudinal studies, critical-thinking task analysis, behavioral observation, and cross-cohort comparison. Ensure fairness across demographics.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 136,
+        "topic": "ai.education",
+        "question": "How can AI help students transition from memorization-based learning toward deeper conceptual understanding?",
+        "think": "AI can detect whether a student is relying on pattern recognition or genuinely understanding concepts by analyzing answer variation, explanation quality, and error types. The system can then introduce conceptual prompts, analogies, and reasoning-focused tasks. It must avoid over-explaining, which can create learned dependency. Teacher oversight ensures conceptual learning aligns with curriculum priorities.",
+        "output": "AI supports conceptual learning by analyzing how students reason, then providing targeted prompts, analogies, and reasoning tasks. Human oversight ensures students build understanding rather than rely on AI explanations.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 137,
+        "topic": "ai.education",
+        "question": "What risks arise when AI is used to personalize discipline interventions in schools?",
+        "think": "AI-driven discipline can unintentionally codify bias or reinforce inequitable patterns if datasets include historical discrimination. Predictive flags may also label students unfairly. Safeguards include human-only final decisions, transparent criteria, bias audits, and explicit bans on high-stakes automated behavioral predictions. Systems should focus on supportive interventions, not punitive decisions.",
+        "output": "AI-based discipline tools risk reinforcing bias and unfair labeling. Only humans should decide disciplinary actions, with transparent criteria, bias audits, and support-focused interventions.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 138,
+        "topic": "ai.education",
+        "question": "How can AI-powered analytics improve the design of university study groups?",
+        "think": "Effective study groups require balanced skill distribution, complementary strengths, and shared goals. AI can cluster students based on learning patterns, collaboration histories, and topic mastery. To avoid unwanted profiling, students should have override options. Privacy-aware clustering and teacher review ensure groups support learning rather than reinforce inequities.",
+        "output": "AI can form balanced study groups using mastery and collaboration data, with privacy safeguards and teacher approval to avoid unfair or unwanted grouping.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 139,
+        "topic": "ai.education",
+        "question": "How should schools evaluate whether AI-generated enrichment activities genuinely expand student creativity?",
+        "think": "Creativity is hard to measure, so evaluation must blend qualitative and quantitative evidence. Schools can track novelty of student outputs, diversity of ideas, engagement levels, and self-reported creative confidence. Longitudinal comparisons with cohorts not using AI provide grounding. Human review ensures activities are generative rather than formulaic.",
+        "output": "Schools should evaluate AI enrichment by tracking idea diversity, engagement, student confidence, and cross-cohort comparisons, complemented by human review of creative quality.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 140,
+        "topic": "ai.education",
+        "question": "How can universities ensure AI tools used in remote exams maintain fairness while respecting student privacy?",
+        "think": "Remote proctoring AI often relies on webcams, gaze tracking, and anomaly detection—all privacy-sensitive. Fairness requires minimizing intrusive monitoring, providing clear consent, and offering non-AI alternatives. Systems should use local processing where possible and allow human review of all flags. Bias audits ensure students with disabilities or neurodiversity are not penalized.",
+        "output": "Universities should minimize intrusiveness, offer alternatives, process data locally when possible, and require human review of AI flags. Bias audits protect fair treatment in remote exams.",
+        "format_version": "1.1",
+        "difficulty": 6
     }
 ]
