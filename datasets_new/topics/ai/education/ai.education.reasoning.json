@@ -1258,5 +1258,131 @@
         "output": "Universities should minimize intrusiveness, offer alternatives, process data locally when possible, and require human review of AI flags. Bias audits protect fair treatment in remote exams.",
         "format_version": "1.1",
         "difficulty": 6
+    },
+    {
+        "id": 141,
+        "topic": "ai.education",
+        "question": "How can AI assist teachers in identifying when students are overwhelmed by cognitive load during lessons?",
+        "think": "AI can analyze interaction latency, repeated errors, and sudden performance drops. Combined with sentiment cues from text-based responses, the system infers cognitive overload. However, interpretation must remain conservative to avoid mislabeling. Teachers review these indicators to adjust pacing or support.",
+        "output": "AI infers cognitive overload through engagement signals and error patterns, while teachers verify these cues to adjust instruction.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 142,
+        "topic": "ai.education",
+        "question": "What risks emerge when AI simplifies textbook content for struggling readers?",
+        "think": "Simplification can remove nuance or reduce critical language exposure. If unchecked, it may widen skill gaps. Safeguards: teacher review, adaptive scaffolding rather than heavy simplification, and progressive exposure to original texts.",
+        "output": "AI simplification risks removing nuance and limiting language growth. Scaffolding and teacher review maintain depth while supporting accessibility.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 143,
+        "topic": "ai.education",
+        "question": "How can AI help universities detect skill mismatches between degree programs and emerging job markets?",
+        "think": "AI can scan labor trends, analyze job postings, and map them to curriculum outcomes. Trend forecasting highlights gaps in digital skills, sustainability, or data literacy. Verification with industry partners prevents false signals.",
+        "output": "AI identifies skill mismatches by mapping labor trends to curriculum outcomes, with validation from industry partners for accuracy.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 144,
+        "topic": "ai.education",
+        "question": "What safeguards ensure AI-assisted writing tools do not weaken students’ ability to construct arguments?",
+        "think": "Overuse may encourage shortcut thinking. Safeguards include constraint modes (outline-only), reflective prompts, and requiring students to revise AI drafts. Teachers review cognitive effort rather than AI polish.",
+        "output": "AI tools should focus on scaffolding—outlines, prompts, revision guidance—while students retain responsibility for constructing arguments.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 145,
+        "topic": "ai.education",
+        "question": "How can AI improve feedback loops in large-enrollment university STEM courses?",
+        "think": "AI can aggregate problem-solving data, detect prevalent misconceptions, and generate targeted feedback videos or explanations. It must avoid individual profiling at scale. Teachers use aggregated insight to adjust lectures.",
+        "output": "AI improves feedback by detecting collective misconceptions and generating targeted explanations, enabling instructors to adjust instruction efficiently.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 146,
+        "topic": "ai.education",
+        "question": "How should schools evaluate whether AI-driven reading tutors improve comprehension rather than only fluency?",
+        "think": "Fluency gains may mask comprehension gaps. Evaluation requires comprehension probes, inference tasks, and monitoring of long-term retention. AI logs must be analyzed to detect shallow reading behaviors.",
+        "output": "Schools should assess comprehension using inference tasks, retention checks, and AI behavior logs to detect shallow reading patterns.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 147,
+        "topic": "ai.education",
+        "question": "How can AI systems respect cultural diversity when generating learning examples for global classrooms?",
+        "think": "Bias emerges when examples reflect dominant cultures. AI must draw from diverse datasets, allow teacher customization, and incorporate cultural review cycles. Localization features ensure contextual relevance.",
+        "output": "AI respects diversity by using multicultural datasets, enabling teacher customization, and including cultural review mechanisms.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 148,
+        "topic": "ai.education",
+        "question": "How should policymakers manage the risk of AI reinforcing socioeconomic opportunity gaps in higher education admissions?",
+        "think": "Admissions data reflect systemic inequities. AI could amplify them. Policymakers must impose fairness constraints, require transparency of feature weighting, forbid proxies for income, and mandate independent audits. Human panels retain final decisions.",
+        "output": "Policymakers should require transparency, fairness constraints, and independent audits, ensuring AI supports equity rather than entrenching socioeconomic bias.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 149,
+        "topic": "ai.education",
+        "question": "How can AI help students develop resilience in problem-solving without offering solutions too quickly?",
+        "think": "AI should model productive struggle. Time-delay hints, tiered scaffolds, and reflection prompts keep students effort-oriented. Usage patterns must be monitored to ensure students aren’t bypassing cognitive load.",
+        "output": "AI supports resilience through gradual hints, reflection prompts, and delayed assistance that maintains productive struggle.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 150,
+        "topic": "ai.education",
+        "question": "How can AI-driven peer assessment systems maintain reliability while avoiding bias between students?",
+        "think": "Peer review is vulnerable to personal bias. AI can anonymize submissions, detect inconsistent scoring, and nudge reviewers with calibration examples. Teacher validation ensures final reliability.",
+        "output": "AI improves peer assessment with anonymization, calibration guidance, and inconsistency detection while teachers validate overall fairness.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 151,
+        "topic": "ai.education",
+        "question": "What strategies ensure AI educational tools remain effective for students in remote or low-connectivity regions?",
+        "think": "Offline-first architectures, lightweight local inference, and sync-on-connect models are key. AI must degrade gracefully, offering printable materials, cached lessons, and device-agnostic access. Training teachers in low-tech usage preserves reach.",
+        "output": "Offline-first design, lightweight models, and printable or cached content ensure AI tools remain useful in low-connectivity environments.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 152,
+        "topic": "ai.education",
+        "question": "How can AI improve academic advising without influencing student decisions in manipulative ways?",
+        "think": "AI advisors risk nudging students toward certain tracks based on biased predictions. Guardrails: require disclosure of how recommendations are generated, display multiple pathway options, and prohibit default choices. Human advisors oversee critical decisions.",
+        "output": "AI should provide transparent, multi-option recommendations and avoid defaults, with humans guiding high-stakes decisions to prevent manipulation.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 153,
+        "topic": "ai.education",
+        "question": "How can AI detect when students’ study habits reflect short-term cramming instead of long-term learning?",
+        "think": "Cramming shows as compressed activity spikes, low spacing, and rapid forgetting curves. AI can model retention predictions using spaced-repetition principles. Teachers and students use dashboards to shift strategies.",
+        "output": "AI identifies cramming through activity spikes and retention modeling, enabling adjustments toward spaced, long-term learning.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 154,
+        "topic": "ai.education",
+        "question": "How can universities ensure that widespread AI use in research training does not erode foundational methodological skills?",
+        "think": "AI automates data cleaning, analysis, and literature scanning. Without safeguards, students may skip methodological rigor. Solutions: require manual replication tasks, integrate AI-usage logs into assessment, and design assignments where students justify each methodological decision independently of AI. Faculty oversight maintains rigor.",
+        "output": "Universities should require manual replication, review AI-usage logs, and mandate student justification of methodological choices to preserve foundational skills.",
+        "format_version": "1.1",
+        "difficulty": 6
     }
 ]
