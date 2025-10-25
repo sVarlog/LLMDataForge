@@ -1384,5 +1384,140 @@
         "output": "Universities should require manual replication, review AI-usage logs, and mandate student justification of methodological choices to preserve foundational skills.",
         "format_version": "1.1",
         "difficulty": 6
+    },
+    {
+        "id": 155,
+        "topic": "ai.education",
+        "question": "How can AI help students evaluate the credibility of online information without doing the thinking for them?",
+        "think": "AI can highlight potential bias signals, source metadata, and factual inconsistencies. But if it simply labels content as trustworthy/untrustworthy, students lose critical thinking practice. Instead, AI should scaffold evaluation through guiding questions, pattern prompts, and comparison tasks. Students make final judgments, strengthening media literacy.",
+        "output": "AI supports credibility checking by surfacing signals and asking guiding questions, while students retain responsibility for evaluating sources.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 156,
+        "topic": "ai.education",
+        "question": "What risks arise if AI-generated course summaries replace student note-taking?",
+        "think": "Note-taking builds memory consolidation and comprehension. If AI replaces it entirely, students lose metacognitive practice. Risk mitigation: AI should offer partial notes, concept maps, or highlight gaps for students to fill. Assignments can require reflections or manual summarization to maintain skill development.",
+        "output": "AI should augment—not replace—note-taking by offering partial summaries or concept maps. Students preserve metacognitive benefits by filling gaps themselves.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 157,
+        "topic": "ai.education",
+        "question": "How can AI support differentiated writing instruction in multilingual classrooms?",
+        "think": "AI can detect linguistic patterns, offer individualized grammar feedback, and suggest vocabulary appropriate to each student's proficiency. Cultural sensitivity is key—tools must adapt tone and examples. Teachers review AI feedback for accuracy, ensuring it doesn't enforce homogenized writing styles.",
+        "output": "AI provides personalized grammar guidance, vocabulary suggestions, and culturally aware examples, while teachers maintain stylistic diversity and accuracy.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 158,
+        "topic": "ai.education",
+        "question": "What safeguards ensure AI-generated math hints don’t unintentionally reveal complete solutions?",
+        "think": "AI often over-assists. Safeguards: multi-step hint throttling, time-delay release, and teacher-defined limits. Systems should prioritize conceptual prompts, not procedural shortcuts. Logs let teachers track if hints reduce or enhance understanding.",
+        "output": "Use throttled hints, conceptual prompts, and time-delayed assistance to avoid giving away full solutions. Teacher logs verify impact on understanding.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 159,
+        "topic": "ai.education",
+        "question": "How can schools evaluate whether AI-provided behavioral insights genuinely support student well-being?",
+        "think": "Behavioral analytics can detect stress or disengagement. But false positives or cultural misinterpretation are risks. Evaluation requires qualitative teacher judgment, student feedback, well-being surveys, and cross-checking with non-AI indicators. Tools must remain advisory.",
+        "output": "Schools should validate AI behavioral insights through teacher review, student feedback, and well-being indicators to ensure genuine support.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 160,
+        "topic": "ai.education",
+        "question": "How can AI help students with dyslexia engage more effectively with reading-heavy subjects?",
+        "think": "AI can provide adaptive text-to-speech, enhanced contrast modes, phoneme-level guidance, and simplified parallel versions. To avoid over-reliance, AI should gradually reduce scaffolds. Teachers calibrate support levels based on progress evidence.",
+        "output": "AI assists dyslexic students through adaptive audio, visual adjustments, and phoneme guidance, with scaffolding reduced over time to promote independence.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 161,
+        "topic": "ai.education",
+        "question": "What risks arise when universities use AI to track student attendance using device or location data?",
+        "think": "Location tracking risks privacy violations, over-surveillance, and inequitable penalties (e.g., students with unstable housing, low battery devices). Safeguards include opt-in consent, alternative attendance options, data minimization, and transparency. High-stakes decisions should never rely solely on AI logs.",
+        "output": "Universities must use consent, minimization, transparency, and manual alternatives, ensuring attendance tracking does not penalize vulnerable students.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 162,
+        "topic": "ai.education",
+        "question": "How could AI support the development of cross-disciplinary problem-solving skills?",
+        "think": "AI can generate integrated scenarios linking STEM, humanities, and social sciences. It identifies connections between student strengths and real-world problems. Risks: oversimplifying interdisciplinary links. Teacher curation ensures depth and authenticity.",
+        "output": "AI creates cross-disciplinary scenarios and highlights conceptual connections, while teachers ensure rigor and authentic integration.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 163,
+        "topic": "ai.education",
+        "question": "How can AI-enhanced lab simulations maintain scientific rigor without replacing hands-on experimentation?",
+        "think": "Simulations permit repetition and risk-free exploration but lack tactile and procedural realities. Rigor is maintained by pairing simulations with physical labs, requiring manual documentation, and validating conceptual transfer through assessments.",
+        "output": "AI simulations should complement—not replace—physical labs. Paired activities and transfer checks preserve scientific rigor.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 164,
+        "topic": "ai.education",
+        "question": "What frameworks ensure AI-generated curriculum updates maintain alignment with national educational values?",
+        "think": "Curriculum updates shaped by AI trend analysis risk drifting toward industry priorities or socio-political bias. Frameworks must require teacher review boards, national value audits, multi-stakeholder consultation, and longitudinal monitoring of shifts in emphasis.",
+        "output": "AI-generated updates require teacher boards, value audits, and multi-stakeholder oversight to maintain alignment with national priorities.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 165,
+        "topic": "ai.education",
+        "question": "How can AI tools help new teachers improve classroom management skills?",
+        "think": "AI can analyze lesson flow, engagement dips, or noise levels to pinpoint friction points. It can recommend routines or pacing tweaks. But interpretation must be contextual—novices need mentorship alongside AI insights to avoid misjudging student behavior patterns.",
+        "output": "AI highlights engagement patterns and suggests routine improvements, while mentors ensure insights are applied appropriately.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 166,
+        "topic": "ai.education",
+        "question": "What are the long-term risks of relying on AI to identify “gifted” students?",
+        "think": "Giftedness is multidimensional. AI systems trained on narrow indicators risk excluding creative or culturally diverse talent. Long-term risks include tracking bias, stereotype reinforcement, and reduced mobility. Safeguards: multi-modal assessment, teacher nominations, human review panels, and regular algorithmic reevaluation.",
+        "output": "AI should support—not define—gifted identification using multimodal evidence and human review to avoid long-term tracking bias.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 167,
+        "topic": "ai.education",
+        "question": "How can AI reduce teacher administrative burden without increasing dependency on automation?",
+        "think": "AI can auto-fill reports, categorize messages, and schedule tasks. Dependency risk arises if teachers stop developing organizational skills. Solutions: configurable automation levels, transparency in decisions, and professional development ensuring teachers maintain competencies.",
+        "output": "AI should automate routine tasks with adjustable settings, ensuring teachers maintain organizational skills and avoid over-dependence.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 168,
+        "topic": "ai.education",
+        "question": "How can universities evaluate whether AI-powered student success systems fairly support nontraditional learners?",
+        "think": "Nontraditional learners may have irregular schedules, work obligations, or fragmented engagement. AI models trained on traditional patterns may misinterpret these signals as risk indicators. Evaluation must check subgroup parity, conduct ethnographic reviews, and involve nontraditional students in system design.",
+        "output": "Universities should check subgroup fairness, use ethnographic evaluation, and involve nontraditional learners directly in design and review.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 169,
+        "topic": "ai.education",
+        "question": "How can AI improve formative assessment in project-based learning environments?",
+        "think": "Project-based learning is hard to assess because work is nonlinear. AI can track progress via version histories, collaboration logs, and reflection entries. It can highlight emerging strengths and gaps. Teachers must calibrate AI indicators since creativity and teamwork are context-dependent.",
+        "output": "AI analyzes progress data, collaboration patterns, and reflections to support formative feedback, while teachers interpret context-dependent signals.",
+        "format_version": "1.1",
+        "difficulty": 5
     }
 ]
