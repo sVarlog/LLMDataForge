@@ -1519,5 +1519,149 @@
         "output": "AI analyzes progress data, collaboration patterns, and reflections to support formative feedback, while teachers interpret context-dependent signals.",
         "format_version": "1.1",
         "difficulty": 5
+    },
+    {
+        "id": 170,
+        "topic": "ai.education",
+        "question": "How can AI help identify when students are struggling with foundational gaps rather than surface-level mistakes?",
+        "think": "AI can analyze error clusters, response timing, and repeated misconceptions across topics. Foundational gaps show broader patterns—errors across multiple related concepts—while surface mistakes are isolated. AI should highlight these patterns for teacher review rather than diagnosing independently to avoid mislabeling.",
+        "output": "AI distinguishes foundational gaps by analyzing cross-topic error patterns, while teachers confirm and design targeted interventions.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 171,
+        "topic": "ai.education",
+        "question": "What safeguards prevent AI-based emotion recognition from misinterpreting students’ cultural or neurodiverse behaviors?",
+        "think": "Emotion recognition often relies on facial, linguistic, or behavioral cues biased toward specific norms. Misinterpretation can stigmatize neurodiverse or culturally distinct students. Safeguards include opt-in consent, teacher moderation, culture-specific calibration, and prohibiting high-stakes decisions based on emotional inference.",
+        "output": "Emotion-recognition AI must be opt-in, culture-aware, and never used for high-stakes decisions. Teacher moderation prevents misinterpretation of diverse behaviors.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 172,
+        "topic": "ai.education",
+        "question": "How can AI assist language teachers in helping students expand their expressive vocabulary?",
+        "think": "AI can analyze writing samples, identify over-used words, and recommend synonyms or contextual phrases. It can also generate short, personalized practice tasks. Teachers ensure recommendations match curriculum level and avoid artificial or overly formal phrasing.",
+        "output": "AI identifies over-used vocabulary and suggests context-appropriate alternatives while teachers guide proper usage.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 173,
+        "topic": "ai.education",
+        "question": "How should schools evaluate whether AI tutoring tools genuinely improve mathematical reasoning rather than just procedural accuracy?",
+        "think": "Procedural accuracy can hide reasoning deficiencies. Evaluation requires open-ended reasoning tasks, think-aloud data, transfer problems, and longitudinal tracking. AI logs should be reviewed for excessive hint use or shortcut strategies. Cross-cohort comparisons anchor results.",
+        "output": "Schools should evaluate reasoning via open-ended problems, transfer tasks, log analysis, and cross-cohort comparisons—not just correctness.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 174,
+        "topic": "ai.education",
+        "question": "How can universities use AI to predict course bottlenecks without penalizing instructors teaching difficult subjects?",
+        "think": "AI can analyze enrollment, drop rates, assignment difficulty, and student sentiment. But to avoid blaming instructors, metrics must be context-adjusted: student preparation, course sequencing, and content complexity are factored in. AI insights guide support—not punitive evaluation.",
+        "output": "AI predicts bottlenecks through contextualized analytics while ensuring difficult courses don’t unfairly penalize instructors.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 175,
+        "topic": "ai.education",
+        "question": "What risks emerge when AI tools generate discussion prompts for humanities courses?",
+        "think": "AI may generate prompts that oversimplify themes, replicate cultural biases, or eliminate necessary ambiguity. Humanities depend on nuance. Teachers should use AI as a draft generator, reviewing prompts for depth, diversity, and interpretive openness.",
+        "output": "AI prompts should be treated as drafts. Teachers ensure they preserve nuance, cultural diversity, and interpretive depth.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 176,
+        "topic": "ai.education",
+        "question": "How can AI help schools support refugee or newly arrived students with educational continuity?",
+        "think": "AI translation, dynamic leveling tests, and personalized learning paths can bridge interrupted education. Systems should incorporate trauma-informed design, multilingual support, and modes that work offline. Teachers validate assessments to avoid misplacement.",
+        "output": "AI assists displaced students through translation, leveling diagnostics, and personalized learning plans, with trauma-aware and offline design.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 177,
+        "topic": "ai.education",
+        "question": "How can AI tools prevent academic dishonesty when used in collaborative group work?",
+        "think": "Group AI tools risk allowing one student to dominate or automate major tasks. AI should track contribution balance, provide transparency logs, and encourage shared decision-making steps. Teachers review logs to ensure authenticity.",
+        "output": "AI prevents dishonesty by logging contributions, supporting balanced collaboration, and giving teachers transparency into group workflows.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 178,
+        "topic": "ai.education",
+        "question": "What safeguards ensure AI-generated college recommendations do not reinforce elitist or narrow definitions of success?",
+        "think": "AI college matching systems may favor rankings, income outcomes, or selective institutions. Safeguards: multi-dimension ranking (well-being, inclusion, support services), transparent criteria, human counseling review, and options for nontraditional paths. AI should widen—not narrow—student aspirations.",
+        "output": "AI recommendations must use multidimensional criteria, explain their reasoning, and offer diverse pathways, with human counselors reviewing choices.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 179,
+        "topic": "ai.education",
+        "question": "How can universities integrate AI mentors into postgraduate research without compromising academic independence?",
+        "think": "AI mentors can suggest literature, methods, and structure. But academic independence means students must generate original questions. Solutions: AI limited to supportive tasks, usage logs included in supervision, and critical reflection assignments requiring justification of choices independent of AI input.",
+        "output": "AI mentors should assist with search and organization but leave core intellectual decisions to students, supported by reflective justification tasks.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 180,
+        "topic": "ai.education",
+        "question": "What governance mechanisms can prevent AI-driven curriculum optimization from gradually shifting national education priorities toward market interests over civic ones?",
+        "think": "AI optimization models often prioritize measurable labor-market signals such as employability, wages, or industry demand. Left unchecked, these feedback loops can subtly reweight curricula toward economic output while diminishing civic education, humanities, and cultural studies. Governance must impose non-negotiable civic anchors that AI cannot override. Independent committees should review optimization parameters annually, ensuring civic, ethical, and cultural outcomes remain integral. Multistakeholder audits—parents, educators, sociologists—examine longitudinal shifts in curricular emphasis. Transparency requirements expose how AI weighting decisions are made, allowing public scrutiny. A red-line legal safeguard prevents algorithmic shifts that reduce mandated civic content below fixed thresholds. Finally, periodic stress testing simulates scenarios where industry demand spikes but civic responsibilities remain protected.",
+        "output": "AI curriculum optimization must be bound by non-negotiable civic anchors, transparent weighting rules, annual independent audits, and legally enforced content thresholds. These measures prevent gradual drift toward purely economic priorities.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 181,
+        "topic": "ai.education",
+        "question": "How can universities design oversight frameworks that ensure fairness when AI systems recommend which students receive access to limited research opportunities?",
+        "think": "AI may rank students using cumulative GPA, publication history, or skill embeddings, but such metrics embed socioeconomic and cultural bias. Oversight must include fairness constraints limiting feature correlations with demographic proxies. Committees should audit model outputs each semester to detect disparities across gender, socioeconomic status, and first-generation learners. AI recommendations should be advisory only; faculty panels make final decisions. Systems must provide counterfactual explanations—why a student was recommended and how they could qualify in the future. Transparent appeals channels and algorithmic retraining cycles ensure ongoing correction. Universities should also maintain opportunity quotas or rotation mechanisms to prevent monopolization by already advantaged groups.",
+        "output": "Universities should combine fairness-constrained models, semester audits, counterfactual explanations, faculty oversight, appeals channels, and rotating access mechanisms to ensure equitable AI recommendations for research opportunities.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 182,
+        "topic": "ai.education",
+        "question": "What long-term risks emerge if AI becomes the primary mediator of cross-cultural communication in global virtual classrooms?",
+        "think": "AI translation tools may subtly standardize expressions, flatten culturally embedded metaphors, and default to dominant linguistic norms. Over time, this erodes linguistic diversity and cultural nuance. If AI mediates most communication, students may become dependent on algorithmic interpretation rather than learning intercultural competence. Risks include invisible bias reinforcement, asymmetrical translation accuracy (major vs minor languages), and reduced exposure to authentic cultural registers. Mitigation requires: multilingual calibration, cultural review panels, human-led intercultural training, and deliberate exposure to untranslated content. AI must be positioned as a bridge—not the cultural lens through which all interaction flows.",
+        "output": "Long-term risks include cultural flattening, linguistic homogenization, and reduced intercultural competence. Mitigation requires multilingual calibration, cultural review panels, and balanced human–AI mediation.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 183,
+        "topic": "ai.education",
+        "question": "How should governments structure national evaluation systems to monitor unintended side effects of large-scale AI tutoring deployment?",
+        "think": "AI tutoring may improve test scores but create hidden impacts: reduced peer interaction, motivational dependency, or new equity gaps. Evaluation systems must track multi-dimensional indicators: socio-emotional development, collaborative behaviors, autonomy, and long-term knowledge retention. Governments should run longitudinal cohort studies, comparing AI-heavy and AI-light schools. Third-party evaluators ensure neutrality. Data dashboards report public metrics while preserving privacy. Negative drift triggers policy recalibration—for example, limits on AI time or hybrid tutoring models. Public consultation ensures lived experience informs adjustments.",
+        "output": "Governments must use multi-dimensional, longitudinal evaluations with independent oversight and public reporting to detect unintended consequences of large-scale AI tutoring.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 184,
+        "topic": "ai.education",
+        "question": "What structural protections are necessary to prevent AI systems used in teacher performance evaluation from reinforcing institutional biases in under-resourced schools?",
+        "think": "Teacher evaluation data reflect school conditions—class sizes, resources, and socio-economic challenges. AI trained on such data may penalize educators in disadvantaged contexts. Structural protections include contextualized weighting (adjusting for school conditions), forbidding raw outcome-based ranking, requiring peer-review moderation, and public transparency of metrics. Cross-school fairness audits detect disproportionate penalties. Teachers should access explainability interfaces showing how each metric was computed, with opportunities to challenge misinterpretations. AI outputs should never serve as sole determinants for promotions or sanctions.",
+        "output": "Protections include contextual weighting, transparent metrics, fairness audits, teacher access to explanations, and strict limits preventing AI from becoming a primary basis for high-stakes decisions.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 185,
+        "topic": "ai.education",
+        "question": "How can institutions ensure long-term transparency when AI models used in admissions evolve through continual retraining?",
+        "think": "Continual retraining improves accuracy but obscures how criteria shift over time. Institutions must maintain versioned audit trails capturing model changes, input feature adjustments, and evaluation results. Annual reports should disclose fairness metrics and decision distribution trends. A model registry with reproducible training pipelines allows external audits. Human admissions committees must review major model shifts before deployment. Policies must restrict unreviewed automatic updates, ensuring transparency and accountability across cohorts.",
+        "output": "Long-term transparency requires versioned audit trails, reproducible model registries, public fairness reporting, and human approval of major retraining changes.",
+        "format_version": "1.1",
+        "difficulty": 6
     }
 ]
