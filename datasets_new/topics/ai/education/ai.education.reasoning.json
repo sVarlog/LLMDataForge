@@ -1663,5 +1663,140 @@
         "output": "Long-term transparency requires versioned audit trails, reproducible model registries, public fairness reporting, and human approval of major retraining changes.",
         "format_version": "1.1",
         "difficulty": 6
+    },
+    {
+        "id": 186,
+        "topic": "ai.education",
+        "question": "How can AI assist teachers in identifying when group discussions become dominated by a few students?",
+        "think": "AI can analyze turn-taking patterns, speaking duration, and semantic contributions. If a small subset consistently occupies disproportionate space, the system can flag imbalance. Teachers review visual dashboards and intervene to redistribute participation. The AI must avoid interpreting silence as disengagement; some students may be reflective or need more processing time.",
+        "output": "AI can highlight turn-taking imbalances in group discussions, helping teachers ensure equitable participation without misinterpreting quiet students.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 187,
+        "topic": "ai.education",
+        "question": "What risks arise when AI systems generate reading-level–adjusted textbooks for entire classrooms?",
+        "think": "While personalization helps accessibility, homogenizing reading levels reduces exposure to complex vocabulary and can fragment shared learning experiences. Students may be inadvertently grouped by past performance, reinforcing stratification. Teachers must ensure all students encounter core texts and use AI-adjusted material selectively.",
+        "output": "AI-adjusted textbooks risk stratifying learners and reducing shared reading experiences. Teachers should use them selectively while preserving core text exposure.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 188,
+        "topic": "ai.education",
+        "question": "How can AI improve the quality of formative feedback in arts education?",
+        "think": "Arts assessment is subjective. AI can detect patterns—composition balance, stylistic elements, color relationships—but feedback must stay interpretive, not prescriptive. The AI guides reflection (“consider alternative contrasts”) rather than judging aesthetic value. Teachers ensure feedback respects creative intent.",
+        "output": "AI enhances arts feedback by offering pattern-based prompts while teachers preserve creative freedom and subjective interpretation.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 189,
+        "topic": "ai.education",
+        "question": "How can universities evaluate whether AI academic advisors reduce advising inequality across student demographics?",
+        "think": "Evaluation requires comparing advising access rates, time-to-support, and quality of recommendations across demographics. AI logs reveal disparities in suggestion patterns. Surveys capture perceived accessibility. If gaps persist, models require retraining with demographic fairness targets and oversight by advising committees.",
+        "output": "Universities should analyze advising access, recommendation quality, and student perceptions across demographics, retraining AI when inequities appear.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 190,
+        "topic": "ai.education",
+        "question": "How can AI help students transition from surface-level memorization to deeper conceptual mastery in science courses?",
+        "think": "AI analyzes incorrect responses and identifies conceptual misconceptions rather than simple factual gaps. It generates analogies, guided reasoning prompts, and spaced reinforcement activities. Teachers ensure these tools don’t over-scaffold, preserving productive struggle.",
+        "output": "AI fosters conceptual mastery by diagnosing misconceptions and offering guided reasoning tasks while teachers maintain healthy challenge levels.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 191,
+        "topic": "ai.education",
+        "question": "What safeguards ensure AI grading tools remain reliable during large-scale online examinations?",
+        "think": "Safeguards include pre-exam calibration, redundancy checks, hybrid human-AI scoring for edge cases, and real-time monitoring dashboards. Failure protocols must allow immediate switch to human graders. Bias evaluations ensure equitable scoring across writing styles and dialects.",
+        "output": "AI grading tools require calibration, human fallback, real-time monitoring, and bias checks to ensure reliability in large-scale exams.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 192,
+        "topic": "ai.education",
+        "question": "How can AI support students learning complex procedural tasks, such as laboratory protocols or industrial training?",
+        "think": "AI can break procedures into micro-steps, detect hesitation or errors through gesture or interaction data, and offer context-sensitive hints. It must avoid interrupting frequently; pacing adjustments come from repeated behavior patterns. Teachers validate AI suggestions for safety-critical tasks.",
+        "output": "AI supports procedural learning with micro-step guidance and behavior-sensitive hints, while teachers ensure accuracy and safety.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 193,
+        "topic": "ai.education",
+        "question": "How can schools evaluate whether AI-driven conflict mediation tools foster genuine social-emotional growth in students?",
+        "think": "AI mediation chatbots can suggest de-escalation strategies but may provide formulaic responses. Evaluation needs observation of real interactions, student self-reflection logs, peer feedback, and longitudinal follow-up. Tools should be advisory only; human mediators ensure emotional nuance.",
+        "output": "Evaluation requires observing real interactions, reviewing reflection logs, and using peer feedback, with AI playing a supportive—not primary—role.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 194,
+        "topic": "ai.education",
+        "question": "How can AI help universities ensure academic accommodations remain fair without revealing sensitive disability information to instructors?",
+        "think": "AI systems can convert accommodation requirements into anonymized instructional adjustments (extended time, alternative formats) without exposing diagnoses. Role-based access ensures only disability services view sensitive data. Teachers receive actionable guidance, not medical labels. Audit trails verify privacy compliance.",
+        "output": "AI anonymizes accommodation details, delivering only actionable adjustments to instructors while preserving privacy through role-based access and audits.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 195,
+        "topic": "ai.education",
+        "question": "How can AI analyses of student collaboration logs avoid reinforcing gender or cultural stereotypes about teamwork roles?",
+        "think": "AI logs may detect patterns—who writes, who leads, who organizes. But cultural and gender stereotypes can influence these roles. Safeguards include stereotype-aware training, teacher review, diverse dataset calibration, and prohibiting automatic labeling of students. Insights must be advisory and contextually validated.",
+        "output": "AI collaboration analytics should use stereotype-aware models and teacher validation while avoiding automatic role labeling to prevent reinforcing cultural or gender biases.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 196,
+        "topic": "ai.education",
+        "question": "What safeguards are needed to prevent AI-powered learning analytics from gradually shifting university evaluation systems toward hyper-quantified student monitoring?",
+        "think": "As universities adopt granular analytics—engagement heatmaps, micro-interaction logs, predictive risk flags—evaluation frameworks risk becoming surveillance systems disguised as performance metrics. Safeguards include strict purpose limitation (analytics only for support, not discipline), data minimization, and clear retention caps. Institutional ethics boards should review analytic categories annually to ensure scope creep isn’t occurring. Students should have transparency dashboards showing what is collected and why. High-stakes decisions must prohibit the use of micro-behavioral data, relying instead on holistic, human-reviewed indicators. Regular independent audits detect whether analytics are drifting into punitive or behavioral compliance tracking.",
+        "output": "Protective measures include purpose restriction, data minimization, transparency dashboards, independent audits, and banning micro-behavioral data from high-stakes decisions to prevent analytic systems from evolving into surveillance frameworks.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 197,
+        "topic": "ai.education",
+        "question": "How can AI tutoring systems maintain fairness when providing real-time personalized assistance during high-stakes STEM assessments?",
+        "think": "Personalized support risks advantaging some students with disproportionately helpful scaffolds. Fairness requires constraint modes: AI may only clarify instructions or offer general conceptual reminders—not task-specific hints. Systems should apply uniform intervention rules across the class, with logs available for teacher audit. Calibration tests ensure comparable assistance quality regardless of language background or prior achievement levels. If discrepancies emerge, the AI must restrict itself to standardized assistance until reviewed.",
+        "output": "Fairness requires constrained assistance modes, consistent intervention rules, audit logs, and calibration across demographics, preventing AI from giving uneven advantages during high-stakes assessments.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 198,
+        "topic": "ai.education",
+        "question": "What governance structures can ensure that AI-generated curriculum recommendations in national K-12 systems remain democratically aligned instead of drifting toward algorithmic optimization targets?",
+        "think": "Curriculum AI often optimizes measurable outcomes—test scores, efficiency, engagement time. Governance must ensure democratic alignment: public curriculum councils review AI proposals; weighting logic and recommendation rationales are publicly documented; and teachers’ unions have formal veto power for changes affecting pedagogy. Annual civic impact assessments evaluate whether AI recommendations reduce arts, cultural studies, or local history content. Mandatory review cycles prevent silent drift. Multi-stakeholder hearings integrate parent and community perspectives before any adoption.",
+        "output": "Democratic alignment is maintained through public curriculum councils, teacher veto rights, transparent weighting logic, civic impact audits, and mandatory multi-stakeholder review cycles before adoption.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 199,
+        "topic": "ai.education",
+        "question": "How can universities prevent unintended bias when AI systems analyze student writing portfolios to identify research potential?",
+        "think": "Writing portfolios reflect linguistic background, prior schooling, and cultural narrative styles. AI embeddings may privilege certain rhetorical structures or dialects. Safeguards: diverse training datasets; bias correction layers; human-in-the-loop evaluation; and blind scoring where possible. Systems must generate reasoning traces explaining which writing characteristics influenced recommendations. Annual cross-cohort audits detect whether certain demographic groups are over/under-represented in “high research potential” labels.",
+        "output": "Bias prevention requires diverse datasets, explainable reasoning traces, human-moderated reviews, and cross-cohort audits ensuring writing analytics don’t privilege specific cultural or linguistic styles.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 200,
+        "topic": "ai.education",
+        "question": "What long-term risks arise if AI platforms guide student course selection based on predictive job-market modeling?",
+        "think": "Job-market predictions can ossify economic assumptions, steering students into oversaturated fields or narrowing academic exploration. Predictive systems risk reinforcing class and gender stereotypes by mapping historical labor patterns onto future recommendations. Long-term risks include reduced intellectual diversity, national workforce fragility, and diminished autonomy in educational pathways. Countermeasures: require multi-scenario projections, emphasize skill diversification, disclose uncertainty ranges, and ensure AI presents multiple paths instead of a singular “optimal” choice. Human advisors must contextualize predictions within personal aspirations and societal values.",
+        "output": "AI job-market guidance should present multiple scenarios, disclose uncertainty, and promote skill diversification, preventing recommendations from narrowing academic exploration or reinforcing historical labor stereotypes.",
+        "format_version": "1.1",
+        "difficulty": 7
     }
 ]
