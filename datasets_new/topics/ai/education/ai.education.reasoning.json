@@ -1800,6 +1800,96 @@
         "difficulty": 7
     },
     {
+        "id": 201,
+        "topic": "ai.education",
+        "question": "How can AI help teachers detect when students are progressing too quickly through material without true mastery?",
+        "think": "Speed can mask shallow understanding. AI can analyze error patterns, skipped explanation steps, and low-quality reasoning in open-ended tasks. If a student advances rapidly but exhibits inconsistent conceptual grounding, AI flags ‘false fluency.’ Teachers confirm and introduce mastery checks or extension activities focusing on depth, not pace.",
+        "output": "AI identifies ‘false fluency’ by detecting rapid progression paired with inconsistent reasoning. Teachers verify signals and reinforce mastery through targeted checks.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 202,
+        "topic": "ai.education",
+        "question": "What risks emerge when AI automatically selects “optimal” seating arrangements based on social and academic data?",
+        "think": "AI seating optimization may unintentionally encode bias, isolate quiet students, or over-prioritize efficiency. It risks turning social dynamics into algorithmic outputs. Safeguards include teacher oversight, student consent for data usage, transparent criteria, and rotation policies to avoid fixed roles or exclusion patterns.",
+        "output": "AI seating suggestions must be reviewed by teachers, use transparent criteria, and avoid static placements to prevent bias or social exclusion.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 203,
+        "topic": "ai.education",
+        "question": "How can AI assist teachers in reinforcing long-term retention rather than short-term test preparation?",
+        "think": "AI can model forgetting curves, schedule spaced retrieval, and surface weakly encoded concepts. To avoid teaching to the test, AI should diversify question formats, integrate concept-application tasks, and balance reinforcement with exploratory opportunities.",
+        "output": "AI strengthens retention by scheduling spaced retrieval and identifying weak concepts while avoiding narrow test-focused patterns.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 204,
+        "topic": "ai.education",
+        "question": "How should schools evaluate whether AI-driven translation tools help or hinder language acquisition in bilingual programs?",
+        "think": "AI translation offers access but can reduce active language production. Evaluation requires analyzing student speech frequency, vocabulary growth, and code-switching patterns. Teachers observe whether students rely on AI instead of developing expressive skills. Balanced use emphasizes scaffolding, not substitution.",
+        "output": "Schools must evaluate translation tools by tracking expressive language growth and ensuring AI supports—not replaces—authentic bilingual practice.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 205,
+        "topic": "ai.education",
+        "question": "What safeguards prevent AI-based plagiarism detection from disproportionately penalizing multilingual learners?",
+        "think": "Multilingual learners produce writing with unique lexical patterns that may trigger false positives. Safeguards include multilingual training datasets, adjustable sensitivity thresholds, human review for flagged cases, and transparent explanations about why a match occurred. Systems should avoid punitive framing and offer revision pathways.",
+        "output": "Safeguards include multilingual datasets, calibrated thresholds, human review, and transparent explanations to avoid disproportionately penalizing multilingual writers.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 206,
+        "topic": "ai.education",
+        "question": "How can AI help institutions identify whether online course dropout rates reflect course design flaws rather than student motivation?",
+        "think": "Dropouts may reflect pacing issues, unclear instructions, or poor interaction design. AI analyzes clickstream paths, confusion points, and engagement dips. If many students fail at the same points, the issue is curricular or instructional rather than motivational. Teachers review these insights during course redesign.",
+        "output": "AI distinguishes between design flaws and motivational issues by identifying common friction points across student behavior patterns.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 207,
+        "topic": "ai.education",
+        "question": "How can AI produce helpful formative feedback in programming courses without revealing full solutions?",
+        "think": "Programming hints often risk leaking algorithmic structure. AI should focus on error localization, conceptual reminders, and test-case hints. Constraint modes prevent outputting entire implementations. Teachers calibrate constraints to ensure feedback promotes debugging skills rather than solution copying.",
+        "output": "AI gives structure-free hints—highlighting logic errors or test cases—while constraints prevent accidental release of full code solutions.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 208,
+        "topic": "ai.education",
+        "question": "How can universities evaluate whether AI chatbots used for administrative support improve equity in access to information?",
+        "think": "AI chatbots reduce wait times, but equity requires ensuring uniform response quality across demographics, evening usage times, and varied digital literacy levels. Analytics should detect disparities in resolution rates. Surveys capture perceived accessibility. Human escalation pathways prevent inequitable outcomes for complex queries.",
+        "output": "Universities should monitor response parity, provide escalation options, and survey students to ensure AI chatbots improve—not stratify—access to support.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 209,
+        "topic": "ai.education",
+        "question": "How can AI enhance practical skill development in engineering labs without undermining hands-on experimentation?",
+        "think": "AI can generate simulations, stepwise guidance, and safety prompts. To preserve hands-on competency, AI must limit automation during physical tasks, encouraging manual calibration and troubleshooting. Mixed assessment verifies transfer from simulation to physical execution.",
+        "output": "AI supports engineering labs via simulations and guidance, but hands-on skill must be preserved through limited automation and transfer-based assessment.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 210,
+        "topic": "ai.education",
+        "question": "How can national ministries ensure AI-assisted curriculum updates represent diverse regional identities and knowledge traditions?",
+        "think": "Centralized AI may default to majority cultural perspectives. To avoid this, ministries must build regional advisory panels, mandate multi-region dataset representation, and require cultural impact assessments. AI recommendations should be reviewed by educators across diverse regions before nationwide adoption.",
+        "output": "Ministries need regional advisory panels, diverse datasets, and cultural impact assessments to ensure AI-generated curriculum updates respect national diversity.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
         "id": 211,
         "topic": "ai.education",
         "question": "How can universities prevent AI-driven course recommendation engines from creating academic ‘filter bubbles’ that limit intellectual exploration?",
