@@ -1798,5 +1798,50 @@
         "output": "AI job-market guidance should present multiple scenarios, disclose uncertainty, and promote skill diversification, preventing recommendations from narrowing academic exploration or reinforcing historical labor stereotypes.",
         "format_version": "1.1",
         "difficulty": 7
+    },
+    {
+        "id": 211,
+        "topic": "ai.education",
+        "question": "How can universities prevent AI-driven course recommendation engines from creating academic ‘filter bubbles’ that limit intellectual exploration?",
+        "think": "Recommendation engines optimize for success probability or efficiency. Over time, this can narrow course choices, pushing students toward predictably ‘safe’ paths and away from intellectually diverse or challenging subjects. Safeguards include diversity constraints in recommendation logic, mandatory exposure to unfamiliar domains, and transparent explanations showing why each recommendation appears. Human advisors must retain veto authority. Longitudinal audits should measure diversity of enrolled course combinations; if patterns narrow, algorithmic parameters require recalibration. Students should also receive counterfactual pathways illustrating how different choices alter skill development, broadening exploratory behavior.",
+        "output": "Universities prevent academic filter bubbles by enforcing diversity constraints, providing transparent and counterfactual recommendations, auditing long-term course diversity, and keeping human advisors in control.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 212,
+        "topic": "ai.education",
+        "question": "What oversight mechanisms ensure AI systems analyzing classroom audio do not misinterpret culturally specific communication norms?",
+        "think": "Classroom audio analytics—detecting engagement, interruptions, or participation—often rely on Western conversational norms. In some cultures, pauses signal respect or thinking, and overlapping talk may indicate enthusiasm rather than disruption. Oversight requires cultural calibration datasets, teacher context annotations, and disallowing automated behavioral scoring without human validation. Schools should host review panels with linguists and cultural experts to audit interpretation accuracy. AI should function as descriptive analytics only, with explicit bans on automated discipline or labeling.",
+        "output": "Oversight must include cultural calibration, teacher-context inputs, linguistic expert audits, and strict limits preventing automated behavioral scoring based solely on audio analytics.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 213,
+        "topic": "ai.education",
+        "question": "How should national ministries design ethical safeguards when AI systems automatically flag ‘high-risk’ students for targeted interventions?",
+        "think": "Risk flags carry stigma and can reinforce systemic inequities. Ethical safeguards include mandatory human review of every flag, periodic fairness testing across demographic groups, and strict limits preventing flags from being visible to teachers before verification. Ministries must provide students and families with rights to explanation and appeal. Intervention design must prioritize support—not surveillance—by ensuring flagged students receive mentoring, counseling, or resource access rather than punitive actions. Longitudinal monitoring evaluates whether interventions close gaps or amplify disparities.",
+        "output": "Safeguards include mandatory human verification, fairness audits, student rights to appeal, and support-focused interventions. Ministries must prevent flags from becoming punitive or stigmatizing.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 214,
+        "topic": "ai.education",
+        "question": "What governance structures ensure AI-generated teacher performance insights do not disadvantage educators in high-need or under-resourced schools?",
+        "think": "Data from high-need contexts naturally reflect more behavioral incidents, attendance variability, or lower baseline scores. Without contextual modeling, AI could unfairly penalize teachers working in difficult environments. Governance must enforce contextual weighting, adjust for socioeconomic factors, and forbid raw outcome comparisons. Oversight committees review model fairness quarterly and validate whether insights align with on-the-ground reality. Teachers must have access to reasoning traces and dispute channels. AI outputs should serve only formative improvement purposes, not disciplinary evaluations.",
+        "output": "Governance requires contextual weighting, quarterly fairness reviews, transparent reasoning traces, and explicit limits preventing AI insights from being used punitively against teachers in high-need schools.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 215,
+        "topic": "ai.education",
+        "question": "How can global universities collaboratively develop open AI datasets for education without reproducing linguistic, cultural, or economic dominance patterns?",
+        "think": "Open datasets risk reflecting contributions predominantly from wealthy, English-speaking institutions. Collaborative governance requires equitable representation: regional data councils, quotas for minority languages, and culturally diverse annotation teams. Funding structures should support low-resource universities in dataset creation. All partners must adopt open licensing frameworks that protect contributors and prevent private appropriation. Regular bias audits detect overrepresentation and prompt rebalancing. A global oversight consortium—spanning educators, cultural groups, and AI researchers—manages dataset evolution to prevent hidden monocultures.",
+        "output": "Collaborative datasets require regional representation, minority-language quotas, diverse annotators, protective open licenses, and global oversight to prevent cultural or linguistic dominance.",
+        "format_version": "1.1",
+        "difficulty": 7
     }
 ]
