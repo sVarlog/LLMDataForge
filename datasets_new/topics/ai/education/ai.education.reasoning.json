@@ -1933,5 +1933,95 @@
         "output": "Collaborative datasets require regional representation, minority-language quotas, diverse annotators, protective open licenses, and global oversight to prevent cultural or linguistic dominance.",
         "format_version": "1.1",
         "difficulty": 7
+    },
+    {
+        "id": 216,
+        "topic": "ai.education",
+        "question": "How can AI help teachers identify when a student's rapid improvement is the result of over-reliance on AI tools rather than genuine skill growth?",
+        "think": "AI can detect mismatches between a student's historical performance and sudden spikes in output quality or complexity. Additional signals include reduced variability in writing style, highly template-like answers, and limited explanation depth. Teachers review flagged cases to differentiate genuine progress from AI overuse. Balanced intervention strategies include reflective tasks and supervised assessments.",
+        "output": "AI identifies atypical performance jumps and template-like patterns, while teachers confirm and re-establish authentic skill development through supervised assessments and reflection tasks.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 217,
+        "topic": "ai.education",
+        "question": "How can AI-supported classrooms ensure that advanced learners are challenged without widening performance gaps?",
+        "think": "AI can assign enrichment tasks aligned with mastery indicators, but if these diverge too far from core instruction, peer equity erodes. To avoid stratification, enrichment should stay conceptually connected and include mixed-level collaborative work. Regular audits ensure differential pacing does not create social separation.",
+        "output": "AI enrichment should align with core lessons, incorporate mixed-ability collaboration, and undergo equity audits to prevent widening performance gaps.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 218,
+        "topic": "ai.education",
+        "question": "How can AI differentiate between productive struggle and unproductive frustration during problem-based learning?",
+        "think": "AI analyzes student behavior: attempt variety, time-on-task patterns, and whether students iterate meaningfully or stagnate. Productive struggle features gradual hypothesis shifts; unproductive frustration shows repetitive errors or long inactivity. Teachers verify AI interpretations to adjust scaffolding.",
+        "output": "AI distinguishes productive struggle by detecting iterative reasoning patterns, while teachers validate and adjust scaffolding for stalled learners.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 219,
+        "topic": "ai.education",
+        "question": "How can AI improve accessibility for students with auditory processing difficulties in lecture-heavy courses?",
+        "think": "AI can generate real-time captioning, simplified transcripts, and semantic summaries. To avoid cognitive overload, summaries should include adjustable detail. Students should control caption speed and layout. Teacher review ensures summaries retain instructional nuance.",
+        "output": "AI provides real-time captions, adjustable transcripts, and clear summaries, giving students with auditory processing challenges flexible ways to access lecture content.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 220,
+        "topic": "ai.education",
+        "question": "What evaluation strategies ensure AI-assisted peer grading systems are reliable and not influenced by social dynamics?",
+        "think": "Peer grading can be distorted by friendships or conflicts. AI can anonymize submissions, detect irregular scoring, and provide calibration examples. Evaluation includes comparing peer grades with teacher benchmarks and analyzing variance patterns. Human oversight resolves anomalies.",
+        "output": "Reliable AI-assisted peer grading uses anonymization, calibration samples, variance analysis, and human oversight to counteract social bias.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 221,
+        "topic": "ai.education",
+        "question": "How can AI tools help teachers detect early signs of burnout in overextended high school students?",
+        "think": "AI can track workload patterns, sleep irregularities via voluntary self-report apps, and declining engagement. Combined indicators reveal emerging burnout risk. However, systems must remain strictly opt-in and avoid normative pressure. Counselors validate alerts and initiate support plans.",
+        "output": "AI detects burnout indicators through workload and engagement patterns, with counselors confirming signals and guiding supportive—not punitive—interventions.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 222,
+        "topic": "ai.education",
+        "question": "How can AI-generated learning pathways avoid unintentionally reinforcing stereotypes about which students excel in STEM versus humanities?",
+        "think": "Pathways built on historic performance risk mapping students into stereotypical trajectories. Mitigation requires randomization layers, counter-stereotypical recommendations, and transparency about feature usage. Teachers should help students explore multiple domains regardless of past patterns.",
+        "output": "AI should include counter-stereotype suggestions, transparent logic, and exploration options so learners aren’t trapped in performance-based stereotypes.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 223,
+        "topic": "ai.education",
+        "question": "How can universities evaluate whether AI-powered discussion boards increase meaningful participation rather than just boosting message quantity?",
+        "think": "AI can measure semantic depth, argument structure, and interaction patterns, not just post counts. Evaluation looks at reasoning complexity, peer referencing, and idea diversity. Faculty validate samples manually to ensure AI’s metrics reflect genuine discourse quality.",
+        "output": "Evaluation focuses on argument quality and interaction depth, using AI for semantic analysis and faculty for validation.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 224,
+        "topic": "ai.education",
+        "question": "How can AI-supported lab environments ensure safety while encouraging experimental risk-taking necessary for authentic scientific inquiry?",
+        "think": "Excessive AI safety warnings can discourage exploration, while insufficient warnings pose hazards. Balanced systems classify risk by severity, providing tiered prompts: conceptual nudges for low-risk deviations and strong alerts for dangerous actions. Teachers oversee real-world execution.",
+        "output": "AI safety systems use tiered prompts to protect students while still enabling exploratory inquiry, with teachers supervising final judgment.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 225,
+        "topic": "ai.education",
+        "question": "How can ministries ensure AI-assisted national assessments remain resilient to adversarial attacks that manipulate scoring algorithms?",
+        "think": "Adversarial vulnerabilities include prompt injection, forged submissions, and model-specific perturbations. Resilience requires multi-model redundancy, anomaly detection, encrypted submissions, and human oversight for edge cases. Annual red-team evaluations identify new attack vectors. Models must incorporate adversarial training and strict input sanitation.",
+        "output": "Resilient national assessments require redundancy, encrypted inputs, anomaly detection, adversarial training, and annual red-team tests to protect scoring integrity.",
+        "format_version": "1.1",
+        "difficulty": 6
     }
 ]
