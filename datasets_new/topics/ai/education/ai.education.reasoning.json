@@ -2023,5 +2023,140 @@
         "output": "Resilient national assessments require redundancy, encrypted inputs, anomaly detection, adversarial training, and annual red-team tests to protect scoring integrity.",
         "format_version": "1.1",
         "difficulty": 6
+    },
+    {
+        "id": 226,
+        "topic": "ai.education",
+        "question": "How can AI help teachers identify when students are misunderstanding assignment instructions rather than struggling with the content itself?",
+        "think": "AI can analyze patterns of incorrect submissions that share structural mistakes unrelated to the underlying concept. If multiple students misinterpret the same instruction, it signals an assignment design issue rather than skill deficiency. The system can flag ambiguous phrasing, detect common misreads, and suggest clarified wording. Teachers review these insights before adjusting instructions or offering additional guidance.",
+        "output": "AI detects shared misunderstanding patterns and highlights ambiguous instructions, helping teachers distinguish instruction issues from content struggles.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 227,
+        "topic": "ai.education",
+        "question": "What safeguards ensure AI-based classroom monitoring tools do not penalize students with attention or sensory differences?",
+        "think": "Monitoring systems often rely on gaze, posture, or activity cues that don’t reflect neurodiverse engagement styles. Safeguards include opt-in participation, customizable engagement definitions, teacher oversight, and prohibiting automated behavioral scoring. Systems must treat signals descriptively, not evaluatively, with accommodations integrated into interpretation models.",
+        "output": "AI monitoring must be opt-in, customizable, and descriptive only—never disciplinary—to avoid penalizing neurodiverse engagement behaviors.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 228,
+        "topic": "ai.education",
+        "question": "How can AI-supported formative assessments help teachers detect conceptual gaps earlier in mathematics learning progressions?",
+        "think": "AI can analyze student reasoning steps, error patterns, and skipped connections across prerequisite topics. Mathematics has hierarchical dependencies—misunderstandings in fractions affect algebraic reasoning. AI maps these dependencies and highlights weak foundational skills, allowing earlier intervention. Teachers validate which gaps require remediation.",
+        "output": "AI identifies conceptual gaps by mapping error patterns across prerequisite topics, enabling earlier and more targeted math interventions.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 229,
+        "topic": "ai.education",
+        "question": "How can AI tools in writing-intensive courses promote originality instead of reinforcing formulaic academic structures?",
+        "think": "AI feedback models often reward clarity and structure, unintentionally pushing students toward predictable formats. To foster originality, AI should highlight stylistic variation, rhetorical experimentation, and idea diversity signals. Systems should avoid prescriptive templates and instead offer exploratory prompts. Human instructors maintain evaluation focus on novelty and voice.",
+        "output": "AI encourages originality by highlighting stylistic variation and avoiding prescriptive templates, while instructors emphasize novelty and authentic voice.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 230,
+        "topic": "ai.education",
+        "question": "How can universities evaluate whether AI-powered career advising tools genuinely expand—not narrow—students’ academic horizons?",
+        "think": "Evaluation requires tracking whether AI recommendations increase pathway diversity, or whether students cluster around predicted “fit” areas. Administrators should compare pre- and post-AI advising distribution patterns, analyze demographic fairness, and gather student perception data. If convergence increases, recommendation logic needs diversification constraints.",
+        "output": "Universities should examine pathway diversity, fairness across demographics, and student perceptions to ensure AI broadens—not narrows—career exploration.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 231,
+        "topic": "ai.education",
+        "question": "How can AI help teachers scaffold collaborative problem-solving without overtaking the student-led process?",
+        "think": "AI can observe collaboration dynamics, flag coordination breakdowns, and suggest prompts like role rotation or clarification questions. The tool must avoid giving solutions or dominating workflow. Teachers use AI insights sparingly, ensuring students retain agency over decisions.",
+        "output": "AI supports group work by nudging coordination and prompting reflection, while teachers ensure students maintain full ownership of problem-solving.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 232,
+        "topic": "ai.education",
+        "question": "How can AI-generated simulations support ethical decision-making skills in professional training programs?",
+        "think": "Ethical reasoning requires exploring consequences and conflicting values. AI simulations can create branching dilemmas with contextual feedback, highlighting overlooked considerations. To avoid moral bias, simulations need diverse cultural input and transparent ethical frameworks. Faculty debriefs ensure integration with professional judgment.",
+        "output": "AI simulations foster ethical reasoning through branching dilemmas and contextual feedback, complemented by instructor-led reflection to avoid moral bias.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 233,
+        "topic": "ai.education",
+        "question": "How can AI assist schools in designing personalized reading progressions without fragmenting the shared cultural core of literature education?",
+        "think": "AI can personalize difficulty levels and genre exposure but must maintain required core texts and shared cultural benchmarks. Personalization should affect supplementary texts and pacing, not core canon content. Monitoring ensures each student’s path retains exposure to culturally significant works.",
+        "output": "AI should personalize supplementary reading while preserving core texts and cultural benchmarks, preventing fragmentation of shared literary foundations.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 234,
+        "topic": "ai.education",
+        "question": "How can AI analytics ensure that project-based learning assessments capture collaboration quality rather than just finished outputs?",
+        "think": "AI can analyze communication logs, version histories, and contribution patterns to highlight collaborative behaviors. It identifies balanced role distribution, initiative-taking, and constructive feedback patterns. Teachers interpret these indicators contextually, as raw data cannot fully represent interpersonal nuance.",
+        "output": "AI highlights contribution patterns and collaboration quality through log analysis, while teachers contextualize findings to ensure fair assessment.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 235,
+        "topic": "ai.education",
+        "question": "How should ministries evaluate whether AI-enabled national learning platforms reinforce or reduce regional educational disparities?",
+        "think": "Evaluation requires region-level comparisons of usage patterns, mastery gains, and dropout rates. AI can generate regional heatmaps showing disparities. Ministries must look for gaps in connectivity, resource access, and language support. If disparities widen, targeted interventions—localized content, offline modes, subsidies—must be deployed.",
+        "output": "Ministries must examine regional usage and learning gaps, using AI to surface disparities and adjusting platform design or access policies to reduce inequity.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 236,
+        "topic": "ai.education",
+        "question": "How can universities prevent AI-powered learning analytics from pushing instructors toward overly data-driven teaching at the expense of pedagogical judgment?",
+        "think": "AI dashboards highlight engagement dips, predicted risk levels, or assignment bottlenecks. Instructors may feel pressured to adjust teaching strictly based on these indicators, shifting from pedagogical expertise to metric-chasing. Safeguards include explicitly limiting analytics to advisory status, embedding qualitative context fields, and requiring that all major course changes be justified through combined human rationale and AI insight. Faculty development programs should emphasize the role of professional judgment. Periodic audits can detect over-optimization patterns such as reduced curricular depth or overly standardized instruction. Governance bodies should monitor whether instructors feel coerced by institutional analytics expectations, adjusting policies accordingly.",
+        "output": "Universities must restrict analytics to advisory use, teach faculty how to integrate data with professional judgment, and audit for metric-driven over-optimization to preserve pedagogical autonomy.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 237,
+        "topic": "ai.education",
+        "question": "What are the long-term risks of letting AI mediate most peer review interactions in online university courses?",
+        "think": "AI mediation—suggesting improvements, scoring drafts, or filtering irrelevant comments—can improve efficiency but risks reducing students' authentic evaluative skills and diminishing peer-to-peer intellectual exchange. Over time, students may rely on AI scaffolding rather than cultivating critical reading, empathy, or constructive feedback practices. The system may also homogenize review styles. Safeguards include requiring periodic manual peer reviews without AI support, using AI only for structural guidance, diversifying prompts to encourage original analysis, and conducting portfolio reviews of student evaluation quality. Longitudinal tracking ensures students' evaluative ability improves independently of AI interventions.",
+        "output": "Long-term risks include reduced evaluative skill, homogenized feedback, and diminished peer exchange. Periodic AI-free reviews, diversified prompts, and longitudinal evaluation preserve authentic peer-review competence.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 238,
+        "topic": "ai.education",
+        "question": "How should ministries design national oversight frameworks when AI begins automating components of standardized essay scoring?",
+        "think": "Automated essay scoring systems face risks of bias, opacity, and drift as models retrain. Ministries need multi-layered oversight: transparent scoring rubrics; model registries tracking all updates; mandatory human review for boundary cases; and periodic audits that compare AI scores with expert panels. Public dashboards should display aggregate fairness metrics and error rates. Legal safeguards must prohibit fully automated high-stakes decisions. Evaluation cycles should test robustness against adversarial writing patterns and dialect diversity. Stakeholder panels—including teachers, linguists, and civil rights groups—ensure the system remains accountable to societal values.",
+        "output": "Oversight must include transparent rubrics, model registries, human review for edge cases, fairness dashboards, and adversarial robustness testing, ensuring AI-assisted essay scoring remains accountable and equitable.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 239,
+        "topic": "ai.education",
+        "question": "How can AI-driven predictive models avoid embedding socioeconomic disadvantage into early academic placement decisions?",
+        "think": "Predictive models often rely on indicators correlated with socioeconomic status (attendance, early literacy exposure, device access). Without corrections, AI may perpetuate or worsen structural inequities by assigning disadvantaged students to lower tracks. Fairness strategies include removing or attenuating SES-correlated features, enforcing parity constraints, and requiring human review panels composed of educators from diverse contexts. Explanatory dashboards allow families to challenge placement decisions. Ministries must regularly audit outcomes, ensuring placement accuracy improves without widening demographic gaps.",
+        "output": "Placement fairness requires SES-aware feature controls, parity constraints, diverse human review, and transparent appeal mechanisms to prevent socioeconomic bias from shaping academic pathways.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 240,
+        "topic": "ai.education",
+        "question": "How can universities ensure that large-scale AI tutoring systems do not reduce students’ resilience by providing overly optimized learning scaffolds?",
+        "think": "AI tutors optimize for short-term performance—giving hints, sequencing tasks, and removing friction. Over time, this can undermine resilience, persistence, and metacognitive growth. Universities need structural constraints: limiting hint frequency; integrating mandatory challenge intervals; requiring reflection and self-explanation phases; and evaluating resilience indicators like perseverance, error correction habits, and self-regulated study patterns. Tutors should escalate difficulty intentionally and occasionally withhold scaffolding to simulate authentic problem-solving conditions.",
+        "output": "Universities must embed challenge intervals, limit hint overuse, require reflective tasks, and monitor resilience indicators to ensure AI tutoring strengthens rather than weakens perseverance.",
+        "format_version": "1.1",
+        "difficulty": 7
     }
 ]
