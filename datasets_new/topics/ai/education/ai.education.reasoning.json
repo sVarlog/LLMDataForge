@@ -2293,5 +2293,140 @@
         "output": "Universities should track differential usage and learning gains, integrate scaffolds for low-support learners, and use mixed-method evaluation to ensure AI tutoring does not widen achievement gaps.",
         "format_version": "1.1",
         "difficulty": 7
+    },
+    {
+        "id": 256,
+        "topic": "ai.education",
+        "question": "How can AI help teachers detect when classroom discussions appear active but lack genuine depth or conceptual engagement?",
+        "think": "AI can map semantic clusters, identify repeated surface-level vocabulary, and detect low conceptual diversity across contributions. If students are speaking frequently yet recycling the same shallow phrases, the AI flags 'pseudo-engagement.' Teachers review the flagged segments and introduce prompts that push analysis, synthesis, or contrasting viewpoints.",
+        "output": "AI detects pseudo-engagement by analyzing semantic repetition and low conceptual diversity, helping teachers reintroduce depth-building prompts during discussions.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 257,
+        "topic": "ai.education",
+        "question": "What safeguards ensure AI-driven mentorship tools do not reinforce gender biases when advising students pursuing STEM fields?",
+        "think": "AI systems trained on historical data risk replicating gender disparities in STEM pathways. Safeguards include bias-corrected training sets, fairness constraints, transparent explanation of recommendations, and periodic audits comparing gender-based acceptance rates. Human mentors confirm decisions to ensure advice supports equitable exploration.",
+        "output": "AI mentorship requires fairness constraints, gender-balanced datasets, transparent reasoning, and human validation to avoid reinforcing STEM gender biases.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 258,
+        "topic": "ai.education",
+        "question": "How can AI improve the consistency of feedback in large writing-intensive courses taught by multiple instructors?",
+        "think": "AI can unify feedback styles by monitoring rubric adherence, detecting scoring discrepancies, and generating rubric-aligned comments. Instructors calibrate together using AI-flagged inconsistencies. Models should avoid prescriptive phrasing, allowing each instructor’s professional style to remain intact.",
+        "output": "AI enhances consistency by highlighting rubric deviations and generating aligned feedback while preserving instructor voice through human review.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 259,
+        "topic": "ai.education",
+        "question": "How can AI help identify when students’ low performance is due to emotional factors rather than cognitive misunderstanding?",
+        "think": "AI can correlate sudden performance drops with engagement logs, reflective entries, or mood surveys (all voluntary). When patterns indicate emotional strain rather than conceptual gaps, AI flags the need for pastoral support rather than academic intervention. Teachers and counselors verify this before acting.",
+        "output": "AI distinguishes emotional challenges from cognitive issues by correlating performance shifts with engagement and reflection patterns, enabling more appropriate support.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 260,
+        "topic": "ai.education",
+        "question": "How can AI-based translation tools support language learners without causing dependency that slows acquisition?",
+        "think": "AI translation should function as a scaffold—offering partial translations, synonym suggestions, or grammar cues. Full-sentence automated translations risk dependency. Adaptive models gradually reduce assistance as proficiency grows. Teachers integrate AI use with speaking and writing tasks to maintain active production.",
+        "output": "AI translation should provide partial scaffolds and reduce assistance over time to prevent dependency and preserve active language development.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 261,
+        "topic": "ai.education",
+        "question": "How can AI dashboards help schools balance early intervention with avoiding over-identification of students as 'at-risk'?",
+        "think": "AI may flag too many minor deviations as risks. Balanced systems require adjustable sensitivity, contextual weighting based on teacher judgment, and clear thresholds that prevent 'alert inflation.' Human review is mandatory before any interventions occur. Schools track false positives to refine criteria.",
+        "output": "AI early-warning dashboards need adjustable sensitivity, teacher validation, and false-positive tracking to prevent over-identification of at-risk students.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 262,
+        "topic": "ai.education",
+        "question": "How can AI enhance experiential learning in fields like ecology or archaeology without replacing fieldwork?",
+        "think": "AI simulations model complex ecosystems or excavation processes, allowing pre-field prep and post-field analysis. To avoid replacing authentic practice, fieldwork remains central while AI provides predictive modeling, risk assessment, and scenario-based preparation. Assessment must prioritize real-world observations.",
+        "output": "AI enriches experiential learning through simulations and predictive modeling while keeping fieldwork essential for authentic hands-on competence.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 263,
+        "topic": "ai.education",
+        "question": "How can AI tools detect when students are misapplying memorized algorithms in mathematics without understanding underlying principles?",
+        "think": "AI can analyze solution steps for rigid structure, lack of justification, and repeated algorithmic misuse across related problems. Transfer tasks expose when memorized methods collapse. Teachers use these signals to design conceptual lessons that rebuild understanding rather than reinforcing procedure.",
+        "output": "AI identifies algorithmic misuse through pattern rigidity and transfer-test failures, helping teachers shift instruction toward conceptual mastery.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 264,
+        "topic": "ai.education",
+        "question": "What evaluation strategies ensure that AI-enhanced collaborative platforms amplify rather than erode students’ critical debate skills?",
+        "think": "AI may soften disagreement or auto-resolve conflicts too quickly, reducing opportunities for genuine debate. Evaluation compares dialogue richness with and without AI mediation. Indicators include argument diversity, counterargument frequency, and willingness to challenge peers. Teachers manually sample threads to verify reasoning depth.",
+        "output": "Evaluation focuses on argument richness and counterargument frequency, ensuring AI mediation amplifies—not dilutes—critical debate.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 265,
+        "topic": "ai.education",
+        "question": "How can AI-generated learning recommendations remain inclusive for students with irregular schedules, such as adult learners or working parents?",
+        "think": "Traditional recommendation models assume consistent study time and predictable progress. For irregular learners, AI must incorporate variable pacing, flexible module sequencing, and time-window preferences. Systems should allow progress pausing without penalty and adapt based on weekly constraints reported by learners.",
+        "output": "AI supports irregular learners through flexible pacing, adaptive sequencing, and personalized time-window preferences that respect shifting schedules.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 266,
+        "topic": "ai.education",
+        "question": "How can universities prevent AI-powered placement systems from narrowing students' academic choices by overemphasizing early performance indicators?",
+        "think": "Early indicators—like first-semester grades, time-on-task, or clickstream patterns—reflect temporary adjustment periods rather than long-term potential. If AI systems weigh these too heavily, they may steer students away from challenging fields prematurely. Countermeasures include down-weighting early-term data, injecting exploration mandates, and surfacing multiple pathways rather than a single 'fit.' Advisors must validate AI suggestions, contextualizing early performance within students' personal circumstances. Longitudinal audits should examine whether diversity of major switching decreases following implementation—an early warning sign of algorithmic path-locking.",
+        "output": "Universities should reduce reliance on early-term data, require exploration options, provide multi-path suggestions, and audit whether major-switching diversity drops after AI adoption.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 267,
+        "topic": "ai.education",
+        "question": "What governance safeguards are needed to ensure AI-based classroom sentiment analysis does not bias teacher evaluations?",
+        "think": "Sentiment analysis models often misinterpret tone, dialect, cultural communication styles, or neurodivergent expressions. Using this data in teacher evaluations risks embedding these biases into high-stakes decisions. Safeguards include: explicit policy banning sentiment data from evaluation; restricting sentiment tools to instructional reflection only; requiring human verification for anomalies; and annual fairness audits comparing sentiment outputs across demographic subgroups. Teachers must control when and whether sentiment analytics are applied, preventing covert monitoring.",
+        "output": "Sentiment analytics must be barred from evaluations, limited to reflective use, human-verified, and subject to fairness audits to prevent biased teacher assessments.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 268,
+        "topic": "ai.education",
+        "question": "How can national assessment agencies ensure AI-generated adaptive exams remain comparable across student populations?",
+        "think": "Adaptive exams risk producing different question trajectories that affect comparability. Agencies must maintain anchor items administered to all students, ensure difficulty calibration across demographic groups, and publish equating methodologies. Human committees review item pools, ensuring cultural fairness. Periodic psychometric audits detect drift in item difficulty or representativeness. AI must adjust adaptivity rules for students with special accommodations, preserving exam validity while ensuring equitable access.",
+        "output": "Comparable AI-adaptive exams require anchor items, demographic calibration, transparent equating methods, psychometric drift audits, and accommodation-aware adaptivity rules.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 269,
+        "topic": "ai.education",
+        "question": "How can AI tutoring systems avoid unintentionally reinforcing socioeconomic disparities in access to high-rigor academic experiences?",
+        "think": "Students with stable schedules, devices, and study space benefit more from AI tutors. Without intervention, these tools widen opportunity gaps. Systems must detect under-engagement due to external constraints, provide low-bandwidth modes, and integrate structured resilience supports (study planning, distraction mitigation). Institutions should monitor learning gains across socioeconomic brackets and rebalance tutoring intensity for underserved groups. If gaps widen, policy adjustments—device provision, flexible pacing, or human mentorship—are required.",
+        "output": "AI tutors need low-bandwidth modes, resilience supports, equity monitoring, and rebalanced intervention strategies to prevent socioeconomic disparities from widening.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 270,
+        "topic": "ai.education",
+        "question": "What long-term risks arise when universities rely on AI-generated workload optimization models to allocate faculty teaching loads?",
+        "think": "AI workload optimizers may classify courses by predicted grading time, student complexity, and administrative overhead. Over time, they can inadvertently concentrate difficult or high-support courses onto certain faculty demographics—often women, junior faculty, or those with specific expertise. This silently shapes career trajectories. Safeguards include transparent optimization criteria, fairness constraints, periodic model audits, and faculty negotiation rights. Multi-year trend analysis should detect whether certain groups disproportionately carry high-support courses—requiring model rebalancing or policy intervention.",
+        "output": "Transparent criteria, fairness constraints, faculty negotiation rights, and multi-year equity audits prevent AI workload models from concentrating high-support teaching on specific faculty groups.",
+        "format_version": "1.1",
+        "difficulty": 7
     }
 ]
