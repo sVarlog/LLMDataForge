@@ -2428,5 +2428,185 @@
         "output": "Transparent criteria, fairness constraints, faculty negotiation rights, and multi-year equity audits prevent AI workload models from concentrating high-support teaching on specific faculty groups.",
         "format_version": "1.1",
         "difficulty": 7
+    },
+    {
+        "id": 271,
+        "topic": "ai.education",
+        "question": "How can AI help instructors identify when students’ incorrect answers stem from misinterpreting diagrams rather than misunderstanding the underlying concept?",
+        "think": "AI can analyze which elements of a diagram students reference in their explanations, detect mismatches between highlighted regions and correct focal points, and compare error clusters across learners. When errors consistently align with visual misinterpretation rather than conceptual flaws, AI flags the issue. Teachers then adjust diagram clarity, labels, or provide alternative visualizations to resolve the ambiguity.",
+        "output": "AI compares student references and error clusters to detect diagram misinterpretation, guiding teachers to revise visuals rather than reteach concepts unnecessarily.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 272,
+        "topic": "ai.education",
+        "question": "How can AI evaluation tools prevent implicit bias when assessing group discussion quality across culturally diverse classrooms?",
+        "think": "AI must recognize that discussion norms vary—some cultures value brevity, others emphasize contextual storytelling. Systems should rely on semantic depth metrics rather than frequency of speech. Teachers provide contextual labels, and fairness audits test model behavior across cultural groups. Final judgments remain with instructors to avoid misclassification.",
+        "output": "AI uses semantic-depth signals, cultural calibration, and human validation to ensure fair evaluation of diverse discussion styles.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 273,
+        "topic": "ai.education",
+        "question": "How can AI-generated lesson plans support beginning teachers without locking them into rigid instructional sequences?",
+        "think": "AI should provide modular lesson components—objectives, activities, assessments—that teachers can adjust freely. To avoid rigid pacing, AI includes optional branching paths and encourages customization. Professional judgment remains central, and novices receive suggestions, not mandates.",
+        "output": "AI offers flexible, modular lesson components that teachers can adapt, ensuring support without enforcing rigid instructional sequences.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 274,
+        "topic": "ai.education",
+        "question": "How can AI help distinguish between students who need literacy support and those who struggle due to insufficient background knowledge in a subject?",
+        "think": "AI analyzes patterns: vocabulary misinterpretation, sentence-structure issues, and reading-speed data indicate literacy challenges. If errors instead concentrate around domain-specific concepts, background knowledge is the issue. Multi-modal tasks (audio, visuals) help isolate the root cause. Teachers then choose literacy scaffolds or content pre-teaching accordingly.",
+        "output": "AI differentiates literacy gaps from content gaps by analyzing linguistic patterns and domain-specific error clusters, helping teachers target the correct support.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 275,
+        "topic": "ai.education",
+        "question": "How can AI tutoring systems encourage students to use metacognitive strategies during complex problem-solving tasks?",
+        "think": "AI can insert reflective prompts at key inflection points—asking students to predict outcomes, assess guesses, or explain reasoning. To avoid interrupting flow, these prompts adapt to student activity patterns. Teachers review meta-cognition logs to reinforce habits and reduce overdependence on prompting.",
+        "output": "AI fosters metacognition by offering adaptive reflection prompts and giving teachers insight into students’ reasoning habits.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 276,
+        "topic": "ai.education",
+        "question": "How can AI support the development of scientific modeling skills without generating models that students simply copy?",
+        "think": "AI can highlight variables, patterns, and constraints but avoid producing complete model structures. It suggests alternative hypotheses and asks guiding questions. Teachers review AI interactions to ensure students synthesize models independently rather than reproducing templates.",
+        "output": "AI guides modeling through variable and pattern prompts but withholds full models, ensuring students construct their own scientific representations.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 277,
+        "topic": "ai.education",
+        "question": "What strategies ensure AI-based self-paced learning systems don’t allow high-performing students to accelerate too quickly and miss foundational experiences?",
+        "think": "Acceleration must be conditional on conceptual depth. AI checks reasoning quality, transfer-task success, and problem-solving variability. If a student shows narrow or brittle mastery, AI introduces extension tasks instead of acceleration. Teachers oversee fast-track progress to ensure breadth and depth are both preserved.",
+        "output": "AI gates acceleration using reasoning quality and transfer performance, ensuring rapid progress doesn’t override foundational experiences.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 278,
+        "topic": "ai.education",
+        "question": "How can AI help universities ensure that online lab simulations maintain epistemic integrity comparable to physical labs?",
+        "think": "Simulations risk simplifying uncertainty, error margins, and physical constraints. AI systems must integrate stochastic elements, calibration noise, and real-world variability. Teachers verify whether simulated procedures align with authentic disciplinary methods. Assessment should require reasoning about both ideal and imperfect data.",
+        "output": "AI-enhanced simulations preserve epistemic integrity by incorporating uncertainty and variability, with teacher validation and reasoning-focused assessments.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 279,
+        "topic": "ai.education",
+        "question": "How can AI analytics detect when collaborative groups are over-relying on a single high-performing student?",
+        "think": "AI tracks contribution logs, message ratios, version control changes, and task assignment patterns. If one student consistently initiates solutions while others contribute minimally, AI flags imbalance. Teachers then intervene with role rotation or structured support.",
+        "output": "AI surfaces collaboration imbalance by analyzing contribution disparities, helping teachers redistribute roles and promote equitable participation.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 280,
+        "topic": "ai.education",
+        "question": "How can AI assist in improving academic integrity without disproportionately targeting multilingual or neurodivergent students?",
+        "think": "Academic integrity systems often misidentify unusual syntax or non-standard phrasing as generated text or plagiarism. Solutions include multilingual calibration, inclusive linguistic datasets, anomaly thresholds adjusted to avoid penalizing stylistic diversity, and mandatory human review for flagged cases. Transparency tools show students how their writing was analyzed.",
+        "output": "AI integrity tools require multilingual calibration, inclusive datasets, adjusted thresholds, and human review to avoid unfairly targeting diverse writing styles.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 281,
+        "topic": "ai.education",
+        "question": "How can universities ensure that AI-assisted academic advising systems do not unintentionally penalize students who take unconventional or exploratory course paths?",
+        "think": "AI advising tools often optimize for time-to-degree or predicted performance, which can disadvantage students who switch majors, take interdisciplinary routes, or explore non-linear sequences. Safeguards include diversity-aware path scoring, models trained on exploratory trajectories, and advisory dashboards highlighting multiple viable paths rather than a single 'optimal' route. Advisors must override recommendations when they conflict with student goals. Regular audits should check whether the percentage of students exploring cross-disciplinary paths declines after AI adoption, signaling path-constraining effects.",
+        "output": "Advising systems should use diversity-aware trajectory models, show multiple valid pathways, support advisor overrides, and undergo audits to ensure exploratory academic routes remain equally supported.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 282,
+        "topic": "ai.education",
+        "question": "What protections ensure AI screening systems used in university admissions do not embed socioeconomic privilege into decision-making?",
+        "think": "Admissions data—extracurriculars, test scores, personal statements—often correlate strongly with socioeconomic status. AI can inadvertently amplify these signals unless protected by fairness constraints, feature de-biasing, and alternative weighting strategies. Institutions should use SES-aware calibration, remove proxy features like neighborhood or school funding, and implement adversarial fairness testing. Cross-cohort audits must track acceptance patterns by SES bracket to ensure AI assists equity rather than reinforcing structural barriers.",
+        "output": "SES-aware calibration, proxy-feature removal, fairness constraints, and cohort audits are required to keep AI admissions screening from embedding socioeconomic privilege.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 283,
+        "topic": "ai.education",
+        "question": "How can AI-supported research tools ensure that novice researchers build independent literature-review skills instead of relying on auto-generated summaries?",
+        "think": "AI summarization can obscure methodological nuance and encourage passive consumption. To sustain independent research skills, systems must provide structured prompts rather than final syntheses, highlight methodological tensions, and require learners to justify claims in their own words. Teachers should assess underlying comprehension through annotation-based tasks. AI logs can be analyzed to detect overreliance—e.g., frequent summary requests with minimal manual note-taking.",
+        "output": "AI should guide novices with prompts and methodological cues while requiring independent synthesis, supported by teacher review and overreliance-detection signals.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 284,
+        "topic": "ai.education",
+        "question": "How can AI proctoring systems reduce false positive alerts for students with disabilities or atypical movement patterns?",
+        "think": "False positives commonly arise from non-standard eye movement, fidgeting, assistive devices, or motor-pattern differences. AI must incorporate accessibility-aware training datasets, customizable parameters, and explicit disability accommodation modes. Human proctors must review all alerts before any action. System logs should track alert rates across disability categories to identify structural bias.",
+        "output": "AI proctoring requires disability-aware datasets, adaptable sensitivity levels, and mandatory human review to avoid false positives for students with atypical movement patterns.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 285,
+        "topic": "ai.education",
+        "question": "How can ministries ensure that AI-driven curriculum pacing recommendations do not intensify educational inequities between high-resource and low-resource regions?",
+        "think": "Curriculum pacing AI often correlates faster pacing with schools demonstrating strong historical performance or digital infrastructure. This can widen regional disparities by accelerating already-advantaged zones. Ministries must enforce equity constraints: regional baseline pacing floors, infrastructure-sensitive adjustments, and contextual weighting based on local resource availability. Cross-region outcome audits should monitor whether pacing gaps expand. Any increase in inequity must trigger parameter recalibration or region-specific teacher-support interventions.",
+        "output": "Equitable curriculum pacing requires regional baselines, resource-sensitive adjustments, fairness audits, and corrective policy interventions when gaps widen under AI recommendations.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 286,
+        "topic": "ai.education",
+        "question": "How can universities ensure that AI-driven early warning systems do not create self-fulfilling prophecies for students labeled as 'high risk'?",
+        "think": "Risk classification can influence teacher expectations, peer perception, and students’ own beliefs. If unchecked, AI-generated risk labels may reinforce the very outcomes they predict. Safeguards: strict limits on who sees risk status, framing outputs as support signals rather than predictions, and mandatory human review before any intervention. Universities must track whether flagged students receive disproportionately lower-challenge coursework or reduced advancement opportunities. Bias audits should measure whether interventions correlate with improved outcomes or simply redistribute disadvantage through instructional decisions.",
+        "output": "Universities must restrict visibility of risk labels, require human review, and audit downstream instructional decisions to prevent AI warnings from becoming self-fulfilling academic limitations.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 287,
+        "topic": "ai.education",
+        "question": "What protections are necessary to prevent AI recommendation engines from subtly discouraging students with disabilities from pursuing competitive academic tracks?",
+        "think": "Recommendation models trained on historical outcomes may assume that disability correlates with lower success probability in high-demand tracks. Without safeguards, these systems can nudge students away from rigorous pathways. Protections include disability-aware fairness constraints, removal of proxy features, controlled visibility of recommendations, and explicit inclusion of alternative achievement trajectories. Students must have override rights and access to counselors who contextualize AI suggestions. Annual audits should track representation of disabled students across advanced tracks to detect algorithmic discouragement.",
+        "output": "Protections include fairness constraints, proxy-feature removal, student override rights, counselor interpretation, and representation audits to prevent discriminatory discouragement.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 288,
+        "topic": "ai.education",
+        "question": "How should ministries regulate AI-based content recommendation systems in national learning platforms to prevent ideological or political drift over time?",
+        "think": "Over long periods, content relevance models can shift training distributions, gradually amplifying certain perspectives or marginalizing others. Ministries require transparent algorithmic logs, fixed ideological neutrality baselines, and periodic third-party audits. Content diversity metrics must be monitored to ensure representation of multiple viewpoints, especially in humanities and social sciences. Public oversight committees should validate that algorithm updates do not bias national curriculum narratives. Review cycles must catch subtle drift before it entrenches systemic bias.",
+        "output": "Regulation requires transparency logs, neutrality baselines, diversity metrics, independent audits, and public oversight to prevent ideological drift in AI-curated national content.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 289,
+        "topic": "ai.education",
+        "question": "How can universities design AI systems that recommend research opportunities without reinforcing existing disparities in mentorship access?",
+        "think": "AI may favor students with strong prior records or heavy supervisor interaction, worsening inequalities in mentorship access. Systems must incorporate corrective weighting for first-generation and low-support students, ensure mentors receive balanced student distributions, and provide transparent criteria for recommendation logic. Cross-department audits should monitor whether mentorship allocation becomes more or less equitable over time. Students must also receive counterfactual explanations—what steps could shift future recommendations.",
+        "output": "Equitable research recommendation requires corrective weighting, transparent criteria, balanced mentor distribution, cross-department audits, and counterfactual student guidance.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 290,
+        "topic": "ai.education",
+        "question": "How can AI systems assessing collaborative problem-solving avoid marginalizing students with communication differences, such as introverts or neurodivergent learners?",
+        "think": "Collaborative assessment models often rely on speaking frequency, verbosity, or synchronous activity patterns. These metrics disadvantage students who contribute through alternative modes—structured written input, asynchronous reasoning, or quieter participation. AI must include multimodal contribution recognition, weighting quality over quantity. Teachers validate AI interpretations and supply contextual notes. Fairness audits monitor whether neurodivergent or introverted students receive systematically lower collaboration scores.",
+        "output": "AI collaboration assessment must recognize multimodal contributions, prioritize quality over quantity, include teacher context, and undergo fairness audits to protect communication-diverse students.",
+        "format_version": "1.1",
+        "difficulty": 7
     }
 ]
