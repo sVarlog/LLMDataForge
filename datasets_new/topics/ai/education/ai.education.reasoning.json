@@ -2608,5 +2608,185 @@
         "output": "AI collaboration assessment must recognize multimodal contributions, prioritize quality over quantity, include teacher context, and undergo fairness audits to protect communication-diverse students.",
         "format_version": "1.1",
         "difficulty": 7
+    },
+    {
+        "id": 291,
+        "topic": "ai.education",
+        "question": "How can AI help instructors identify when students’ frequent guessing on quizzes is driven by time pressure rather than lack of understanding?",
+        "think": "AI can analyze response timing, identify patterns of rapid clicking, and compare correctness rates across timed vs. untimed contexts. If accuracy improves significantly in relaxed conditions, the issue is time pressure rather than comprehension. Teachers can then adjust pacing, offer extended time, or redesign quiz structure.",
+        "output": "AI distinguishes time-pressure guessing by comparing rapid-response patterns with untimed performance, helping instructors adjust pacing or quiz design.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 292,
+        "topic": "ai.education",
+        "question": "How can AI-supported writing tools maintain authenticity when assisting multilingual students?",
+        "think": "AI tends to over-correct, flattening unique linguistic identity. To preserve authenticity, the system should offer suggestion tiers—clarity hints, grammar cues, vocabulary alternatives—while avoiding full rewrites. Teachers validate that student voice remains intact.",
+        "output": "AI preserves authenticity by offering layered suggestions rather than full rewrites, allowing multilingual students to retain voice and intent.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 293,
+        "topic": "ai.education",
+        "question": "How can AI assist teachers in recognizing when students’ conceptual errors stem from misconceptions formed in prior grade levels?",
+        "think": "AI can map error patterns to curriculum progressions, detecting misconceptions tied to earlier stages. If recurring misunderstandings align with topics taught in previous years, the system flags them as legacy misconceptions. Teachers then deploy targeted remediation.",
+        "output": "AI identifies legacy misconceptions by linking error patterns to prior-grade concepts, enabling targeted remediation.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 294,
+        "topic": "ai.education",
+        "question": "How can AI-supported group discussion platforms ensure quieter students contribute meaningfully without being overshadowed by dominant peers?",
+        "think": "AI measures participation balance, highlights moments where quieter students attempt to contribute, and prompts redistribution cues. Teachers use insights to moderate fairly. AI must avoid over-inserting prompts to maintain natural discourse flow.",
+        "output": "AI surfaces participation imbalances and supports equitable turn-taking while leaving final moderation to instructors.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 295,
+        "topic": "ai.education",
+        "question": "How can institutions evaluate whether AI-based attendance prediction models disproportionately flag students balancing work or caregiving responsibilities?",
+        "think": "Attendance patterns correlate with external obligations. Evaluation involves analyzing model outputs by demographic categories, testing fairness parity, and interviewing flagged students. If patterns align with known life constraints rather than disengagement, interventions are redesigned to support—not penalize—students.",
+        "output": "Institutions audit demographic fairness and context factors to ensure attendance predictions support rather than penalize students with external responsibilities.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 296,
+        "topic": "ai.education",
+        "question": "How can AI help instructors detect subtle misconceptions that students mask with memorized terminology?",
+        "think": "AI analyzes explanation coherence, not just vocabulary accuracy. Students using terms correctly but inconsistently across contexts likely have fragile understanding. Contradiction detection and reasoning-chain evaluation expose masked misconceptions.",
+        "output": "AI uncovers hidden misconceptions by examining reasoning consistency, revealing when correct terminology masks weak conceptual understanding.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 297,
+        "topic": "ai.education",
+        "question": "How can AI tools assist schools in designing individualized learning plans without overwhelming teachers with unnecessary data?",
+        "think": "AI must filter insights to actionable metrics: key misconceptions, pacing needs, and engagement trends. Noise reduction techniques prevent oversaturation. Teachers receive concise summaries with optional deep-dive layers.",
+        "output": "AI supports individualized plans through streamlined, actionable insights rather than data overload, preserving teacher bandwidth.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 298,
+        "topic": "ai.education",
+        "question": "How can AI analytics distinguish between genuine disengagement and students' strategic decision to focus on specific high-impact tasks?",
+        "think": "AI detects asymmetrical engagement—low participation in low-weight tasks paired with strong performance in high-stakes ones. Cross-referencing task value, mastery progression, and time allocation helps reveal strategic prioritization rather than disengagement. Teachers evaluate whether this behavior is academically appropriate.",
+        "output": "AI differentiates disengagement from strategic prioritization by analyzing engagement patterns relative to task weighting and mastery signals.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 299,
+        "topic": "ai.education",
+        "question": "How can AI help ensure collaborative assignments are graded fairly when student contributions differ in modality (spoken, written, design-based)?",
+        "think": "AI must track multimodal artifacts: chat logs, design files, text documents, annotations. Contribution scoring emphasizes substance over modality. Teachers review AI summaries to ensure fairness for students who contribute through non-verbal forms.",
+        "output": "AI ensures fair collaboration grading by analyzing multimodal contributions and emphasizing substance over preferred communication modes.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 300,
+        "topic": "ai.education",
+        "question": "How can AI-enhanced reading platforms avoid over-personalizing text difficulty such that students lose exposure to necessary academic challenge?",
+        "think": "AI must include challenge thresholds preventing students from remaining in comfort zones. Periodic insertion of advanced texts, teacher override controls, and mastery checks help maintain rigorous exposure. Engagement and struggle metrics guide challenge tuning.",
+        "output": "AI avoids over-personalization by enforcing challenge thresholds, inserting advanced texts, and allowing teacher control over difficulty adjustments.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 301,
+        "topic": "ai.education",
+        "question": "How can AI help teachers identify when a student’s strong performance in one subject masks hidden weaknesses in integrative or cross-domain tasks?",
+        "think": "AI compares performance across conceptually linked subjects and integrative tasks. If a student excels in compartmentalized exercises but struggles with tasks requiring synthesis across fields, AI flags cross-domain fragility. Teachers then design integrative learning experiences.",
+        "output": "AI detects cross-domain weaknesses by comparing isolated subject performance with integrative-task outcomes.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 302,
+        "topic": "ai.education",
+        "question": "What strategies ensure AI-generated science lab guidance does not unintentionally remove the productive uncertainty inherent in real experimentation?",
+        "think": "AI guidance must avoid overly deterministic instructions. Instead, it highlights common pitfalls, suggests checkpoints, and presents alternative approaches. Systems should intentionally include uncertainty prompts, encouraging hypothesis adjustment and reflection.",
+        "output": "AI preserves authentic scientific inquiry by offering flexible guidance and uncertainty prompts rather than deterministic step sequences.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 303,
+        "topic": "ai.education",
+        "question": "How can universities use AI to ensure equitable access to academic support services for commuter students who spend limited time on campus?",
+        "think": "Commuter students often miss informal support channels. AI can offer remote advising, asynchronous tutoring, and tailored resource suggestions. Usage analytics identify support disparities. Institutions adjust policies when commuter engagement lags—e.g., extended service hours or hybrid availability.",
+        "output": "AI supports commuters through remote tutoring, asynchronous advising, and analytics that highlight support gaps requiring institutional adjustments.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 304,
+        "topic": "ai.education",
+        "question": "How can ministries ensure that AI-generated national curriculum revisions do not gradually devalue subjects with less quantifiable outcomes, such as arts or civic education?",
+        "think": "AI curriculum optimization models often prioritize measurable impacts—STEM test gains, economic outcomes, or labor-market alignment. Over time, this shifts weight away from domains where impact is harder to quantify. To prevent erosion, ministries must enforce fixed subject-weight minimums, require qualitative-impact assessments, and maintain a parallel review path led by humanities and civic-education experts. Curriculum version control logs allow detection of gradual drift toward quantifiable subjects. Longitudinal audits monitor instructional time allocation; any systematic decline in less-quantifiable domains triggers recalibration of model priorities or re-weighting toward qualitative civic outcomes.",
+        "output": "Ministries must enforce subject-weight floors, use qualitative impact reviews, apply expert oversight, and audit curricular drift to prevent AI from devaluing arts or civic education.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 305,
+        "topic": "ai.education",
+        "question": "How can institutions prevent AI-generated research similarity reports from penalizing students who write in dialects or minority linguistic varieties?",
+        "think": "Similarity detectors often misread dialectal phrasing as syntactic irregularity or unoriginal structure. To avoid disproportionate penalties, models need dialect-aware embeddings, minority-language calibration datasets, and controlled sensitivity thresholds. Institutions should require human review for flagged minority-language cases and track false positives across linguistic subgroups. Students should receive transparent explanations showing which text features triggered similarity signals, enabling fair appeals.",
+        "output": "Dialect-aware models, calibrated thresholds, mandatory human review, and transparent explanations ensure similarity detection does not penalize minority-language writers.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 306,
+        "topic": "ai.education",
+        "question": "How can AI-driven learning analytics avoid misclassifying nontraditional learners who work irregular hours as disengaged or underperforming?",
+        "think": "Systems often assume consistent engagement patterns shaped around traditional schedules. Nontraditional learners engage in bursts, off-peak hours, or in irregular sequences. AI must include variable pacing models, time-normalized engagement metrics, and profiles tuned for nontraditional schedules. Dashboards should separate 'irregular engagement' from genuine disengagement. Institutions must audit analytics outputs for demographic distortion, ensuring working learners aren’t misclassified and inappropriately targeted for interventions.",
+        "output": "AI should use schedule-flexible engagement models and demographic fairness audits to avoid misclassifying nontraditional, irregular-schedule learners as disengaged.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 307,
+        "topic": "ai.education",
+        "question": "What protections are necessary to ensure AI-assisted STEM tutoring systems do not create over-reliance that weakens students’ independent problem-solving endurance?",
+        "think": "AI tutors can over-scaffold by providing rapid hints, revealing intermediate steps, or correcting early-stage mistakes. Endurance declines when students learn to expect immediate assistance. Protection mechanisms include adaptive hint delays, frustration-detection balanced with productive struggle thresholds, and mandatory reflection intervals after receiving help. Instructors monitor resilience indicators such as attempt length and explanation completeness. If endurance metrics decline, hint policies must be tightened and tasks redesigned to increase cognitive persistence.",
+        "output": "Hint delays, productive-struggle thresholds, reflection requirements, and endurance monitoring prevent AI tutoring from weakening independent problem-solving stamina.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 308,
+        "topic": "ai.education",
+        "question": "How can universities ensure AI-assisted academic integrity systems account for legitimate code reuse in programming courses without over-penalizing students?",
+        "think": "Programming pedagogy encourages reuse of idioms, standard library patterns, and boilerplate structures. Integrity systems often flag these as plagiarism. AI must incorporate context-aware similarity scoring, whitelist common coding patterns, and detect conceptual-level originality. Teachers define boundaries between acceptable reuse and problematic duplication. Systems require human verification, especially for assignments using shared frameworks. Audits check whether false positives disproportionately affect certain cohorts, like beginners.",
+        "output": "Universities need context-aware code similarity, whitelisting of common patterns, human verification, and fairness audits to avoid mislabeling legitimate code reuse as misconduct.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 309,
+        "topic": "ai.education",
+        "question": "How can ministries design AI-based assessment systems that preserve regional linguistic identities rather than enforcing standardized national language norms?",
+        "think": "AI scoring models trained mostly on standardized national-language corpora under-score regional varieties or dialectal structures. Ministries must build multilingual and regional corpora, include dialect specialists in annotation teams, and maintain separate scoring rubrics for standardized vs. regional language use. Audit mechanisms must monitor whether dialect-speaking regions show systematic under-scoring. AI should classify dialect use as legitimate linguistic variation, not error patterns, unless explicitly irrelevant to the task.",
+        "output": "Dialect-inclusive datasets, specialist annotation, separate rubrics, and fairness audits ensure AI assessments respect regional linguistic identities.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 310,
+        "topic": "ai.education",
+        "question": "How can universities prevent AI-generated 'research potential' scores from reinforcing inequities caused by uneven access to prior mentorship, lab experience, or publication opportunities?",
+        "think": "Research scores often reflect accumulated advantages—early lab access, strong mentors, or prior publication pipelines. AI systems that embed these signals risk rewarding privilege rather than ability. Protective measures include suppressing features correlated with resource access, adding normalization layers for opportunity disparity, and requiring human evaluation committees to contextualize scores. Longitudinal audits examine whether underprivileged students gain or lose access to research opportunities post-AI deployment.",
+        "output": "Opportunity-normalized scoring, feature suppression, and committee oversight ensure AI research-potential scores don’t amplify pre-existing mentoring and resource inequities.",
+        "format_version": "1.1",
+        "difficulty": 7
     }
 ]
