@@ -6237,6 +6237,24 @@
         "difficulty": 6
     },
     {
+        "id": 694,
+        "topic": "ai.design_creativity",
+        "question": "Design an AI-assisted platform for creating multilingual disaster preparedness materials (flyers, apps, signage) that remain accurate, stigma-free, and accessible. What datasets, constraints, and governance should be applied?",
+        "think": "Disaster materials must be clear and trusted. Architecture: ingestion of official guidelines → AI generates multilingual outputs. Safeguards: fact-check vs official docs, WCAG AA compliance, readability ≤7, taboo/stigma filters. Governance: city/state agencies + NGOs oversee provenance logs. Evaluation: comprehension tests, trust surveys, accessibility audits. Risk: outdated or misleading info. Mitigation: dataset refresh schedules, audits, red-team reviews.",
+        "output": "Platform:\n1) Data: official guidelines, corpora, icons, standards.\n2) AI drafts flyers, apps, signage.\n3) Validators: fact-check vs docs, WCAG AA, readability ≤7, stigma filters.\n4) Review: experts + NGOs + cultural councils.\n5) Governance: agencies with provenance logs.\n6) Evaluation: comprehension, accessibility audits, trust surveys.\nOutcome: disaster materials that are accurate, inclusive, and accessible worldwide.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 695,
+        "topic": "ai.design_creativity",
+        "question": "How can AI-generated speculative design artifacts help communities visualize and debate ethical AI governance futures?",
+        "think": "Speculative artifacts (prototypes, AR/VR experiences) make abstract governance issues tangible. AI can scale diverse scenarios based on cultural motifs and governance models. Governance: community councils + ethicists oversee outputs. Safeguards: taboo filters, fact validation, accessibility. Evaluation: trust surveys, inclusivity audits, learning outcomes. Risks: alarmism or insensitivity. Mitigation: balanced outputs, community veto, peer review.",
+        "output": "AI speculative artifacts help communities explore AI governance futures by visualizing scenarios that provoke discussion while ensuring cultural respect and accuracy.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
         "id": 696,
         "topic": "ai.design_creativity",
         "question": "Design an AI-assisted workflow for creating multilingual fire safety education materials (posters, infographics, AR apps) that remain accurate, accessible, and culturally appropriate. How should data, safeguards, and governance be arranged?",
