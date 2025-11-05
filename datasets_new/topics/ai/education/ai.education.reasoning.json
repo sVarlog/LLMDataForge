@@ -3148,5 +3148,185 @@
         "output": "Universities should embed cross-domain incentives, offer contrasting recommendations, include advisor oversight, and audit exploratory-equity to prevent AI from reinforcing academic silos.",
         "format_version": "1.1",
         "difficulty": 7
+    },
+    {
+        "id": 351,
+        "topic": "ai.education",
+        "question": "How can AI help teachers identify when students’ poor performance on complex tasks is caused by unclear task instructions rather than skill gaps?",
+        "think": "AI compares performance across similar task types, checks time-to-start metrics, and analyzes common student questions. If many learners exhibit identical confusion patterns—hesitation before beginning, repeated re-reads, and clarification requests—the issue likely lies in unclear instructions. Teachers receive summarized indicators prompting refinement.",
+        "output": "AI flags instruction clarity issues by detecting shared hesitation and confusion patterns across students, helping teachers adjust task descriptions.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 352,
+        "topic": "ai.education",
+        "question": "How can AI improve the accuracy of formative assessments without increasing workload for teachers?",
+        "think": "AI can auto-tag student responses with misconception categories, cluster error patterns, and produce micro-feedback summaries. Teachers validate the clusters instead of grading each response individually, reducing workload while increasing diagnostic insight.",
+        "output": "AI clusters misconceptions and generates feedback summaries that teachers validate, improving formative assessment without added workload.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 353,
+        "topic": "ai.education",
+        "question": "How can AI help detect when students’ strong performance hides an underlying instability in reasoning?",
+        "think": "AI reviews reasoning explanations and evaluates consistency across tasks. If answers are correct but explanations vary wildly or contradict earlier logic, students may rely on pattern recognition instead of conceptual understanding. Flagged inconsistencies guide targeted instruction.",
+        "output": "AI detects reasoning instability by comparing consistency across explanations, highlighting hidden conceptual fragility.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 354,
+        "topic": "ai.education",
+        "question": "How can universities use AI to ensure first-year students receive personalized support during academic transitions?",
+        "think": "AI monitors engagement, assignment pacing, and early performance signals to detect transition difficulties. It recommends adaptive supports—study workshops, mentorship, tutoring—without labeling students as at-risk. Advisors confirm contextual factors before acting.",
+        "output": "AI identifies transition-related struggles through early engagement patterns and suggests tailored supports verified by advisors.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 355,
+        "topic": "ai.education",
+        "question": "How can AI-supported reading platforms help students develop inference skills rather than simply extracting explicit text details?",
+        "think": "AI monitors question-response patterns—students who handle literal questions but fail on inference tasks exhibit gaps in implicit reasoning. The system then introduces scaffolded inference prompts, model explanations, and guided predictions.",
+        "output": "AI boosts inference skills by identifying literal-reading patterns and providing targeted inference scaffolds.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 356,
+        "topic": "ai.education",
+        "question": "How can AI analytics help teachers differentiate between genuine conceptual errors and simple task-misreading mistakes?",
+        "think": "AI examines student eye-tracking or navigation logs, response timing, and misread keyword patterns. Fast incorrect answers tied to misread terms differ from slow, incorrect conceptual reasoning. The system separates these to refine feedback.",
+        "output": "AI distinguishes misreading from genuine misconception by analyzing response timing and misinterpretation patterns.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 357,
+        "topic": "ai.education",
+        "question": "How can AI help schools ensure gifted students are challenged appropriately without accelerating them prematurely?",
+        "think": "AI monitors depth-of-reasoning metrics rather than just correctness, looking for reduced challenge engagement or low cognitive variability. When detected, the system recommends enrichment instead of acceleration, preserving pacing integrity.",
+        "output": "AI identifies challenge gaps through reasoning metrics and suggests enrichment rather than premature acceleration.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 358,
+        "topic": "ai.education",
+        "question": "How can AI-supported collaborative platforms ensure students contribute equitably during multi-phase group projects?",
+        "think": "AI tracks contribution frequency, artifact ownership, revision impacts, and communication depth. If disparities grow during research or production phases, the system alerts the teacher and suggests role diversification.",
+        "output": "AI supports equitable collaboration by monitoring contribution patterns across project phases and surfacing imbalances.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 359,
+        "topic": "ai.education",
+        "question": "How can AI detect when students’ performance declines are linked to external stress factors rather than academic ability?",
+        "think": "AI identifies unusual deviations—rapid shifts in engagement, missed low-stakes tasks, or inconsistent performance. If declines appear sudden and uncorrelated with difficulty level, AI flags possible external stress. Advisors confirm context sensitively.",
+        "output": "AI identifies stress-related declines through abrupt, pattern-inconsistent performance drops and alerts advisors for contextual follow-up.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 360,
+        "topic": "ai.education",
+        "question": "How can AI help students develop metacognitive awareness during complex tasks?",
+        "think": "AI inserts reflective checkpoints based on struggle detection—asking learners to explain their plan, evaluate progress, or predict next steps. These prompts build self-monitoring habits. Teachers review reflections to reinforce metacognitive growth.",
+        "output": "AI fosters metacognition by prompting structured self-reflection at key struggle moments.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 361,
+        "topic": "ai.education",
+        "question": "How can AI help instructors detect when student misconceptions originate from misleading external sources like social media or AI hallucinations?",
+        "think": "AI compares incorrect patterns across many students, identifying clusters that match misinformation signals—unusual phrasing, consistent false analogies, or identical incorrect explanations. These patterns differ from natural misconceptions. Teachers can address misinformation directly.",
+        "output": "AI reveals misinformation-driven misconceptions by detecting distinctive cluster patterns matching common external sources.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 362,
+        "topic": "ai.education",
+        "question": "How can AI-supported advising ensure students exploring new fields aren’t discouraged by early low performance?",
+        "think": "AI must avoid overweighting initial grades by tracking improvement curves, context notes, and task-type difficulty. Students exploring new fields often show early dips followed by rapid gains. Advisors receive balanced suggestions emphasizing growth trajectories rather than static performance snapshots.",
+        "output": "AI protects exploration by emphasizing growth curves and trajectory-based advising rather than static early performance.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 363,
+        "topic": "ai.education",
+        "question": "How can AI grading tools ensure fair evaluation of creative projects where originality, risk-taking, and experimentation are central?",
+        "think": "AI grading risks valuing conformity over creativity. To balance fairness, models must assess alignment with task criteria while allowing flexible interpretation. Teachers calibrate rubrics with exemplars of diverse creative forms. AI highlights criterion alignment but leaves originality judgment to human evaluators.",
+        "output": "AI ensures fairness in creative grading by scoring criteria alignment while leaving originality and experimentation to human judgment.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 364,
+        "topic": "ai.education",
+        "question": "How can universities prevent AI-assisted academic advising systems from steering students toward 'safe' career pathways instead of supporting high-aspiration, high-variance goals?",
+        "think": "AI guidance tends to favor historically stable patterns—majors with high completion rates or predictable job outcomes. This biases recommendations toward lower-risk tracks and unintentionally suppresses student ambition. To counteract this, advising systems must incorporate aspiration-weighted pathways, factor uncertainty ranges explicitly, and highlight both opportunity and challenge. Advisors validate whether the AI underestimates students with atypical trajectories. Periodic audits track representation in competitive fields; if enrollment diversity drops after AI adoption, the system requires recalibration.",
+        "output": "Universities should use aspiration-weighted pathways, uncertainty-aware recommendations, advisor oversight, and enrollment audits to avoid AI systems pushing students toward risk-averse choices.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 365,
+        "topic": "ai.education",
+        "question": "How can ministries ensure AI-driven school accountability metrics do not create unfair disadvantages for schools with high proportions of multilingual learners?",
+        "think": "Multilingual learners often show delayed early-language proficiency, which can distort AI accountability metrics if language acquisition is misread as low academic performance. Ministries must implement multilingual-normalized baselines, separate language-development indicators from subject mastery, and require growth-based calibration. District-level audits should confirm that multilingual-heavy schools are not consistently ranked lower due to linguistic factors unrelated to instruction quality.",
+        "output": "Accountability systems need multilingual baselines, separate language and subject indicators, growth-focused calibration, and fairness audits to avoid disadvantaging multilingual schools.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 366,
+        "topic": "ai.education",
+        "question": "How can AI-supported integrity systems distinguish between authentic student voice and AI-influenced language patterns without punishing legitimate improvements in writing quality?",
+        "think": "Overreliance on linguistic uniformity detection can falsely flag improved writing as AI-generated. Systems must compare growth against student-specific historical baselines, emphasizing voice stability rather than complexity spikes alone. Thresholds should scale with instructional progress. Teachers verify flagged cases by analyzing drafts, revision histories, and oral explanations.",
+        "output": "AI should compare writing to student-specific baselines, use growth-aware thresholds, and require teacher verification to avoid penalizing genuine improvement.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 367,
+        "topic": "ai.education",
+        "question": "How can universities ensure AI-generated research topic suggestions do not bias students toward mainstream fields at the expense of emerging or underrepresented research areas?",
+        "think": "Training data often oversamples mainstream literature, causing AI systems to recommend topics with large established corpora while sidelining emerging fields. Universities must inject novelty-awareness, train on balanced datasets, and include topic-diversity constraints. Advisors validate whether suggested topics reflect institutional strategic priorities or unintentionally narrow intellectual exploration.",
+        "output": "Balanced datasets, novelty-aware ranking, diversity constraints, and advisor review ensure AI does not bias research topic selection toward mainstream fields.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 368,
+        "topic": "ai.education",
+        "question": "How can AI help identify when students' group project struggles stem from poorly defined collaborative structures rather than individual skill deficiencies?",
+        "think": "AI analyzes interaction logs—imbalanced role distribution, overlapping task assignments, or unclear ownership patterns. If issues cluster around workflow irregularities rather than specific students, the root cause is structural miscoordination. Teachers then revise group roles or apply structured collaboration frameworks.",
+        "output": "AI detects structural collaboration issues by analyzing workflow patterns, helping teachers refine group organization rather than misattribute problems to individuals.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 369,
+        "topic": "ai.education",
+        "question": "How can AI-driven lab simulations maintain rigor while preventing students from over-relying on automated troubleshooting suggestions?",
+        "think": "Students may wait for AI prompts instead of diagnosing issues independently. AI must implement delayed hinting, context-dependent uncertainty windows, and require learners to articulate hypotheses before receiving guidance. Teachers monitor troubleshooting logs to ensure students engage meaningfully with uncertainty rather than expecting instant corrections.",
+        "output": "AI preserves rigor by delaying hints, prompting hypothesis articulation, and giving instructors insight into troubleshooting depth before assistance is offered.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 370,
+        "topic": "ai.education",
+        "question": "How can ministries avoid unintended cultural homogenization when deploying AI-assisted textbook generation across diverse regions?",
+        "think": "AI trained on majority-culture texts can normalize a single perspective, erasing local traditions and cultural nuance. Ministries must supply region-specific corpora, approve cultural review committees, and embed diversity constraints into generation pipelines. Annual audits compare cultural representation coverage across regions to detect drift toward homogeneity.",
+        "output": "Region-specific datasets, cultural review committees, diversity constraints, and representation audits prevent AI-generated textbooks from homogenizing cultural narratives.",
+        "format_version": "1.1",
+        "difficulty": 7
     }
 ]
