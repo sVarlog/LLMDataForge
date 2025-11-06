@@ -3328,5 +3328,194 @@
         "output": "Region-specific datasets, cultural review committees, diversity constraints, and representation audits prevent AI-generated textbooks from homogenizing cultural narratives.",
         "format_version": "1.1",
         "difficulty": 7
+    },
+    {
+        "id": 371,
+        "topic": "ai.education",
+        "question": "How can AI help instructors detect when students understand core ideas but lack proficiency in transferring them to new contexts?",
+        "think": "AI analyzes performance patterns across near-transfer and far-transfer tasks. If a student excels in domain-specific items but struggles when concepts appear in altered settings, the system identifies transfer fragility. Teachers receive targeted prompts to design cross-context reinforcement activities.",
+        "output": "AI identifies transfer gaps by comparing performance across task variations, helping instructors strengthen cross-context reasoning.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 372,
+        "topic": "ai.education",
+        "question": "How can AI help schools identify when student disengagement is tied to mismatched learning styles rather than academic difficulty?",
+        "think": "AI evaluates modality-use patterns—video, text, audio—and correlates them with engagement drops. If students engage more deeply with one modality but coursework emphasizes another, the system flags mismatched instructional design. Teachers can diversify content accordingly.",
+        "output": "AI detects engagement mismatches across modalities, guiding schools to adjust instructional formats rather than assuming academic struggle.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 373,
+        "topic": "ai.education",
+        "question": "How can AI-supported feedback systems avoid overwhelming students with excessive micro-feedback?",
+        "think": "AI-generated micro-feedback can lead to cognitive overload. Systems must prioritize high-impact insights, aggregate low-level corrections, and present feedback progressively. Teachers can adjust feedback granularity based on student preferences or developmental stage.",
+        "output": "AI prevents overload by prioritizing high-impact comments and delivering feedback in manageable layers.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 374,
+        "topic": "ai.education",
+        "question": "How can AI help instructors distinguish between conceptual errors and gaps caused by cultural or linguistic misunderstandings?",
+        "think": "AI analyzes phrasing patterns, culturally specific idioms, and translation inconsistencies. If mistakes stem from misinterpretation rather than conceptual gaps, the system flags linguistic interference. Teachers adjust instruction accordingly.",
+        "output": "AI separates cultural or linguistic misinterpretations from conceptual gaps, guiding more precise instructional responses.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 375,
+        "topic": "ai.education",
+        "question": "How can AI-supported advising help students distribute workload more evenly across semesters?",
+        "think": "AI reviews course difficulty, credit loads, and prerequisite chains to detect overloaded schedules. The system recommends alternative sequencing or lighter-term adjustments. Advisors validate constraints such as graduation timelines and external commitments.",
+        "output": "AI detects overloaded schedules and suggests balanced course sequencing, with advisors verifying feasibility.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 376,
+        "topic": "ai.education",
+        "question": "How can AI detect when students rely on memorized algorithmic steps in math without grasping underlying reasoning?",
+        "think": "AI evaluates problem-solving logs, checking whether students deviate from expected steps when encountering modified numbers or formats. Rigid adherence to patterns without adaptation indicates memorization. Teachers use this to scaffold conceptual understanding.",
+        "output": "AI identifies procedural memorization by spotting rigid, non-adaptive solution patterns.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 377,
+        "topic": "ai.education",
+        "question": "How can AI help detect when students’ collaboration quality drops due to uneven cognitive contributions rather than unequal participation time?",
+        "think": "AI analyzes semantic depth of contributions, not just frequency. If one student provides consistently shallow reasoning despite active participation, the system flags cognitive imbalance. Teachers then scaffold reasoning roles or redistribute task responsibilities.",
+        "output": "AI evaluates contribution depth to surface cognitive imbalance within groups, supporting equitable collaboration.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 378,
+        "topic": "ai.education",
+        "question": "How can AI-supported systems identify when students form incorrect generalizations from limited examples?",
+        "think": "AI identifies situations where students succeed with surface-level cues but fail when examples vary. This signals overfitting in human reasoning. Teachers receive suggestions for variation-based practice to reinforce robust conceptual generalization.",
+        "output": "AI detects student overgeneralization by comparing performance across varied examples, enabling variation-rich reinforcement.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 379,
+        "topic": "ai.education",
+        "question": "How can AI analytics help instructors recognize the early stages of burnout in high-performing students?",
+        "think": "AI monitors behavioral changes—subtle drop in assignment quality, irregular sleep-watermarked activity times, or reduced interaction diversity. These nonlinear declines differ from typical performance dips. Teachers receive early-warning signals for supportive intervention.",
+        "output": "AI flags early burnout by detecting subtle behavioral and engagement irregularities among high performers.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 380,
+        "topic": "ai.education",
+        "question": "How can AI-driven curriculum assistants ensure personalized learning paths don’t fragment shared foundational knowledge across cohorts?",
+        "think": "Personalization risks divergent content exposure. AI must maintain core knowledge anchors—essential skills, shared modules—while offering personalization only beyond those anchors. Cohort-wide audits ensure foundational consistency across personalized routes.",
+        "output": "AI preserves shared foundations via core-content anchors and cohort audits that prevent fragmentation.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 381,
+        "topic": "ai.education",
+        "question": "How can AI help schools avoid misinterpreting quiet classrooms as highly effective classrooms?",
+        "think": "AI correlates engagement metrics—question diversity, reasoning quality, student-initiated dialogue—with noise levels. Quiet classes with low cognitive indicators may lack true engagement. Teachers receive diagnostic insight to adjust pedagogy.",
+        "output": "AI highlights discrepancies between silence and genuine engagement, preventing false assumptions about classroom quality.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 382,
+        "topic": "ai.education",
+        "question": "How can AI-powered peer review systems help students learn to critique ideas rather than critique people?",
+        "think": "NLP models analyze sentiment, pronoun focus, and phrasing to detect personal rather than idea-centered feedback. The system nudges students toward objective, criteria-based critique. Teachers review flagged comments to reinforce constructive habits.",
+        "output": "AI promotes constructive critique by detecting person-focused feedback and encouraging idea-centered phrasing.",
+        "format_version": "1.1",
+        "difficulty": 3
+    },
+    {
+        "id": 383,
+        "topic": "ai.education",
+        "question": "How can AI help instructors spot when students’ difficulties stem from misaligned prerequisite knowledge rather than current course content?",
+        "think": "AI compares prerequisite-task indicators with present performance. If gaps appear consistently in pre-required areas—logic, vocabulary, computational foundations—the system surfaces remediation needs. Teachers can assign bridging modules.",
+        "output": "AI identifies prerequisite misalignment by correlating current struggles with foundational concept performance.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 384,
+        "topic": "ai.education",
+        "question": "How can AI-supported group management systems prevent dominant personalities from controlling decision-making in project teams?",
+        "think": "AI monitors conversational control—turn-taking patterns, initiation frequency, and semantic influence. Dominance indicators reveal when one member drives too many decisions. Teachers can introduce role distribution or rotating leadership.",
+        "output": "AI detects dominance through conversational patterns, helping teachers maintain equitable decision-making in teams.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 385,
+        "topic": "ai.education",
+        "question": "How can universities ensure that AI-assisted recommendation systems do not steer underrepresented students away from competitive coursework due to historical performance biases?",
+        "think": "AI models trained on historic course-taking data may learn patterns where underrepresented groups appear less frequently in advanced courses. Without corrective measures, recommendations subtly discourage such students. Universities must implement demographic-agnostic modeling, reweight training data to counter historical underrepresentation, and produce multiple recommendation tiers reflecting aspiration, potential, and curiosity—not just predicted success. Advisors must verify that students are not being systematically nudged toward 'safer' pathways. Equity audits check whether enrollment diversity in advanced courses declines post-AI deployment.",
+        "output": "Demographic-agnostic modeling, reweighted data, multi-tier recommendations, advisor oversight, and equity audits prevent AI from steering underrepresented students away from competitive coursework.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 386,
+        "topic": "ai.education",
+        "question": "How can AI-based writing analytics avoid misclassifying creative rhetorical structures as incoherent, especially in interdisciplinary or humanities courses?",
+        "think": "Standard writing models expect linear argumentative patterns. Students in creative or humanities contexts often use looping, cyclical, or narrative argumentation. AI must incorporate diverse rhetorical exemplars and use semantic coherence rather than structural conformity. Human instructors validate cases where ambiguity arises. Fairness audits ensure that creative rhetorical choices are not penalized across student groups.",
+        "output": "AI must use semantic coherence metrics, diverse rhetorical exemplars, and human validation to avoid misclassifying creative structures as incoherent.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 387,
+        "topic": "ai.education",
+        "question": "How can ministries ensure AI-generated national exams do not advantage students from high-tech schools over students with limited exposure to digital learning environments?",
+        "think": "AI exam generators may assume familiarity with interactive tasks, simulations, or digital interfaces. Ministries need low-tech modes, clear analog equivalents, and calibration with students from diverse schooling backgrounds. Performance variance must be analyzed to detect digital literacy bias. Item pools require multi-contextual validation before nationwide deployment.",
+        "output": "Low-tech equivalents, diverse calibration panels, and digital-bias audits ensure AI-generated exams remain equitable across school types.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 388,
+        "topic": "ai.education",
+        "question": "How can universities prevent AI-powered discussion analysis tools from devaluing reflective, slow-paced thinkers in favor of rapid responders?",
+        "think": "Discussion analytics often overvalue frequency, immediacy, and speed. Reflective thinkers contribute less often but with deeper insight. AI must measure semantic value, conceptual richness, and reasoning depth—rather than reply velocity. Teachers can tag reflective contributions so models learn to recognize slower but higher-impact engagement patterns.",
+        "output": "AI must prioritize depth and conceptual richness over speed, with teacher-tagged reflective contributions guiding model calibration.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 389,
+        "topic": "ai.education",
+        "question": "How can AI analysis of peer-feedback exchanges prevent social dynamics from influencing academic evaluation?",
+        "think": "Peer feedback often reflects friendship networks or social tensions. AI can detect sentiment skew, reciprocal high scoring, or polarized clusters. By comparing feedback tone and rubric alignment, AI identifies socially biased patterns. Teachers review flagged instances to ensure evaluation integrity, and anonymity mechanisms further reduce bias.",
+        "output": "AI analyzes sentiment patterns, reciprocity, and rubric alignment to detect socially biased peer evaluation and support fairness.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 390,
+        "topic": "ai.education",
+        "question": "What mechanisms ensure AI-driven workload estimators do not unintentionally compress students’ schedules into unrealistic weekly peaks?",
+        "think": "Models may cluster deadlines based on predicted optimal pacing without considering cognitive recovery cycles. AI must integrate workload-distribution constraints, recovery windows, and cross-course coordination. Teachers can override suggestions that create unsustainable weekly peaks. Institutional audits track aggregate workload patterns to identify systematic compression introduced by AI.",
+        "output": "AI needs workload-distribution constraints, built-in recovery windows, cross-course coordination, and audit oversight to avoid unsustainable schedule compression.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 391,
+        "topic": "ai.education",
+        "question": "How can AI-supported integrity tools distinguish between genuine collaborative learning patterns and covert answer-sharing?",
+        "think": "AI must differentiate legitimate conceptual alignment—students learning together—from suspicious artifact similarity such as identical phrasing, matching error signatures, and synchronized submission patterns. Temporal offset analysis and reasoning-path comparison further distinguish collaboration from copying. Flagged patterns require teacher review using contextual knowledge of group norms.",
+        "output": "AI distinguishes collaboration from answer-sharing through similarity clustering, temporal-pattern analysis, and reasoning-path comparison, with teacher validation for context.",
+        "format_version": "1.1",
+        "difficulty": 6
     }
 ]
