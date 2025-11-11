@@ -4255,5 +4255,194 @@
         "output": "Dialect-inclusive corpora, feature separation, expert annotation, and distribution audits ensure AI language assessments do not penalize dialect-speaking students.",
         "format_version": "1.1",
         "difficulty": 7
+    },
+    {
+        "id": 474,
+        "topic": "ai.education",
+        "question": "How can AI help instructors detect when students’ mistakes arise from confusing domain-specific conventions rather than misunderstanding the underlying concept?",
+        "think": "AI compares reasoning explanations with domain conventions (e.g., notation, naming rules, directionality). When students articulate correct reasoning but misapply domain conventions—such as interpreting chemical arrows backward or reversing coordinate axes—it signals convention confusion rather than conceptual gaps. Teachers can then focus instruction on disciplinary norms.",
+        "output": "AI isolates convention-based errors by comparing conceptual correctness with domain-specific rule misuse, allowing targeted correction.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 475,
+        "topic": "ai.education",
+        "question": "How can AI-supported learning platforms detect when students are misled by oversimplified real-world examples used in class?",
+        "think": "AI identifies patterns where students repeatedly apply simplified assumptions from class examples—like frictionless motion or perfectly elastic collisions—in tasks where these assumptions no longer hold. Error clustering around realism-dependent scenarios indicates model-transfer failure.",
+        "output": "AI reveals oversimplification transfer errors by detecting when students wrongly apply idealized assumptions to realistic tasks.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 476,
+        "topic": "ai.education",
+        "question": "How can AI determine when students' long-form responses are conceptually accurate but structurally disorganized?",
+        "think": "AI analyzes semantic coherence and thematic continuity. If ideas are accurate but poorly sequenced, transitions appear abrupt or repetitive, signaling organization issues rather than misunderstanding. Teachers receive suggestions to support structural scaffolding.",
+        "output": "AI distinguishes conceptual accuracy from organizational weakness through coherence and transition analysis.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 477,
+        "topic": "ai.education",
+        "question": "How can universities use AI to identify when students choose easier elective paths not due to interest, but due to fear of harming their GPA?",
+        "think": "AI correlates student performance trends, interest indicators, and elective histories. Avoidance patterns—high aptitude yet persistent selection of low-challenge courses—suggest GPA protection behavior. Advisors can intervene with support structures encouraging skill growth.",
+        "output": "AI detects GPA-driven avoidance by comparing student capability with elective difficulty patterns.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 478,
+        "topic": "ai.education",
+        "question": "How can AI-supported systems help instructors detect when students misunderstand the purpose of comparative tasks?",
+        "think": "AI examines reasoning across paired items. When students treat comparative tasks as independent judgments and fail to connect differences or similarities, the system identifies purpose misalignment. Teachers can emphasize relational thinking.",
+        "output": "AI identifies comparative-task misunderstandings by detecting missing relational reasoning across paired items.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 479,
+        "topic": "ai.education",
+        "question": "How can AI help identify when students rely on memorized algorithmic procedures but lack flexible conceptual mastery?",
+        "think": "AI analyzes reasoning stability across varied contexts. If students perform well in procedural tasks but fail when structure changes or when asked to justify reasoning, it signals algorithmic reliance rather than conceptual understanding.",
+        "output": "AI differentiates rote procedural skill from conceptual mastery by testing reasoning stability across context variations.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 480,
+        "topic": "ai.education",
+        "question": "How can AI-assisted platforms detect when students are overwhelmed due to unclear task segmentation rather than content overload?",
+        "think": "AI monitors navigation loops, time-per-section, and error bursts. When students repeatedly revisit instructions or shuffle between unrelated sections, ambiguity in task segmentation is likely the cause. Teachers can restructure tasks into clearer units.",
+        "output": "AI detects segmentation confusion through navigation loops and inconsistent workflow patterns.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 481,
+        "topic": "ai.education",
+        "question": "How can AI detect when students struggle with multi-modal integration tasks such as combining text, diagrams, and graphs?",
+        "think": "AI compares performance across single-modality tasks versus integrated ones. Sharp performance drops in integrated tasks indicate difficulty synthesizing multiple representations. Teachers can add scaffolded multi-modal exercises.",
+        "output": "AI identifies integration struggles by contrasting single-modality and multi-modality task performance.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 482,
+        "topic": "ai.education",
+        "question": "How can instructors use AI to detect when student feedback on assignments reflects emotional frustration rather than lack of understanding?",
+        "think": "AI classifies reflection logs using sentiment and linguistic markers. If emotional intensity rises while conceptual correctness remains stable, frustration—not confusion—is the primary issue. Teachers can adjust workload or pacing.",
+        "output": "AI distinguishes frustration from misunderstanding by analyzing emotional tone alongside correctness patterns.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 483,
+        "topic": "ai.education",
+        "question": "How can AI detect when students underestimate the importance of early-stage planning in long-term projects?",
+        "think": "AI tracks milestone completion timing and revision density. Students who skip planning phases show late-stage clustering of revisions and high rework volume. These signals allow teachers to guide planning discipline.",
+        "output": "AI identifies weak planning habits through milestone timing and rework clustering patterns.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 484,
+        "topic": "ai.education",
+        "question": "How can AI distinguish between students who make systematic reasoning errors and those who make random mistakes due to attention lapses?",
+        "think": "AI analyzes error-type patterns. Systematic errors repeat with consistent structure, whereas attention lapses produce scattered, inconsistent mistakes. This distinction informs targeted support—conceptual remediation vs attention improvement strategies.",
+        "output": "AI separates systematic reasoning errors from attention-lapse randomness by analyzing error-pattern stability.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 485,
+        "topic": "ai.education",
+        "question": "How can AI determine when peer feedback is influenced more by social relationships than by academic criteria?",
+        "think": "AI inspects feedback sentiment, rubric alignment, and reciprocity patterns. If peer scores correlate strongly with social network proximity or mutual praising cycles, it reveals socially biased evaluation.",
+        "output": "AI detects socially influenced feedback through sentiment alignment, rubric mismatch, and reciprocity analysis.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 486,
+        "topic": "ai.education",
+        "question": "How can AI help instructors identify when students' errors arise from lacking real-world intuition rather than theoretical understanding?",
+        "think": "AI compares performance on abstract tasks versus applied scenarios. Students may excel in abstract reasoning but misinterpret physical or practical constraints. This mismatch signals missing real-world intuition that can be strengthened through contextual tasks.",
+        "output": "AI detects real-world intuition gaps by contrasting abstract versus applied-task performance consistency.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 487,
+        "topic": "ai.education",
+        "question": "How can AI-supported learning platforms detect when students misinterpret probabilistic concepts because they apply deterministic intuition?",
+        "think": "AI examines reasoning explanations for deterministic phrasing—certainty language, linear cause-effect assumptions, or fixed-outcome logic. When students treat probabilistic events as deterministic, AI flags conceptual transfer issues. Teachers can introduce stochastic-thinking exercises.",
+        "output": "AI identifies deterministic overreach by analyzing student reasoning for fixed-outcome assumptions in probabilistic tasks.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 488,
+        "topic": "ai.education",
+        "question": "How can AI-based feedback systems avoid reinforcing a single culturally dominant interpretation of literature when evaluating student analysis?",
+        "think": "AI trained on mainstream literary criticism risks enforcing narrow interpretive norms. Students from differing cultural backgrounds may approach symbolism, narrative structure, or moral themes through alternative frameworks that AI misinterprets as incorrect. To prevent interpretive homogenization, models must be trained on diverse analytical perspectives and assessed using semantic validity rather than alignment with dominant viewpoints. Instructors should review flagged disagreements to ensure the system is not suppressing interpretive plurality.",
+        "output": "AI must evaluate reasoning quality over normative alignment, using diverse corpora and instructor oversight to prevent homogenizing literary interpretation.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 489,
+        "topic": "ai.education",
+        "question": "How can AI detect when students' reasoning errors stem from over-reliance on authoritative-sounding but incorrect AI-generated explanations they encountered outside class?",
+        "think": "Students often internalize erroneous explanations from external AI tools. These errors produce reasoning chains that sound sophisticated but contain subtle conceptual distortions. AI can identify this pattern by comparing student logic with known misconceptions and analyzing unusual phrasing or structural similarity to common AI hallucinations. Teachers receive alerts when students demonstrate high-confidence but warped conceptual schemas requiring targeted correction.",
+        "output": "AI flags authority-influenced misconceptions by detecting synthetic reasoning patterns resembling known AI-generated distortions.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 490,
+        "topic": "ai.education",
+        "question": "How can ministries ensure AI-generated curriculum pacing recommendations do not destabilize instruction by reacting too strongly to short-term performance fluctuations?",
+        "think": "Adaptive pacing can overshoot when models interpret short-term dips as long-term decline, accelerating or slowing content excessively. Ministries must require smoothing mechanisms, windowed trend analysis, and minimum pacing stability intervals. Curriculum drift monitoring compares yearly pacing curves to prevent volatility that harms class coherence. Teacher override capability ensures local expertise balances algorithmic responsiveness.",
+        "output": "Trend smoothing, pacing stability intervals, drift monitoring, and teacher override protections prevent volatile AI-driven curriculum pacing.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 491,
+        "topic": "ai.education",
+        "question": "How can AI-powered tutoring platforms avoid masking students’ lack of conceptual transfer by providing overly scaffolded hints?",
+        "think": "Heavy scaffolding improves immediate accuracy but can conceal weak transfer ability. AI detects this by comparing performance with and without scaffold support, analyzing reasoning independence, and measuring hint-dependence patterns. When students succeed only under high-scaffold conditions, the system highlights transfer deficits to instructors. Hint-throttling mechanisms encourage deeper reasoning before assistance is revealed.",
+        "output": "AI identifies transfer weakness by analyzing hint-dependence and comparing scaffolded versus independent reasoning performance.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 492,
+        "topic": "ai.education",
+        "question": "How can universities prevent AI-driven student clustering from reinforcing academic segregation by grouping individuals too rigidly based on inferred learning profiles?",
+        "think": "AI grouping can solidify artificial categories—visual, analytical, slow-paced—creating segregated learning tracks. This reduces cross-exposure and entrenches narrow skill identities. Universities must introduce cluster fluidity, periodic re-evaluation, and hybrid grouping. Models should treat learning profiles as dynamic signals, not fixed traits. Oversight teams examine whether clustering inadvertently correlates with demographic or socioeconomic lines.",
+        "output": "Dynamic profiles, periodic regrouping, hybrid clusters, and demographic audits prevent AI clustering from creating academic segregation.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 493,
+        "topic": "ai.education",
+        "question": "How can AI-supported reasoning analysis distinguish between students who simplify complex tasks strategically and those who oversimplify due to misunderstanding key constraints?",
+        "think": "Strategic simplification preserves core constraints while discarding noise; misunderstanding removes essential structure. AI contrasts student solutions with minimal valid models and evaluates which constraints were removed and why. If omissions distort the task’s core logic, misunderstanding is likely. When simplification aligns with optimal abstraction patterns, it reflects strategic reasoning.",
+        "output": "AI identifies strategic vs flawed simplification by analyzing which task constraints students omit and whether conceptual integrity is maintained.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 494,
+        "topic": "ai.education",
+        "question": "How can ministries ensure AI-enhanced national assessment systems avoid disadvantaging students with atypical cognitive profiles who solve problems using unconventional but valid approaches?",
+        "think": "Standardized scoring models privilege common reasoning paths, penalizing divergent strategies typical of gifted, creative, or neurodivergent students. Ministries must incorporate alternative-solution recognition, diverse exemplars, and semantic reasoning evaluation. Validation rules should prioritize correctness and conceptual coherence over pathway conformity. Annual audits check whether students with atypical cognitive patterns show systematic under-scoring, prompting model adjustments.",
+        "output": "Alternative-solution recognition, semantic scoring, diverse exemplars, and equity audits ensure AI assessments do not disadvantage unconventional thinkers.",
+        "format_version": "1.1",
+        "difficulty": 7
     }
 ]
