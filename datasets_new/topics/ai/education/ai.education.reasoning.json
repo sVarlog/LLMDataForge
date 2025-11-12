@@ -4444,5 +4444,194 @@
         "output": "Alternative-solution recognition, semantic scoring, diverse exemplars, and equity audits ensure AI assessments do not disadvantage unconventional thinkers.",
         "format_version": "1.1",
         "difficulty": 7
+    },
+    {
+        "id": 495,
+        "topic": "ai.education",
+        "question": "How can AI help instructors detect when students’ misunderstanding comes from treating abstract definitions as procedural rules?",
+        "think": "Students often recite definitions mechanically but apply them as if they were procedural algorithms. AI analyzes reasoning paths: if students insert definitional statements where procedural steps should be, it indicates definitional over-proceduralization. The system highlights these mismatches so teachers can reinforce conceptual meaning over mechanical use.",
+        "output": "AI checks whether students substitute definitions for procedures, revealing conceptual misuse of abstract terms.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 496,
+        "topic": "ai.education",
+        "question": "How can AI detect when students’ repeated errors come from misinterpreting a task’s implicit assumptions rather than the explicit instructions?",
+        "think": "AI compares student responses across similar tasks with slightly altered assumptions. When errors cluster only under tasks where implicit expectations shift, the issue is assumption misreading rather than misunderstanding the explicit prompt. Teachers can clarify hidden premises.",
+        "output": "AI identifies assumption-based misunderstandings by analyzing error clusters triggered by subtle contextual shifts.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 497,
+        "topic": "ai.education",
+        "question": "How can AI-supported reading systems detect when students understand vocabulary but struggle with pragmatic meaning in context?",
+        "think": "AI evaluates whether students succeed with isolated word definitions but misinterpret sentences that require pragmatic inference—tone, intent, implied causality. The gap signals contextual comprehension issues rather than vocabulary weakness.",
+        "output": "AI finds pragmatic comprehension gaps by contrasting isolated word knowledge with context-based inference performance.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 498,
+        "topic": "ai.education",
+        "question": "How can AI determine when students’ reasoning is structurally sound but fails due to poor prioritization of relevant information?",
+        "think": "AI models the salience of information used in student reasoning. If reasoning structure is intact but students anchor on low-value features while ignoring key parameters, it shows prioritization errors. Highlighting these patterns helps teachers direct attention to central concepts.",
+        "output": "AI reveals prioritization errors by checking whether students anchor on irrelevant details despite valid reasoning structures.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 499,
+        "topic": "ai.education",
+        "question": "How can AI detect when students' strong performance hides shallow understanding due to over-reliance on pattern templates?",
+        "think": "AI compares solution patterns across tasks. When students consistently replicate structural templates without modifying reasoning to suit new contexts, performance appears high but indicates shallow pattern-matching. Teachers can introduce variation-heavy tasks to test adaptability.",
+        "output": "AI spots shallow understanding by identifying rigid template reuse across different task contexts.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 500,
+        "topic": "ai.education",
+        "question": "How can AI-supported analysis identify when students fail because the instructions contain hidden ambiguities?",
+        "think": "AI checks submission diversity: high variation in interpretations across students signals ambiguity rather than misunderstanding. When reasoning paths diverge but remain internally coherent, instruction clarity is the root cause. Teachers can refine prompt phrasing.",
+        "output": "AI detects instruction ambiguity through high-variance, coherent-but-divergent student interpretations.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 501,
+        "topic": "ai.education",
+        "question": "How can AI help teachers identify when students are misled by misleading similarities between tasks that appear related but differ in deeper structure?",
+        "think": "AI analyzes cross-task reasoning similarities. If students incorrectly treat two structurally distinct tasks as analogous, their errors cluster around false structural assumptions. Teachers can provide contrastive examples to correct misclassification.",
+        "output": "AI pinpoints false analogies by finding structural misalignment between tasks students wrongly group together.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 502,
+        "topic": "ai.education",
+        "question": "How can AI-supported learning environments detect when students struggle due to low perceptual discrimination rather than cognitive reasoning deficits?",
+        "think": "AI compares performance on identical reasoning tasks with varying perceptual conditions—font size, color-coding, visual clutter. Consistent failures under high-perceptual-load conditions indicate perceptual discrimination issues rather than reasoning failure.",
+        "output": "AI isolates perceptual issues by testing reasoning performance under varying perceptual-load conditions.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 503,
+        "topic": "ai.education",
+        "question": "How can AI determine when students’ group conflicts arise from mismatched epistemic beliefs rather than interpersonal tension?",
+        "think": "AI analyzes discourse patterns: some students prefer empirically grounded reasoning, others conceptual abstraction. Conflicts that align with epistemic differences—not personal attacks—stem from clashing worldviews. Teachers can mediate by aligning expectations for reasoning standards.",
+        "output": "AI detects epistemic-belief conflicts by tracking reasoning-style mismatches within group discussions.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 504,
+        "topic": "ai.education",
+        "question": "How can AI identify when students’ performance drops occur because they misinterpret problem goals as being about speed rather than depth?",
+        "think": "AI monitors time-pressure signatures—fast submissions with shallow reasoning and repeated errors. When students treat depth-oriented tasks as speed challenges, AI flags goal misinterpretation. Teachers can shift emphasis and adjust task framing.",
+        "output": "AI detects speed-over-depth misinterpretation by analyzing fast, shallow submissions inconsistent with task intent.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 505,
+        "topic": "ai.education",
+        "question": "How can AI-supported reasoning models detect when students fail to generalize because they memorize specific numerical patterns?",
+        "think": "AI tests students on structurally identical problems with different numbers. If reasoning collapses only when numbers change, students rely on memorized numeric instances rather than structural thinking. Teachers can provide symbolic or abstract versions.",
+        "output": "AI detects number-anchored reasoning by comparing transfer ability across numeric variations of identical structures.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 506,
+        "topic": "ai.education",
+        "question": "How can AI help instructors detect when students’ confusion arises from separating connected concepts that must be understood together?",
+        "think": "AI checks whether students understand concept A only in isolation from concept B when the two belong to a conceptual pair (e.g., force and acceleration). If reasoning collapses when concepts need integration, teachers must emphasize relational learning.",
+        "output": "AI detects integration-dependent misconceptions by analyzing whether paired concepts break down when applied jointly.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 507,
+        "topic": "ai.education",
+        "question": "How can AI-supported systems detect when students’ mistakes originate from incorrectly inferred constraints that the problem never stated?",
+        "think": "Students often impose imaginary rules based on prior patterns—assuming symmetry, continuity, or fixed ranges. AI detects these inferred-constraint errors when similar incorrect assumptions appear across unrelated problems. Highlighting these reveals students’ overgeneralization of implicit rules.",
+        "output": "AI detects inferred-constraint errors by identifying repeated assumptions not supported by problem statements.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 508,
+        "topic": "ai.education",
+        "question": "How can AI detect when students’ conceptual confusion stems from inconsistent internal mental models rather than a single incorrect belief?",
+        "think": "AI analyzes reasoning variability across tasks. If students alternate between contradictory models rather than consistently applying one incorrect one, their confusion stems from fragmented mental schemas. Teachers must consolidate model coherence rather than correcting a single misconception.",
+        "output": "AI identifies fragmented mental models by observing contradictory reasoning patterns across similar tasks.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 509,
+        "topic": "ai.education",
+        "question": "How can AI-supported grading systems avoid penalizing students who use atypical but valid problem representations that differ from the dominant instructional model?",
+        "think": "Students sometimes recast problems into alternate representations—concept maps, non-standard diagrams, symbolic shortcuts—that deviate from the teacher’s preferred format but preserve full conceptual accuracy. Traditional models mis-score these as errors. AI must evaluate representational fidelity and conceptual soundness rather than format conformity. This requires embedding multi-representation exemplars and structural equivalence checks. Human oversight ensures unconventional yet correct representations remain valid.",
+        "output": "AI should evaluate conceptual fidelity across representations, using equivalence checks and diverse exemplars to avoid penalizing non-standard but valid solution formats.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 510,
+        "topic": "ai.education",
+        "question": "How can universities ensure AI-driven study recommendations do not trap students in overly narrow learning paths based on short-term performance indicators?",
+        "think": "Short-term fluctuations often lead recommendation models to prematurely label students as 'best suited' for certain learning paths. This can restrict exploration and reduce intellectual breadth. Universities must enforce exploration quotas, long-window performance baselines, and penalty functions for overly narrow recommendation patterns. Advisors review trajectories to ensure recommendations do not create self-confirming academic funnels.",
+        "output": "Exploration constraints, long-window trending, and advisor oversight prevent AI from narrowing students into premature academic funnels.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 511,
+        "topic": "ai.education",
+        "question": "How can ministries ensure AI-powered national assessments recognize culturally diverse reasoning structures without defaulting to majority-norm logic patterns?",
+        "think": "Logical structures differ across cultural traditions—some emphasize collective reasoning, cyclical narrative, or analogical layering. Standardized AI models treat these as deviations from canonical logic. Ministries must embed culturally diverse reasoning corpora, apply semantic validity scoring, and separate reasoning quality from stylistic norms. Representation audits verify that minority reasoning frameworks do not receive systematically lower scores.",
+        "output": "Culturally diverse corpora, semantic scoring, and representation audits ensure AI assessments respect multiple valid reasoning structures.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 512,
+        "topic": "ai.education",
+        "question": "How can AI tutoring systems detect when students are overusing abductive reasoning shortcuts, leading to plausible but incorrect conclusions?",
+        "think": "Abductive shortcuts—choosing the most likely explanation—can produce confident but incorrect conclusions when evidence is ambiguous. AI must analyze reasoning structure for missing verification steps or premature hypothesis commitment. Patterns of quick plausibility leaps reveal abductive overuse. Tutors can scaffold verification routines and encourage evidence weighting.",
+        "output": "AI identifies abductive overreliance by detecting premature hypothesis selection and missing verification steps in reasoning.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 513,
+        "topic": "ai.education",
+        "question": "How can AI-supported collaboration analytics prevent penalizing conflict-driven groups that actually generate deeper conceptual insight through productive disagreement?",
+        "think": "Some groups exhibit heated exchanges that appear dysfunctional but actually generate conceptual breakthroughs. AI must differentiate destructive conflict from productive disagreement by analyzing semantic depth, topic advancement, and clarification frequency. Groups showing iterative refinement despite tense tone are demonstrating productive friction. Simplistic sentiment analysis would misclassify these as negative, so contextual semantic evaluation is essential.",
+        "output": "AI should evaluate conceptual progression, not sentiment alone, to distinguish productive disagreement from destructive conflict.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 514,
+        "topic": "ai.education",
+        "question": "How can universities prevent AI-based degree planning tools from inadvertently de-emphasizing creative or exploratory coursework in favor of 'efficient' progress?",
+        "think": "Efficiency models prioritize shortest paths to graduation, discouraging electives in arts, multidisciplinary domains, and open inquiry. Without safeguards, exploratory courses are down-ranked. Universities must embed creative-enrichment weighting, enforce elective diversity requirements, and monitor whether exploratory course enrollment declines after AI introduction. Advisors validate that suggestions maintain intellectual breadth.",
+        "output": "Creative-enrichment weighting, diversity requirements, and enrollment audits ensure AI planning systems do not marginalize exploratory learning.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 515,
+        "topic": "ai.education",
+        "question": "How can AI reasoning evaluators avoid misinterpreting strategic omission—when students deliberately ignore irrelevant details—as conceptual misunderstanding?",
+        "think": "Advanced students often streamline reasoning by discarding non-essential information. AI may misread omission as oversight. Distinguishing strategic simplification from misunderstanding requires analyzing whether the omission affects logical coherence or correctness. When omitted details are truly irrelevant and reasoning remains intact, the system should treat it as expert compression. Frequent incorrect omissions, however, signal conceptual gaps.",
+        "output": "AI must test whether omitted information affects correctness, distinguishing strategic simplification from misunderstanding.",
+        "format_version": "1.1",
+        "difficulty": 7
     }
 ]
