@@ -4822,5 +4822,194 @@
         "output": "Non-linear growth modeling, consolidation markers, and long-horizon trend analysis prevent AI from penalizing incubation-based learning patterns.",
         "format_version": "1.1",
         "difficulty": 7
+    },
+    {
+        "id": 537,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misunderstand tasks because they confuse illustrative examples with mandatory constraints?",
+        "think": "AI compares student solutions to structural elements in examples and instructions. When students treat demonstration details—like specific numbers or contexts—as mandatory constraints, their deviations cluster around those fixed elements. This reveals an example-constraint confusion. Teachers can adjust task framing to emphasize generality.",
+        "output": "AI identifies example-constraint confusion by detecting when students incorrectly treat sample details as required task conditions.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 538,
+        "topic": "ai.education",
+        "question": "How can AI determine when students are failing due to weak inferential chains rather than gaps in single concepts?",
+        "think": "AI analyzes reasoning paths and checks whether students can link multiple micro-concepts into a coherent chain. If individual concept checks are strong but combined reasoning collapses, inferential linking is the root issue. Teachers can reinforce multi-step reasoning.",
+        "output": "AI reveals inferential-chain weakness by comparing isolated concept mastery with failures in multi-step reasoning.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 539,
+        "topic": "ai.education",
+        "question": "How can AI-supported reading tools detect when students comprehend facts but miss the author’s intent or argumentative framing?",
+        "think": "AI contrasts fact recall with interpretation accuracy. Students who recall factual details yet misrepresent the author’s motivations or argumentative direction show a pragmatic or discourse-level gap. The system flags this mismatch for targeted instruction.",
+        "output": "AI identifies intent-misunderstanding by comparing factual recall accuracy with weakness in argumentative interpretation.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 540,
+        "topic": "ai.education",
+        "question": "How can AI detect when students make errors because they apply familiar mental models to unfamiliar domains?",
+        "think": "AI checks for reasoning structures that mirror prior knowledge but conflict with domain-specific logic. When students use familiar but inappropriate analogies or frameworks, the system identifies model-transfer errors and prompts domain-corrective examples.",
+        "output": "AI detects faulty model transfer by analyzing mismatches between familiar reasoning patterns and domain-specific logic.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 541,
+        "topic": "ai.education",
+        "question": "How can AI help instructors identify when students’ confusion arises from mixing formal definitions with informal intuition?",
+        "think": "AI detects oscillation between strict formal rules and intuitive heuristics in explanations. When students shift modes inconsistently, errors cluster at transitions between formal and informal reasoning. Teachers can clarify boundaries.",
+        "output": "AI highlights formal–informal reasoning conflicts by tracking inconsistent logic-mode switching within explanations.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 542,
+        "topic": "ai.education",
+        "question": "How can AI detect when students’ difficulties in group work stem from over-coordination rather than poor coordination?",
+        "think": "AI examines collaboration logs for excessive communication, redundant confirmations, and micromanaging behavior. Over-coordination leads to cognitive overload and reduced progress. When communication density exceeds productive thresholds, the system flags coordination excess.",
+        "output": "AI identifies over-coordination by analyzing communication overload and redundant task confirmations.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 543,
+        "topic": "ai.education",
+        "question": "How can AI-supported platforms detect when students' errors in math stem from misinterpreting units rather than misunderstanding operations?",
+        "think": "AI compares operational correctness with unit handling. If students perform operations correctly but mismatch units—combining incompatible measures or mis-scaling—this signals unit-concept errors. Teachers can emphasize dimensional analysis.",
+        "output": "AI isolates unit-related misunderstandings by contrasting operational success with unit misuse patterns.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 544,
+        "topic": "ai.education",
+        "question": "How can AI determine when students exhibit stable reasoning errors that persist only under time pressure?",
+        "think": "AI compares performance across timed and untimed tasks. Errors that appear exclusively under constrained conditions reveal pressure-induced reasoning breakdowns rather than conceptual flaws. Teachers can adjust pacing or test format.",
+        "output": "AI detects pressure-driven reasoning failures by contrasting timed vs untimed task accuracy.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 545,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misunderstand diagrams because they assume visual proportionality where none exists?",
+        "think": "AI tests student understanding across proportional vs non-proportional visual designs. Errors clustering only in non-proportional versions reveal proportionality bias. Teachers can train students to interpret diagrams conceptually rather than visually.",
+        "output": "AI identifies proportionality bias by comparing performance across diagrams with differing visual-to-meaning ratios.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 546,
+        "topic": "ai.education",
+        "question": "How can AI flag when students’ group misunderstandings arise from inconsistent interpretation of key domain terms?",
+        "think": "AI analyzes group chat logs for divergent uses of domain vocabulary. When members apply critical terms with conflicting meanings, the group’s reasoning becomes misaligned. Teachers can unify definitions to restore coherence.",
+        "output": "AI surfaces definition conflicts by detecting inconsistent term usage within group reasoning.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 547,
+        "topic": "ai.education",
+        "question": "How can AI distinguish between genuine conceptual leaps and random guessing when students suddenly improve after repeated failures?",
+        "think": "AI checks whether the new correct answers align with coherent reasoning patterns or remain inconsistent. Genuine breakthroughs produce stable reasoning structures; guessing yields volatility. Cross-task consistency verifies authenticity.",
+        "output": "AI differentiates breakthroughs from guessing by checking reasoning stability and cross-task consistency after sudden improvement.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 548,
+        "topic": "ai.education",
+        "question": "How can AI detect when students’ persistent errors indicate incompatibility between their personal learning strategies and task requirements?",
+        "think": "AI analyzes preferred strategy patterns—visual, verbal, rule-based—and checks performance across tasks demanding alternate modes. Consistent failure when students use mismatched strategies reveals strategy–task incompatibility rather than concept confusion.",
+        "output": "AI identifies strategy–task mismatch by evaluating when preferred learning strategies fail across specific task types.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 549,
+        "topic": "ai.education",
+        "question": "How can AI determine when high-performing students’ mistakes stem from over-automation of familiar procedures?",
+        "think": "Over-automation causes students to bypass reflective checks. AI detects this by analyzing whether errors stem from automatic execution rather than reasoning gaps. When mistakes repeat at points normally requiring verification, the system flags reflexive misapplication.",
+        "output": "AI detects over-automation by identifying mistakes appearing at verification-dependent steps where automatic behavior overrides reflection.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 550,
+        "topic": "ai.education",
+        "question": "How can AI help instructors detect when students’ confusion results from interacting representations that contradict one another?",
+        "think": "AI examines how students handle multi-representational inputs—graphs, tables, and text. When contradictions across representations cause selective misinterpretation or oscillation between models, AI identifies representational conflict as the source of confusion.",
+        "output": "AI detects representational-conflict errors by analyzing inconsistent reasoning across graphs, tables, and text.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 551,
+        "topic": "ai.education",
+        "question": "How can AI-supported instructional tools distinguish between productive conceptual shortcuts used by advanced students and oversimplifications that signal shallow understanding?",
+        "think": "Advanced students compress reasoning by omitting steps that are logically implied, while oversimplifying students omit steps they do not fully grasp. AI compares the density of conceptual references, checks whether omitted steps can be reconstructed uniquely from the remaining logic, and tests generalization across small task variations. If the reasoning collapses or becomes inconsistent under perturbations, omissions reflect misunderstanding rather than expertise.",
+        "output": "AI separates expert shortcuts from shallow oversimplification by testing reconstructability and stability of reasoning under varied task conditions.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 552,
+        "topic": "ai.education",
+        "question": "How can universities ensure AI-based learning analytics do not misinterpret multidisciplinary reasoning as inconsistency or error?",
+        "think": "Students tackling multidisciplinary problems may shift frameworks—mathematical, empirical, narrative—depending on context. AI that expects a single reasoning mode may classify such shifts as inconsistency. To avoid this, models must incorporate multiple-domain reasoning templates, track logical continuity across modes, and evaluate coherence rather than uniformity. Human reviewers verify that transitions reflect adaptive thinking rather than confusion.",
+        "output": "AI must evaluate cross-framework coherence and support multiple reasoning modes to avoid misclassifying multidisciplinary thinking as error.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 553,
+        "topic": "ai.education",
+        "question": "How can ministries prevent AI-driven resource allocation systems from deprioritizing schools that innovate with unproven but promising teaching methods?",
+        "think": "AI allocation models prioritize demonstrated outcomes, which can penalize schools experimenting with innovative pedagogies that haven't yet produced long-term data. Ministries must differentiate experimental variance from underperformance, add innovation-weight allowances, and analyze whether variance stems from exploratory practice. Longitudinal review ensures innovative schools aren’t punished for short-term instability.",
+        "output": "Innovation-weighting, variance interpretation, and longitudinal review protect experimental schools from unfair AI-driven resource deprioritization.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 554,
+        "topic": "ai.education",
+        "question": "How can AI-supported writing analysis detect when conceptually sophisticated arguments are incorrectly penalized because they diverge from expected classroom patterns?",
+        "think": "Advanced students sometimes adopt unconventional structures—multi-threaded arguments, anticipatory rebuttals, or nested analogies. Pattern-trained AI may interpret this as deviation or confusion. To correct this, the system must evaluate conceptual precision, relational coherence, and logical completeness rather than structural conformity. Teacher-validated exemplars of advanced reasoning prevent penalization.",
+        "output": "AI must prioritize conceptual coherence over structural conformity to avoid penalizing sophisticated but unconventional arguments.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 555,
+        "topic": "ai.education",
+        "question": "How can AI detect when students’ errors arise from constructing internally consistent but scientifically incorrect alternative models rather than simple factual gaps?",
+        "think": "Some students build coherent internal frameworks—like naive physics models—that seem logical but deviate from accepted principles. AI analyzes explanatory consistency, identifies repeated internal rules, and compares them to known misconception models. When conceptual conflict appears systematic rather than random, targeted model replacement—not fact correction—is required.",
+        "output": "AI identifies alternative naïve models by detecting systematic internal logic inconsistent with scientific principles.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 556,
+        "topic": "ai.education",
+        "question": "How can AI-based collaboration analytics ensure students who contribute high-value reasoning late in discussions are not misclassified as disengaged?",
+        "think": "Contribution timing biases models toward early and frequent speakers. Students who process deeply and contribute late may appear inactive. AI must evaluate semantic impact, idea integration, and conceptual advancement rather than volume or timing. Tracking influence—how later contributions reshape group direction—captures high-value late engagement.",
+        "output": "AI should assess conceptual impact and influence, not timing or volume, to correctly classify late but high-value contributors.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 557,
+        "topic": "ai.education",
+        "question": "How can AI-supported early-warning systems avoid misclassifying students who display nonlinear growth patterns, such as long plateaus followed by sudden leaps in understanding?",
+        "think": "Traditional models assume incremental improvement, causing plateau periods to be treated as stagnation. Nonlinear learners often consolidate silently before rapid leaps. AI must use volatility profiles, latent-concept retention markers, and long-window performance trajectories to differentiate stagnation from incubation. Teachers receive alerts only when patterns indicate true decline, not hidden preparation.",
+        "output": "AI differentiates incubation plateaus from decline using volatility markers, retention metrics, and long-window trend analysis.",
+        "format_version": "1.1",
+        "difficulty": 7
     }
 ]
