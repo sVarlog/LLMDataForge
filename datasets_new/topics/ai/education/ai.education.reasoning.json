@@ -5245,5 +5245,194 @@
         "output": "AI detects deeply rooted alternative frameworks by analyzing cross-topic coherence in errors and identifying shared conceptual dependencies.",
         "format_version": "1.1",
         "difficulty": 7
+    },
+    {
+        "id": 584,
+        "topic": "ai.education",
+        "question": "How can AI help instructors detect when students confuse visually similar concepts that differ in subtle but crucial properties?",
+        "think": "AI compares error clusters tied to visually similar items. If students correctly explain conceptual differences verbally but misidentify them visually, the misunderstanding comes from perceptual, not conceptual, similarity. Teachers can introduce contrast-based activities to strengthen discrimination.",
+        "output": "AI identifies perceptual confusion by linking errors to visually similar but conceptually distinct items.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 585,
+        "topic": "ai.education",
+        "question": "How can AI determine when students misunderstand complex tasks because they incorrectly infer hidden rules from earlier exercises?",
+        "think": "AI checks for recurring inferred constraints—patterns where students apply rules never stated, but implicitly assumed based on previous tasks. When errors replicate across unrelated tasks, the system flags overgeneralized inference.",
+        "output": "AI detects inferred-rule misconceptions by spotting repeated application of unstated constraints across tasks.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 586,
+        "topic": "ai.education",
+        "question": "How can AI detect when students’ comprehension issues arise from misreading transitional phrases in academic texts?",
+        "think": "AI analyzes reading responses to identify whether students misinterpret connectors like 'however', 'therefore', or 'on the other hand'. If logical direction is reversed or misunderstood, comprehension errors stem from discourse markers rather than content.",
+        "output": "AI detects discourse-marker confusion by analyzing logic reversal patterns in students’ reading interpretations.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 587,
+        "topic": "ai.education",
+        "question": "How can AI-supported tools help instructors detect when group misunderstandings come from inconsistent mental models rather than poor communication?",
+        "think": "AI tracks divergences in reasoning frameworks. If group members consistently reason from incompatible assumptions, communication quality may be fine, but conceptual models differ. Misalignment in foundational assumptions reveals model conflict.",
+        "output": "AI identifies model conflict by detecting incompatible reasoning frameworks across group members.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 588,
+        "topic": "ai.education",
+        "question": "How can AI determine when students are guessing based on surface cues rather than truly understanding the content?",
+        "think": "Surface guessing produces inconsistent reasoning and high variance across related tasks. AI compares explanation clarity and justification depth; shallow or random reasoning, despite correct answers, signals surface-based guessing.",
+        "output": "AI identifies guess-based performance through inconsistent reasoning and shallow explanations even when answers are correct.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 589,
+        "topic": "ai.education",
+        "question": "How can AI detect when errors stem from domain-transfer failure—i.e., students know a concept in one subject but cannot apply it in another?",
+        "think": "AI compares performance across domain pairs requiring the same underlying logic. If mastery in one domain fails to transfer to another structurally similar one, transfer breakdown is the cause.",
+        "output": "AI spots domain-transfer failure by contrasting performance on structurally equivalent tasks across different subjects.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 590,
+        "topic": "ai.education",
+        "question": "How can AI help teachers identify when student confusion arises from ambiguous terminology that differs across disciplines?",
+        "think": "Terms such as 'model', 'force', or 'rate' mean different things in different fields. AI detects meaning-shifts by analyzing how students apply terms across contexts. Inconsistencies indicate cross-disciplinary terminology confusion.",
+        "output": "AI detects cross-disciplinary terminology confusion by analyzing inconsistent term usage across subject contexts.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 591,
+        "topic": "ai.education",
+        "question": "How can AI-supported systems detect when students fail due to hierarchical overload in tasks requiring nested reasoning?",
+        "think": "AI examines multi-level reasoning tasks for breakdown in nested structures—like combining conditions, sub-conditions, and exceptions. If errors cluster at deeper nesting levels, hierarchical overload is responsible.",
+        "output": "AI identifies hierarchical overload by analyzing failure patterns at deeper reasoning layers.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 592,
+        "topic": "ai.education",
+        "question": "How can AI detect when students rely on memorized definitions without connecting them to real-world applications?",
+        "think": "AI compares performance on definitional tasks with applied tasks. When students excel in recall but fail to apply concepts to new contexts, the issue lies in application transfer rather than memory.",
+        "output": "AI detects application-transfer deficits by contrasting definitional accuracy with weak applied reasoning.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 593,
+        "topic": "ai.education",
+        "question": "How can AI help detect when students misinterpret symbolic notation due to conflicting notational conventions between subjects?",
+        "think": "Different domains reuse symbols with different meanings. AI tracks symbol-usage inconsistencies across tasks and identifies when misinterpretation is tied to cross-domain notational conflict rather than conceptual misunderstanding.",
+        "output": "AI identifies cross-subject notational conflict by analyzing inconsistent symbol usage across domain boundaries.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 594,
+        "topic": "ai.education",
+        "question": "How can AI determine when students’ reading difficulties stem from failing to track referents in complex sentences?",
+        "think": "AI examines pronoun resolution patterns and referent clarity in students’ responses. If misinterpretations correlate with ambiguous or complex referent chains, comprehension failure originates from tracking issues.",
+        "output": "AI isolates referent-tracking failures by analyzing misinterpretations tied to pronoun and entity confusion.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 595,
+        "topic": "ai.education",
+        "question": "How can AI help instructors notice when students misunderstand tasks because they lack spatial-reasoning skills required to translate between diagrams and symbolic representations?",
+        "think": "AI compares students’ performance across spatial and symbolic variants of the same task. Sharp discrepancies indicate spatial-reasoning gaps rather than conceptual misunderstanding.",
+        "output": "AI identifies spatial-reasoning deficits by comparing spatial and symbolic task performance gaps.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 596,
+        "topic": "ai.education",
+        "question": "How can AI detect when students' mistakes arise from treating edge-case examples as representative of the entire concept?",
+        "think": "AI checks whether student generalizations rely disproportionately on atypical examples presented earlier. When reasoning collapses on typical cases, the system flags edge-case overgeneralization.",
+        "output": "AI spots edge-case overgeneralization by analyzing when students generalize from atypical examples incorrectly.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 597,
+        "topic": "ai.education",
+        "question": "How can AI-supported learning systems detect when conceptual errors stem from mixing intuitive real-world reasoning with formal logic?",
+        "think": "AI analyzes transitions between intuitive reasoning (e.g., real-world causality) and formal rules. When students switch modes inconsistently, contradictions surface in their explanations. This indicates mixed-model interference.",
+        "output": "AI detects intuitive–formal interference by identifying contradictions arising from inconsistent reasoning modes.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 598,
+        "topic": "ai.education",
+        "question": "How can AI-supported assessment systems distinguish between students who use unconventional but valid logical sequencing and those whose reasoning appears nonlinear because of conceptual fragmentation?",
+        "think": "Nonlinear but valid reasoning preserves internal coherence and reaches a sound conclusion through an alternate structure. Fragmented reasoning contains gaps that cannot be reconstructed into a consistent logic. AI tests whether steps can be reordered into a coherent path and whether omitted transitions follow from prior claims. If coherence emerges under reorganization, the structure is unconventional; if not, fragmentation is present.",
+        "output": "AI differentiates unconventional sequencing from fragmentation by testing the reconstructability and internal coherence of the reasoning path.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 599,
+        "topic": "ai.education",
+        "question": "How can universities prevent AI-based progression prediction models from disproportionately misclassifying students with intermittent but intense learning bursts as academically unstable?",
+        "think": "Some learners alternate between long periods of absorption and short intervals of accelerated output. Standard models interpret these steep spikes as instability. The AI must analyze retention across low-output periods and verify whether conceptual depth continues growing. If bursts coincide with consolidation cycles, classifiers must adjust to recognize this as a stable learning pattern rather than volatility.",
+        "output": "Progression models must include retention and depth metrics across low-output periods to avoid misclassifying burst-pattern learners as unstable.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 600,
+        "topic": "ai.education",
+        "question": "How can ministries ensure AI-enhanced national tests do not undervalue indigenous knowledge systems that use relational or ecological reasoning instead of linear causal chains?",
+        "think": "Indigenous knowledge often frames causality through relational webs—holistic, cyclic, systemic—contrasting with Western linear models. AI models defaulting to single-path causality misinterpret relational logic as unclear or imprecise. Scoring systems must analyze coherence within relational frameworks and validate relational reasoning structures. Inclusion of indigenous exemplars and cultural scoring rubrics prevents systematic penalization.",
+        "output": "Culturally inclusive scoring, relational-logic evaluation, and indigenous exemplars ensure AI does not penalize non-linear ecological reasoning.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 601,
+        "topic": "ai.education",
+        "question": "How can AI tutoring platforms detect when a student’s polished explanation hides a deeply flawed mental model that only collapses under edge-case reasoning?",
+        "think": "Students with strong communication skills sometimes mask misconceptions through smooth but shallow reasoning. AI stress-tests explanations with edge-case prompts, counterexamples, and abstraction shifts. If reasoning remains polished only for central cases but breaks under boundary conditions, the system reveals the hidden misconception. Consistency checks across multiple variants expose the underlying flawed schema.",
+        "output": "AI detects hidden misconceptions by probing polished reasoning with edge cases and counterexample-driven stress tests.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 602,
+        "topic": "ai.education",
+        "question": "How can AI-supported group analytics avoid penalizing 'quiet strategists'—students who contribute few messages but shape group direction through high-impact interventions?",
+        "think": "Traditional participation metrics reward volume rather than influence. AI must trace semantic propagation: how a single remark redirects discussion, resolves contradictions, or anchors strategy. If a student's contributions consistently restructure group reasoning, the system recognizes strategic influence despite low frequency. Influence graphs reveal long-range impact better than message count.",
+        "output": "AI should prioritize contribution influence rather than volume by analyzing how individual ideas reshape group reasoning trajectories.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 603,
+        "topic": "ai.education",
+        "question": "How can AI assessment engines ensure that highly integrative answers—those weaving multiple domains—are not misclassified as off-topic due to nonstandard structure?",
+        "think": "Integrative responses combine disciplines, analogies, and cross-domain logic, which pattern-based scoring may misread as digression. AI must analyze conceptual alignment rather than surface structure, detecting whether cross-domain elements support the core argument. Semantic intent mapping ensures integrative reasoning is rewarded when it deepens insight rather than distracts.",
+        "output": "Conceptual-alignment scoring and semantic intent mapping prevent misclassification of integrative, cross-domain reasoning as off-topic.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 604,
+        "topic": "ai.education",
+        "question": "How can universities ensure AI-assisted admission models do not suppress applicants who demonstrate atypical but high-potential reasoning patterns absent from conventional training data?",
+        "think": "Admissions models often reward familiar signals—standard essay structure, predictable reasoning pathways, or common academic trajectories. Atypical applicants with creative or nonlinear reasoning may be misjudged as unfocused. To counter this, AI must detect latent potential markers: originality density, flexible abstraction, idea recombination strength. Diverse exemplars and bias audits prevent privileging conformity over creativity.",
+        "output": "AI admissions must incorporate creativity-sensitive features and bias audits to avoid penalizing unconventional high-potential reasoning.",
+        "format_version": "1.1",
+        "difficulty": 7
     }
 ]
