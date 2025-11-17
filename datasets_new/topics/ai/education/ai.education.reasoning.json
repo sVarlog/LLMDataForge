@@ -5434,5 +5434,140 @@
         "output": "AI admissions must incorporate creativity-sensitive features and bias audits to avoid penalizing unconventional high-potential reasoning.",
         "format_version": "1.1",
         "difficulty": 7
+    },
+    {
+        "id": 605,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misunderstand a topic because they rely on memorized heuristics instead of adapting reasoning to new contexts?",
+        "think": "Students often internalize narrow heuristics that work in familiar settings but collapse when tasks shift slightly. AI compares performance on canonical examples versus modified versions. If reasoning fails systematically when small contextual details change, it indicates heuristic lock-in rather than concept mastery.",
+        "output": "AI identifies heuristic lock-in by testing whether reasoning collapses when tasks are minimally altered.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 606,
+        "topic": "ai.education",
+        "question": "How can AI-supported reading tools detect when students misunderstand argumentative texts because they overlook implicit assumptions?",
+        "think": "AI checks whether students reference underlying premises when explaining an author's claims. When interpretations ignore implicit assumptions that support the argument, comprehension errors emerge. These omissions form a distinct reasoning pattern.",
+        "output": "AI detects assumption-omission errors by analyzing whether students engage with implicit premises in argumentative texts.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 607,
+        "topic": "ai.education",
+        "question": "How can AI determine when students' reasoning errors originate from failing to differentiate correlation strength from causal relevance?",
+        "think": "AI examines whether students cite strong correlations as evidence of causal relationships without intermediary reasoning. Patterns showing repeated causal leaps from correlation reveal conceptual gaps in causation logic.",
+        "output": "AI identifies correlation–causation confusion by detecting causal claims unsupported by intermediary reasoning.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 608,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misapply mathematical generalizations because they incorrectly assume linearity in nonlinear systems?",
+        "think": "AI compares predicted vs actual outcomes across nonlinear scenarios. When students consistently extrapolate linearly despite contradictory evidence, linearity bias drives the misunderstanding.",
+        "output": "AI detects linearity bias by identifying linear extrapolation errors in inherently nonlinear systems.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 609,
+        "topic": "ai.education",
+        "question": "How can AI-supported collaboration tools detect when group difficulty stems from unequal conceptual grounding rather than interpersonal conflict?",
+        "think": "If disagreements persist despite cooperative tone, the cause is conceptual mismatch. AI tracks which members rely on incompatible assumptions, flagging conceptual misalignment as the main source of breakdown.",
+        "output": "AI identifies conceptual misalignment by detecting incompatible assumptions behind cooperative but unproductive discussions.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 610,
+        "topic": "ai.education",
+        "question": "How can AI determine when students misinterpret graphical data because they confuse scale changes with actual value changes?",
+        "think": "AI analyzes student responses across graphs with variable scale compression. Errors clustering around scale-shifts reveal misinterpretation of scaling as value change.",
+        "output": "AI detects scale-misinterpretation by spotting errors tied to varying axis compression in graphical tasks.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 611,
+        "topic": "ai.education",
+        "question": "How can AI detect when students' reasoning fails because they do not recognize hierarchical structure in multi-part problems?",
+        "think": "AI assesses whether students address subcomponents separately or treat them as flat sequences. When errors cluster at dependency points between layers, hierarchical structure misunderstanding is the root cause.",
+        "output": "AI identifies hierarchical-structure confusion by analyzing failures at reasoning steps requiring dependent subproblem integration.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 612,
+        "topic": "ai.education",
+        "question": "How can AI detect when students’ errors reflect over-precision—using overly exact reasoning where approximate reasoning is intended?",
+        "think": "Over-precision causes students to add unnecessary constraints or ignore approximate tolerances. AI checks for contradictions that emerge when exact logic is applied to inherently approximate tasks.",
+        "output": "AI spots over-precision by detecting conflicts caused by applying exact reasoning to approximate domains.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 613,
+        "topic": "ai.education",
+        "question": "How can AI identify when misunderstanding arises from students confusing structural similarity with functional equivalence?",
+        "think": "Students often assume that two tasks with similar structure must share function. AI tests whether students preserve incorrect functional assumptions across structurally similar but functionally distinct tasks.",
+        "output": "AI detects structure–function confusion by analyzing transfer errors across tasks with similar forms but different purposes.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 614,
+        "topic": "ai.education",
+        "question": "How can AI detect when students' conceptual confusion stems from shallow prior knowledge models built on overgeneralized examples?",
+        "think": "AI identifies overgeneralization by detecting repeated reliance on broad, incomplete models that ignore important exceptions. When students extend example-based reasoning beyond its valid domain, the system flags superficial prior models.",
+        "output": "AI reveals shallow example-based models by identifying overgeneralization patterns across diverse contexts.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 615,
+        "topic": "ai.education",
+        "question": "How can AI detect when students struggle due to misinterpreting symbolic placeholders as literal values?",
+        "think": "Students often treat placeholders like 'x' or generic variables as specific objects. AI examines reasoning inconsistencies that appear when variable substitution or symbolic manipulation breaks expected patterns.",
+        "output": "AI detects placeholder-literal confusion by analyzing failures in variable substitution and symbolic generalization.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 616,
+        "topic": "ai.education",
+        "question": "How can AI identify when students misunderstand experimental data because they treat measurement noise as meaningful signal?",
+        "think": "AI checks whether students overfit noise by drawing conclusions from single outliers or minor fluctuations. When reasoning ignores expected variance ranges, noise–signal confusion is present.",
+        "output": "AI detects noise–signal confusion by spotting reasoning based on outliers or irrelevant micro-variations in data.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 617,
+        "topic": "ai.education",
+        "question": "How can AI determine when students’ reasoning is correct but fails due to selecting the wrong abstraction level?",
+        "think": "AI analyzes whether students reason accurately within an inappropriate abstraction—too granular or too high-level. If reasoning is internally consistent but mismatched to task resolution requirements, abstraction misalignment is the cause.",
+        "output": "AI identifies abstraction misalignment by checking if correct reasoning is applied at an unsuitable level of conceptual detail.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 618,
+        "topic": "ai.education",
+        "question": "How can AI detect when students’ performance drops because cognitive resources are misallocated across multi-step tasks?",
+        "think": "AI examines where attention and effort cluster. Overemphasis on early steps and rushed later steps indicate misallocated cognitive distribution. Pattern analysis reveals consistent resource imbalance.",
+        "output": "AI detects cognitive misallocation by analyzing disproportionate effort across different phases of multi-step tasks.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 619,
+        "topic": "ai.education",
+        "question": "How can AI detect when students rely on overly rigid rule application that breaks down when tasks require flexible reasoning?",
+        "think": "Rigid rule users apply procedures even when context demands deviation. AI tests rule adherence across edge cases and observes whether students adjust strategies when exceptions arise. Inflexible reasoning causes predictable errors.",
+        "output": "AI identifies rigid-rule dependence by testing whether students adapt strategies appropriately under exceptions.",
+        "format_version": "1.1",
+        "difficulty": 6
     }
 ]
