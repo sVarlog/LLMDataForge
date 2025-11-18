@@ -5569,5 +5569,140 @@
         "output": "AI identifies rigid-rule dependence by testing whether students adapt strategies appropriately under exceptions.",
         "format_version": "1.1",
         "difficulty": 6
+    },
+    {
+        "id": 620,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misinterpret conceptual categories because they treat overlapping sets as mutually exclusive?",
+        "think": "Students often force categories into strict separation—e.g., confusing overlapping scientific or linguistic sets as disjoint. AI compares student explanations across tasks requiring recognition of shared properties. When contradictions arise from treating intersecting sets as exclusive, category-rigidity is the cause.",
+        "output": "AI identifies category-rigidity by detecting contradictions triggered when overlapping sets are treated as mutually exclusive.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 621,
+        "topic": "ai.education",
+        "question": "How can AI determine when students misunderstand tasks because they assume symmetry in situations where the relationship is directional?",
+        "think": "AI analyzes whether student reasoning incorrectly reverses directional relationships—like cause/effect or function/domain mappings. If reasoning remains consistent but symmetry assumptions repeatedly break correctness, the misconception is structural.",
+        "output": "AI detects false-symmetry errors by analyzing reasoning patterns that incorrectly reverse directional relationships.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 622,
+        "topic": "ai.education",
+        "question": "How can AI identify when students struggle because they misinterpret figurative language in science or mathematics contexts?",
+        "think": "Terms like 'flow', 'force', or 'pressure' are sometimes metaphorical. AI examines linguistic cues for literal interpretations that cause conceptual blockage. Misalignment between metaphorical intent and literal reading reveals the source of confusion.",
+        "output": "AI identifies metaphor-literal confusion by detecting literal interpretations of figurative scientific language.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 623,
+        "topic": "ai.education",
+        "question": "How can AI-supported reasoning tools detect when students' seemingly correct steps rely on hidden assumptions inconsistent with earlier logic?",
+        "think": "Hidden assumptions cause internal contradictions that only surface across tasks. AI tracks logical dependencies across steps; when conclusions require assumptions never stated—and contradict earlier premises—the system flags assumption drift.",
+        "output": "AI detects assumption drift by analyzing contradictions between unstated assumptions and earlier reasoning steps.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 624,
+        "topic": "ai.education",
+        "question": "How can AI detect when students fail at multi-step tasks due to weak working-memory allocation rather than lack of understanding?",
+        "think": "Students may understand each component but fail when combining them. AI compares isolated-step accuracy with full-chain performance. When steps are correct individually but collapse in sequence, working-memory strain is responsible.",
+        "output": "AI identifies working-memory strain by contrasting isolated-step mastery with breakdowns during multi-step integration.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 625,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misapply formulas because they overlook boundary conditions that restrict their valid use?",
+        "think": "AI tests formula use across edge-case tasks. When errors arise only when boundaries shift—domain limits, nonlinearity, sign constraints—it signals boundary-neglect. Students apply formulas universally instead of conditionally.",
+        "output": "AI detects boundary-neglect by analyzing errors triggered when students apply formulas outside their valid domains.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 626,
+        "topic": "ai.education",
+        "question": "How can AI help instructors detect when students misunderstand experimental tasks because they confuse control variables with dependent variables?",
+        "think": "AI compares students’ task descriptions to reference structures. When students consistently mislabel manipulated and measured variables, experimental-design confusion is evident. Repetition across experiments reveals stable misunderstanding.",
+        "output": "AI flags experimental-design confusion by detecting systematic mislabeling of control versus dependent variables.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 627,
+        "topic": "ai.education",
+        "question": "How can AI-supported systems detect when students’ reasoning errors stem from conflating local patterns with global principles?",
+        "think": "Students often extend local patterns too broadly. AI compares solutions on local contexts versus global ones; if reasoning collapses outside narrow patterns, overgeneralization is the cause. Pattern sensitivity checks reveal the issue.",
+        "output": "AI detects local–global confusion by analyzing overgeneralization of local patterns that fail in wider contexts.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 628,
+        "topic": "ai.education",
+        "question": "How can AI determine when students misinterpret diagrams because they mistake illustrative proportions for mathematically accurate ones?",
+        "think": "If students infer numerical relationships from symbolic illustrations, reasoning errors cluster around proportion inference. AI detects mismatches between diagram intention and student interpretation, flagging proportionality misreads.",
+        "output": "AI identifies proportionality misreads by spotting when students treat illustrative proportions as real quantitative relationships.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 629,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misunderstand probabilistic tasks because they fail to differentiate independent events from sequential dependence?",
+        "think": "AI analyzes reasoning chains: independence errors arise when students treat future outcomes as influenced by past results in non-replacement systems. Sequential dependence mistakes appear when students confuse conditional probabilities with independent ones.",
+        "output": "AI distinguishes independence versus sequential-dependence errors by analyzing how students model event relationships.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 630,
+        "topic": "ai.education",
+        "question": "How can AI detect when student confusion arises from missing intermediate conceptual layers needed to connect foundational and advanced ideas?",
+        "think": "AI identifies abrupt reasoning jumps: students understand low-level and high-level ideas but lack mid-level connectors. Pattern analysis reveals gaps in the conceptual ladder that disrupt continuity.",
+        "output": "AI reveals missing conceptual layers by detecting abrupt reasoning leaps lacking mid-level integration.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 631,
+        "topic": "ai.education",
+        "question": "How can AI help identify when students' errors arise from focusing on irrelevant surface features instead of deep structural relationships?",
+        "think": "AI analyzes whether errors correlate with superficial cues like color, context, or formatting rather than structural logic. Misalignment between focus and task relevance indicates surface-level distraction.",
+        "output": "AI detects surface-focus errors by linking mistakes to irrelevant visual or contextual features.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 632,
+        "topic": "ai.education",
+        "question": "How can AI-supported reasoning tools identify when students mix incompatible models—such as combining deterministic logic with probabilistic reasoning?",
+        "think": "Model-mixing errors appear when deterministic assumptions contradict probabilistic explanations. AI detects contradictions across solution steps, flagging conceptual interference between models.",
+        "output": "AI identifies model-mixing errors by analyzing contradictions arising from blending incompatible reasoning frameworks.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 633,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misunderstand transformations in geometry because they apply everyday spatial intuition instead of formal geometric rules?",
+        "think": "AI compares reasoning on abstract transformations with real-world analogies. When students’ explanations use everyday movement logic inconsistent with geometric definitions, intuition overrides formalism.",
+        "output": "AI detects intuition-over-formalism by identifying natural-language spatial reasoning that contradicts geometric rules.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 634,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misinterpret time-based graphs because they mistake rate changes for value changes?",
+        "think": "AI checks whether students interpret slope as height or vice versa. Repeated confusion between derivatives and values indicates misreading temporal graphs. Error clustering reveals slope–value confusion.",
+        "output": "AI identifies slope–value confusion by detecting mistaken interpretations of rate changes as value changes in time-based graphs.",
+        "format_version": "1.1",
+        "difficulty": 5
     }
 ]
