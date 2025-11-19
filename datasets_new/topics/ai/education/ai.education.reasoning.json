@@ -5704,5 +5704,140 @@
         "output": "AI identifies slope–value confusion by detecting mistaken interpretations of rate changes as value changes in time-based graphs.",
         "format_version": "1.1",
         "difficulty": 5
+    },
+    {
+        "id": 635,
+        "topic": "ai.education",
+        "question": "How can AI detect when students form misconceptions because they infer causal relationships from repeated patterns in purely descriptive data?",
+        "think": "Students often misinterpret repeating descriptive sequences as causal mechanisms. AI compares the student’s explanations against the data structure: if causal language appears without functional dependencies, it signals over-interpretation. Stable patterns of unsupported causal inference across tasks reveal the misconception.",
+        "output": "AI identifies pattern-based causal errors by detecting causal claims unsupported by descriptive data structures.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 636,
+        "topic": "ai.education",
+        "question": "How can AI-supported reading tools detect when students misinterpret conditional phrasing in scientific arguments?",
+        "think": "Students often treat conditional statements as guarantees. AI tracks whether students interpret 'if' or 'may' as certainties. Errors appear when conclusions assume definitive outcomes from uncertain premises. These mismatches reveal conditional-misinterpretation patterns.",
+        "output": "AI detects conditional-misinterpretation by tracking where students convert uncertain premises into definite conclusions.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 637,
+        "topic": "ai.education",
+        "question": "How can AI identify when students struggle because they rely on context-specific shortcuts from prior tasks that fail in new scenarios?",
+        "think": "AI detects over-fitting when students repeatedly use strategies learned from earlier tasks even when new tasks change critical constraints. Performance collapse under slight scenario variations reveals reliance on context-specific shortcuts.",
+        "output": "AI identifies shortcut-overfitting by analyzing performance drops under minimal context changes.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 638,
+        "topic": "ai.education",
+        "question": "How can AI determine when students' errors result from interpreting visual diagrams too literally instead of symbolically?",
+        "think": "AI compares responses across diagrams with altered visual proportions that retain symbolic meaning. If reasoning shifts with visual changes unrelated to the mathematical structure, literal interpretation dominates.",
+        "output": "AI detects literal-visual bias by identifying reasoning changes driven by irrelevant diagram alterations.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 639,
+        "topic": "ai.education",
+        "question": "How can AI detect when students mistake correlation clusters in data visualizations for logical groupings?",
+        "think": "Students often treat clusters as logical categories without checking causal or definitional criteria. AI tests whether students justify grouping via domain logic or simply visual proximity. Surface-based grouping reveals cluster-misinterpretation.",
+        "output": "AI detects cluster-misinterpretation by contrasting visual-proximity grouping with conceptually justified categorization.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 640,
+        "topic": "ai.education",
+        "question": "How can AI-supported writing systems detect when students' arguments follow correct structure but rely on misinterpreted evidence?",
+        "think": "Students may reference data correctly but draw unsupported conclusions due to misreading its meaning. AI analyzes evidence–claim alignment and identifies inconsistencies between what data shows and how it's interpreted.",
+        "output": "AI isolates evidence-misinterpretation by checking alignment between students’ claims and the actual implications of cited data.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 641,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misunderstand symbolic rules because they confuse operators with quantities?",
+        "think": "Mistakes appear when students treat operators like multiplication signs or exponents as objects rather than actions. AI compares manipulation steps and highlights when students rearrange operators as if they were variables.",
+        "output": "AI detects operator–quantity confusion by analyzing incorrect manipulations where operators are treated as objects.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 642,
+        "topic": "ai.education",
+        "question": "How can AI identify when students' reasoning fails due to incorrect default assumptions they bring from everyday intuition?",
+        "think": "Students often assume intuitive defaults—like believing heavier objects fall faster—over formal models. AI identifies these when formal reasoning contradicts intuitive justifications consistently. The mismatch reveals intuition-over-knowledge interference.",
+        "output": "AI detects intuitive-default interference by analyzing reasoning patterns that contradict domain-specific formal rules.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 643,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misinterpret symbolic transformations because they confuse reversible and irreversible steps?",
+        "think": "AI evaluates whether students apply transformations that are only conditionally reversible. If students treat irreversible steps as bidirectional, resulting contradictions appear in derived expressions.",
+        "output": "AI identifies reversibility confusion by detecting contradictions caused by treating irreversible transformations as reversible.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 644,
+        "topic": "ai.education",
+        "question": "How can AI detect when student misunderstandings arise from over-relying on pattern matching rather than conceptual reasoning?",
+        "think": "Pattern-matching students latch onto superficial similarities. AI tests performance on tasks engineered to break those patterns. Sharp failures reveal reliance on surface features instead of conceptual logic.",
+        "output": "AI detects pattern-matching bias by analyzing collapses in reasoning when superficial patterns are disrupted.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 645,
+        "topic": "ai.education",
+        "question": "How can AI identify when students misuse graphical models because they fail to distinguish axis variables from derived quantities?",
+        "think": "AI analyzes whether students treat derived quantities—like slopes or ratios—as primary axis values. Misidentifying variable roles leads to predictable reasoning inconsistencies. Cross-checking inferred relationships exposes the confusion.",
+        "output": "AI detects role-confusion by identifying mismatches between students’ inferred relationships and actual axis variables.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 646,
+        "topic": "ai.education",
+        "question": "How can AI detect when students fail to recognize that examples are meant to illustrate boundary cases rather than normative cases?",
+        "think": "AI examines student reasoning for extrapolation patterns. When students treat a boundary case example as representative, they misapply edge-case logic. Error clustering under general tasks reveals this misunderstanding.",
+        "output": "AI detects boundary-case misinterpretation by identifying reasoning that treats atypical examples as standard cases.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 647,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misinterpret multi-step reasoning chains because they lose track of logical dependencies?",
+        "think": "AI monitors dependency links between steps. If students make correct local steps but later conclusions break necessary logical ties, dependency-loss is the cause. Contradictions at later stages reveal the break.",
+        "output": "AI identifies dependency-loss by detecting failures where correct intermediate steps do not connect to final reasoning.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 648,
+        "topic": "ai.education",
+        "question": "How can AI detect when students confuse notational conventions in graphs—for example, interpreting logarithmic scales as linear?",
+        "think": "AI compares reasoning across linear and log-scale versions of tasks. When students' interpretations break only on one scale type, notational misreading is responsible. This reveals misunderstanding of scale representation.",
+        "output": "AI identifies scale-confusion by analyzing divergent reasoning patterns between log-scale and linear representations.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 649,
+        "topic": "ai.education",
+        "question": "How can AI detect when students show conceptual difficulty because they cannot distinguish between gradient-based trends and discrete jumps in data?",
+        "think": "AI evaluates whether students interpret gradual changes as sudden events or vice versa. When slope-based reasoning fails but value-change reasoning works, or the opposite, trend–jump confusion is present. Graph-based performance comparisons reveal it.",
+        "output": "AI detects trend–jump confusion by contrasting performance on gradient-based versus discrete-change tasks.",
+        "format_version": "1.1",
+        "difficulty": 6
     }
 ]
