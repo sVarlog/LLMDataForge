@@ -5839,5 +5839,203 @@
         "output": "AI detects trend–jump confusion by contrasting performance on gradient-based versus discrete-change tasks.",
         "format_version": "1.1",
         "difficulty": 6
+    },
+    {
+        "id": 650,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misinterpret variables as fixed constants because they saw them used that way in earlier examples?",
+        "think": "Students often treat recurring symbol names as literal constants. AI compares performance on tasks where variable names shift; if reasoning collapses only when names change, the misconception stems from name–value association rather than symbolic understanding. This pattern reliably exposes variable fixation.",
+        "output": "AI detects variable-fixation by analyzing reasoning breakdowns triggered solely by changes in variable naming.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 651,
+        "topic": "ai.education",
+        "question": "How can AI determine when students confuse procedural fluency with conceptual understanding in mathematics?",
+        "think": "AI evaluates procedural correctness against explanation depth. When students consistently compute correctly but produce weak justifications or cannot adapt procedures to variations, fluency—not understanding—is driving performance.",
+        "output": "AI identifies fluency–understanding gaps by contrasting procedural success with poor or inflexible reasoning.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 652,
+        "topic": "ai.education",
+        "question": "How can AI detect when students' reasoning errors arise from filtering scientific information through everyday linguistic meanings?",
+        "think": "Scientific terms like 'work', 'power', or 'energy' have precise definitions. AI detects mismatches when students apply everyday meanings in contexts requiring formal interpretation. Linguistic–scientific conflicts appear in cross-context tasks.",
+        "output": "AI isolates linguistic-meaning interference by analyzing when everyday definitions override scientific ones.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 653,
+        "topic": "ai.education",
+        "question": "How can AI detect when students' errors stem from compressing too many inferential steps at once and losing logical continuity?",
+        "think": "Students sometimes collapse multiple reasoning steps into a single leap, obscuring underlying inference. AI checks whether intermediate justification is missing and tests if compressed leaps produce contradictions when expanded. Logical discontinuity signals missing inferential scaffolding.",
+        "output": "AI detects collapsed-inference errors by analyzing contradictions that appear when compressed steps are decomposed.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 654,
+        "topic": "ai.education",
+        "question": "How can AI determine when students misinterpret symbolic models because they assume visual symmetry that is not mathematically present?",
+        "think": "Students often over-impose symmetry due to visual layout. AI tests symmetry assumptions by altering orientation or reflective components. If reasoning depends on symmetry that disappears when diagrams are rearranged, the misunderstanding is revealed.",
+        "output": "AI identifies false-symmetry assumptions by detecting reasoning changes when diagram orientation is altered.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 655,
+        "topic": "ai.education",
+        "question": "How can AI detect when students form overgeneralized rules because they incorrectly treat exceptions as errors rather than boundary cases?",
+        "think": "Students may label edge conditions as mistakes instead of legitimate exceptions. AI compares how students reason across normal cases vs. boundary conditions. When exceptions trigger reasoning collapse, it signals boundary misunderstanding.",
+        "output": "AI spots boundary-misinterpretation by analyzing errors triggered exclusively by legitimate exception cases.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 656,
+        "topic": "ai.education",
+        "question": "How can AI identify when students misunderstand proportional reasoning because they confuse multiplicative relationships with additive ones?",
+        "think": "AI examines whether students apply additive logic to multiplicative tasks—e.g., scaling all components by the same amount rather than percentage. If additive errors persist across scaling problems, proportional reasoning is weak.",
+        "output": "AI detects proportional–additive confusion by spotting additive logic applied to multiplicative scaling tasks.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 657,
+        "topic": "ai.education",
+        "question": "How can AI detect when failures in multi-step reasoning arise from students’ inability to coordinate temporal order across steps?",
+        "think": "Temporal mis-sequencing causes contradictions between steps that rely on chronological order. AI compares intended dependency order with students’ logic. When they reverse or skip temporal dependencies, sequential reasoning fails.",
+        "output": "AI identifies temporal-order confusion by detecting reasoning inconsistencies tied to mis-sequenced steps.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 658,
+        "topic": "ai.education",
+        "question": "How can AI determine when students misunderstand probabilistic models because they conflate sample size with likelihood?",
+        "think": "Students may assume that larger samples inherently mean higher probability, regardless of context. AI tests reasoning across fixed-probability tasks where sample size is irrelevant. Consistent misjudgment reveals sample–likelihood confusion.",
+        "output": "AI detects sample–likelihood confusion by identifying incorrect probability judgments tied to irrelevant sample size changes.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 659,
+        "topic": "ai.education",
+        "question": "How can AI detect when students’ reasoning collapses due to mixing informal intuitive rules with formal domain constraints?",
+        "think": "Students often apply intuitive heuristics—like motion analogies—to formal mathematical contexts. AI highlights contradictions between intuitive and formal steps. When intuitive steps violate domain constraints, mixed-model interference is present.",
+        "output": "AI detects mixed-model interference by identifying contradictions between intuitive heuristics and formal rules.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 660,
+        "topic": "ai.education",
+        "question": "How can AI detect when students mistakenly treat intermediate outputs of a process as final results?",
+        "think": "Intermediate–final confusion appears when students stop reasoning after a partial computation. AI compares expected procedural chains with student steps. Abrupt halts at intermediate outputs without justification reveal the misconception.",
+        "output": "AI identifies intermediate–final confusion by detecting unjustified halts at partial solution stages.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 661,
+        "topic": "ai.education",
+        "question": "How can AI-supported tools detect when students generalize from atypical examples because they cannot distinguish statistical outliers?",
+        "think": "Students may treat outliers as representative cases. AI detects this when students’ conclusions align with edge data rather than central tendencies. Misweighting of outliers exposes generalization failure.",
+        "output": "AI detects outlier-overgeneralization by analyzing reasoning anchored to peripheral rather than central data.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 662,
+        "topic": "ai.education",
+        "question": "How can AI help detect when students misunderstand diagrams due to conflating spatial clustering with logical grouping?",
+        "think": "Students often cluster items visually even when the grouping is conceptually meaningless. AI measures whether reasoning correlates with spatial proximity rather than defined conceptual categories.",
+        "output": "AI identifies spatial–logical confusion by detecting grouping driven by visual proximity instead of conceptual relations.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 663,
+        "topic": "ai.education",
+        "question": "How can AI detect when students apply context-dependent rules without realizing their limitations?",
+        "think": "Context-specific rules fail when applied to broader scenarios. AI tests reasoning across varying contexts: if logic holds only in familiar settings but breaks elsewhere, students are applying conditional rules universally.",
+        "output": "AI detects context-rule overextension by analyzing reasoning collapse when task context changes.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 664,
+        "topic": "ai.education",
+        "question": "How can AI identify when reasoning errors originate from reversing cause–effect direction in complex scenarios?",
+        "think": "Students may treat outcomes as causes when relationships are subtle. AI examines dependency graphs inferred from student explanations. When causal direction is systematically reversed, the misunderstanding is conceptual, not random.",
+        "output": "AI detects reversed-causality errors by analyzing dependency patterns that invert expected cause–effect relationships.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 665,
+        "topic": "ai.education",
+        "question": "How can AI-supported reasoning evaluators detect when students produce seemingly coherent explanations that are actually stitched together from incompatible micro-concepts?",
+        "think": "Students sometimes assemble fragments of partially learned ideas into explanations that appear polished but hide internal contradictions. AI must analyze micro-concept alignment: if subcomponents rely on mutually incompatible assumptions, the explanation lacks conceptual unity. Semantic coherence checks across sub-claims reveal mismatched premises, especially when contradictions only appear under slight scenario variations. These inconsistencies expose conceptual patchwork rather than genuine understanding.",
+        "output": "AI identifies conceptual patchwork by detecting mismatched micro-assumptions and contradictions within superficially coherent explanations.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 666,
+        "topic": "ai.education",
+        "question": "How can universities ensure AI-powered course sequencing tools do not disadvantage students who follow nonlinear progression patterns due to interdisciplinary interests?",
+        "think": "AI models often assume linear prerequisite chains. Students pursuing interdisciplinary pathways move horizontally across domains, which appears 'erratic' to standard systems. To avoid penalization, models must incorporate domain-bridge competencies, track cross-field transfer, and evaluate conceptual coherence rather than sequence order. Drift analysis ensures the system does not push students back toward narrow, linear paths.",
+        "output": "AI must evaluate interdisciplinary coherence rather than linear progression to avoid disadvantaging nonlinear learning trajectories.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 667,
+        "topic": "ai.education",
+        "question": "How can ministries prevent AI-generated national performance forecasts from reinforcing low expectations for rapidly improving student populations?",
+        "think": "Forecasting models often rely heavily on historical baselines. Populations improving quickly may be trapped by pessimistic predictions based on outdated data. Ministries must incorporate growth velocity metrics, upward-trend weighting, and recency prioritization. When forecasted trajectories underestimate real improvement rates, the system risks distributing fewer resources, creating a self-fulfilling decline. Continuous recalibration prevents institutionalized underestimation.",
+        "output": "Growth-velocity metrics, recency weighting, and recalibration prevent AI forecasts from locking improving populations into low expectations.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 668,
+        "topic": "ai.education",
+        "question": "How can AI-supported tutors detect when students rely on elegant but logically fragile heuristics that fail outside narrow canonical examples?",
+        "think": "Some students develop compact heuristics that work perfectly in common examples but break once constraints shift. AI can identify fragility by stress-testing strategies across perturbed versions of canonical tasks. When the heuristic collapses under minimal variation, it indicates elegance without robustness. Tracking maneuverability across altered contexts reveals whether reasoning is adaptive or brittle.",
+        "output": "AI detects fragile heuristics by stress-testing reasoning across minimally altered scenarios and monitoring collapse under small deviations.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 669,
+        "topic": "ai.education",
+        "question": "How can universities ensure AI-based group formation algorithms do not inadvertently cluster students by socio-cognitive stereotypes, limiting diversity of reasoning?",
+        "think": "AI clustering trained on historical collaboration data may replicate patterns where certain groups were stereotyped into predictable roles. To counter this, universities must audit clustering outputs for demographic or cognitive segregation, enforce diversity constraints, and include multi-modal reasoning indicators rather than proxy variables. Dynamic reshuffling prevents long-term stratification.",
+        "output": "Diversity constraints, stereotype audits, and dynamic reshuffling prevent AI group formation from reinforcing socio-cognitive segregation.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 670,
+        "topic": "ai.education",
+        "question": "How can AI-supported assessment systems differentiate between students who intentionally depart from conventional problem structures and those who do so accidentally due to misunderstanding?",
+        "think": "Intentional deviation preserves conceptual integrity, even if structure changes. Accidental deviation produces gaps or contradictions. AI evaluates logical continuity: if a nonstandard approach remains consistent through the solution, it's deliberate. If structural divergence introduces unresolved steps or inconsistent assumptions, misunderstanding is likely. Cross-task consistency further distinguishes strategic originality from accidental deviation.",
+        "output": "AI differentiates intentional structural innovation from misunderstanding by analyzing logical continuity and cross-task consistency.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 671,
+        "topic": "ai.education",
+        "question": "How can AI detect when students construct internally consistent but scientifically invalid alternative world-models that resist correction even after targeted intervention?",
+        "think": "Alternative world-models—like naive physics or intuitive ecology—form stable conceptual ecosystems. Students answer consistently within these frameworks, making them appear competent superficially. AI must analyze cross-domain reasoning: if multiple misconceptions share a common erroneous foundational principle, the system should classify it as a deep-model error. Correction requires targeted conceptual replacement rather than isolated feedback.",
+        "output": "AI uncovers deep-model misconceptions by identifying shared erroneous principles across multiple consistent but scientifically incorrect explanations.",
+        "format_version": "1.1",
+        "difficulty": 7
     }
 ]
