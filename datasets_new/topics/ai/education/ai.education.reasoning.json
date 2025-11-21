@@ -6037,5 +6037,140 @@
         "output": "AI uncovers deep-model misconceptions by identifying shared erroneous principles across multiple consistent but scientifically incorrect explanations.",
         "format_version": "1.1",
         "difficulty": 7
+    },
+    {
+        "id": 672,
+        "topic": "ai.education",
+        "question": "How can AI detect when students fail to understand general principles because they anchor their reasoning too heavily on memorable but unrepresentative examples?",
+        "think": "Students often rely on a striking example as a proxy for an entire concept. AI compares reasoning across representative cases; if accuracy collapses outside the memorized example, anchoring bias is present. The model tracks over-weighting of atypical exemplars to identify generalization failure.",
+        "output": "AI detects example-anchoring by observing reasoning collapse when tasks diverge from a memorized but unrepresentative example.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 673,
+        "topic": "ai.education",
+        "question": "How can AI identify when students misinterpret comparative statements because they assume transitivity where none exists?",
+        "think": "Students often assume if A>B and B>C, then A>C, even when comparing unrelated attributes. AI tests for inference stability across counterexamples that break transitivity. Repeated misapplication exposes transitivity bias.",
+        "output": "AI detects false-transitivity by analyzing reasoning that assumes comparison chaining where transitivity is invalid.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 674,
+        "topic": "ai.education",
+        "question": "How can AI determine when students misunderstand model-based tasks because they conflate parameters with outcomes?",
+        "think": "Students may treat parameters as if they directly represent results. AI checks whether their explanations invert cause–parameter relationships, flagging confusion when parameter changes are misinterpreted as independent outcomes.",
+        "output": "AI identifies parameter–outcome confusion by analyzing inverted reasoning about how inputs influence model outputs.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 675,
+        "topic": "ai.education",
+        "question": "How can AI detect when students incorrectly interpret logical quantifiers by applying natural-language assumptions instead of formal semantics?",
+        "think": "Logical quantifiers conflict with everyday reasoning. AI examines whether students interpret universal or existential quantifiers too loosely. When formal semantics are overridden by conversational interpretations, quantifier confusion emerges.",
+        "output": "AI detects quantifier confusion by analyzing deviations from formal semantics driven by natural-language assumptions.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 676,
+        "topic": "ai.education",
+        "question": "How can AI identify when students misread data visualizations because they confuse relative differences with absolute values?",
+        "think": "AI tests performance on tasks where relative ranking is fixed but absolute magnitudes change. If reasoning shifts with magnitude scaling, relative–absolute confusion is responsible.",
+        "output": "AI detects relative–absolute confusion by analyzing reasoning shifts when magnitudes change but relative order stays constant.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 677,
+        "topic": "ai.education",
+        "question": "How can AI detect when students fail because they treat domain-specific rules as universal rules?",
+        "think": "Students often internalize rules within a domain (e.g., physics, grammar) and overapply them across unrelated contexts. AI compares cross-domain reasoning tasks; if students forcibly apply domain rules outside their valid context, overextension appears.",
+        "output": "AI detects rule-overextension by analyzing whether students import domain-specific rules into unrelated task contexts.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 678,
+        "topic": "ai.education",
+        "question": "How can AI determine when students’ reasoning errors stem from assuming independence in systems where components are tightly coupled?",
+        "think": "Students may treat interdependent variables as isolated. AI introduces counterfactual variants where variable independence matters; if reasoning remains unchanged despite dependency shifts, independence-assumption bias is identified.",
+        "output": "AI spots independence-assumption errors by testing reasoning consistency in systems with coupled variables.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 679,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misunderstand narrative texts because they conflate character perspective with author intent?",
+        "think": "AI analyzes explanation patterns: if students justify interpretations through character motives rather than author-level messaging, perspective–intent confusion appears. Cross-scene inconsistencies further expose this issue.",
+        "output": "AI detects perspective–intent confusion by separating reasoning tied to character motives from reasoning about authorial goals.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 680,
+        "topic": "ai.education",
+        "question": "How can AI identify when students mix incompatible inferential structures, such as applying inductive reasoning steps in a deductive proof?",
+        "think": "AI checks for reasoning mode mismatches by analyzing step transitions. If logical transitions rely on probabilistic justification inside a deductive chain, inference-mode interference is present.",
+        "output": "AI detects inference-mode mixing by identifying inductive steps embedded improperly within deductive reasoning structures.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 681,
+        "topic": "ai.education",
+        "question": "How can AI-supported tutoring systems detect when students struggle because they cannot mentally simulate multi-variable interactions?",
+        "think": "AI compares performance on single-variable versus multi-variable tasks. When reasoning collapses only under combinatorial interaction, students lack interaction-level mental models rather than single-variable understanding.",
+        "output": "AI detects interaction-model deficits by contrasting strong single-variable reasoning with weak multi-variable performance.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 682,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misunderstand symbolic proofs because they mistake syntactic transformations for semantic equivalence?",
+        "think": "Students may confidently perform manipulations without verifying meaning-preserving equivalence. AI checks reasoning across semantic variants; contradictions appearing after syntactic steps reveal equivalence misunderstanding.",
+        "output": "AI identifies syntactic–semantic confusion by detecting contradictions created by formal transformations lacking semantic justification.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 683,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misinterpret feedback loops because they analyze systems in linear rather than circular terms?",
+        "think": "Linear interpretations fail in cyclic systems. AI analyzes whether reasoning persists linearly despite prior-step influence. When loop dynamics are ignored, reasoning collapses on cyclic versions of the task.",
+        "output": "AI reveals loop-misinterpretation by comparing linear-task success with failure on cyclic variants.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 684,
+        "topic": "ai.education",
+        "question": "How can AI determine when students misunderstand definitions because they treat necessary conditions as sufficient?",
+        "think": "Students often latch onto one component of a definition and treat it as the entire requirement. AI tests reasoning across examples that satisfy necessary but not sufficient conditions. Systematic over-classification reveals the misconception.",
+        "output": "AI identifies necessary–sufficient confusion by analyzing over-classification of cases meeting only partial definition criteria.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 685,
+        "topic": "ai.education",
+        "question": "How can AI detect when students confuse domain models because they blend assumptions from multiple subjects unintentionally?",
+        "think": "When students mix principles from physics, biology, or economics, they generate cross-domain contradictions. AI analyses concept-tag use; mismatched model assumptions indicate domain-contamination.",
+        "output": "AI identifies cross-domain contamination by detecting conflicting assumptions borrowed from incompatible subject models.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 686,
+        "topic": "ai.education",
+        "question": "How can AI determine when students’ apparent mastery hides gaps caused by over-reliance on representational shortcuts?",
+        "think": "Representational shortcuts—like schematic patterns—can mask conceptual weaknesses. AI tests reasoning on tasks requiring representational flexibility; if performance drops when representations change, mastery is superficial.",
+        "output": "AI detects representational-shortcut dependence by analyzing performance deterioration across varied representational formats.",
+        "format_version": "1.1",
+        "difficulty": 6
     }
 ]
