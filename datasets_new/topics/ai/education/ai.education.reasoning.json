@@ -6172,5 +6172,140 @@
         "output": "AI detects representational-shortcut dependence by analyzing performance deterioration across varied representational formats.",
         "format_version": "1.1",
         "difficulty": 6
+    },
+    {
+        "id": 687,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misunderstand data tables because they read rows and columns as sequential events rather than categorical groupings?",
+        "think": "Some students treat table layout as a timeline and incorrectly infer temporal order. AI analyzes whether reasoning references row/column positions instead of category labels. Errors appearing whenever categories are rearranged reveal sequential–categorical confusion.",
+        "output": "AI identifies row–column confusion by detecting reasoning tied to spatial ordering rather than categorical meaning.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 688,
+        "topic": "ai.education",
+        "question": "How can AI-supported tools detect when students misinterpret symbolic expressions because they assume commutativity where it does not apply?",
+        "think": "Students often assume all operations are commutative. AI tests reasoning on operations where order matters. If reasoning holds only when expressions are mistakenly rearranged, non-commutativity misunderstanding is the cause.",
+        "output": "AI detects non-commutativity errors by identifying reasoning failures tied to incorrect reordering of non-commutative operations.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 689,
+        "topic": "ai.education",
+        "question": "How can AI determine when students struggle because they form overly simplified causal chains that ignore moderating factors?",
+        "think": "Students may compress complex causal relationships into single-step logic. AI compares reasoning across tasks with explicit moderating variables. When reasoning ignores these factors consistently, the model flags simplified-causality bias.",
+        "output": "AI detects simplified-causality errors by identifying reasoning that omits moderating or conditional factors.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 690,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misinterpret geometry problems because they assume perspective distortions represent actual lengths?",
+        "think": "Perspective drawings can mislead students into treating foreshortened edges as shorter values. AI compares reasoning on perspective vs orthographic diagrams. Patterned errors tied to perspective-only tasks reveal visual–geometric mismatch.",
+        "output": "AI detects perspective-induced errors by analyzing mismatches between visual cues and true geometric relationships.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 691,
+        "topic": "ai.education",
+        "question": "How can AI determine when students misinterpret probability density graphs because they confuse density with cumulative probability?",
+        "think": "Students may assume higher bars mean higher cumulative likelihood. AI tests whether students interpret area or height correctly. Repeated mistakes interpreting height alone reveal density–cumulative confusion.",
+        "output": "AI detects density–cumulative confusion by identifying reasoning that equates graph height with accumulated probability.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 692,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misunderstand multi-step tasks because they incorrectly assume independence between sequential steps?",
+        "think": "Students sometimes treat dependent steps as isolated. AI compares correct dependency chains with students' logic; if reasoning ignores how earlier outcomes constrain later steps, dependency failure is identified.",
+        "output": "AI detects step-independence misconceptions by analyzing reasoning that overlooks relationships between sequential steps.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 693,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misinterpret scientific simulations because they confuse model parameters with real-world quantities?",
+        "think": "Students may assume adjustable simulation sliders correspond directly to real-world magnitudes. AI identifies reasoning that treats model abstractions as literal physical values. Error clustering across simulation-to-reality tasks exposes the confusion.",
+        "output": "AI detects model–reality confusion by flagging reasoning that interprets abstract simulation parameters as real-world measurements.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 694,
+        "topic": "ai.education",
+        "question": "How can AI identify when students fail to generalize because they overly rely on worked examples rather than relational structure?",
+        "think": "AI analyzes whether students replicate example structure even when problems differ. If relational mapping breaks when surface features change, example-dependence is present.",
+        "output": "AI detects example-dependence by testing reasoning stability when surface features differ but structure remains equivalent.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 695,
+        "topic": "ai.education",
+        "question": "How can AI determine when students misunderstand transformations because they confuse invariants with arbitrary features of the original figure?",
+        "think": "AI tests reasoning across rotated, reflected, and scaled versions. If students attach meaning to irrelevant visual details instead of true invariants, errors will cluster when irrelevant details shift.",
+        "output": "AI detects invariant–non-invariant confusion by analyzing reasoning collapses when irrelevant features change.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 696,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misinterpret textual problems because they assume default meanings not stated explicitly?",
+        "think": "Students sometimes fill gaps using everyday assumptions (e.g., assuming motion is uniform). AI detects mismatches when inferred assumptions contradict provided information.",
+        "output": "AI reveals default-assumption errors by detecting contradictions between students’ inferred assumptions and task details.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 697,
+        "topic": "ai.education",
+        "question": "How can AI determine when students misuse symbolic systems because they treat composite symbols as indivisible values?",
+        "think": "Students often fail to decompose expressions like sin(x+1). AI detects errors whenever students process compound symbols as atomic units, causing incorrect substitutions or transformations.",
+        "output": "AI identifies decomposition failures by detecting reasoning that treats compound symbolic expressions as indivisible units.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 698,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misinterpret scaling tasks because they assume uniform scaling across dimensions?",
+        "think": "Students may assume everything scales identically. AI tests reasoning across tasks involving non-uniform scaling or single-axis transformations. Errors that appear only in asymmetric scaling reveal uniform-scaling bias.",
+        "output": "AI detects uniform-scaling bias by analyzing failures on asymmetric or single-axis transformation tasks.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 699,
+        "topic": "ai.education",
+        "question": "How can AI identify when students misinterpret logical conditionals because they treat contrapositives as separate rules rather than equivalent transformations?",
+        "think": "Students often learn conditional and contrapositive rules separately. AI checks reasoning across paired tasks; inconsistent answers between equivalent forms reveal rule-separation misunderstanding.",
+        "output": "AI detects conditional–contrapositive confusion by identifying inconsistent reasoning across equivalent logical forms.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 700,
+        "topic": "ai.education",
+        "question": "How can AI identify when students misunderstand feedback mechanisms because they confuse cumulative effects with instantaneous effects?",
+        "think": "Students may incorrectly assume feedback acts immediately rather than accumulating over cycles. AI analyzes explanations for missing temporal integration. Pattern errors appear when cumulative effects are interpreted as single-step reactions.",
+        "output": "AI detects cumulative–instantaneous confusion by analyzing reasoning that ignores temporal integration in feedback loops.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 701,
+        "topic": "ai.education",
+        "question": "How can AI detect when students infer domain rules from accidental patterns in exercises rather than from core principles?",
+        "think": "If tasks share superficial structure, students may infer a false rule. AI tests reasoning on a deliberately contrasting example; if the pattern fails, false rule induction is confirmed.",
+        "output": "AI isolates false-rule induction by testing reasoning stability on counterexamples designed to break superficial patterns.",
+        "format_version": "1.1",
+        "difficulty": 5
     }
 ]
