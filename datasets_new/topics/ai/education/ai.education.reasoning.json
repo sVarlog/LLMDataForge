@@ -6307,5 +6307,140 @@
         "output": "AI isolates false-rule induction by testing reasoning stability on counterexamples designed to break superficial patterns.",
         "format_version": "1.1",
         "difficulty": 5
+    },
+    {
+        "id": 702,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misinterpret domain-specific diagrams because they assume visual grouping reflects conceptual grouping?",
+        "think": "Students often infer relationships from spatial adjacency rather than the intended conceptual links. AI compares performance using rearranged diagrams with identical conceptual structure. If reasoning changes only when visual layout shifts, the misunderstanding is perceptual rather than conceptual.",
+        "output": "AI detects false visual-grouping assumptions by testing reasoning stability across rearranged but conceptually identical diagrams.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 703,
+        "topic": "ai.education",
+        "question": "How can AI identify when students confuse a variable’s role in an equation because they implicitly assign it a fixed meaning across unrelated problems?",
+        "think": "Students may internalize meanings (e.g., 't' always being time). AI tracks role-inference across tasks. If students reinterpret variables inconsistently with context, variable-role fixation is present.",
+        "output": "AI identifies variable-role fixation by detecting mismatches between assumed and context-specific variable meanings.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 704,
+        "topic": "ai.education",
+        "question": "How can AI determine when students incorrectly treat cumulative processes as single-step transformations?",
+        "think": "Students often skip iterative reasoning, assuming cumulative effects occur instantly. AI compares responses requiring multi-step accumulation; errors triggered by ignoring iteration reveal misunderstanding of cumulative processes.",
+        "output": "AI detects single-step assumptions by analyzing reasoning that ignores iterative accumulation in cumulative tasks.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 705,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misunderstand formal proofs because they treat special-case verification as a complete proof?",
+        "think": "Students may validate a statement only at convenient values and assume general truth. AI evaluates whether explanations check boundary or general cases. Repeated reliance on special-case satisfaction signals proof-incompleteness.",
+        "output": "AI detects special-case proof errors by identifying reasoning that substitutes isolated verifications for general proof logic.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 706,
+        "topic": "ai.education",
+        "question": "How can AI determine when students misunderstand experimental design because they assume measurement instruments are perfectly reliable?",
+        "think": "Students may ignore uncertainty or error ranges. AI compares reasoning across simulated noisy measurements. If students treat all readings as exact, ignoring variability, reliability misconception is present.",
+        "output": "AI detects reliability misconceptions by analyzing reasoning that treats noisy measurements as perfectly accurate.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 707,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misinterpret systems-of-equations problems because they treat each equation as describing separate scenarios?",
+        "think": "Students may view simultaneous equations independently, missing the shared constraints. AI looks for reasoning that solves each equation separately without cross-consistency. Contradictions reveal misunderstanding.",
+        "output": "AI identifies independent-equation errors by detecting reasoning that ignores shared constraints in simultaneous systems.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 708,
+        "topic": "ai.education",
+        "question": "How can AI detect when learners misinterpret recursive definitions because they conceptualize them as static descriptions rather than iterative processes?",
+        "think": "Misinterpretations arise when students treat recursive rules as mere statements. AI compares reasoning on tasks requiring expansion of recursion. Failure to unfold the recursive structure reveals static-interpretation bias.",
+        "output": "AI detects static-interpretation bias by spotting failures to correctly unfold recursive definitions across iterative tasks.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 709,
+        "topic": "ai.education",
+        "question": "How can AI identify when students incorrectly rely on visual intuition instead of numeric reasoning in ratio and proportion problems?",
+        "think": "Students often use perceived size differences instead of calculating true ratios. AI compares performance between visually suggestive and visually neutral problems. Sensitivity to misleading visuals reveals intuition override.",
+        "output": "AI detects intuition-over-math errors by analyzing reasoning shifts caused by misleading visual proportions.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 710,
+        "topic": "ai.education",
+        "question": "How can AI determine when students incorrectly assume arbitrary correspondences in mapping tasks, such as between sequences or geometric figures?",
+        "think": "Students sometimes impose pattern mappings that don't reflect true relationships. AI introduces distractor tasks with similar surface structure but different mapping rules. Erroneous mapping persistence reveals arbitrary-association bias.",
+        "output": "AI identifies arbitrary-association bias by checking for persistent incorrect mapping patterns across distractor tasks.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 711,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misunderstand classification tasks because they treat prototypical examples as strict category boundaries?",
+        "think": "Students may compare all new cases to a prototype and ignore rule-based boundaries. AI tests classification across atypical but valid cases. Misclassification patterns reveal prototype rigidness.",
+        "output": "AI identifies prototype-rigidity by analyzing misclassification of valid but non-prototypical examples.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 712,
+        "topic": "ai.education",
+        "question": "How can AI detect when students fail to understand transformations because they conflate operations that look visually similar but serve different functions?",
+        "think": "Visual resemblance between transformations (e.g., reflection vs rotation) can mislead students. AI evaluates reasoning shifts when visually similar yet conceptually different transformations are applied. Confusion appears in mismatched outcomes.",
+        "output": "AI detects transformation confusion by identifying reasoning that equates visually similar but functionally distinct operations.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 713,
+        "topic": "ai.education",
+        "question": "How can AI determine when students misunderstand dependencies in logic puzzles because they treat conditional constraints as optional hints?",
+        "think": "Students often treat hard constraints as soft clues. AI tests reasoning by removing non-essential hints. If errors remain tied to misused conditionals, optionality-confusion is the source.",
+        "output": "AI detects optionality confusion by analyzing reasoning that treats mandatory constraints as optional suggestions.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 714,
+        "topic": "ai.education",
+        "question": "How can AI detect when students incorrectly assume that relationships between variables must be linear due to familiarity with basic graph types?",
+        "think": "AI evaluates reasoning on non-linear models. Students anchored to linear thinking misinterpret curvature or variable interactions. Errors cluster when linear extrapolation is applied to non-linear patterns.",
+        "output": "AI detects linearity-anchoring by spotting linear reasoning applied to inherently non-linear relationships.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 715,
+        "topic": "ai.education",
+        "question": "How can AI determine when students fail in probability tasks because they confuse disjoint events with independent events?",
+        "think": "Students may assume disjoint events cannot influence each other or vice versa. AI distinguishes these errors by testing reasoning across tasks where disjointness and independence diverge. Incorrect cross-application reveals conceptual confusion.",
+        "output": "AI detects disjoint–independent confusion by analyzing reasoning that treats distinct probability concepts as interchangeable.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 716,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misunderstand integrals because they rely purely on algebraic manipulation without conceptualizing area accumulation?",
+        "think": "Some students treat integrals as inverted derivatives and ignore geometric meaning. AI compares reasoning on area-based tasks vs purely symbolic ones. If reasoning collapses on area interpretations, conceptual deficit is clear.",
+        "output": "AI detects lack of integral understanding by comparing symbolic proficiency with weak area-accumulation reasoning.",
+        "format_version": "1.1",
+        "difficulty": 6
     }
 ]
