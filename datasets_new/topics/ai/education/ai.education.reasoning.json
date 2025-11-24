@@ -6442,5 +6442,140 @@
         "output": "AI detects lack of integral understanding by comparing symbolic proficiency with weak area-accumulation reasoning.",
         "format_version": "1.1",
         "difficulty": 6
+    },
+    {
+        "id": 717,
+        "topic": "ai.education",
+        "question": "How can AI detect when students incorrectly treat domain analogies as literal equivalences rather than conceptual aids?",
+        "think": "Students often take analogies—like electric circuits as water flow—too literally and extend them beyond their intended structural similarities. AI identifies this by comparing student reasoning across tasks where the analogy breaks. If errors surface right at the analogy’s limits, literal-analogy misuse is present.",
+        "output": "AI detects literal-analogy misuse by analyzing reasoning breakdowns when analogy-based explanations fail outside their intended domain.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 718,
+        "topic": "ai.education",
+        "question": "How can AI determine when students misinterpret symbolic notation because they confuse identity transformations with value-preserving operations?",
+        "think": "Students sometimes treat symbolic rearrangements—like adding zero or multiplying by one—as operations that change value. AI checks whether students mispredict outcomes of identity transformations. Inconsistent predictions indicate confusion about value preservation.",
+        "output": "AI detects identity-operation confusion by spotting incorrect value predictions after mathematically neutral transformations.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 719,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misunderstand models because they treat hypothetical assumptions as factual claims?",
+        "think": "Students may interpret hypothetical premises as statements about reality. AI compares reasoning across scenarios where hypothetical conditions contradict real-world knowledge. When students persist in treating assumptions as facts, assumption–fact conflation is evident.",
+        "output": "AI identifies assumption–fact conflation by analyzing reasoning that treats hypothetical premises as real-world truths.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 720,
+        "topic": "ai.education",
+        "question": "How can AI-supported systems detect when students incorrectly assume reversibility in equations or processes that are inherently directional?",
+        "think": "Students may treat non-reversible steps—like information loss or non-invertible transformations—as reversible. AI tests reasoning across directional variants. Contradictions emerging when direction is reversed expose reversibility misunderstanding.",
+        "output": "AI detects reversibility errors by identifying contradictions that emerge when students incorrectly reverse non-invertible processes.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 721,
+        "topic": "ai.education",
+        "question": "How can AI determine when students rely on semantic cues rather than logical structure to interpret arguments?",
+        "think": "Students may follow keywords rather than actual argument flow. AI evaluates reasoning stability by removing or rephrasing superficial cues. If students’ interpretations collapse when wording is altered but logic is unchanged, semantic-dependence bias is exposed.",
+        "output": "AI detects semantic-dependence by testing whether reasoning remains consistent when wording changes but logical structure stays the same.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 722,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misunderstand multi-variable interactions because they treat composite effects as linear combinations of isolated factors?",
+        "think": "Students often oversimplify interactions by handling variables independently. AI introduces variants where interactions produce non-linear or emergent outcomes. Failure to adapt reasoning in such tasks reveals additive-bias misunderstanding.",
+        "output": "AI detects additive-bias by analyzing reasoning that ignores interaction effects among multi-variable systems.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 723,
+        "topic": "ai.education",
+        "question": "How can AI detect when learners misinterpret domain rules because they mistake illustrative constraints for universal ones?",
+        "think": "Students may treat constraints used in examples—like symmetry or fixed orientation—as global rules. AI analyses whether reasoning changes when such constraints are intentionally removed. Stability loss indicates illustrative-rule overgeneralization.",
+        "output": "AI identifies overgeneralized illustrative rules by testing reasoning stability when example-specific constraints are removed.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 724,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misinterpret proofs by treating diagram-based insight as a general argument rather than one possible perspective?",
+        "think": "Students often use diagram intuition as if it were a complete justification. AI compares reasoning on diagram-free variants; if students cannot verbalize generalized reasoning beyond the picture, diagram-overreliance is evident.",
+        "output": "AI detects diagram-overreliance by comparing diagram-mediated solutions with performance on equivalent non-visual variants.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 725,
+        "topic": "ai.education",
+        "question": "How can AI determine when students misapply inequality rules because they implicitly assume operations behave the same for positive and negative values?",
+        "think": "Students frequently forget sign-flip rules when multiplying or dividing inequalities. AI analyzes whether sign-sensitive steps trigger consistent errors. Patterned misapplication reveals domain-specific sign-insensitivity.",
+        "output": "AI detects sign-sensitive reasoning errors by identifying misapplied inequality rules involving negative values.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 726,
+        "topic": "ai.education",
+        "question": "How can AI identify when students misinterpret rates of change because they confuse average rate with instantaneous rate?",
+        "think": "Students often generalize average-rate reasoning to instantaneous contexts. AI contrasts performance on tasks requiring precise derivative logic. Systematic collapse in instantaneous reasoning reveals rate conflation.",
+        "output": "AI detects average–instantaneous rate confusion by analyzing failures on tasks requiring point-specific rate reasoning.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 727,
+        "topic": "ai.education",
+        "question": "How can AI detect when students incorrectly assume conditional statements imply bi-conditional relationships?",
+        "think": "Students may interpret 'if A, then B' as 'A if and only if B'. AI tests performance across tasks where bi-directionality breaks. The mismatch between one-directional and reversed reasoning exposes biconditional confusion.",
+        "output": "AI identifies biconditional confusion by detecting incorrect reversed implications in conditional reasoning tasks.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 728,
+        "topic": "ai.education",
+        "question": "How can AI detect when student misconceptions arise because they assume distribution rules apply universally to all operations?",
+        "think": "Students often overextend the distributive property to operations where it fails. AI compares correctness across valid and invalid distribution contexts. Consistent misapplication exposes distribution-overgeneralization.",
+        "output": "AI detects distribution-overgeneralization by analyzing misapplied distributive logic in non-distributive contexts.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 729,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misinterpret randomness in simulations because they mistake pseudo-random sequences for deterministic patterns?",
+        "think": "Students may assume observed pseudo-random sequences contain deliberate structure. AI tests reasoning across reshuffled or reseeded variants. If students preserve pattern claims across random changes, pattern-projection bias is present.",
+        "output": "AI identifies pattern-projection bias by testing whether perceived structure persists across reseeded random simulations.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 730,
+        "topic": "ai.education",
+        "question": "How can AI detect when students incorrectly interpret accumulation graphs because they treat slopes as raw values rather than rates?",
+        "think": "Students often misread slope as the actual quantity rather than its rate of change. AI analyzes contradictions between height-based and slope-based reasoning to detect slope–value confusion.",
+        "output": "AI detects slope–value confusion by identifying reasoning that treats rates as accumulated quantities.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 731,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misunderstand transformations because they assume that preservation of shape implies preservation of scale?",
+        "think": "Students may think transformations that maintain shape necessarily maintain size. AI introduces scale-altered tasks; reasoning failures tied specifically to size changes reveal scale-invariance confusion.",
+        "output": "AI detects scale-invariance confusion by analyzing reasoning collapse when tasks preserve shape but alter size.",
+        "format_version": "1.1",
+        "difficulty": 5
     }
 ]
