@@ -6757,5 +6757,770 @@
         "output": "AI identifies evasive correctness by probing for specificity: genuine reasoning converges under pressure, while avoidance strategies become increasingly vague or inconsistent.",
         "format_version": "1.1",
         "difficulty": 7
+    },
+    {
+        "id": 752,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misinterpret symbolic rules because they substitute memorized templates even when the problem structure changes?",
+        "think": "Template substitution appears when students apply a previously learned symbolic pattern regardless of context. AI tests reasoning across structurally altered tasks; if students force-fit an old template rather than adapting logic to new constraints, the error stems from structural inflexibility rather than misunderstanding of specific symbols.",
+        "output": "AI detects template-substitution errors by examining whether students impose memorized symbolic forms onto tasks with different underlying structure.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 753,
+        "topic": "ai.education",
+        "question": "How can AI determine when students treat visual symmetry cues as literal mathematical equivalence?",
+        "think": "Students often assume symmetrical diagrams imply equal values. AI separates visual aesthetics from mathematical relationships by altering diagram orientation or spacing. If reasoning changes with non-mathematical transformations, the student is relying on symmetry intuition rather than formal proof.",
+        "output": "AI identifies symmetry-intuition bias by checking whether reasoning shifts when visually symmetric but mathematically irrelevant cues are altered.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 754,
+        "topic": "ai.education",
+        "question": "How can AI detect when students confuse inverse operations because they assume mathematical inverses behave identically across all domains?",
+        "think": "Students may believe inverses always undo each other regardless of constraints. AI tests reasoning in domains where inverses fail or require restrictions, such as non-invertible matrices or non-bijective functions. Inconsistent application reveals domain-transfer errors.",
+        "output": "AI detects inverse-operation misconceptions by analyzing reasoning that applies inverse logic blindly across non-invertible contexts.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 755,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misinterpret parameter changes in functions because they confuse horizontal shifts with vertical ones?",
+        "think": "This error appears when students treat transformations like f(x−a) and f(x)+a as equivalent. AI analyzes reasoning on paired tasks where vertical and horizontal shifts lead to different outcomes. Errors that ignore direction-specific semantics reveal the confusion.",
+        "output": "AI spots shift-confusion by detecting incorrect equivalence between horizontal and vertical function transformations.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 756,
+        "topic": "ai.education",
+        "question": "How can AI identify when students rely on linguistic cues rather than mathematical structure to determine operation order?",
+        "think": "Students may rely on natural language rhythm or keyword order instead of symbolic precedence. AI disrupts linguistic cues while preserving structure. If reasoning collapses despite unchanged mathematical order, linguistic-dependence is indicated.",
+        "output": "AI detects linguistic-dependence by comparing performance on tasks where verbal phrasing changes but mathematical structure remains identical.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 757,
+        "topic": "ai.education",
+        "question": "How can AI determine when students misinterpret exponential growth because they attempt to apply linear intuition to nonlinear change?",
+        "think": "AI tests understanding by introducing tasks with identical linear start-points but divergent exponential trajectories. If students extrapolate linearly or expect proportional increments, they are mapping linear heuristics onto nonlinear systems.",
+        "output": "AI detects linear-overextension by identifying linear reasoning patterns applied to inherently exponential growth tasks.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 758,
+        "topic": "ai.education",
+        "question": "How can AI detect when students confuse statistical bias with variance because they interpret noisy outputs as incorrect predictions?",
+        "think": "Students often treat variability as error even in unbiased estimators. AI tests reasoning across scenarios where bias and variance diverge. If students penalize high variance but unbiased results, they conflate the concepts.",
+        "output": "AI identifies bias–variance confusion by analyzing reasoning that treats noisy but unbiased results as fundamentally incorrect.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 759,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misunderstand symbolic substitution because they treat equalities as one-directional rules rather than bidirectional relations?",
+        "think": "Students may substitute expressions only in one direction, incorrectly preserving dependencies. AI tests equivalence through reverse-substitution tasks. If reasoning breaks when direction reverses, students treat equality as directional.",
+        "output": "AI detects directional-equality errors by evaluating reasoning discrepancies between forward and reverse substitution.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 760,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misinterpret probability distributions because they confuse uniformity with fairness?",
+        "think": "Students often assume a fair situation must be uniform. AI contrasts scenarios with fair but non-uniform distributions. If students declare non-uniform fairness as incorrect, fairness–uniformity confusion is present.",
+        "output": "AI detects fairness–uniformity confusion by evaluating whether students equate fairness exclusively with uniform distributions.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 761,
+        "topic": "ai.education",
+        "question": "How can AI determine when students misunderstand cumulative graphs because they confuse marginal changes with total accumulation?",
+        "think": "Students may read height as the change rather than the cumulative total. AI checks for mismatch between slope-based and area-based interpretations: marginal vs total. Errors tied to this mismatch reveal conceptual confusion.",
+        "output": "AI detects marginal–total confusion by comparing reasoning on slope-related vs area-related interpretations of cumulative graphs.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 762,
+        "topic": "ai.education",
+        "question": "How can AI detect when students interpret partial correlations as evidence of causality due to hidden-variable blindness?",
+        "think": "Students may overlook confounders and infer direct causation from partial correlation. AI tests reasoning using tasks with controlled latent variables. If causal claims persist despite confounder presence, hidden-variable insensitivity is revealed.",
+        "output": "AI detects hidden-variable blindness by evaluating causal claims made even when latent confounders clearly influence outcomes.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 763,
+        "topic": "ai.education",
+        "question": "How can AI detect when students incorrectly treat function composition as commutative?",
+        "think": "Students may treat f(g(x)) and g(f(x)) as interchangeable. AI tests reasoning across non-commutative compositions. Divergent outcomes highlight misunderstandings of order-dependent transformations.",
+        "output": "AI detects composition-order errors by checking for reasoning that assumes commutativity in function compositions.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 764,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misunderstand geometric similarity because they conflate proportional scaling with shape preservation?",
+        "think": "Students may think objects are similar simply because one attribute scales proportionally, ignoring the need for all dimensions to scale. AI identifies partial-scaling reasoning by testing responses across inconsistently scaled shapes.",
+        "output": "AI detects partial-scaling misconceptions by analyzing reasoning that declares similarity when only one dimension is scaled proportionally.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 765,
+        "topic": "ai.education",
+        "question": "How can AI determine when students fail to adopt abstraction because they anchor reasoning to specific numerical values rather than general relationships?",
+        "think": "Students often rely heavily on specific numbers used in problems, preventing them from generalizing. AI probes abstraction by using symbolic or variable-based variants. Collapse in reasoning when numbers are removed reveals value-anchoring.",
+        "output": "AI detects value-anchoring by testing reasoning stability when numerical examples are replaced with abstract or symbolic variants.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 766,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misinterpret hierarchical categories because they assume parent and child categories share symmetrical rules?",
+        "think": "Students may think rules applying to broad categories also apply uniformly to subcategories. AI evaluates reasoning across tasks where category-level constraints differ. Collisions between general and specific rules show hierarchical misunderstanding.",
+        "output": "AI detects hierarchical-rule confusion by observing whether students incorrectly transfer parent-level constraints to subcategories.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 767,
+        "topic": "ai.education",
+        "question": "How can AI distinguish between students who genuinely integrate multi-modal evidence into a unified model and those who only align their explanations after-the-fact to appear consistent?",
+        "think": "True integration produces explanations that remain stable when evidence modalities are presented in different orders or formats. Post-hoc alignment collapses when the sequence or framing changes because the student retrofits explanations instead of building a coherent mental model. By perturbing modality order—graph, text, table, scenario—the AI observes whether coherence emerges inherently or is manufactured reactively. Fragile adaptability signals imitation rather than integration.",
+        "output": "AI identifies post-hoc alignment by testing reasoning stability across reordered or reframed modalities, exposing explanations that shift inconsistently.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 768,
+        "topic": "ai.education",
+        "question": "How can AI detect when a student’s elegant abstraction hides the fact that they do not understand the constraints that make the abstraction valid?",
+        "think": "Abstraction should generalize while respecting boundary conditions. Students who over-abstract produce solutions that fail under edge cases or constraint-heavy variants. AI probes with scenarios where hidden assumptions break—non-linearity, discontinuity, or domain restrictions. If the student cannot adapt their abstraction or explain exceptions, the abstraction is superficial.",
+        "output": "AI uncovers superficial abstractions by stress-testing reasoning with boundary and constraint-sensitive variations that reveal hidden assumptions.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 769,
+        "topic": "ai.education",
+        "question": "How can AI-supported tutors detect when students’ confident explanations are generated through linguistic fluency rather than conceptual understanding?",
+        "think": "Linguistic fluency creates a veneer of insight without structural reasoning underneath. AI isolates conceptual depth by forcing students to operate without narrative filler—requiring diagrams, symbolic equivalences, or counterexample evaluation. If the explanation becomes incoherent when stripped of linguistic scaffolding, the confidence originates from rhetoric, not reasoning.",
+        "output": "AI detects rhetoric-driven correctness by removing narrative support and observing whether conceptual structure persists without fluent language.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 770,
+        "topic": "ai.education",
+        "question": "How can AI determine when students’ incorrect predictions stem from misinterpreting model assumptions rather than misunderstanding the content itself?",
+        "think": "Students sometimes accept simplified model assumptions too literally. AI differentiates content-misunderstanding from assumption-misreading by probing meta-reasoning: can the student articulate what the model abstracts away? If they apply simplified assumptions directly to real-world variants without adjusting, the issue lies in assumption interpretation rather than core knowledge.",
+        "output": "AI distinguishes assumption-misreading by testing whether students improperly extend simplified model constraints to contexts where they do not apply.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 771,
+        "topic": "ai.education",
+        "question": "How can AI detect when students construct internally consistent but domain-invalid causal chains because they treat correlation clusters as mechanistic relationships?",
+        "think": "AI identifies false-mechanism construction by comparing how students handle counterfactuals that preserve correlation but break causal pathways. If students maintain identical explanations even when causal direction or mechanism is logically altered, their model derives from correlation imprinting rather than causal inference.",
+        "output": "AI detects correlation-driven causal errors by testing whether explanations remain unchanged under counterfactual scenarios that disrupt causal mechanisms.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 772,
+        "topic": "ai.education",
+        "question": "How can AI detect deep misconceptions when students consistently achieve correct answers but derive them from incorrect internal rules that only coincidentally align with correct outcomes?",
+        "think": "Coincidental correctness emerges when flawed heuristics align with correct outputs for a subset of cases. AI identifies these hidden misconceptions by generating adversarial or boundary-case tasks designed to break heuristics without altering true logic. If performance collapses under targeted stressors, correctness is accidental, not conceptual.",
+        "output": "AI reveals accidental correctness by testing performance on boundary and adversarial tasks that disrupt flawed heuristics while preserving true logic.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 773,
+        "topic": "ai.education",
+        "question": "How can AI determine when a student’s conceptual difficulty stems from treating mathematical representations as ontologically real rather than as models of underlying relationships?",
+        "think": "Students may mistake representational artifacts (grid spacing, axis shape, symbolic notation) for intrinsic properties of the concept. AI distinguishes representational literalism by altering representational formats—changing scales, coordinate systems, or symbolic conventions. When reasoning shifts with representation rather than underlying relationships, the AI exposes ontological misinterpretation.",
+        "output": "AI detects representational literalism by analyzing reasoning shifts triggered by representational changes that do not affect underlying structure.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 774,
+        "topic": "ai.education",
+        "question": "How can AI detect when students produce explanations that seem mechanistic but are actually constructed by chaining unrelated micro-rules without understanding the global system behavior?",
+        "think": "Fragmented rule-chaining creates locally consistent reasoning segments that fail under global coherence checks. AI must examine whether micro-rules interact meaningfully: do transitions rely on actual system dependencies, or are they simply glued together by superficial cues? By perturbing dependencies—removing, swapping, or inverting them—the AI observes whether the explanation collapses. A genuine mechanistic model adapts across perturbations; a rule chain falls apart when tested outside its memorized sequence.",
+        "output": "AI distinguishes true mechanistic reasoning from rule-chaining by testing whether micro-rules remain coherent when system dependencies are perturbed.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 775,
+        "topic": "ai.education",
+        "question": "How can AI identify when students appear to reason abstractly but are actually relying on unexamined intuitive metaphors that distort formal structure?",
+        "think": "Intuitive metaphors—like 'numbers as distances' or 'probability as fairness'—shape surface reasoning while masking divergence from formal definitions. To reveal this, the AI introduces contexts where the metaphor breaks but the formal rule still applies. If reasoning collapses or becomes contradictory, the student’s abstraction is metaphor-dependent. True abstraction persists independently of the intuitive framing.",
+        "output": "AI uncovers metaphor-dependent abstraction by testing performance in scenarios where intuitive metaphors fail but formal rules hold.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 776,
+        "topic": "ai.education",
+        "question": "How can AI detect when students intentionally use vagueness as a strategy to avoid committing to testable claims, thereby hiding conceptual gaps?",
+        "think": "Evasive vagueness stabilizes only under low-pressure questioning. When pushed toward quantitative specificity, structural prediction, or counterfactual commitments, evasive explanations drift or contradict themselves. AI must analyze the stability of explanations under targeted constraints: whether answers converge toward a clear model or dissolve into ambiguity. Genuine understanding withstands pressure; evasive reasoning fragments.",
+        "output": "AI detects strategic vagueness by applying specificity-forcing prompts and observing whether explanations converge or disintegrate.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 777,
+        "topic": "ai.education",
+        "question": "How can AI distinguish between students who rely on a deeply internalized but incorrect conceptual schema and those who improvise explanations on the spot without any underlying model?",
+        "think": "A stable incorrect schema produces consistent errors across formats, tasks, and perspectives. Improvised reasoning, by contrast, generates inconsistent or contradictory responses depending on framing. AI can test model-consistency by triangulating performance across symbolic, graphical, and verbal formats. If error patterns stay structurally aligned across formats, the misconception is schema-driven. If patterns drift unpredictably, the student is improvising.",
+        "output": "AI differentiates schema-driven misconceptions from improvisation by checking cross-format stability of reasoning errors.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 778,
+        "topic": "ai.education",
+        "question": "How can AI detect when students’ explanations maintain surface coherence but rely on circular reasoning that prevents genuine causal understanding?",
+        "think": "Circular reasoning is self-validating: conclusions rely on premises that implicitly depend on the same conclusion. AI analyzes dependency graphs extracted from student explanations. If the causal chain loops back without external grounding, the system identifies epistemic circularity. Testing with counterfactual breaks further exposes cycles: if altering a premise leads the student to re-assert the original conclusion unchanged, circular logic is controlling the explanation.",
+        "output": "AI detects circular reasoning by mapping dependency cycles and testing whether conclusions persist unchanged under counterfactual premise alterations.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 779,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misinterpret multi-step computations because they treat intermediate symbolic expressions as final quantitative outcomes?",
+        "think": "Students sometimes stop at an expression that ‘looks finished’ without understanding that evaluation is incomplete. AI checks for premature stopping by comparing intermediate outputs with expected continuation steps. When symbolic forms are misclassified as solutions, the system flags incomplete-processing reasoning.",
+        "output": "AI detects premature-processing errors by identifying when students treat intermediate symbolic expressions as completed results.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 780,
+        "topic": "ai.education",
+        "question": "How can AI identify when students misunderstand probability tasks because they implicitly assume events are equally likely even when information suggests otherwise?",
+        "think": "Students often default to equal-likelihood assumptions due to symmetry heuristics. AI tests reasoning on asymmetric scenarios; if students persist in equal-likelihood claims despite evidence, it reveals symmetry-overextension.",
+        "output": "AI exposes symmetry-overextension by checking for equal-likelihood assumptions in contexts where probabilities differ.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 781,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misapply scaling rules because they confuse linear scaling with area or volume scaling?",
+        "think": "Students may incorrectly scale 2D or 3D quantities using linear intuition. AI compares reasoning across dimension-sensitive tasks; if errors occur only with geometric or volumetric scale, linear-scaling bias is present.",
+        "output": "AI detects linear-scaling bias by testing reasoning on area and volume tasks where linear scaling does not apply.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 782,
+        "topic": "ai.education",
+        "question": "How can AI determine when students misinterpret logical negations because they assume negation simply reverses the original claim without understanding scope?",
+        "think": "Negation requires interpreting quantifier scope and predicate structure. AI checks whether students apply negation uniformly without adjusting quantifiers or relational terms. Inconsistent logical interpretation reveals shallow negation understanding.",
+        "output": "AI identifies scope-based negation errors by detecting uniform reversals that ignore quantifier and predicate structure.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 783,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misunderstand optimization tasks because they focus exclusively on extreme values rather than evaluating feasibility constraints?",
+        "think": "Students may jump to maximal or minimal values without checking whether those values satisfy all constraints. AI tests for feasibility-awareness by perturbing constraint boundaries. If students maintain extreme-based answers even when infeasible, feasibility-neglect is confirmed.",
+        "output": "AI detects feasibility-neglect by checking whether extreme-value reasoning persists despite constraint incompatibility.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 784,
+        "topic": "ai.education",
+        "question": "How can AI determine when students misinterpret chemical equations because they treat coefficients as physical quantities rather than stoichiometric ratios?",
+        "think": "Students may treat coefficients like counts instead of proportional relationships. AI tests reasoning across scaled versions of the reaction. If students misjudge proportionally equivalent scenarios, coefficient–quantity confusion is present.",
+        "output": "AI identifies coefficient–ratio confusion by analyzing errors in proportionally scaled reaction contexts.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 785,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misunderstand multi-representational tasks because they fail to map equivalent information across text, graphs, and equations?",
+        "think": "Students may treat representations independently instead of translating between them. AI reveals mapping failures by presenting equivalent tasks in different formats. If reasoning shifts across versions, representational-transfer is weak.",
+        "output": "AI detects weak representational-transfer by observing inconsistent reasoning across equivalent textual, graphical, and symbolic tasks.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 786,
+        "topic": "ai.education",
+        "question": "How can AI detect when students incorrectly assume that trends observed in small samples must persist in larger populations?",
+        "think": "Students often ignore sampling variability and assume small-sample behavior generalizes. AI tests reasoning using counterexamples where small samples diverge from population trends. If students generalize regardless of statistical context, small-sample overgeneralization is present.",
+        "output": "AI detects small-sample overgeneralization by analyzing reasoning that extrapolates sample-specific trends to full populations without justification.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 787,
+        "topic": "ai.education",
+        "question": "How can AI identify when students misunderstand functional dependence because they treat independent variables as manipulable outcomes?",
+        "think": "Some students invert causal or variable dependency logic. AI probes variable roles by altering problem framing; if students continually treat inputs as outputs, role-reversal logic is detected.",
+        "output": "AI detects variable-role reversal by observing reasoning patterns that incorrectly treat independent variables as dependent outcomes.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 788,
+        "topic": "ai.education",
+        "question": "How can AI determine when students misinterpret sequences because they assume early-term patterns must remain constant across all subsequent terms?",
+        "think": "Students may believe an initial difference pattern defines the entire sequence. AI tests for global understanding by introducing later-term variations. If reasoning rigidly maintains initial patterns, the student over-anchors to early terms.",
+        "output": "AI detects early-term anchoring by comparing reasoning stability when late-term structure deviates from initial patterns.",
+        "format_version": "1.1",
+        "difficulty": 4
+    },
+    {
+        "id": 789,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misunderstand multi-variable optimization because they treat each variable independently, ignoring interactions?",
+        "think": "Isolation-based reasoning makes students optimize one variable without considering its effect on others. AI introduces interaction-heavy variants. If students produce inconsistent solutions under interaction changes, they are ignoring multi-variable dependencies.",
+        "output": "AI detects interdependency neglect by analyzing solutions that treat each variable as an isolated optimization target.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 790,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misunderstand scientific claims because they treat model predictions as direct empirical facts?",
+        "think": "Students may confuse modeled trends with measured outcomes. AI checks for this by presenting conflicts between model predictions and raw data. Persisting in model-truth reasoning despite contradictory evidence indicates model–fact conflation.",
+        "output": "AI spots model–fact conflation by testing whether students override empirical data in favor of theoretical predictions.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 791,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misinterpret domain abstractions because they treat placeholders or generic variables as concrete items?",
+        "think": "Students often literalize placeholders, such as assuming x or v represent a specific physical object. AI probes abstraction fidelity by shifting contexts; if reasoning breaks when placeholders no longer map to assumed objects, literalization is exposed.",
+        "output": "AI detects placeholder-literalization by analyzing reasoning instability across context changes that require abstract interpretation.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 792,
+        "topic": "ai.education",
+        "question": "How can AI identify when students incorrectly conflate association and causation because they treat temporal order as sufficient proof of influence?",
+        "think": "Students may assume ‘earlier implies cause’. AI tests causal understanding by presenting scenarios where temporal sequence exists without causal mechanism. If students preserve their inference, temporal-causation bias is present.",
+        "output": "AI detects temporal-causation bias by analyzing reasoning that infers causality strictly from event order without mechanism.",
+        "format_version": "1.1",
+        "difficulty": 5
+    },
+    {
+        "id": 793,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misunderstand iterative processes because they expect monotonic change rather than oscillatory or stabilizing patterns?",
+        "think": "Students may assume values must continually increase or decrease. AI tests understanding using iteration examples with oscillations or convergence. If students reject these outcomes as ‘errors’, monotonicity-assumption bias is exposed.",
+        "output": "AI detects monotonicity bias by evaluating whether students misclassify oscillatory or stabilizing sequences as incorrect.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 794,
+        "topic": "ai.education",
+        "question": "How can AI detect when students construct explanations that seem model-based but are actually driven by narrative coherence, masking the absence of mechanistic reasoning?",
+        "think": "Narrative-driven explanations remain smooth even when key mechanistic components are missing. AI can differentiate by applying perturbations: altering causal direction, removing key variables, or introducing counterfactual states. True mechanistic reasoning adapts and justifies changes; narrative coherence attempts collapse or become contradictory. If the explanation remains story-like but fails under mechanistic probing, the student is using narrative scaffolding rather than causal modeling.",
+        "output": "AI reveals narrative-driven reasoning by testing responses against mechanistic perturbations and identifying collapse of coherence under causal scrutiny.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 795,
+        "topic": "ai.education",
+        "question": "How can AI identify when students strategically use technically correct but overly general statements to avoid exposing gaps in domain-specific knowledge?",
+        "think": "Students sometimes hide deficits by offering general truths that apply across many contexts. AI must require domain-specific precision—forcing students to commit to concrete mechanisms, constraints, or predictions. If their reasoning stays broad despite specific prompts, or it collapses when forced into detail, the student is strategically evading conceptual exposure. The contrast between general correctness and lack of situational engagement reveals the concealment.",
+        "output": "AI detects strategic generality by enforcing domain-specific commitments and observing whether reasoning collapses under requests for precision.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 796,
+        "topic": "ai.education",
+        "question": "How can AI determine when students appear consistent simply because their errors form a self-stabilizing misconception network rather than because they understand the material?",
+        "think": "Misconception networks create internal consistency by linking flawed assumptions such that one erroneous belief reinforces another. Students then appear stable across tasks, while remaining fundamentally incorrect. AI uncovers this by introducing tasks that isolate individual assumptions; if the student becomes inconsistent when the misconception network is disrupted, the system identifies the hidden structure sustaining the illusion of coherence.",
+        "output": "AI detects misconception networks by isolating linked assumptions and observing whether reasoning collapses when these dependencies are disrupted.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 797,
+        "topic": "ai.education",
+        "question": "How can AI detect when students form mathematically valid derivations but still misunderstand the underlying concept because they cannot interpret the result’s implications?",
+        "think": "Some students can execute symbolic procedures flawlessly yet fail to articulate what the result means. AI distinguishes this by requiring interpretation tasks—asking students to predict consequences, relate results to real contexts, or explain qualitative behavior. If symbolic fluency remains high but interpretive accuracy collapses, the system identifies conceptual detachment.",
+        "output": "AI uncovers conceptual detachment by testing students on interpretive tasks that reveal a disconnect between symbolic correctness and conceptual meaning.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 798,
+        "topic": "ai.education",
+        "question": "How can AI evaluate whether a student’s consistent reasoning errors arise from misapplied domain transfer rather than misunderstanding of the new domain itself?",
+        "think": "Students often import rules from a previously learned domain—such as arithmetic intuitions intruding on algebraic reasoning. AI can detect this by creating tasks that resemble the prior domain superficially but break its assumptions. If students continue applying old-domain logic despite contradictions, the issue is domain-transfer interference rather than lack of knowledge in the new subject.",
+        "output": "AI identifies domain-transfer interference by testing whether students apply old-domain rules even when they contradict the structure of the new domain.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 799,
+        "topic": "ai.education",
+        "question": "How can AI detect when students provide seemingly structured reasoning that is actually adapted dynamically from hints in the problem statement rather than from internal understanding?",
+        "think": "Hint-driven reasoning occurs when students mirror cues from problem wording instead of applying genuine conceptual logic. AI reveals this by systematically removing, rephrasing, or neutralizing hints. If reasoning loses direction or becomes inconsistent when cues disappear, the student was relying on linguistic scaffolding rather than domain knowledge. The contrast between cue-rich and cue-neutral contexts exposes the dependency.",
+        "output": "AI detects hint-dependency by analyzing reasoning degradation when linguistic or structural cues from the problem are removed or altered.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 800,
+        "topic": "ai.education",
+        "question": "How can AI distinguish between students who fail due to missing prerequisite schemas and those who fail because they possess incompatible but well-formed alternative schemas?",
+        "think": "Missing-schema failures produce fragmented, inconsistent reasoning with gaps. Incompatible-schema failures produce coherent but systematically incorrect reasoning patterns. AI probes cross-problem consistency: if errors shift unpredictably, prerequisites are missing; if errors persist across formats and tasks in a structured pattern, the student holds a competing schema. The AI then traces the schema’s internal logic to identify points of divergence from canonical understanding.",
+        "output": "AI identifies incompatible-schema reasoning by detecting consistent, structured error patterns that remain stable across tasks, unlike fragmentary prerequisite gaps.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 801,
+        "topic": "ai.education",
+        "question": "How can AI detect when students construct explanations that remain correct purely due to compensating errors, masking the fact that each individual inference is conceptually flawed?",
+        "think": "Compensating errors arise when multiple incorrect assumptions accidentally cancel each other, producing a superficially correct outcome. AI exposes this by isolating each inference chain and testing it under contextual perturbations. If individual steps fail independently but the combined answer works only in specific configurations, the system identifies compensatory error alignment. Genuine understanding would preserve correctness even when steps are decomposed.",
+        "output": "AI detects compensating-error reasoning by decomposing inference chains and identifying correct outcomes that collapse when flawed steps are tested independently.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 802,
+        "topic": "ai.education",
+        "question": "How can AI determine when students’ reasoning appears mechanistic only because they imitate expert surface features rather than internalizing causal dependencies?",
+        "think": "Students may reproduce expert-like vocabulary, symbolic structures, or causality markers without understanding actual dependencies. AI distinguishes imitation from comprehension through dependency inversion: presenting rearranged causal sequences. If the student preserves superficial form but fails to adjust causal direction or strength appropriately, the explanation is mimicry. True mechanistic reasoning adapts to altered dependency maps.",
+        "output": "AI separates mechanistic understanding from expert-form mimicry by testing whether reasoning adapts when causal dependencies are rearranged.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 803,
+        "topic": "ai.education",
+        "question": "How can AI identify when students’ explanations rely on latent metaphysical assumptions—such as essentialism or teleology—that subtly distort their scientific reasoning?",
+        "think": "These assumptions appear through subtle linguistic patterns: attributing purpose to natural processes, assuming inherent essence, or framing categories as natural kinds. AI detects latent metaphysics by introducing counterfactuals that violate essentialist or teleological expectations. If students preserve their assumptions despite contradictory evidence, the reasoning is driven by metaphysical bias rather than scientific logic.",
+        "output": "AI detects metaphysical bias by challenging essentialist or teleological assumptions with counterfactuals that break those expectations and observing persistence of invalid reasoning.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 804,
+        "topic": "ai.education",
+        "question": "How can AI detect when students successfully handle symbolic transformations but fundamentally misunderstand the conceptual domain because they interpret symbols as physical proxies rather than abstractions?",
+        "think": "Symbol-as-proxy reasoning appears when students map symbolic entities directly onto imagined physical objects. AI detects this by varying representational formats: switching symbols, reorganizing diagrams, or using purely verbal descriptions. If reasoning collapses when symbolic cues are altered, the student was relying on proxy-mapping rather than abstraction. True conceptual understanding remains invariant across representational changes.",
+        "output": "AI identifies symbol-proxy misconceptions by testing reasoning stability under representational changes that disrupt physical associations but preserve conceptual structure.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 805,
+        "topic": "ai.education",
+        "question": "How can AI determine when students’ coherent explanations reflect cognitive over-compression—generalizing too aggressively—rather than actual high-level insight?",
+        "think": "Cognitive over-compression produces elegant but oversimplified models that ignore essential distinctions. AI distinguishes insight from over-compression by probing boundary conditions, exceptions, and domains where compressed rules break. If the student persists in applying over-generalized principles despite contradictory implications, the reasoning reflects compression rather than mastery. Insight withstands complexity; compression collapses under it.",
+        "output": "AI detects cognitive over-compression by evaluating whether students continue to apply over-generalized principles even when confronted with boundary conditions that invalidate them.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 806,
+        "topic": "ai.education",
+        "question": "How can AI distinguish when students misinterpret proportional reasoning because they rely on linear intuition even in contexts with non-linear scaling?",
+        "think": "When students expect outputs to change proportionally with inputs, they misread exponential, quadratic, or logistic relationships. AI reveals linear-intuition bias by comparing reasoning across matched tasks with identical starting points but different scaling behaviors. If students persist with linear predictions across non-linear functions, the system identifies entrenched proportional overextension.",
+        "output": "AI detects linear-intuition bias by testing whether students apply proportional reasoning to tasks governed by non-linear scaling.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 807,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misunderstand conditional probability because they treat all conditioning events as interchangeable regardless of their informational relevance?",
+        "think": "Some learners condition on arbitrary subsets without considering how the conditioning event restructures probability space. AI probes this by offering tasks where only specific conditions meaningfully affect likelihoods. If students treat irrelevant conditions as equivalent to meaningful ones, the system flags conditioning-irrelevance misunderstanding.",
+        "output": "AI detects conditioning-irrelevance by analyzing student reasoning that applies conditional rules uniformly without evaluating informational value.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 808,
+        "topic": "ai.education",
+        "question": "How can AI identify when students fail in multi-step geometric transformations because they incorrectly assume intermediate transformations preserve all properties?",
+        "think": "Students often generalize preservation properties from simple transformations to complex sequential ones. AI tests for this by introducing transformation sequences where only final states preserve symmetry or orientation. If reasoning treats intermediate states as invariant when they are not, the system identifies over-generalized preservation assumptions.",
+        "output": "AI detects preservation-overgeneralization by analyzing errors where students assume invariance across intermediate geometric transformation steps.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 809,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misinterpret logical equivalence because they treat one-way implications as if they were biconditional?",
+        "think": "Students often infer equivalence from consistent directionality. AI reveals unidirectional-equivalence misconceptions by comparing reasoning on tasks where the reverse implication is false. If students still conclude mutual dependence, the misunderstanding is structural, not incidental.",
+        "output": "AI identifies unidirectional-equivalence errors by testing reasoning on cases where one-way implications do not reverse.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 810,
+        "topic": "ai.education",
+        "question": "How can AI determine when students misinterpret dynamic systems because they assume instantaneous stabilization rather than transitional behavior?",
+        "think": "Some learners expect systems to jump directly to equilibrium, ignoring transient oscillations or gradual convergence. AI uncovers this by contrasting reasoning across true dynamic paths versus immediate-state shortcuts. A collapse in reasoning when transitional states are required indicates equilibrium-oversimplification.",
+        "output": "AI detects equilibrium-oversimplification by evaluating failures in reasoning about transitional states in dynamic systems.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 811,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misunderstand optimization tasks because they incorrectly treat local maxima as global maxima?",
+        "think": "Students often stop once they find the first increasing-to-decreasing transition. AI reveals this by introducing multi-peak functions and checking whether students explore the full domain. If they prematurely assign global status to local optima, the system identifies search-horizon limitations.",
+        "output": "AI detects local–global confusion by analyzing whether students prematurely treat local maxima as global solutions.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 812,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misinterpret abstract symbolic rules because they assume that visually complex expressions must represent more complex relationships?",
+        "think": "Students sometimes map visual complexity directly to conceptual depth. AI probes this by testing reasoning on equivalent expressions with different surface structures. If students systematically misjudge equivalence based on complexity alone, they exhibit structural-superficiality bias.",
+        "output": "AI detects structural-superficiality bias by identifying reasoning that misinterprets equivalent expressions due to differences in surface complexity.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 813,
+        "topic": "ai.education",
+        "question": "How can AI detect when students misapply conservation principles because they treat them as universally valid rather than domain-constrained?",
+        "think": "Students often assume conserved quantities—energy, mass, momentum—apply without restriction. AI contrasts scenarios where conservation holds with those constrained by loss, dissipation, or context-specific exceptions. Errors that persist under non-conservation scenarios reveal unconditional-conservation bias.",
+        "output": "AI detects unconditional-conservation bias by presenting tasks where conservation fails and observing whether students incorrectly preserve quantities.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 814,
+        "topic": "ai.education",
+        "question": "How can AI determine when students misunderstand structural recursion because they conflate recursive definitions with repetitive procedural looping?",
+        "think": "Students often map recursion to iterative loops without recognizing structural-decomposition semantics. AI distinguishes this by presenting recursively-defined objects whose structure differs fundamentally from iteration-driven processes. If students apply loop intuition to recursive structure, the system identifies recursion–iteration conflation.",
+        "output": "AI detects recursion–iteration conflation by evaluating reasoning that replaces structural decomposition with procedural repetition.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 815,
+        "topic": "ai.education",
+        "question": "How can AI identify when students misunderstand statistical significance because they treat p-values as direct measures of effect size?",
+        "think": "Students may equate small p-values with large effects, ignoring sample size, variance, and study design. AI tests for this by varying effect size while holding p-value constant, or vice versa. If reasoning equates statistical significance with magnitude, the misunderstanding becomes clear.",
+        "output": "AI detects p-value–effect-size confusion by analyzing reasoning that treats statistical significance as a direct indicator of effect magnitude.",
+        "format_version": "1.1",
+        "difficulty": 6
+    },
+    {
+        "id": 816,
+        "topic": "ai.education",
+        "question": "How can AI detect when students’ apparently rigorous formal proofs are actually built on implicit assumptions they never articulated, making the proof structurally fragile?",
+        "think": "Implicit assumptions act as invisible scaffolding: the proof works only if these hidden conditions hold. AI uncovers them by presenting counterexamples that violate plausible but unstated premises. If the student’s proof collapses under these tests, it reveals dependency on unspoken constraints. A robust proof generalizes; a fragile one disintegrates when implicit assumptions are surfaced and challenged.",
+        "output": "AI detects fragile proofs by probing for unstated assumptions through counterexamples that invalidate hidden premises underlying the student’s reasoning.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 817,
+        "topic": "ai.education",
+        "question": "How can AI differentiate between students who genuinely reason with hierarchical conceptual structures and those who simply apply memorized hierarchical keywords in expected places?",
+        "think": "Hierarchical reasoning requires dynamic reorganization: moving from general principles to specific cases, then back to overarching rules. Students who merely imitate surface hierarchy place keywords (e.g., 'general rule', 'exception', 'boundary case') without structurally integrating them. AI tests by scrambling the order of conceptual prompts; genuine hierarchical thinkers adapt, while imitators lose coherence or misplace the relational scope.",
+        "output": "AI identifies hierarchical-structure imitation by testing whether students maintain coherent relational organization when conceptual prompts are reorganized.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 818,
+        "topic": "ai.education",
+        "question": "How can AI detect when students’ reasoning consistency comes not from conceptual understanding but from rigidly applying a flawed but internally consistent private rule system?",
+        "think": "Students sometimes build personal rule systems—coherent internally but incompatible with domain logic. AI reveals this by testing cross-context consistency: if the student’s explanations remain stable across formats but diverge systematically from canonical reasoning, they follow an alternative rule system. Breaking one element of this system through a targeted counterexample exposes the internal rigidity and non-alignment with the domain.",
+        "output": "AI detects private-rule-system reasoning by identifying stable but systematically incorrect logic patterns that persist across contexts.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 819,
+        "topic": "ai.education",
+        "question": "How can AI determine when students generate sophisticated explanations that are actually built using echo-pattern inference—patterning their explanations after teacher or textbook language without internalizing the underlying concepts?",
+        "think": "Echo-pattern inference produces fluent but hollow reasoning: students replicate discourse markers, connective phrases, and example structures. AI identifies this by removing familiar linguistic cues and requiring reasoning through symbolic, diagrammatic, or counterexample-driven formats. If the explanation collapses or loses structure when stripped of textual patterns, the student relied on linguistic mimicry rather than understanding.",
+        "output": "AI detects echo-pattern reasoning by removing familiar linguistic scaffolds and testing whether students can maintain conceptual structure in alternate formats.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 820,
+        "topic": "ai.education",
+        "question": "How can AI evaluate when students’ explanations appear fully coherent only because they strategically avoid the specific scenario boundaries where their misconceptions would be exposed?",
+        "think": "Students may unconsciously avoid mentioning edge cases, exceptions, or reversals that would reveal conceptual gaps. AI identifies this by forcing engagement with boundary conditions—extremes, degenerate cases, or rule-flip situations. If the explanation’s coherence breaks or becomes contradictory under these conditions, it reveals selective avoidance rather than genuine mastery.",
+        "output": "AI detects selective-avoidance coherence by introducing boundary-condition prompts that expose hidden misconceptions behind otherwise stable explanations.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 821,
+        "topic": "ai.education",
+        "question": "How can AI detect when students present sophisticated reasoning that is actually built on a hidden binary worldview that prevents them from understanding gradient or continuum-based concepts?",
+        "think": "Binary-worldview reasoning appears when students force continuous phenomena—probability, similarity, strength of evidence—into categorical buckets. Their explanations remain rhetorically polished, making the underlying discretization invisible. AI reveals this bias by introducing tasks requiring midpoint reasoning, fuzzy boundaries, or partial memberships. If students collapse gradients back into dichotomies even when contradictions emerge, it exposes a covert binary framework controlling their reasoning.",
+        "output": "AI detects hidden binary-worldview reasoning by forcing engagement with gradient-based tasks and observing persistent collapse into dichotomous categories.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 822,
+        "topic": "ai.education",
+        "question": "How can AI distinguish whether a student’s consistent reasoning errors originate from over-regularizing patterns in their mental model rather than misunderstanding the underlying domain rules?",
+        "think": "Over-regularization appears when students universalize a rule because it fits many past examples, not because it is inherently valid. AI tests this by presenting tasks where the domain rule breaks but the pattern superficially persists. If the student maintains the generalization despite counter-rule evidence, the error stems from pattern over-regularization—an inductively amplified bias—rather than a deficit in domain knowledge.",
+        "output": "AI identifies pattern over-regularization by testing reasoning on cases engineered to preserve surface patterns while breaking actual domain rules.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 823,
+        "topic": "ai.education",
+        "question": "How can AI determine when a student’s abstract explanation is actually a compressed retelling of memorized examples that lacks the generative power to handle unseen variations?",
+        "think": "Memorized compression appears abstract but reveals shallow generativity: when confronted with a variation that cannot be mapped to a learned template, the reasoning fails. AI identifies this by testing transformation flexibility—changing object types, switching constraints, or reordering problem structure. If explanations degrade into mismatched templates or incoherent chains, the abstraction is memorized rather than genuinely generative.",
+        "output": "AI detects memorized pseudo-abstraction by probing performance on structurally modified tasks that break the student’s stored example templates.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 824,
+        "topic": "ai.education",
+        "question": "How can AI detect when students construct logically consistent but epistemically brittle explanations because they cannot differentiate model assumptions from empirical constraints?",
+        "think": "Epistemic brittleness occurs when reasoning remains internally coherent only as long as model assumptions are treated as empirical truths. AI exposes this by altering assumptions while keeping empirical data constant, or vice versa. If the student’s explanation collapses when assumptions shift—even though empirical observations remain unchanged—the system detects a failure to separate model logic from real-world constraints.",
+        "output": "AI detects epistemically brittle reasoning by testing whether explanations remain stable when model assumptions and empirical constraints are decoupled.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 825,
+        "topic": "ai.education",
+        "question": "How can AI evaluate when a student’s explanation appears deeply conceptual only because they recursively reference their own prior statements, creating the illusion of depth through self-reinforcement?",
+        "think": "Self-reinforcing explanations build apparent depth by looping earlier claims as justification for later ones. AI identifies this by tracking dependency chains: if new claims rely on previously stated conclusions without external grounding, it forms a circular reinforcement loop. Introducing counterfactual prompts or forcing the student to anchor their reasoning in external evidence breaks the loop, revealing whether the explanation has genuine conceptual basis or only rhetorical recursion.",
+        "output": "AI detects self-reinforcing pseudo-depth by mapping circular justification loops and testing whether reasoning persists when recursive references are disrupted.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 826,
+        "topic": "ai.education",
+        "question": "How can AI detect when students’ high-level explanations rely on concept blending that merges incompatible mental models, producing elegant but fundamentally incoherent reasoning?",
+        "think": "Concept blending happens when students merge distinct frameworks—like mixing energy transfer with force-based causation—into explanations that sound elegant but violate both domains. AI detects this by isolating each blended component and testing whether the student can reason about each model independently. If independence collapses and the student cannot disentangle them, the coherence comes from rhetorical fusion rather than conceptual integrity. Contradictions appear when domain-specific constraints are applied.",
+        "output": "AI detects incompatible model-blending by separating reasoning components and checking whether each can stand alone without contradictions.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 827,
+        "topic": "ai.education",
+        "question": "How can AI distinguish students who generalize correctly from those who merely follow meta-patterns like 'the more complex answer is usually correct' without understanding underlying principles?",
+        "think": "Meta-pattern followers rely on superficial heuristics such as choosing the longest explanation or the solution with more variables. AI uncovers this by designing cases where simple solutions are correct and complex ones are deliberately wrong. If students consistently choose complexity irrespective of structure, their reasoning is meta-pattern-driven. True generalization adapts fluidly across complexity reversals.",
+        "output": "AI identifies meta-pattern reasoning by testing student consistency on tasks where solution complexity contradicts superficial expectations.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 828,
+        "topic": "ai.education",
+        "question": "How can AI detect when students construct seemingly deep interpretations but avoid mechanistic explanation by leaning on thematic or metaphorical language?",
+        "think": "Metaphorical reasoning masks absent mechanisms by shifting discussion toward themes—balance, harmony, stability—without addressing causal structure. AI detects this by requiring explanation of intermediate mechanisms in precise, non-metaphorical terms. If students cannot convert symbolic phrasing into concrete interactions or predictions, the depth is rhetorical, not mechanistic.",
+        "output": "AI reveals metaphorical masking by forcing translation of thematic language into explicit mechanistic steps and checking for collapse.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 829,
+        "topic": "ai.education",
+        "question": "How can AI determine when students’ conceptual models are fundamentally circular because they explain domain behavior through properties that are themselves defined by that behavior?",
+        "think": "Circular models arise when explanations use consequences as the cause—for example, defining stability by stable outcomes. AI detects circularity by tracing definitional chains: if key terms derive from their own consequences, the model is epistemically empty. Counterfactual challenges—where consequences change while initial premises remain—expose whether the explanation collapses or survives independent grounding.",
+        "output": "AI detects circular conceptual models by mapping definitional loops and testing whether explanations survive counterfactual separation of cause and consequence.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 830,
+        "topic": "ai.education",
+        "question": "How can AI differentiate between genuinely flexible reasoning and students who only appear flexible because they use ambiguous phrasing that can be retroactively interpreted as correct?",
+        "think": "Ambiguous phrasing allows students to 'explain' any outcome after the fact, masking the absence of predictive commitments. AI distinguishes real flexibility by requiring forward predictions and explicit variable dependencies. If the student's ambiguity collapses when precise predictions are required, the flexibility was rhetorical rather than substantive.",
+        "output": "AI detects ambiguity-driven pseudo-flexibility by enforcing explicit, forward-looking predictions that ambiguous phrasing cannot support.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 831,
+        "topic": "ai.education",
+        "question": "How can AI detect when students maintain reasoning coherence only because they unconsciously import knowledge from outside the task constraints, violating the problem’s intended epistemic boundaries?",
+        "think": "Boundary leakage occurs when students use background knowledge disallowed by the task, creating artificially coherent explanations. AI reveals this by varying contextual framings that redefine the allowable information. If the student’s reasoning breaks when outside knowledge is removed or modified, coherence depends on illicit assumption importation rather than on-task logic.",
+        "output": "AI detects boundary leakage by modifying contextual constraints and checking whether reasoning collapses when external knowledge is disallowed.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 832,
+        "topic": "ai.education",
+        "question": "How can AI determine when students incorrectly treat mathematical equivalence as conceptual equivalence, assuming equal expressions must imply identical underlying mechanisms?",
+        "think": "Two expressions may be equivalent numerically but represent distinct interpretive or mechanistic models. AI distinguishes this by presenting tasks where the same value can arise through different structural paths. If students conflate identical outputs with identical processes, they show mechanism–equivalence confusion. Counterfactual variation of internal steps exposes the conceptual mismatch.",
+        "output": "AI detects mechanism–equivalence confusion by contrasting identical outputs with differing internal processes and observing reasoning collapse.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 833,
+        "topic": "ai.education",
+        "question": "How can AI distinguish when students genuinely understand counterfactual reasoning from when they reverse-engineer answers by eliminating improbable outcomes rather than reasoning through causal structure?",
+        "think": "Elimination strategies rely on filtering, not causal reasoning. AI separates these approaches by constructing counterfactuals where elimination alone cannot produce the correct outcome. If students succeed only when improbable outcomes are easily filtered, but fail when causal relations must be explicitly reasoned through, the system identifies elimination-driven pseudo-counterfactual thinking.",
+        "output": "AI detects elimination-based reasoning by presenting counterfactuals where filtering strategies fail and causal reasoning is required.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 834,
+        "topic": "ai.education",
+        "question": "How can AI detect when students’ explanations look causally structured but are actually driven by representational inertia—treating diagrams or symbolic forms as if they dictated causal direction?",
+        "think": "Representational inertia occurs when students infer causality from layout (left-to-right, top-to-bottom) rather than dependencies. AI uncovers this by systematically altering representational order while maintaining causal structure. If students’ causal inferences flip with diagram arrangement, the explanation is dictated by representation rather than concept.",
+        "output": "AI uncovers representational-inertia-driven reasoning by altering layout order and checking whether causal interpretation shifts despite unchanged dependencies.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 835,
+        "topic": "ai.education",
+        "question": "How can AI determine when students’ consistent high performance masks deep misconceptions that are revealed only when they must articulate assumptions instead of applying procedures?",
+        "think": "Some learners excel procedurally but fail when required to articulate underlying assumptions. AI distinguishes this by imposing metacognitive tasks: explaining why steps are valid, predicting which assumptions break the logic, or reasoning under partial information. If procedural accuracy persists but assumption-articulation collapses, the system detects a hidden conceptual void beneath stable performance.",
+        "output": "AI exposes assumption-level misconceptions by requiring explicit articulation of underlying premises and checking for collapse despite strong procedural skill.",
+        "format_version": "1.1",
+        "difficulty": 7
+    },
+    {
+        "id": 836,
+        "topic": "ai.education",
+        "question": "How can AI detect when students’ reasoning appears robust only because they rely on surface-level analogies that break down under deeper scrutiny?",
+        "think": "Surface-level analogies provide quick heuristics but often fail when details diverge. AI tests analogy-dependence by introducing scenarios where the analogy’s mapping fails—changing key attributes or relationships. If students’ reasoning collapses when the analogy no longer holds, it reveals reliance on superficial similarity rather than deep structural understanding.",
+        "output": "AI detects surface-analogy dependence by presenting tasks that violate analogy mappings and observing reasoning breakdowns.",
+        "format_version": "1.1",
+        "difficulty": 7
     }
 ]
