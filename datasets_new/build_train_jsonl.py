@@ -1,8 +1,28 @@
-
 import os
+import sys
 import json
 import argparse
+from pathlib import Path
 from collections import defaultdict, Counter
+
+# Ensure repo root + src are importable so we can reuse config/helpers for token stats
+REPO_ROOT = Path(__file__).resolve().parents[1]
+for extra in (REPO_ROOT, REPO_ROOT / "src"):
+    if extra.exists():
+        extra_str = str(extra)
+        if extra_str not in sys.path:
+            sys.path.insert(0, extra_str)
+
+print("Tokenizer import begin")
+
+try:
+    from transformers import AutoTokenizer
+except ImportError:  # pragma: no cover - optional dependency for token stats
+    AutoTokenizer = None
+
+from config.config import MODEL_NAME
+from config.training_config import SYSTEM_PROMPT, MAX_RESPONSE_LEN
+from src.helpers.build_messages import build_messages
 
 STRUCTURE_FILE = "structure.enriched.json"
 TOPICS_DIR = "topics"
@@ -49,6 +69,82 @@ def _apply_identity_placeholders(row, identity_map):
         row["think"] = _replace_placeholders(row.get("think", ""), identity_map)
         row["output"] = _replace_placeholders(row.get("output", ""), identity_map)
     return row
+
+
+def _meta_block(ex: dict) -> str:
+    """Match the metadata header used during training for accurate token stats."""
+    tags = ex.get("tags", [])
+    if isinstance(tags, list):
+        tags_str = ", ".join(map(str, tags))
+    else:
+        tags_str = str(tags) if tags is not None else ""
+    return (
+        "[META]\n"
+        f"category: {ex.get('category','')}\n"
+        f"subcategory: {ex.get('subcategory','')}\n"
+        f"topic: {ex.get('topic','')}\n"
+        f"content_type: {ex.get('content_type','')}\n"
+        f"difficulty: {ex.get('difficulty','')}\n"
+        f"tags: {tags_str}\n"
+        "[/META]\n\n"
+    )
+
+
+def _format_messages_for_token_stats(row):
+    user_content = _meta_block(row) + row.get("question", "")
+    think = row.get("think", "")
+    output = row.get("output", "")
+    response = f"<think>{think}</think><output>{output}</output>"
+    return build_messages(SYSTEM_PROMPT, user_content, response)
+
+
+def _load_tokenizer_for_stats(tokenizer_path: str):
+    if AutoTokenizer is None:
+        raise RuntimeError(
+            "transformers is required for token statistics. Install transformers or rerun with --no-stats."
+        )
+    tokenizer = AutoTokenizer.from_pretrained(
+        tokenizer_path,
+        trust_remote_code=True,
+        add_bos_token=False,
+        add_eos_token=False,
+    )
+    if tokenizer.pad_token is None:
+        tokenizer.pad_token = tokenizer.eos_token or tokenizer.unk_token
+    return tokenizer
+
+
+def _compute_token_summary(rows, tokenizer_path, max_length):
+    if not rows:
+        return {"total_tokens": 0, "avg_tokens": 0.0, "truncated": 0, "tokenizer_name": tokenizer_path}
+
+    tokenizer = _load_tokenizer_for_stats(tokenizer_path)
+    total_tokens = 0
+    truncated = 0
+
+    for row in rows:
+        messages = _format_messages_for_token_stats(row)
+        token_ids = tokenizer.apply_chat_template(
+            messages,
+            tokenize=True,
+            add_generation_prompt=False,
+            return_tensors=None,
+            max_length=max_length,
+            truncation=True,
+        )
+        if hasattr(token_ids, "tolist"):
+            token_ids = token_ids.tolist()
+        if len(token_ids) >= max_length:
+            truncated += 1
+        total_tokens += len(token_ids)
+
+    avg_tokens = total_tokens / len(rows) if rows else 0.0
+    return {
+        "total_tokens": total_tokens,
+        "avg_tokens": avg_tokens,
+        "truncated": truncated,
+        "tokenizer_name": getattr(tokenizer, "name_or_path", tokenizer_path),
+    }
 
 def normalize_entry(
     entry, *,
@@ -157,7 +253,7 @@ def _print_topic_breakdown(rows):
             print(f"    • Diff {d:>2}: {c:>5}  ({pct:6.2f}%)  |{bar}|")
         print("")
 
-def _print_global_breakdown(rows):
+def _print_global_breakdown(rows, token_summary=None):
     total = len(rows)
     if total == 0:
         return
@@ -185,6 +281,14 @@ def _print_global_breakdown(rows):
 
     print("\n" + "-" * 88)
     print(f"TOTAL SAMPLES: {total:,}")
+    if token_summary:
+        total_tokens = token_summary.get("total_tokens", 0)
+        avg_tokens = token_summary.get("avg_tokens", 0.0)
+        print(f"TOTAL TOKENS: {total_tokens:,}")
+        print(f"AVG TOKENS/SAMPLE: {avg_tokens:,.2f}")
+        truncated = token_summary.get("truncated", 0)
+        if truncated:
+            print(f"⚠️ Truncated samples at max_length ({truncated})")
 
 def main():
     ap = argparse.ArgumentParser(description="Flatten topics/* into JSONL with per-sample metadata + stats.")
@@ -194,6 +298,11 @@ def main():
     ap.add_argument("--source-version", default="v1.0", help="Version stamp to include on each row")
     ap.add_argument("--start-id", type=int, default=10_000, help="Start ID if a sample lacks id")
     ap.add_argument("--no-stats", action="store_true", help="Suppress advanced console statistics")
+    ap.add_argument(
+        "--tokenizer-path",
+        default=MODEL_NAME,
+        help="HF model ID or local path used to estimate total tokens",
+    )
 
     args = ap.parse_args()
 
@@ -261,8 +370,13 @@ def main():
 
     # Advanced stats (unless suppressed)
     if not args.no_stats:
+        token_summary = None
+        try:
+            token_summary = _compute_token_summary(rows, args.tokenizer_path, MAX_RESPONSE_LEN)
+        except Exception as exc:
+            print(f"⚠️ Token statistic calculation failed: {exc}")
         _print_topic_breakdown(rows)
-        _print_global_breakdown(rows)
+        _print_global_breakdown(rows, token_summary)
 
 if __name__ == "__main__":
     main()
