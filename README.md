@@ -13,53 +13,89 @@ This repo shows how to:
 ```
 .
 ├── config/
-│   ├── config.py            # Central paths & constants
-│   └── lora_config.json     # LoRA hyperparameters
-├── datasets_new/
-│   ├── ai/
-│   │   └── dataset.jsonl
-│   ├── build_train_jsonl.py # Build/train dataset script (new scalable structure)
-│   └── train_data.jsonl     # Combined training data (new)
-├── merged-models/
-│   └── deepseek-merged/     # Merged model outputs
-├── output/
-│   └── deepseek-ai/         # QLoRA training runs
-└── src/
-    ├── train.py             # QLoRA fine-tuning & generation helpers
-    ├── merge_adapter.py     # Merge adapter → base model
-    └── convert_to_gguf.sh   # GGUF conversion wrapper (wrapper lives in src/)
-└── tools/
-    └── llama/               # `transformers-to-gguf.py` & helpers
+│   ├── config.py             # Central paths/model identifiers
+│   ├── training_config.py    # Training + prompt constants (DATA_PATH, epochs, etc.)
+│   └── lora_config.json      # LoRA/QLoRA hyper-parameters consumed by src/train.py
+├── datasets/                 # Legacy single-file builders kept for reference
+│   ├── build_dataset.py
+│   └── <domain>/             # Original category JSONL shards
+├── datasets_new/             # Canonical hierarchical datasets (see datasets_new/README.md)
+│   ├── build_train_jsonl.py  # Flattens topics → train_data.jsonl with stats
+│   ├── create_dataset_by_structure.py
+│   ├── schemas/              # reasoning + difficulty schemas
+│   ├── scripts/              # helpers such as normalizeJson.py
+│   ├── structure.enriched.json
+│   └── topics/<category>/<subcategory>/<category>.<subcategory>.<content>.json
+├── merged-models/deepseek-ai/  # LoRA merged HF folders + gguf-output
+├── output/deepseek-ai/         # QLoRA checkpoints (training-*/checkpoint-*)
+├── src/
+│   ├── main.py                # RUN_MODE-aware entrypoint
+│   ├── train.py               # QLoRA training & generation helpers
+│   ├── helpers/               # prompt builders, loggers, template copier
+│   ├── merge/merge_adapter.py # Adapter → base merger
+│   ├── convert/convert_to_gguf.sh
+│   └── test/test_model.py     # HF + GGUF smoke tests
+├── templates/chat_template.jinja # Copied to checkpoints/merged outputs
+├── tools/llama/               # transformers-to-gguf.py and friends (MIT-licensed)
+├── requirements.txt / _requirements.txt
+├── docker-compose.yml / Dockerfile
+└── env/                       # Local virtual environment (not tracked)
 ```
+
+Key notes:
+
+-   `config/` centralizes all paths/hyper-parameters so scripts can stay argument-light.
+-   `src/main.py` orchestrates training/tests through the `RUN_MODE` env (train, test-training, test-merging, test-gguf).
+-   `templates/chat_template.jinja` ships with every checkpoint/merge to keep chat formatting consistent.
+-   `tools/llama/` mirrors upstream llama.cpp conversion utilities that are invoked by `src/convert/convert_to_gguf.sh`.
+-   `env/` is a convenience virtual environment for local runs; recreate it via `python -m venv env && env/Scripts/activate` if desired.
 
 ---
 
 ## 📖 Datasets
 
-This project uses domain-specific datasets under `datasets_new/*` following a structured, extensible layout.
+-   `datasets/` retains the first-generation domain JSON plus helper scripts (`build_dataset.py`, `combine_datasets.py`). These files are still handy for quick experiments but are no longer the source of truth.
+-   `datasets_new/` is the canonical, metadata-rich dataset pipeline:
+    -   `structure.enriched.json` defines every category, subcategory, description, tags, and content types.
+    -   `topics/<category>/<subcategory>/<category>.<subcategory>.<content_type>.json` hosts the authored samples (now includes categories like `identity` that rely on placeholder substitution).
+    -   `schemas/` houses both `schema_reasoning.json` (question/think/output layout) and `difficulty_schema.json` (allowed range + semantics for 1–6 difficulty levels).
+    -   `scripts/normalizeJson.py` plus `scripts/placeholder.txt` make it easy to paste multiline text and emit JSON-safe strings before dropping them into topic files.
+    -   `build_train_jsonl.py` consolidates everything into `train_data.jsonl`, normalizes difficulty values, injects tags/metadata, runs optional token statistics (`--tokenizer-path`, `--no-stats`), and replaces identity placeholders so the final samples are trainer-ready.
+    -   `create_dataset_by_structure.py` can scaffold missing topic directories/files based on the enriched structure.
+-   A dedicated `datasets_new/README.md` (kept in sync with the folder contents) documents contribution rules, schema expectations, and troubleshooting steps. Always update that file alongside new data drops.
 
-The full topic hierarchy, tags, and example questions are maintained in `datasets_new/structure.enriched.json` and summarized in `datasets_new/README.md` (see that file for contribution instructions, required file names, and structure details).
+`config/training_config.DATA_PATH` points to `datasets_new/train_data.jsonl` by default, so regenerating the file immediately feeds the latest data into training.
 
-You can add your own datasets by following the contribution guidelines in `datasets_new/README.md` and placing new topic folders under `datasets_new/`.
+---
+
+## ⚙️ Configuration & orchestration
+
+-   Edit `config/config.py` to change base model IDs, repo names, and shared directories.
+-   Tune `config/training_config.py` for dataset paths, training epochs, resume flags (`TRAINING_NEW`, `TRAINING_EXTRA_EPOCHS`), stopping delimiters, evaluation prompts, and logging destinations.
+-   `config/lora_config.json` collects all LoRA ranks/alphas/dropouts that `src/train.py` loads dynamically.
+-   `templates/chat_template.jinja` is persisted into every checkpoint/merge via `src/helpers/persist_chat_template.py`, ensuring downstream inference uses the same chat format.
+-   `src/helpers/` bundles `build_messages.py` (prompt assembly), `loggers.py`, and other utilities shared between training, evaluation, and conversion.
+-   `src/main.py` reads `RUN_MODE` (`train`, `test-training`, `test-merging`, `test-gguf`) to sequence training and smoke tests without juggling multiple entrypoints.
 
 ## 🚀 Quickstart
 
 ### 1. Build your dataset
 
 ```powershell
-python datasets_new/build_train_jsonl.py
+python datasets_new/build_train_jsonl.py --structure datasets_new/structure.enriched.json --topics-dir datasets_new/topics --output datasets_new/train_data.jsonl
 ```
 
-This pulls in every `dataset.jsonl` (or topic files) under `datasets_new/*` and writes `datasets_new/train_data.jsonl`.
+Add `--tokenizer-path <local-model-or-HF-id>` to gather token statistics, or `--no-stats` if you only need the JSONL. Identity-focused categories automatically swap `${NAME}`/`${SPEC}` placeholders during this step.
 
 ### 2. Train with QLoRA
 
-```bash
+```powershell
+# equivalent forms:
 python src/train.py
+# or:  set RUN_MODE=train; python -m src.main
 ```
 
-Outputs checkpoints under `output/deepseek-ai/TRAINING-N/checkpoint-M/`.  
-Special/chat tokens, `tokenizer.json`, `vocab.json`, `merges.txt`, and your `chat_template.jinja` are saved there.
+Outputs land under `output/deepseek-ai/training-*/checkpoint-*`. The trainer copies `tokenizer.json`, `vocab.json`, `merges.txt`, `special_tokens_map.json`, and `chat_template.jinja` into each checkpoint and records the base-model path for offline evaluation.
 
 Notes on resuming training
 
@@ -73,15 +109,15 @@ Generation stopping
 
 ### 3. Merge LoRA into the base
 
-```bash
-python src/merge_adapter.py
+```powershell
+python src/merge/merge_adapter.py
 ```
 
 -   Picks the **last** `training-*` / `checkpoint-*`
 -   Reads the adapter’s added embedding rows (via `adapter_model.safetensors`)
 -   Resizes the HF base model to match
 -   Merges & unloads LoRA weights
--   Saves under `merged-models/deepseek-merged/merging-K/`
+-   Saves under `merged-models/deepseek-ai/merging-K/`
 -   Copies across your **full** trained-tokenizer artifacts:
     -   `tokenizer.json`
     -   `vocab.json`
@@ -92,11 +128,23 @@ python src/merge_adapter.py
 ### 4. Convert to GGUF
 
 ```bash
-bash scripts/convert_to_gguf.sh --outtype q8_0
+bash src/convert/convert_to_gguf.sh --outtype q8_0
 ```
 
 -   Locates the latest `merged-models/.../merging-K/`
 -   Runs `transformers-to-gguf.py` → emits `*.gguf` in `merging-K/gguf-output/`
+
+---
+
+## 🧪 Smoke tests & evaluations
+
+`src/test/test_model.py` contains three helpful entry points that the main runner can call automatically (set `RUN_MODE` to `test-training`, `test-merging`, or `test-gguf`) or run ad hoc from Python:
+
+-   `run_test_training()` attaches the latest adapter checkpoint to the base model and prints completions for curated prompts (no internet access required if you provide `BASE_MODEL_DIR`).
+-   `run_test_merging()` validates the most recent merged HF model under `merged-models/deepseek-ai/`.
+-   `run_test_gguf()` spins up `llama.cpp` via `llama-cpp-python` against the newest GGUF artifact and reuses the same tokenizer/template for apples-to-apples comparisons.
+
+Each mode respects `TEST_MODE`, `TEST_SAMPLES`, and context/window env vars so you can gate deployments with quick, deterministic sanity checks.
 
 ---
 
