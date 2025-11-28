@@ -38,7 +38,7 @@ TRAINING_NEW = True  # set True if this is a new training run, False if resuming
 TRAINING_EPOCHS = 1
 TRAINING_EXTRA_EPOCHS = 1  # when resuming (TRAINING_NEW=False), add these extra epochs
 
-MAX_RESPONSE_LEN=2048
+MAX_RESPONSE_LEN=8192
 
 EVAL_QUESTIONS = [
   "2+2?",
