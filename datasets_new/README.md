@@ -8,20 +8,26 @@ This folder contains all resources, scripts, and schemas for building, structuri
 
 ```
 datasets_new/
+├── README.md
 ├── build_train_jsonl.py
 ├── create_dataset_by_structure.py
 ├── structure.enriched.json
 ├── train_data.jsonl
 ├── schemas/
+│   ├── difficulty_schema.json
 │   └── schema_reasoning.json
+├── scripts/
+│   ├── normalizeJson.py
+│   └── placeholder.txt
 └── topics/
     ├── ai/
     ├── business/
     ├── ethics/
     ├── finance/
     ├── geography/
+    ├── identity/
     ├── marketing/
-    ...
+    └── ... (subcategory folders holding category-specific JSON files)
 ```
 
 ---

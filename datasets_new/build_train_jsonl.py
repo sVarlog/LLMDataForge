@@ -150,6 +150,10 @@ def normalize_entry(
     entry, *,
     category, subcat, ctype, meta_tags, source_version, fallback_topic, next_id
 ):
+    # If the sample is explicitly marked with id == -1, treat it as a sentinel to skip.
+    if entry.get("id") == -1:
+        print(f"⚠️ Skipping sample with id -1 in {category}/{subcat}/{ctype}")
+        return None
     # Core fields (tolerate minor schema variants)
     q = pick(entry, "question", "q", default=None)
     think = pick(entry, "think", "rationale", "reasoning", default=None)
